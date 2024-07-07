@@ -1,0 +1,291 @@
+{
+  "major": "PSYCHOLOGY, B.A.",
+  "from": {
+    "id": 68,
+    "code": "CANADA  ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Canada College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ]
+  },
+  "to": {
+    "id": 42,
+    "code": "CSUN    ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Northridge",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ]
+  },
+  "agreements": [
+    {
+      "target": {
+        "courseIdentifierParentId": 262468,
+        "courseTitle": "Introductory Statistics",
+        "courseNumber": "140",
+        "prefix": "MATH",
+        "prefixParentId": 9949,
+        "prefixDescription": "Mathematics",
+        "departmentParentId": 8979,
+        "department": "Mathematics",
+        "begin": "F2020",
+        "end": "",
+        "minUnits": 4,
+        "maxUnits": 4
+      },
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 290076,
+              "courseTitle": "Elementary Probability and Statistics",
+              "courseNumber": "200",
+              "prefix": "MATH",
+              "prefixParentId": 9975,
+              "prefixDescription": "Mathematics",
+              "departmentParentId": 9001,
+              "department": "Mathematics",
+              "begin": "F1995",
+              "end": "",
+              "minUnits": 4,
+              "maxUnits": 4,
+              "publishedCourseIdentifierYearTermId": 179,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "courseIdentifierParentId": 171958,
+        "courseTitle": "Introduction to Psychology",
+        "courseNumber": "150",
+        "prefix": "PSY",
+        "prefixParentId": 4630,
+        "prefixDescription": "Psychology",
+        "departmentParentId": 11192,
+        "department": "Psychology",
+        "begin": "F2011",
+        "end": "",
+        "minUnits": 3,
+        "maxUnits": 3
+      },
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 339550,
+              "courseTitle": "General Psychology",
+              "courseNumber": "100",
+              "prefix": "PSYC",
+              "prefixParentId": 4657,
+              "prefixDescription": "Psychology",
+              "departmentParentId": 11243,
+              "department": "Psychology",
+              "begin": "F1995",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "publishedCourseIdentifierYearTermId": null,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "groups": {
+    "LOWER DIVISION MAJOR PREPARATION COURSES": [
+      {
+        "instruction": null,
+        "sections": [
+          [
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 158760,
+                "courseTitle": "Physiological Correlates of Human Behavior",
+                "courseNumber": "250",
+                "prefix": "PSY",
+                "prefixParentId": 4630,
+                "prefixDescription": "Psychology",
+                "departmentParentId": 11192,
+                "department": "Psychology",
+                "begin": "F1999",
+                "end": "",
+                "minUnits": 3,
+                "maxUnits": 3
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "074ec765-2ff8-4a85-9b62-bb9181f8a8c3",
+              "position": 0,
+              "attributes": []
+            }
+          ],
+          [
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 171958,
+                "courseTitle": "Introduction to Psychology",
+                "courseNumber": "150",
+                "prefix": "PSY",
+                "prefixParentId": 4630,
+                "prefixDescription": "Psychology",
+                "departmentParentId": 11192,
+                "department": "Psychology",
+                "begin": "F2011",
+                "end": "",
+                "minUnits": 3,
+                "maxUnits": 3
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "c2f72f8e-e993-493e-865a-da69b0e2197e",
+              "position": 0,
+              "attributes": []
+            }
+          ]
+        ]
+      },
+      {
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "Or",
+          "amountQuantifier": "None",
+          "amount": 1,
+          "amountUnitType": "Course",
+          "id": "ef0a4cdb-fce4-405e-5967-08dbf14722d9",
+          "selectionType": "Select"
+        },
+        "sections": [
+          [
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 262468,
+                "courseTitle": "Introductory Statistics",
+                "courseNumber": "140",
+                "prefix": "MATH",
+                "prefixParentId": 9949,
+                "prefixDescription": "Mathematics",
+                "departmentParentId": 8979,
+                "department": "Mathematics",
+                "begin": "F2020",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [
+                {
+                  "course": {
+                    "courseIdentifierParentId": 375546,
+                    "courseTitle": "Introductory Statistics for Business",
+                    "courseNumber": "140BUS",
+                    "prefix": "MATH",
+                    "prefixParentId": 9949,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 8979,
+                    "department": "Mathematics",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4,
+                    "maxUnits": 4
+                  }
+                },
+                {
+                  "course": {
+                    "courseIdentifierParentId": 375548,
+                    "courseTitle": "Introductory Statistics for STEM",
+                    "courseNumber": "140SCI",
+                    "prefix": "MATH",
+                    "prefixParentId": 9949,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 8979,
+                    "department": "Mathematics",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4,
+                    "maxUnits": 4
+                  }
+                },
+                {
+                  "course": {
+                    "courseIdentifierParentId": 375552,
+                    "courseTitle": "Essentials of Statistics and Lab",
+                    "courseNumber": "141/L",
+                    "prefix": "MATH",
+                    "prefixParentId": 9949,
+                    "prefixDescription": "Mathematics",
+                    "departmentParentId": 8979,
+                    "department": "Mathematics",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4,
+                    "maxUnits": 4
+                  }
+                }
+              ],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "7637b130-5b1f-43d2-4c48-08dbf1469773",
+              "position": 0,
+              "attributes": []
+            }
+          ],
+          [
+            {
+              "type": "Requirement",
+              "requirement": {
+                "name": "Other Acceptable Statistics"
+              },
+              "requirementAttributes": [],
+              "id": "4d3f62b8-5b51-46ca-4c49-08dbf1469773",
+              "position": 0,
+              "attributes": []
+            }
+          ]
+        ]
+      }
+    ]
+  }
+}

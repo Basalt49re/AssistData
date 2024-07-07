@@ -1,0 +1,810 @@
+{
+  "major": "Biochemistry & Molecular Biology B.S.",
+  "from": {
+    "id": 63,
+    "code": "PALOVRDE",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Palo Verde College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ]
+  },
+  "to": {
+    "id": 89,
+    "code": "UCD     ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Davis",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ]
+  },
+  "agreements": [
+    {
+      "target": {
+        "courseIdentifierParentId": 292181,
+        "courseTitle": "Calculus",
+        "courseNumber": "021A",
+        "prefix": "MAT",
+        "prefixParentId": 9999,
+        "prefixDescription": "Mathematics",
+        "departmentParentId": 9018,
+        "department": "Mathematics",
+        "begin": "F2022",
+        "end": "",
+        "minUnits": 4,
+        "maxUnits": 4
+      },
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 358944,
+              "courseTitle": "Calculus I",
+              "courseNumber": "220",
+              "prefix": "MAT",
+              "prefixParentId": 9970,
+              "prefixDescription": "Mathematics",
+              "departmentParentId": 8939,
+              "department": "Mathematics",
+              "begin": "F1995",
+              "end": "",
+              "minUnits": 5,
+              "maxUnits": 5,
+              "publishedCourseIdentifierYearTermId": null,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 376697,
+              "courseTitle": "Biology Sequence I for Majors",
+              "courseNumber": "190",
+              "prefix": "BIO",
+              "prefixParentId": 4879,
+              "prefixDescription": "Biology",
+              "departmentParentId": 1664,
+              "department": "Biology",
+              "begin": "F2020",
+              "end": "",
+              "minUnits": 5,
+              "maxUnits": 5,
+              "publishedCourseIdentifierYearTermId": 279,
+              "position": 0,
+              "type": "Course"
+            },
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 376698,
+              "courseTitle": "Biology Sequence II for Majors",
+              "courseNumber": "191",
+              "prefix": "BIO",
+              "prefixParentId": 4879,
+              "prefixDescription": "Biology",
+              "departmentParentId": 1664,
+              "department": "Biology",
+              "begin": "F2020",
+              "end": "",
+              "minUnits": 5,
+              "maxUnits": 5,
+              "publishedCourseIdentifierYearTermId": 279,
+              "position": 1,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "groups": {
+    "PREPARATION COURSES FOR THE MAJOR": [],
+    "REQUIRED FOR ADMISSION": [],
+    "BIOLOGICAL SCIENCE": [
+      {
+        "instruction": {
+          "type": "Following",
+          "id": "3d69bbab-540c-483c-f80d-08dbc4fd2609",
+          "selectionType": "Complete"
+        },
+        "sections": [
+          [
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 377571,
+                "courseTitle": "Introduction to Biology: Principles of Cell Biology & Physiology",
+                "courseNumber": "002D",
+                "prefix": "BIS",
+                "prefixParentId": 9256,
+                "prefixDescription": "Biological Sciences",
+                "departmentParentId": 1645,
+                "department": "Biological Sciences",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 3,
+                "maxUnits": 3
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "d853bb2b-2544-4cd7-e741-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Series",
+              "series": {
+                "conjunction": "And",
+                "name": "BIS 002A, BIS 002B, BIS 002C",
+                "courses": [
+                  {
+                    "id": "342e6f05-1374-4e51-8fef-8161baefb5be",
+                    "position": 0,
+                    "courseIdentifierParentId": 270568,
+                    "courseTitle": "Introduction to Biology: Essentials of Life on Earth",
+                    "courseNumber": "002A",
+                    "prefix": "BIS",
+                    "prefixParentId": 9256,
+                    "prefixDescription": "Biological Sciences",
+                    "departmentParentId": 1645,
+                    "department": "Biological Sciences",
+                    "begin": "F2022",
+                    "end": "",
+                    "minUnits": 5,
+                    "maxUnits": 5
+                  },
+                  {
+                    "id": "91c76d9e-70d2-4e1f-a98e-1a3526266c03",
+                    "position": 1,
+                    "courseIdentifierParentId": 359826,
+                    "courseTitle": "Introduction to Biology: Principles of Ecology & Evolution",
+                    "courseNumber": "002B",
+                    "prefix": "BIS",
+                    "prefixParentId": 9256,
+                    "prefixDescription": "Biological Sciences",
+                    "departmentParentId": 1645,
+                    "department": "Biological Sciences",
+                    "begin": "F2022",
+                    "end": "",
+                    "minUnits": 5,
+                    "maxUnits": 5
+                  },
+                  {
+                    "id": "c7ecf156-c617-4ad4-958e-724bb1a676c1",
+                    "position": 2,
+                    "courseIdentifierParentId": 304649,
+                    "courseTitle": "Introduction to Biology: Biodiversity & the Tree of Life",
+                    "courseNumber": "002C",
+                    "prefix": "BIS",
+                    "prefixParentId": 9256,
+                    "prefixDescription": "Biological Sciences",
+                    "departmentParentId": 1645,
+                    "department": "Biological Sciences",
+                    "begin": "F2022",
+                    "end": "",
+                    "minUnits": 5,
+                    "maxUnits": 5
+                  }
+                ]
+              },
+              "requisites": [],
+              "visibleCrossListedCourses": [],
+              "seriesAttributes": [
+                {
+                  "position": 0,
+                  "content": "Required for admission"
+                }
+              ],
+              "courseAttributes": [],
+              "id": "77f23aa8-4cd3-4d87-e742-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            }
+          ]
+        ]
+      }
+    ],
+    "CHEMISTRY": [],
+    "MATHEMATICS": [
+      {
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "a3a9ce14-a5c8-4f88-f80f-08dbc4fd2609",
+          "selectionType": "Complete"
+        },
+        "sections": [
+          [
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 293866,
+                "courseTitle": "Calculus for Biology & Medicine ",
+                "courseNumber": "017C",
+                "prefix": "MAT",
+                "prefixParentId": 9999,
+                "prefixDescription": "Mathematics",
+                "departmentParentId": 9018,
+                "department": "Mathematics",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "299cf1d8-d342-4be6-e749-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 264014,
+                "courseTitle": "Calculus for Biology & Medicine ",
+                "courseNumber": "017B",
+                "prefix": "MAT",
+                "prefixParentId": 9999,
+                "prefixDescription": "Mathematics",
+                "departmentParentId": 9018,
+                "department": "Mathematics",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "0a10faeb-ca9f-42d8-e74a-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 297418,
+                "courseTitle": "Calculus for Biology & Medicine ",
+                "courseNumber": "017A",
+                "prefix": "MAT",
+                "prefixParentId": 9999,
+                "prefixDescription": "Mathematics",
+                "departmentParentId": 9018,
+                "department": "Mathematics",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "c95bdc95-52c6-4f37-e74b-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            }
+          ],
+          [
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 256943,
+                "courseTitle": "Calculus",
+                "courseNumber": "021B",
+                "prefix": "MAT",
+                "prefixParentId": 9999,
+                "prefixDescription": "Mathematics",
+                "departmentParentId": 9018,
+                "department": "Mathematics",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "66649a2d-e044-49a9-e74c-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 256916,
+                "courseTitle": "Calculus",
+                "courseNumber": "021C",
+                "prefix": "MAT",
+                "prefixParentId": 9999,
+                "prefixDescription": "Mathematics",
+                "departmentParentId": 9018,
+                "department": "Mathematics",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [
+                {
+                  "position": 0,
+                  "content": "Recommended; Not required for the major"
+                }
+              ],
+              "id": "e4238681-ce12-46e4-e74d-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 292181,
+                "courseTitle": "Calculus",
+                "courseNumber": "021A",
+                "prefix": "MAT",
+                "prefixParentId": 9999,
+                "prefixDescription": "Mathematics",
+                "departmentParentId": 9018,
+                "department": "Mathematics",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "d9328bca-690b-4c9c-e74e-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            }
+          ]
+        ]
+      }
+    ],
+    "OTHER MAJOR REQUIREMENTS": [
+      {
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "ba9dc246-2f0e-4a94-f811-08dbc4fd2609",
+          "selectionType": "Complete"
+        },
+        "sections": [
+          [
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 324838,
+                "courseTitle": "Organic Chemistry: Brief Course",
+                "courseNumber": "008A",
+                "prefix": "CHE",
+                "prefixParentId": 3829,
+                "prefixDescription": "Chemistry",
+                "departmentParentId": 2337,
+                "department": "Chemistry",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 2,
+                "maxUnits": 2
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "32d6a589-7ac0-40c8-e753-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 354112,
+                "courseTitle": "Organic Chemistry: Brief Course",
+                "courseNumber": "008B",
+                "prefix": "CHE",
+                "prefixParentId": 3829,
+                "prefixDescription": "Chemistry",
+                "departmentParentId": 2337,
+                "department": "Chemistry",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "8f17bab0-6da3-4436-e754-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            }
+          ],
+          [
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 354094,
+                "courseTitle": "Organic Chemistry for Health & Life Sciences",
+                "courseNumber": "118B",
+                "prefix": "CHE",
+                "prefixParentId": 3829,
+                "prefixDescription": "Chemistry",
+                "departmentParentId": 2337,
+                "department": "Chemistry",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "a06d43a0-80bf-4512-e755-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 292170,
+                "courseTitle": "Organic Chemistry for Health & Life Sciences",
+                "courseNumber": "118C",
+                "prefix": "CHE",
+                "prefixParentId": 3829,
+                "prefixDescription": "Chemistry",
+                "departmentParentId": 2337,
+                "department": "Chemistry",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "c32f8584-179d-47b6-e756-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 284809,
+                "courseTitle": "Organic Chemistry for Health & Life Sciences",
+                "courseNumber": "118A",
+                "prefix": "CHE",
+                "prefixParentId": 3829,
+                "prefixDescription": "Chemistry",
+                "departmentParentId": 2337,
+                "department": "Chemistry",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "5534ad9a-dc25-4dcb-e757-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            }
+          ],
+          [
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 174036,
+                "courseTitle": "Organic Chemistry",
+                "courseNumber": "128A",
+                "prefix": "CHE",
+                "prefixParentId": 3829,
+                "prefixDescription": "Chemistry",
+                "departmentParentId": 2337,
+                "department": "Chemistry",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 3,
+                "maxUnits": 3
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "2d54f72d-de3d-4c0b-e758-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 209454,
+                "courseTitle": "Organic Chemistry",
+                "courseNumber": "128B",
+                "prefix": "CHE",
+                "prefixParentId": 3829,
+                "prefixDescription": "Chemistry",
+                "departmentParentId": 2337,
+                "department": "Chemistry",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 3,
+                "maxUnits": 3
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "c7cef225-6ba0-41e2-e759-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 340736,
+                "courseTitle": "Organic Chemistry",
+                "courseNumber": "128C",
+                "prefix": "CHE",
+                "prefixParentId": 3829,
+                "prefixDescription": "Chemistry",
+                "departmentParentId": 2337,
+                "department": "Chemistry",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 3,
+                "maxUnits": 3
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "1dd016e5-5319-4845-e75a-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 117634,
+                "courseTitle": "Organic Chemistry Laboratory",
+                "courseNumber": "129A",
+                "prefix": "CHE",
+                "prefixParentId": 3829,
+                "prefixDescription": "Chemistry",
+                "departmentParentId": 2337,
+                "department": "Chemistry",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 2,
+                "maxUnits": 2
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "86ef2dbc-0a2f-4672-e75b-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 117708,
+                "courseTitle": "Organic Chemistry Laboratory",
+                "courseNumber": "129B",
+                "prefix": "CHE",
+                "prefixParentId": 3829,
+                "prefixDescription": "Chemistry",
+                "departmentParentId": 2337,
+                "department": "Chemistry",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 2,
+                "maxUnits": 2
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "c7e24753-511a-413d-e75c-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            }
+          ]
+        ]
+      }
+    ],
+    "PHYSICS": [
+      {
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "fe803c3b-bf22-4307-f80e-08dbc4fd2609",
+          "selectionType": "Complete"
+        },
+        "sections": [
+          [
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 353900,
+                "courseTitle": "Classical Physics ",
+                "courseNumber": "009A",
+                "prefix": "PHY",
+                "prefixParentId": 273,
+                "prefixDescription": "Physics",
+                "departmentParentId": 10853,
+                "department": "Physics",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 5,
+                "maxUnits": 5
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "8f2d4545-5225-499b-e743-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 283910,
+                "courseTitle": "Classical Physics ",
+                "courseNumber": "009B",
+                "prefix": "PHY",
+                "prefixParentId": 273,
+                "prefixDescription": "Physics",
+                "departmentParentId": 10853,
+                "department": "Physics",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 5,
+                "maxUnits": 5
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "c9d94246-f6e5-4ce1-e744-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 256444,
+                "courseTitle": "Classical Physics ",
+                "courseNumber": "009C",
+                "prefix": "PHY",
+                "prefixParentId": 273,
+                "prefixDescription": "Physics",
+                "departmentParentId": 10853,
+                "department": "Physics",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 5,
+                "maxUnits": 5
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "4a32008a-0a70-423e-e745-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            }
+          ],
+          [
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 256980,
+                "courseTitle": "General Physics ",
+                "courseNumber": "007C",
+                "prefix": "PHY",
+                "prefixParentId": 273,
+                "prefixDescription": "Physics",
+                "departmentParentId": 10853,
+                "department": "Physics",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "37f04aff-c87f-4bcb-e746-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 256857,
+                "courseTitle": "General Physics ",
+                "courseNumber": "007A",
+                "prefix": "PHY",
+                "prefixParentId": 273,
+                "prefixDescription": "Physics",
+                "departmentParentId": 10853,
+                "department": "Physics",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "ef3d1625-eef0-40b9-e747-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 354055,
+                "courseTitle": "General Physics ",
+                "courseNumber": "007B",
+                "prefix": "PHY",
+                "prefixParentId": 273,
+                "prefixDescription": "Physics",
+                "departmentParentId": 10853,
+                "department": "Physics",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "c3678fc8-bbf0-4f53-e748-08dbc501b57d",
+              "position": 0,
+              "attributes": []
+            }
+          ]
+        ]
+      }
+    ]
+  }
+}

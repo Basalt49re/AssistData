@@ -1,0 +1,450 @@
+{
+  "major": "Data Science, Lower Division B.A.",
+  "from": {
+    "id": 119,
+    "code": "TAFT    ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Taft College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ]
+  },
+  "to": {
+    "id": 79,
+    "code": "UCB     ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "University of California, Berkeley",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ]
+  },
+  "agreements": [
+    {
+      "target": {
+        "courseIdentifierParentId": 351686,
+        "courseTitle": "Calculus",
+        "courseNumber": "1A",
+        "prefix": "MATH",
+        "prefixParentId": 9987,
+        "prefixDescription": "Mathematics",
+        "departmentParentId": 9010,
+        "department": "Mathematics",
+        "begin": "F1990",
+        "end": "",
+        "minUnits": 4,
+        "maxUnits": 4
+      },
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 248765,
+              "courseTitle": "Analytic Geometry and Calculus I",
+              "courseNumber": "2100",
+              "prefix": "MATH",
+              "prefixParentId": 10031,
+              "prefixDescription": "Mathematics",
+              "departmentParentId": 9046,
+              "department": "Mathematics",
+              "begin": "F2008",
+              "end": "",
+              "minUnits": 5,
+              "maxUnits": 5,
+              "publishedCourseIdentifierYearTermId": null,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "courseIdentifierParentId": 245397,
+        "courseTitle": "Calculus",
+        "courseNumber": "1B",
+        "prefix": "MATH",
+        "prefixParentId": 9987,
+        "prefixDescription": "Mathematics",
+        "departmentParentId": 9010,
+        "department": "Mathematics",
+        "begin": "F1990",
+        "end": "",
+        "minUnits": 4,
+        "maxUnits": 4
+      },
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 297354,
+              "courseTitle": "Analytic Geometry and Calculus II",
+              "courseNumber": "2120",
+              "prefix": "MATH",
+              "prefixParentId": 10031,
+              "prefixDescription": "Mathematics",
+              "departmentParentId": 9046,
+              "department": "Mathematics",
+              "begin": "F2008",
+              "end": "",
+              "minUnits": 4,
+              "maxUnits": 4,
+              "publishedCourseIdentifierYearTermId": null,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "courseIdentifierParentId": 211468,
+        "courseTitle": "Introduction to Computer Programming for Scientists and Engineers (MATLAB)",
+        "courseNumber": "7",
+        "prefix": "ENGIN",
+        "prefixParentId": 3543,
+        "prefixDescription": "Engineering",
+        "departmentParentId": 4737,
+        "department": "Engineering",
+        "begin": "F2007",
+        "end": "",
+        "minUnits": 4,
+        "maxUnits": 4
+      },
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 233916,
+              "courseTitle": "Computer Programming and Problem Solving with Lab",
+              "courseNumber": "1550",
+              "prefix": "ENGR",
+              "prefixParentId": 15581,
+              "prefixDescription": "Engineering",
+              "departmentParentId": 4805,
+              "department": "Engineering",
+              "begin": "S2018",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "publishedCourseIdentifierYearTermId": null,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "groups": {
+    "MAJOR REQUIREMENTS": [
+      {
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "2bd19a82-2455-458f-bc55-08db93657755",
+          "selectionType": "Complete"
+        },
+        "sections": [
+          [
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 351686,
+                "courseTitle": "Calculus",
+                "courseNumber": "1A",
+                "prefix": "MATH",
+                "prefixParentId": 9987,
+                "prefixDescription": "Mathematics",
+                "departmentParentId": 9010,
+                "department": "Mathematics",
+                "begin": "F1990",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "cc51ca0e-f2ee-430f-261a-08db93657f9b",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 245397,
+                "courseTitle": "Calculus",
+                "courseNumber": "1B",
+                "prefix": "MATH",
+                "prefixParentId": 9987,
+                "prefixDescription": "Mathematics",
+                "departmentParentId": 9010,
+                "department": "Mathematics",
+                "begin": "F1990",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "d60e9ae3-951f-4770-261b-08db93657f9b",
+              "position": 0,
+              "attributes": []
+            }
+          ],
+          [
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 385829,
+                "courseTitle": "Linear Algebra",
+                "courseNumber": "56",
+                "prefix": "MATH",
+                "prefixParentId": 9987,
+                "prefixDescription": "Mathematics",
+                "departmentParentId": 9010,
+                "department": "Mathematics",
+                "begin": "F2023",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "dfaf9fbe-2a9a-46c6-bdb4-08db99b6efb0",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 246154,
+                "courseTitle": "Linear Algebra and Differential Equations",
+                "courseNumber": "54",
+                "prefix": "MATH",
+                "prefixParentId": 9987,
+                "prefixDescription": "Mathematics",
+                "departmentParentId": 9010,
+                "department": "Mathematics",
+                "begin": "F1994",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "b3d72d37-625f-4afe-bdb5-08db99b6efb0",
+              "position": 0,
+              "attributes": []
+            }
+          ]
+        ]
+      }
+    ],
+    "HIGHLY RECOMMENDED": [
+      {
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "5f66f18a-ecf7-4b60-dc4e-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "sections": [
+          [
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 378343,
+                "courseTitle": "Foundations of Data Science",
+                "courseNumber": "C8",
+                "prefix": "DATA",
+                "prefixParentId": 16874,
+                "prefixDescription": "Data Science, Undergraduate",
+                "departmentParentId": 13979,
+                "department": "Data Science Undergraduate Studies ",
+                "begin": "F2020",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [
+                {
+                  "course": {
+                    "courseIdentifierParentId": 300361,
+                    "courseTitle": "Foundations of Data Science",
+                    "courseNumber": "C8",
+                    "prefix": "STAT",
+                    "prefixParentId": 3366,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 12545,
+                    "department": "Statistics",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4,
+                    "maxUnits": 4
+                  }
+                },
+                {
+                  "course": {
+                    "courseIdentifierParentId": 367470,
+                    "courseTitle": "Foundations of Data Science",
+                    "courseNumber": "C8",
+                    "prefix": "INFO",
+                    "prefixParentId": 16301,
+                    "prefixDescription": "Information",
+                    "departmentParentId": 13486,
+                    "department": "Information",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4,
+                    "maxUnits": 4
+                  }
+                },
+                {
+                  "course": {
+                    "courseIdentifierParentId": 367471,
+                    "courseTitle": "Foundations of Data Science",
+                    "courseNumber": "C8",
+                    "prefix": "COMPSCI",
+                    "prefixParentId": 520,
+                    "prefixDescription": "Computer Science",
+                    "departmentParentId": 3212,
+                    "department": "Computer Science",
+                    "begin": "F2020",
+                    "end": "",
+                    "minUnits": 4,
+                    "maxUnits": 4
+                  }
+                }
+              ],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "64847730-5b30-454a-bdb9-08db99b6efb0",
+              "position": 0,
+              "attributes": []
+            }
+          ],
+          [
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 292039,
+                "courseTitle": "The Structure and Interpretation of Computer Programs",
+                "courseNumber": "61A",
+                "prefix": "COMPSCI",
+                "prefixParentId": 520,
+                "prefixDescription": "Computer Science",
+                "departmentParentId": 3212,
+                "department": "Computer Science",
+                "begin": "F1996",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [
+                {
+                  "position": 0,
+                  "content": "Preferred course"
+                }
+              ],
+              "id": "0a424e7d-ca8c-4d15-bdb8-08db99b6efb0",
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 211468,
+                "courseTitle": "Introduction to Computer Programming for Scientists and Engineers (MATLAB)",
+                "courseNumber": "7",
+                "prefix": "ENGIN",
+                "prefixParentId": 3543,
+                "prefixDescription": "Engineering",
+                "departmentParentId": 4737,
+                "department": "Engineering",
+                "begin": "F2007",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "e81d0cd5-660f-4c0a-bdba-08db99b6efb0",
+              "position": 0,
+              "attributes": []
+            }
+          ],
+          [
+            {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 256849,
+                "courseTitle": "Data Structures",
+                "courseNumber": "61B",
+                "prefix": "COMPSCI",
+                "prefixParentId": 520,
+                "prefixDescription": "Computer Science",
+                "departmentParentId": 3212,
+                "department": "Computer Science",
+                "begin": "F1996",
+                "end": "",
+                "minUnits": 4,
+                "maxUnits": 4
+              },
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "courseAttributes": [],
+              "id": "613a03dd-6a19-4a5d-bfd0-08db99b6efb0",
+              "position": 0,
+              "attributes": []
+            }
+          ]
+        ]
+      }
+    ]
+  }
+}
