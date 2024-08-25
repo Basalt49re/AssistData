@@ -1,0 +1,345 @@
+{
+  "major": "Human Services B.A.",
+  "from": {
+    "id": 127,
+    "code": "SKYLINE ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Skyline College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 50,
+    "code": "CSUDH   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Dominguez Hills",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "target": {
+        "courseIdentifierParentId": 160835,
+        "courseTitle": "Elements of Human Anatomy and Physiology",
+        "courseNumber": "250",
+        "prefix": "BIO",
+        "prefixParentId": 4868,
+        "prefixDescription": "Biology",
+        "departmentParentId": 1661,
+        "department": "Biology",
+        "begin": "F1999",
+        "end": "",
+        "minUnits": 3,
+        "maxUnits": 3,
+        "pathways": null
+      },
+      "courses": []
+    },
+    {
+      "target": {
+        "courseIdentifierParentId": 160866,
+        "courseTitle": "Elementary Statistics and Probability",
+        "courseNumber": "131",
+        "prefix": "MAT",
+        "prefixParentId": 9957,
+        "prefixDescription": "Mathematics",
+        "departmentParentId": 8938,
+        "department": "Mathematics",
+        "begin": "F2004",
+        "end": "",
+        "minUnits": 3,
+        "maxUnits": 3,
+        "pathways": null
+      },
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 172174,
+              "courseTitle": "Elementary Probability & Statistics",
+              "courseNumber": "200",
+              "prefix": "MATH",
+              "prefixParentId": 10039,
+              "prefixDescription": "Mathematics",
+              "departmentParentId": 9053,
+              "department": "Mathematics",
+              "begin": "F2017",
+              "end": "",
+              "minUnits": 4,
+              "maxUnits": 4,
+              "pathways": null,
+              "publishedCourseIdentifierYearTermId": null,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [
+                {
+                  "position": 1,
+                  "content": "Articulates as a sequence only"
+                },
+                {
+                  "position": 0,
+                  "content": "Acceptable substitute"
+                }
+              ],
+              "courseIdentifierParentId": 308037,
+              "courseTitle": "Human Physiology",
+              "courseNumber": "260",
+              "prefix": "BIOL",
+              "prefixParentId": 4939,
+              "prefixDescription": "Biology",
+              "departmentParentId": 1747,
+              "department": "Biology",
+              "begin": "F2012",
+              "end": "",
+              "minUnits": 5,
+              "maxUnits": 5,
+              "pathways": null,
+              "publishedCourseIdentifierYearTermId": null,
+              "position": 1,
+              "type": "Course"
+            },
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 254891,
+              "courseTitle": "Human Anatomy",
+              "courseNumber": "250",
+              "prefix": "BIOL",
+              "prefixParentId": 4939,
+              "prefixDescription": "Biology",
+              "departmentParentId": 1747,
+              "department": "Biology",
+              "begin": "F1995",
+              "end": "",
+              "minUnits": 4,
+              "maxUnits": 4,
+              "pathways": null,
+              "publishedCourseIdentifierYearTermId": null,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "groups": {
+    "LOWER DIVISION CORE": [
+      {
+        "instruction": {
+          "type": "Following",
+          "id": "39d4872a-4ae3-4da5-7234-08dbdbbe1f5e",
+          "selectionType": "Complete"
+        },
+        "sections": [
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 160866,
+                  "courseTitle": "Elementary Statistics and Probability",
+                  "courseNumber": "131",
+                  "prefix": "MAT",
+                  "prefixParentId": 9957,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8938,
+                  "department": "Mathematics",
+                  "begin": "F2004",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "076e8c8d-3a4e-443b-a96b-c4d895ffad48",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "e17cc3c7-ef9c-4fe6-726b-08dbdbbe1f5e",
+          "selectionType": "Complete"
+        },
+        "sections": [
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 160835,
+                  "courseTitle": "Elements of Human Anatomy and Physiology",
+                  "courseNumber": "250",
+                  "prefix": "BIO",
+                  "prefixParentId": 4868,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1661,
+                  "department": "Biology",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "09e462cc-8431-4cf6-7973-08dbdbbe1f5f",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 160864,
+                  "courseTitle": "Human Biology",
+                  "courseNumber": "254",
+                  "prefix": "BIO",
+                  "prefixParentId": 4868,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1661,
+                  "department": "Biology",
+                  "begin": "F1989",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "c2ed094e-ffc5-4adf-7a87-08dbdbbe1f5f",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "instruction": null,
+        "sections": [
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Series",
+                "series": {
+                  "conjunction": "And",
+                  "name": "BIO 250, BIO 251",
+                  "courses": [
+                    {
+                      "id": "f8b02974-f34a-48c1-8fb5-866e7759d488",
+                      "position": 0,
+                      "courseIdentifierParentId": 160835,
+                      "courseTitle": "Elements of Human Anatomy and Physiology",
+                      "courseNumber": "250",
+                      "prefix": "BIO",
+                      "prefixParentId": 4868,
+                      "prefixDescription": "Biology",
+                      "departmentParentId": 1661,
+                      "department": "Biology",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    },
+                    {
+                      "id": "b4b71fc6-0ea4-4344-a522-ce73de1cc8c3",
+                      "position": 1,
+                      "courseIdentifierParentId": 310785,
+                      "courseTitle": "Elements of Human Anatomy and Physiology Laboratory",
+                      "courseNumber": "251",
+                      "prefix": "BIO",
+                      "prefixParentId": 4868,
+                      "prefixDescription": "Biology",
+                      "departmentParentId": 1661,
+                      "department": "Biology",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 1,
+                      "maxUnits": 1,
+                      "pathways": null
+                    }
+                  ],
+                  "seriesPathways": null
+                },
+                "requisites": [],
+                "visibleCrossListedCourses": [],
+                "seriesAttributes": [],
+                "courseAttributes": [],
+                "id": "c860b9f7-bba5-4731-7a86-08dbdbbe1f5f",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

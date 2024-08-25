@@ -1,0 +1,203 @@
+{
+  "major": "Innovation and Entrepreneurship (Minor in)",
+  "from": {
+    "id": 3,
+    "code": "LACC    ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Los Angeles City College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 120,
+    "code": "UCI     ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Irvine",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "target": {
+        "courseIdentifierParentId": 298847,
+        "courseTitle": "Principles of Accounting I",
+        "courseNumber": "30A",
+        "prefix": "MGMT",
+        "prefixParentId": 1363,
+        "prefixDescription": "Management",
+        "departmentParentId": 8744,
+        "department": "Management",
+        "begin": "F2004",
+        "end": "",
+        "minUnits": 4,
+        "maxUnits": 4,
+        "pathways": []
+      },
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 302895,
+              "courseTitle": "Introductory Accounting I",
+              "courseNumber": "001",
+              "prefix": "ACCTG",
+              "prefixParentId": 5694,
+              "prefixDescription": "Accounting",
+              "departmentParentId": 68,
+              "department": "Accounting",
+              "begin": "F2020",
+              "end": "",
+              "minUnits": 5,
+              "maxUnits": 5,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": null,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "courseIdentifierParentId": 302203,
+        "courseTitle": "Introduction to Business and Management",
+        "courseNumber": "1",
+        "prefix": "MGMT",
+        "prefixParentId": 1363,
+        "prefixDescription": "Management",
+        "departmentParentId": 8744,
+        "department": "Management",
+        "begin": "Su2011",
+        "end": "",
+        "minUnits": 4,
+        "maxUnits": 4,
+        "pathways": []
+      },
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 203038,
+              "courseTitle": "Introduction to Business",
+              "courseNumber": "001",
+              "prefix": "BUS",
+              "prefixParentId": 8208,
+              "prefixDescription": "Business",
+              "departmentParentId": 1909,
+              "department": "Business",
+              "begin": "F2020",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": null,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "instruction": null,
+        "sections": [
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 298847,
+                  "courseTitle": "Principles of Accounting I",
+                  "courseNumber": "30A",
+                  "prefix": "MGMT",
+                  "prefixParentId": 1363,
+                  "prefixDescription": "Management",
+                  "departmentParentId": 8744,
+                  "department": "Management",
+                  "begin": "F2004",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "de5a9e7c-5e83-4213-7459-08dbdbbe1f5f",
+                "position": 0,
+                "attributes": []
+              },
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 302203,
+                  "courseTitle": "Introduction to Business and Management",
+                  "courseNumber": "1",
+                  "prefix": "MGMT",
+                  "prefixParentId": 1363,
+                  "prefixDescription": "Management",
+                  "departmentParentId": 8744,
+                  "department": "Management",
+                  "begin": "Su2011",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "ef95bf82-221e-4007-a0eb-f06a9d43b762",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
