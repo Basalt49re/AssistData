@@ -23,7 +23,9 @@
         "termType": "Semester",
         "fromYear": 2009
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -44,7 +46,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "agreements": [],
   "groups": {
@@ -62,54 +66,59 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 376467,
-                "courseTitle": "Race and Hollywood",
-                "courseNumber": "142",
-                "prefix": "AMST",
-                "prefixParentId": 13855,
-                "prefixDescription": "American Studies",
-                "departmentParentId": 584,
-                "department": "American Studies",
-                "begin": "F2017",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 376467,
+                  "courseTitle": "Race and Hollywood",
+                  "courseNumber": "142",
+                  "prefix": "AMST",
+                  "prefixParentId": 13855,
+                  "prefixDescription": "American Studies",
+                  "departmentParentId": 584,
+                  "department": "American Studies",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "6f0feb03-f907-4d35-bd81-5bb789944f46",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "6f0feb03-f907-4d35-bd81-5bb789944f46",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 376468,
-                "courseTitle": "Surfing and American Culture",
-                "courseNumber": "152",
-                "prefix": "AMST",
-                "prefixParentId": 13855,
-                "prefixDescription": "American Studies",
-                "departmentParentId": 584,
-                "department": "American Studies",
-                "begin": "F2017",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "92e7a731-7fa3-459b-2db0-08db8e278443",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 376468,
+                  "courseTitle": "Surfing and American Culture",
+                  "courseNumber": "152",
+                  "prefix": "AMST",
+                  "prefixParentId": 13855,
+                  "prefixDescription": "American Studies",
+                  "departmentParentId": 584,
+                  "department": "American Studies",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "92e7a731-7fa3-459b-2db0-08db8e278443",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

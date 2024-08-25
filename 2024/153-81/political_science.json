@@ -9,19 +9,19 @@
     "names": [
       {
         "name": "Compton College",
-        "hasDepartments": false,
+        "hasDepartments": true,
         "fromYear": 2019,
         "hideInList": false
       },
       {
         "name": "Compton Community College",
-        "hasDepartments": false,
+        "hasDepartments": true,
         "fromYear": 0,
         "hideInList": true
       },
       {
         "name": "El Camino College",
-        "hasDepartments": false,
+        "hasDepartments": true,
         "fromYear": 2006,
         "hideInList": true
       }
@@ -35,7 +35,9 @@
         "termType": "Semester",
         "fromYear": 1950
       }
-    ]
+    ],
+    "beginId": 1,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -56,7 +58,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "agreements": [
     {
@@ -72,7 +76,8 @@
         "begin": "F1999",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": []
       },
       "courses": [
         {
@@ -94,6 +99,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -115,7 +121,8 @@
         "begin": "F1993",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": []
       },
       "courses": [
         {
@@ -137,6 +144,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -155,31 +163,35 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 157922,
-                "courseTitle": "Introduction to American Govt",
-                "courseNumber": "100",
-                "prefix": "POSC",
-                "prefixParentId": 1974,
-                "prefixDescription": "Political Science",
-                "departmentParentId": 11069,
-                "department": "Political Science",
-                "begin": "F1993",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "90e821ab-4936-452e-9226-7c7a16735e33",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 157922,
+                  "courseTitle": "Introduction to American Govt",
+                  "courseNumber": "100",
+                  "prefix": "POSC",
+                  "prefixParentId": 1974,
+                  "prefixDescription": "Political Science",
+                  "departmentParentId": 11069,
+                  "department": "Political Science",
+                  "begin": "F1993",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "90e821ab-4936-452e-9226-7c7a16735e33",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ],
@@ -197,106 +209,122 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 214698,
-                "courseTitle": "How Democratic is the United States?",
-                "courseNumber": "212",
-                "prefix": "POSC",
-                "prefixParentId": 1974,
-                "prefixDescription": "Political Science",
-                "departmentParentId": 11069,
-                "department": "Political Science",
-                "begin": "F2007",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "8a4736d2-83e3-4175-9669-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 188873,
-                "courseTitle": "Issues in Political Theory",
-                "courseNumber": "225",
-                "prefix": "POSC",
-                "prefixParentId": 1974,
-                "prefixDescription": "Political Science",
-                "departmentParentId": 11069,
-                "department": "Political Science",
-                "begin": "F1999",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "9f49dcfd-00c8-4611-847f-08dba897c33b",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 245500,
-                "courseTitle": "Global Politics",
-                "courseNumber": "218",
-                "prefix": "POSC",
-                "prefixParentId": 1974,
-                "prefixDescription": "Political Science",
-                "departmentParentId": 11069,
-                "department": "Political Science",
-                "begin": "F2007",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "53eba3c4-692f-4e2a-8480-08dba897c33b",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 56967,
-                "courseTitle": "Introduction to California Government",
-                "courseNumber": "199",
-                "prefix": "POSC",
-                "prefixParentId": 1974,
-                "prefixDescription": "Political Science",
-                "departmentParentId": 11069,
-                "department": "Political Science",
-                "begin": "F2010",
-                "end": "",
-                "minUnits": 1,
-                "maxUnits": 1
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "bcc82400-13c6-41ff-8481-08dba897c33b",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 214698,
+                  "courseTitle": "How Democratic is the United States?",
+                  "courseNumber": "212",
+                  "prefix": "POSC",
+                  "prefixParentId": 1974,
+                  "prefixDescription": "Political Science",
+                  "departmentParentId": 11069,
+                  "department": "Political Science",
+                  "begin": "F2007",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "8a4736d2-83e3-4175-9669-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 188873,
+                  "courseTitle": "Issues in Political Theory",
+                  "courseNumber": "225",
+                  "prefix": "POSC",
+                  "prefixParentId": 1974,
+                  "prefixDescription": "Political Science",
+                  "departmentParentId": 11069,
+                  "department": "Political Science",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "9f49dcfd-00c8-4611-847f-08dba897c33b",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 245500,
+                  "courseTitle": "Global Politics",
+                  "courseNumber": "218",
+                  "prefix": "POSC",
+                  "prefixParentId": 1974,
+                  "prefixDescription": "Political Science",
+                  "departmentParentId": 11069,
+                  "department": "Political Science",
+                  "begin": "F2007",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "53eba3c4-692f-4e2a-8480-08dba897c33b",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 56967,
+                  "courseTitle": "Introduction to California Government",
+                  "courseNumber": "199",
+                  "prefix": "POSC",
+                  "prefixParentId": 1974,
+                  "prefixDescription": "Political Science",
+                  "departmentParentId": 11069,
+                  "department": "Political Science",
+                  "begin": "F2010",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "bcc82400-13c6-41ff-8481-08dba897c33b",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

@@ -19,7 +19,9 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -40,7 +42,9 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "agreements": [
     {
@@ -56,7 +60,8 @@
         "begin": "F2019",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -78,6 +83,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -99,7 +105,8 @@
         "begin": "F1995",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -121,6 +128,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -142,7 +150,8 @@
         "begin": "F1995",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -164,6 +173,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -185,7 +195,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -207,6 +218,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -227,6 +239,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -248,7 +261,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -270,6 +284,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": 179,
               "position": 0,
               "type": "Course"
@@ -291,7 +306,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -313,6 +329,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -333,6 +350,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -354,7 +372,8 @@
         "begin": "F2013",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -376,6 +395,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": 179,
               "position": 0,
               "type": "Course"
@@ -397,7 +417,8 @@
         "begin": "F1994",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -419,6 +440,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -440,7 +462,8 @@
         "begin": "F1994",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -462,6 +485,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -480,100 +504,107 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 384644,
-                "courseTitle": "Statistical Methods for Business and Economics",
-                "courseNumber": "17",
-                "prefix": "STAT",
-                "prefixParentId": 16616,
-                "prefixDescription": "Statistics",
-                "departmentParentId": 13762,
-                "department": "Statistics",
-                "begin": "F2022",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 384644,
+                  "courseTitle": "Statistical Methods for Business and Economics",
+                  "courseNumber": "17",
+                  "prefix": "STAT",
+                  "prefixParentId": 16616,
+                  "prefixDescription": "Statistics",
+                  "departmentParentId": 13762,
+                  "department": "Statistics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "f0a0e216-238b-4ee3-bccb-78ef4b7a5bdd",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "f0a0e216-238b-4ee3-bccb-78ef4b7a5bdd",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 301726,
-                "courseTitle": "Introductory Macroeconomics: Aggregate Economic Activity",
-                "courseNumber": "2",
-                "prefix": "ECON",
-                "prefixParentId": 1310,
-                "prefixDescription": "Economics",
-                "departmentParentId": 4329,
-                "department": "Economics",
-                "begin": "F1994",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 301726,
+                  "courseTitle": "Introductory Macroeconomics: Aggregate Economic Activity",
+                  "courseNumber": "2",
+                  "prefix": "ECON",
+                  "prefixParentId": 1310,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4329,
+                  "department": "Economics",
+                  "begin": "F1994",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "8b8c5f0a-4e7b-4d80-bc26-8d8c7d88159b",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "8b8c5f0a-4e7b-4d80-bc26-8d8c7d88159b",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 384645,
-                "courseTitle": "Statistical Methods for Business and Economics Laboratory",
-                "courseNumber": "17L",
-                "prefix": "STAT",
-                "prefixParentId": 16616,
-                "prefixDescription": "Statistics",
-                "departmentParentId": 13762,
-                "department": "Statistics",
-                "begin": "F2022",
-                "end": "",
-                "minUnits": 2,
-                "maxUnits": 2
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 384645,
+                  "courseTitle": "Statistical Methods for Business and Economics Laboratory",
+                  "courseNumber": "17L",
+                  "prefix": "STAT",
+                  "prefixParentId": 16616,
+                  "prefixDescription": "Statistics",
+                  "departmentParentId": 13762,
+                  "department": "Statistics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 2,
+                  "maxUnits": 2,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "123731da-5714-488f-bbc5-95e1690be05f",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "123731da-5714-488f-bbc5-95e1690be05f",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 358523,
-                "courseTitle": "Introductory Microeconomics: Resource Allocation and Market Structure",
-                "courseNumber": "1",
-                "prefix": "ECON",
-                "prefixParentId": 1310,
-                "prefixDescription": "Economics",
-                "departmentParentId": 4329,
-                "department": "Economics",
-                "begin": "F1994",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "958e6e09-a1a5-42b4-b570-ac3bf03d1edf",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 358523,
+                  "courseTitle": "Introductory Microeconomics: Resource Allocation and Market Structure",
+                  "courseNumber": "1",
+                  "prefix": "ECON",
+                  "prefixParentId": 1310,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4329,
+                  "department": "Economics",
+                  "begin": "F1994",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "958e6e09-a1a5-42b4-b570-ac3bf03d1edf",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       },
       {
@@ -584,230 +615,249 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 307153,
-                "courseTitle": "Mathematical Methods for Economists I",
-                "courseNumber": "11A",
-                "prefix": "AM",
-                "prefixParentId": 16613,
-                "prefixDescription": "Applied Mathematics",
-                "departmentParentId": 13759,
-                "department": "Applied Mathematics",
-                "begin": "F2019",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [
-                {
-                  "course": {
-                    "courseIdentifierParentId": 307151,
-                    "courseTitle": "Mathematical Methods for Economists I",
-                    "courseNumber": "11A",
-                    "prefix": "ECON",
-                    "prefixParentId": 1310,
-                    "prefixDescription": "Economics",
-                    "departmentParentId": 4329,
-                    "department": "Economics",
-                    "begin": "F2009",
-                    "end": "",
-                    "minUnits": 5,
-                    "maxUnits": 5
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 307153,
+                  "courseTitle": "Mathematical Methods for Economists I",
+                  "courseNumber": "11A",
+                  "prefix": "AM",
+                  "prefixParentId": 16613,
+                  "prefixDescription": "Applied Mathematics",
+                  "departmentParentId": 13759,
+                  "department": "Applied Mathematics",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [
+                  {
+                    "course": {
+                      "courseIdentifierParentId": 307151,
+                      "courseTitle": "Mathematical Methods for Economists I",
+                      "courseNumber": "11A",
+                      "prefix": "ECON",
+                      "prefixParentId": 1310,
+                      "prefixDescription": "Economics",
+                      "departmentParentId": 4329,
+                      "department": "Economics",
+                      "begin": "F2009",
+                      "end": "",
+                      "minUnits": 5,
+                      "maxUnits": 5,
+                      "pathways": null
+                    }
                   }
-                }
-              ],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "fe12c531-af1b-4c1a-cdc6-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 301440,
-                "courseTitle": "Mathematical Methods for Economists II",
-                "courseNumber": "11B",
-                "prefix": "AM",
-                "prefixParentId": 16613,
-                "prefixDescription": "Applied Mathematics",
-                "departmentParentId": 13759,
-                "department": "Applied Mathematics",
-                "begin": "F2019",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+                ],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "fe12c531-af1b-4c1a-cdc6-08db99b6efb0",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [
-                {
-                  "course": {
-                    "courseIdentifierParentId": 301438,
-                    "courseTitle": "Mathematical Methods for Economists II",
-                    "courseNumber": "11B",
-                    "prefix": "ECON",
-                    "prefixParentId": 1310,
-                    "prefixDescription": "Economics",
-                    "departmentParentId": 4329,
-                    "department": "Economics",
-                    "begin": "F2009",
-                    "end": "",
-                    "minUnits": 5,
-                    "maxUnits": 5
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 301440,
+                  "courseTitle": "Mathematical Methods for Economists II",
+                  "courseNumber": "11B",
+                  "prefix": "AM",
+                  "prefixParentId": 16613,
+                  "prefixDescription": "Applied Mathematics",
+                  "departmentParentId": 13759,
+                  "department": "Applied Mathematics",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [
+                  {
+                    "course": {
+                      "courseIdentifierParentId": 301438,
+                      "courseTitle": "Mathematical Methods for Economists II",
+                      "courseNumber": "11B",
+                      "prefix": "ECON",
+                      "prefixParentId": 1310,
+                      "prefixDescription": "Economics",
+                      "departmentParentId": 4329,
+                      "department": "Economics",
+                      "begin": "F2009",
+                      "end": "",
+                      "minUnits": 5,
+                      "maxUnits": 5,
+                      "pathways": null
+                    }
                   }
-                }
-              ],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "0ba21e38-40cb-4192-cdc7-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 308242,
-                "courseTitle": "Calculus with Applications",
-                "courseNumber": "11A",
-                "prefix": "MATH",
-                "prefixParentId": 10044,
-                "prefixDescription": "Mathematics",
-                "departmentParentId": 9058,
-                "department": "Mathematics",
-                "begin": "F1995",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+                ],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "0ba21e38-40cb-4192-cdc7-08db99b6efb0",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 308242,
+                  "courseTitle": "Calculus with Applications",
+                  "courseNumber": "11A",
+                  "prefix": "MATH",
+                  "prefixParentId": 10044,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9058,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "d9678069-e4eb-40fe-cdc8-08db99b6efb0",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "d9678069-e4eb-40fe-cdc8-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 308244,
-                "courseTitle": "Calculus with Applications",
-                "courseNumber": "11B",
-                "prefix": "MATH",
-                "prefixParentId": 10044,
-                "prefixDescription": "Mathematics",
-                "departmentParentId": 9058,
-                "department": "Mathematics",
-                "begin": "F1995",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 308244,
+                  "courseTitle": "Calculus with Applications",
+                  "courseNumber": "11B",
+                  "prefix": "MATH",
+                  "prefixParentId": 10044,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9058,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "459e77b7-652a-4bf8-cdc9-08db99b6efb0",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "459e77b7-652a-4bf8-cdc9-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 301008,
-                "courseTitle": "Introduction to Calculus of Several Variables",
-                "courseNumber": "22",
-                "prefix": "MATH",
-                "prefixParentId": 10044,
-                "prefixDescription": "Mathematics",
-                "departmentParentId": 9058,
-                "department": "Mathematics",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 301008,
+                  "courseTitle": "Introduction to Calculus of Several Variables",
+                  "courseNumber": "22",
+                  "prefix": "MATH",
+                  "prefixParentId": 10044,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9058,
+                  "department": "Mathematics",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "00e345b1-c2ea-4faf-cdca-08db99b6efb0",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 359398,
+                  "courseTitle": " Calculus for Science, Engineering, and Mathematics",
+                  "courseNumber": "19A",
+                  "prefix": "MATH",
+                  "prefixParentId": 10044,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9058,
+                  "department": "Mathematics",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "48afb175-b221-4887-cdcb-08db99b6efb0",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "00e345b1-c2ea-4faf-cdca-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 359398,
-                "courseTitle": " Calculus for Science, Engineering, and Mathematics",
-                "courseNumber": "19A",
-                "prefix": "MATH",
-                "prefixParentId": 10044,
-                "prefixDescription": "Mathematics",
-                "departmentParentId": 9058,
-                "department": "Mathematics",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 308411,
+                  "courseTitle": "Calculus for Science, Engineering, and Mathematics",
+                  "courseNumber": "19B",
+                  "prefix": "MATH",
+                  "prefixParentId": 10044,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9058,
+                  "department": "Mathematics",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "45b682f3-fd49-4b83-cdcc-08db99b6efb0",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "48afb175-b221-4887-cdcb-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 308411,
-                "courseTitle": "Calculus for Science, Engineering, and Mathematics",
-                "courseNumber": "19B",
-                "prefix": "MATH",
-                "prefixParentId": 10044,
-                "prefixDescription": "Mathematics",
-                "departmentParentId": 9058,
-                "department": "Mathematics",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "45b682f3-fd49-4b83-cdcc-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 308408,
-                "courseTitle": "Vector Calculus",
-                "courseNumber": "23A",
-                "prefix": "MATH",
-                "prefixParentId": 10044,
-                "prefixDescription": "Mathematics",
-                "departmentParentId": 9058,
-                "department": "Mathematics",
-                "begin": "F2013",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "f04511c6-2bd3-4c8a-cdcd-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 308408,
+                  "courseTitle": "Vector Calculus",
+                  "courseNumber": "23A",
+                  "prefix": "MATH",
+                  "prefixParentId": 10044,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9058,
+                  "department": "Mathematics",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "f04511c6-2bd3-4c8a-cdcd-08db99b6efb0",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

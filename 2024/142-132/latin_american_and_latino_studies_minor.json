@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -40,9 +42,172 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
-  "agreements": [],
+  "agreements": [
+    {
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 369820,
+              "courseTitle": "Latino, Mexican-American, and Chicano Literature",
+              "courseNumber": "335",
+              "prefix": "ENGLT",
+              "prefixParentId": 13218,
+              "prefixDescription": "English - Literature",
+              "departmentParentId": 5047,
+              "department": "English",
+              "begin": "Su2019",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 274,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 350645,
+              "courseTitle": "The Latino Experience in America",
+              "courseNumber": "344",
+              "prefix": "ETHNS",
+              "prefixParentId": 15949,
+              "prefixDescription": "Ethnic Studies",
+              "departmentParentId": 5414,
+              "department": "Ethnic Studies",
+              "begin": "S2017",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 265,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 248113,
+              "courseTitle": "Latin American Humanities",
+              "courseNumber": "331",
+              "prefix": "HUM",
+              "prefixParentId": 6481,
+              "prefixDescription": "Humanities",
+              "departmentParentId": 7356,
+              "department": "Humanities",
+              "begin": "F2008",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 231,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 244279,
+              "courseTitle": "Latin America",
+              "courseNumber": "313",
+              "prefix": "POLS",
+              "prefixParentId": 2057,
+              "prefixDescription": "Political Science",
+              "departmentParentId": 10978,
+              "department": "Political Science",
+              "begin": "Su2007",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 226,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 247615,
+              "courseTitle": "Introduction to Mexican American Literature",
+              "courseNumber": "426",
+              "prefix": "SPAN",
+              "prefixParentId": 3242,
+              "prefixDescription": "Spanish",
+              "departmentParentId": 12309,
+              "department": "Spanish",
+              "begin": "Su2004",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 214,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 247616,
+              "courseTitle": "Introduction to Spanish American Literature",
+              "courseNumber": "427",
+              "prefix": "SPAN",
+              "prefixParentId": 3242,
+              "prefixDescription": "Spanish",
+              "departmentParentId": 12309,
+              "department": "Spanish",
+              "begin": "Su2004",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 214,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "groups": {
     "PREPARATION FOR THE MINOR": [
       {
@@ -58,18 +223,21 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Requirement",
-              "requirement": {
-                "name": "Lower-division Latin American and Latino Studies electives"
-              },
-              "requirementAttributes": [],
-              "id": "18193ddd-ac92-40ff-9aeb-0125385210ad",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Requirement",
+                "requirement": {
+                  "name": "Lower-division Latin American and Latino Studies electives"
+                },
+                "requirementAttributes": [],
+                "id": "18193ddd-ac92-40ff-9aeb-0125385210ad",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

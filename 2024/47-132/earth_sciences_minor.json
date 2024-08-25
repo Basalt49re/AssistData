@@ -12,12 +12,6 @@
         "hasDepartments": true,
         "fromYear": 0,
         "hideInList": false
-      },
-      {
-        "name": "Los Angeles Mission College",
-        "hasDepartments": false,
-        "fromYear": 1980,
-        "hideInList": true
       }
     ],
     "termTypeAcademicYears": [
@@ -29,7 +23,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -50,7 +46,9 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "agreements": [
     {
@@ -66,7 +64,8 @@
         "begin": "F1994",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": []
       },
       "courses": []
     },
@@ -83,7 +82,8 @@
         "begin": "F2006",
         "end": "",
         "minUnits": 1,
-        "maxUnits": 1
+        "maxUnits": 1,
+        "pathways": []
       },
       "courses": []
     },
@@ -100,7 +100,8 @@
         "begin": "F2006",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": []
       },
       "courses": []
     },
@@ -117,7 +118,8 @@
         "begin": "F2006",
         "end": "",
         "minUnits": 1,
-        "maxUnits": 1
+        "maxUnits": 1,
+        "pathways": []
       },
       "courses": []
     },
@@ -134,7 +136,8 @@
         "begin": "F2006",
         "end": "",
         "minUnits": 1,
-        "maxUnits": 1
+        "maxUnits": 1,
+        "pathways": []
       },
       "courses": []
     },
@@ -151,7 +154,8 @@
         "begin": "F2006",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": []
       },
       "courses": []
     }
@@ -166,150 +170,165 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 307142,
-                "courseTitle": "Geologic Principles",
-                "courseNumber": "10",
-                "prefix": "EART",
-                "prefixParentId": 9885,
-                "prefixDescription": "Earth Sciences",
-                "departmentParentId": 4133,
-                "department": "Earth and Planetary Sciences",
-                "begin": "F1994",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 307142,
+                  "courseTitle": "Geologic Principles",
+                  "courseNumber": "10",
+                  "prefix": "EART",
+                  "prefixParentId": 9885,
+                  "prefixDescription": "Earth Sciences",
+                  "departmentParentId": 4133,
+                  "department": "Earth and Planetary Sciences",
+                  "begin": "F1994",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "097e4272-652e-4c87-cd6f-08db99b6efb0",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "097e4272-652e-4c87-cd6f-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 29378,
-                "courseTitle": "Geologic Principles Laboratory",
-                "courseNumber": "10L",
-                "prefix": "EART",
-                "prefixParentId": 9885,
-                "prefixDescription": "Earth Sciences",
-                "departmentParentId": 4133,
-                "department": "Earth and Planetary Sciences",
-                "begin": "F2006",
-                "end": "",
-                "minUnits": 1,
-                "maxUnits": 1
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 29378,
+                  "courseTitle": "Geologic Principles Laboratory",
+                  "courseNumber": "10L",
+                  "prefix": "EART",
+                  "prefixParentId": 9885,
+                  "prefixDescription": "Earth Sciences",
+                  "departmentParentId": 4133,
+                  "department": "Earth and Planetary Sciences",
+                  "begin": "F2006",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "8bd6c1bb-8e99-4c10-cd70-08db99b6efb0",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 303700,
+                  "courseTitle": "Environmental Geology",
+                  "courseNumber": "20",
+                  "prefix": "EART",
+                  "prefixParentId": 9885,
+                  "prefixDescription": "Earth Sciences",
+                  "departmentParentId": 4133,
+                  "department": "Earth and Planetary Sciences",
+                  "begin": "F2006",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "edb5cfb5-f41e-4bb2-cd71-08db99b6efb0",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "8bd6c1bb-8e99-4c10-cd70-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 303700,
-                "courseTitle": "Environmental Geology",
-                "courseNumber": "20",
-                "prefix": "EART",
-                "prefixParentId": 9885,
-                "prefixDescription": "Earth Sciences",
-                "departmentParentId": 4133,
-                "department": "Earth and Planetary Sciences",
-                "begin": "F2006",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 47769,
+                  "courseTitle": "Environmental Geology Laboratory",
+                  "courseNumber": "20L",
+                  "prefix": "EART",
+                  "prefixParentId": 9885,
+                  "prefixDescription": "Earth Sciences",
+                  "departmentParentId": 4133,
+                  "department": "Earth and Planetary Sciences",
+                  "begin": "F2006",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "491f9a66-0189-4f68-cd72-08db99b6efb0",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 48500,
+                  "courseTitle": "California Geology Laboratory",
+                  "courseNumber": "5L",
+                  "prefix": "EART",
+                  "prefixParentId": 9885,
+                  "prefixDescription": "Earth Sciences",
+                  "departmentParentId": 4133,
+                  "department": "Earth and Planetary Sciences",
+                  "begin": "F2006",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "7fb47805-7767-4c4b-8ebe-6e866ae2f2ac",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "edb5cfb5-f41e-4bb2-cd71-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 47769,
-                "courseTitle": "Environmental Geology Laboratory",
-                "courseNumber": "20L",
-                "prefix": "EART",
-                "prefixParentId": 9885,
-                "prefixDescription": "Earth Sciences",
-                "departmentParentId": 4133,
-                "department": "Earth and Planetary Sciences",
-                "begin": "F2006",
-                "end": "",
-                "minUnits": 1,
-                "maxUnits": 1
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "491f9a66-0189-4f68-cd72-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 48500,
-                "courseTitle": "California Geology Laboratory",
-                "courseNumber": "5L",
-                "prefix": "EART",
-                "prefixParentId": 9885,
-                "prefixDescription": "Earth Sciences",
-                "departmentParentId": 4133,
-                "department": "Earth and Planetary Sciences",
-                "begin": "F2006",
-                "end": "",
-                "minUnits": 1,
-                "maxUnits": 1
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "7fb47805-7767-4c4b-8ebe-6e866ae2f2ac",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 358525,
-                "courseTitle": "California Geology",
-                "courseNumber": "5",
-                "prefix": "EART",
-                "prefixParentId": 9885,
-                "prefixDescription": "Earth Sciences",
-                "departmentParentId": 4133,
-                "department": "Earth and Planetary Sciences",
-                "begin": "F2006",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "7072d8b5-b804-4f51-afb3-a7434597d430",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 358525,
+                  "courseTitle": "California Geology",
+                  "courseNumber": "5",
+                  "prefix": "EART",
+                  "prefixParentId": 9885,
+                  "prefixDescription": "Earth Sciences",
+                  "departmentParentId": 4133,
+                  "department": "Earth and Planetary Sciences",
+                  "begin": "F2006",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "7072d8b5-b804-4f51-afb3-a7434597d430",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

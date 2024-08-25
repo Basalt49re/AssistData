@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -40,7 +42,9 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "agreements": [
     {
@@ -56,7 +60,8 @@
         "begin": "F2000",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": []
       },
       "courses": []
     },
@@ -73,7 +78,8 @@
         "begin": "F2011",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": []
       },
       "courses": []
     }
@@ -87,54 +93,59 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 359576,
-                "courseTitle": "Semantics I",
-                "courseNumber": "53",
-                "prefix": "LING",
-                "prefixParentId": 2584,
-                "prefixDescription": "Linguistics",
-                "departmentParentId": 8644,
-                "department": "Linguistics",
-                "begin": "F2000",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 359576,
+                  "courseTitle": "Semantics I",
+                  "courseNumber": "53",
+                  "prefix": "LING",
+                  "prefixParentId": 2584,
+                  "prefixDescription": "Linguistics",
+                  "departmentParentId": 8644,
+                  "department": "Linguistics",
+                  "begin": "F2000",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "47859de2-7111-4ce9-bb6e-b920459d26c8",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "47859de2-7111-4ce9-bb6e-b920459d26c8",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 303759,
-                "courseTitle": "Introduction to Linguistics",
-                "courseNumber": "50",
-                "prefix": "LING",
-                "prefixParentId": 2584,
-                "prefixDescription": "Linguistics",
-                "departmentParentId": 8644,
-                "department": "Linguistics",
-                "begin": "F2011",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "3252c825-cecb-4c61-839f-a68daee34ac7",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 303759,
+                  "courseTitle": "Introduction to Linguistics",
+                  "courseNumber": "50",
+                  "prefix": "LING",
+                  "prefixParentId": 2584,
+                  "prefixDescription": "Linguistics",
+                  "departmentParentId": 8644,
+                  "department": "Linguistics",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "3252c825-cecb-4c61-839f-a68daee34ac7",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

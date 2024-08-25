@@ -9,19 +9,19 @@
     "names": [
       {
         "name": "Compton College",
-        "hasDepartments": false,
+        "hasDepartments": true,
         "fromYear": 2019,
         "hideInList": false
       },
       {
         "name": "Compton Community College",
-        "hasDepartments": false,
+        "hasDepartments": true,
         "fromYear": 0,
         "hideInList": true
       },
       {
         "name": "El Camino College",
-        "hasDepartments": false,
+        "hasDepartments": true,
         "fromYear": 2006,
         "hideInList": true
       }
@@ -35,7 +35,9 @@
         "termType": "Semester",
         "fromYear": 1950
       }
-    ]
+    ],
+    "beginId": 1,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -56,7 +58,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "agreements": [
     {
@@ -72,7 +76,8 @@
         "begin": "F1999",
         "end": "",
         "minUnits": 6,
-        "maxUnits": 6
+        "maxUnits": 6,
+        "pathways": []
       },
       "courses": [
         {
@@ -94,6 +99,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -114,6 +120,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -132,31 +139,35 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 305505,
-                "courseTitle": "Spanish for Bilinguals",
-                "courseNumber": "250",
-                "prefix": "SPAN",
-                "prefixParentId": 3170,
-                "prefixDescription": "Spanish",
-                "departmentParentId": 12265,
-                "department": "Spanish",
-                "begin": "F1999",
-                "end": "",
-                "minUnits": 6,
-                "maxUnits": 6
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "a4587143-6654-448a-8151-ac6da88e1072",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 305505,
+                  "courseTitle": "Spanish for Bilinguals",
+                  "courseNumber": "250",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3170,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12265,
+                  "department": "Spanish",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 6,
+                  "maxUnits": 6,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "a4587143-6654-448a-8151-ac6da88e1072",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

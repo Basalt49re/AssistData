@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -40,7 +42,9 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "agreements": [
     {
@@ -56,7 +60,8 @@
         "begin": "F2014",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": []
       },
       "courses": [
         {
@@ -78,6 +83,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": 179,
               "position": 0,
               "type": "Course"
@@ -99,7 +105,8 @@
         "begin": "F2020",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": []
       },
       "courses": [
         {
@@ -121,7 +128,8 @@
                   "begin": "S2022",
                   "end": "",
                   "minUnits": 3,
-                  "maxUnits": 3
+                  "maxUnits": 3,
+                  "pathways": []
                 }
               ],
               "requisites": [],
@@ -138,6 +146,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": 285,
               "position": 0,
               "type": "Course"
@@ -162,54 +171,59 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 287924,
-                "courseTitle": "Critical Race and Ethnic Studies: An Introduction",
-                "courseNumber": "10",
-                "prefix": "CRES",
-                "prefixParentId": 15662,
-                "prefixDescription": "Critical Race and Ethnic Studies",
-                "departmentParentId": 3620,
-                "department": "Critical Race and Ethnic Studies",
-                "begin": "F2014",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 287924,
+                  "courseTitle": "Critical Race and Ethnic Studies: An Introduction",
+                  "courseNumber": "10",
+                  "prefix": "CRES",
+                  "prefixParentId": 15662,
+                  "prefixDescription": "Critical Race and Ethnic Studies",
+                  "departmentParentId": 3620,
+                  "department": "Critical Race and Ethnic Studies",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "1c69ac53-a56a-4211-b8cf-2bfda2739171",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "1c69ac53-a56a-4211-b8cf-2bfda2739171",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 377573,
-                "courseTitle": "Approaches to Black Studies",
-                "courseNumber": "68",
-                "prefix": "CRES",
-                "prefixParentId": 15662,
-                "prefixDescription": "Critical Race and Ethnic Studies",
-                "departmentParentId": 3620,
-                "department": "Critical Race and Ethnic Studies",
-                "begin": "F2020",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "11f4a986-86f3-4e56-98e9-33f2f7b35351",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 377573,
+                  "courseTitle": "Approaches to Black Studies",
+                  "courseNumber": "68",
+                  "prefix": "CRES",
+                  "prefixParentId": 15662,
+                  "prefixDescription": "Critical Race and Ethnic Studies",
+                  "departmentParentId": 3620,
+                  "department": "Critical Race and Ethnic Studies",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "11f4a986-86f3-4e56-98e9-33f2f7b35351",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -40,9 +42,120 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
-  "agreements": [],
+  "agreements": [
+    {
+      "target": {
+        "courseIdentifierParentId": 305505,
+        "courseTitle": "Spanish for Bilinguals",
+        "courseNumber": "250",
+        "prefix": "SPAN",
+        "prefixParentId": 3170,
+        "prefixDescription": "Spanish",
+        "departmentParentId": 12265,
+        "department": "Spanish",
+        "begin": "F1999",
+        "end": "",
+        "minUnits": 6,
+        "maxUnits": 6,
+        "pathways": []
+      },
+      "courses": [
+        {
+          "group": "Or",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 373582,
+              "courseTitle": "Spanish for Heritage Speakers I",
+              "courseNumber": "R220",
+              "prefix": "SPAN",
+              "prefixParentId": 3176,
+              "prefixDescription": "Spanish",
+              "departmentParentId": 12331,
+              "department": "Spanish",
+              "begin": "F2021",
+              "end": "",
+              "minUnits": 4,
+              "maxUnits": 4,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 283,
+              "position": 0,
+              "type": "Course"
+            },
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 373583,
+              "courseTitle": "Honors: Spanish for Heritage Speakers I",
+              "courseNumber": "R220H",
+              "prefix": "SPAN",
+              "prefixParentId": 3176,
+              "prefixDescription": "Spanish",
+              "departmentParentId": 12331,
+              "department": "Spanish",
+              "begin": "F2021",
+              "end": "",
+              "minUnits": 4,
+              "maxUnits": 4,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 283,
+              "position": 1,
+              "type": "Course"
+            },
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 373584,
+              "courseTitle": "Spanish for Heritage Speakers II",
+              "courseNumber": "R230",
+              "prefix": "SPAN",
+              "prefixParentId": 3176,
+              "prefixDescription": "Spanish",
+              "departmentParentId": 12331,
+              "department": "Spanish",
+              "begin": "F2021",
+              "end": "",
+              "minUnits": 4,
+              "maxUnits": 4,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 283,
+              "position": 2,
+              "type": "Course"
+            },
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 373585,
+              "courseTitle": "Honors: Spanish for Heritage Speakers II",
+              "courseNumber": "R230H",
+              "prefix": "SPAN",
+              "prefixParentId": 3176,
+              "prefixDescription": "Spanish",
+              "departmentParentId": 12331,
+              "department": "Spanish",
+              "begin": "F2021",
+              "end": "",
+              "minUnits": 4,
+              "maxUnits": 4,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 283,
+              "position": 3,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "groups": {
     "PREREQUISITES": [
       {
@@ -52,31 +165,35 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 305505,
-                "courseTitle": "Spanish for Bilinguals",
-                "courseNumber": "250",
-                "prefix": "SPAN",
-                "prefixParentId": 3170,
-                "prefixDescription": "Spanish",
-                "departmentParentId": 12265,
-                "department": "Spanish",
-                "begin": "F1999",
-                "end": "",
-                "minUnits": 6,
-                "maxUnits": 6
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "a4587143-6654-448a-8151-ac6da88e1072",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 305505,
+                  "courseTitle": "Spanish for Bilinguals",
+                  "courseNumber": "250",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3170,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12265,
+                  "department": "Spanish",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 6,
+                  "maxUnits": 6,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "a4587143-6654-448a-8151-ac6da88e1072",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

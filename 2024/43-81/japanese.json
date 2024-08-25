@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -40,7 +42,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "agreements": [
     {
@@ -56,7 +60,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": null
       },
       "courses": [
         {
@@ -78,6 +83,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -99,7 +105,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": null
       },
       "courses": [
         {
@@ -121,6 +128,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -135,54 +143,59 @@
       {
         "instruction": null,
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 293296,
-                "courseTitle": "Intermediate Japanese",
-                "courseNumber": "201",
-                "prefix": "JAPN",
-                "prefixParentId": 9572,
-                "prefixDescription": "Japanese",
-                "departmentParentId": 7883,
-                "department": "Japanese",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 293296,
+                  "courseTitle": "Intermediate Japanese",
+                  "courseNumber": "201",
+                  "prefix": "JAPN",
+                  "prefixParentId": 9572,
+                  "prefixDescription": "Japanese",
+                  "departmentParentId": 7883,
+                  "department": "Japanese",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "a9b9bf33-47c0-4c56-9c5c-2daa7b0a6a5f",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "a9b9bf33-47c0-4c56-9c5c-2daa7b0a6a5f",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 257787,
-                "courseTitle": "Intermediate Japanese",
-                "courseNumber": "202",
-                "prefix": "JAPN",
-                "prefixParentId": 9572,
-                "prefixDescription": "Japanese",
-                "departmentParentId": 7883,
-                "department": "Japanese",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "f21fbc4a-c883-456f-95f8-dee7f7ba1ec5",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 257787,
+                  "courseTitle": "Intermediate Japanese",
+                  "courseNumber": "202",
+                  "prefix": "JAPN",
+                  "prefixParentId": 9572,
+                  "prefixDescription": "Japanese",
+                  "departmentParentId": 7883,
+                  "department": "Japanese",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "f21fbc4a-c883-456f-95f8-dee7f7ba1ec5",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ],
@@ -194,31 +207,35 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 261798,
-                "courseTitle": "Asian Eats",
-                "courseNumber": "100",
-                "prefix": "AAAS",
-                "prefixParentId": 15616,
-                "prefixDescription": "Asian and Asian American Studies",
-                "departmentParentId": 1272,
-                "department": "Asian and Asian American Studies",
-                "begin": "F2014",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "ece60e4f-e8f3-472d-a604-41f1e2a7a943",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 261798,
+                  "courseTitle": "Asian Eats",
+                  "courseNumber": "100",
+                  "prefix": "AAAS",
+                  "prefixParentId": 15616,
+                  "prefixDescription": "Asian and Asian American Studies",
+                  "departmentParentId": 1272,
+                  "department": "Asian and Asian American Studies",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "ece60e4f-e8f3-472d-a604-41f1e2a7a943",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

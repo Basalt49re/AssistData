@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -40,7 +42,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "agreements": [
     {
@@ -54,9 +58,10 @@
         "departmentParentId": 6452,
         "department": "German",
         "begin": "F1997",
-        "end": "",
+        "end": "F2024",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": []
       },
       "courses": [
         {
@@ -78,6 +83,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -97,9 +103,10 @@
         "departmentParentId": 6452,
         "department": "German",
         "begin": "F1997",
-        "end": "",
+        "end": "F2024",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": []
       },
       "courses": [
         {
@@ -121,6 +128,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -139,54 +147,59 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 354366,
-                "courseTitle": "Intermediate German",
-                "courseNumber": "201B",
-                "prefix": "GERM",
-                "prefixParentId": 7839,
-                "prefixDescription": "German",
-                "departmentParentId": 6452,
-                "department": "German",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 354366,
+                  "courseTitle": "Intermediate German",
+                  "courseNumber": "201B",
+                  "prefix": "GERM",
+                  "prefixParentId": 7839,
+                  "prefixDescription": "German",
+                  "departmentParentId": 6452,
+                  "department": "German",
+                  "begin": "F1997",
+                  "end": "F2024",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "1197e3fc-6d3e-49ff-9504-0461b75ea997",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "1197e3fc-6d3e-49ff-9504-0461b75ea997",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 354353,
-                "courseTitle": "Intermediate German",
-                "courseNumber": "201A",
-                "prefix": "GERM",
-                "prefixParentId": 7839,
-                "prefixDescription": "German",
-                "departmentParentId": 6452,
-                "department": "German",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "e3476de8-2c4f-4b46-a850-b8e8821c0ada",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 354353,
+                  "courseTitle": "Intermediate German",
+                  "courseNumber": "201A",
+                  "prefix": "GERM",
+                  "prefixParentId": 7839,
+                  "prefixDescription": "German",
+                  "departmentParentId": 6452,
+                  "department": "German",
+                  "begin": "F1997",
+                  "end": "F2024",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "e3476de8-2c4f-4b46-a850-b8e8821c0ada",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

@@ -9,19 +9,19 @@
     "names": [
       {
         "name": "Compton College",
-        "hasDepartments": false,
+        "hasDepartments": true,
         "fromYear": 2019,
         "hideInList": false
       },
       {
         "name": "Compton Community College",
-        "hasDepartments": false,
+        "hasDepartments": true,
         "fromYear": 0,
         "hideInList": true
       },
       {
         "name": "El Camino College",
-        "hasDepartments": false,
+        "hasDepartments": true,
         "fromYear": 2006,
         "hideInList": true
       }
@@ -35,7 +35,9 @@
         "termType": "Semester",
         "fromYear": 1950
       }
-    ]
+    ],
+    "beginId": 1,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -56,7 +58,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "agreements": [
     {
@@ -72,7 +76,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": []
       },
       "courses": [
         {
@@ -94,6 +99,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -115,7 +121,8 @@
         "begin": "F2000",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": []
       },
       "courses": [
         {
@@ -137,6 +144,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": 275,
               "position": 0,
               "type": "Course"
@@ -158,7 +166,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": []
       },
       "courses": [
         {
@@ -180,6 +189,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -201,7 +211,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": []
       },
       "courses": [
         {
@@ -223,6 +234,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -244,7 +256,8 @@
         "begin": "F2003",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": []
       },
       "courses": [
         {
@@ -266,6 +279,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -287,7 +301,8 @@
         "begin": "F2003",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": []
       },
       "courses": [
         {
@@ -309,6 +324,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -330,9 +346,36 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": []
       },
       "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 383175,
+              "courseTitle": "Physics for Engineers and Scientists I",
+              "courseNumber": "101",
+              "prefix": "PHYS",
+              "prefixParentId": 16474,
+              "prefixDescription": "Physics",
+              "departmentParentId": 13686,
+              "department": "Physics",
+              "begin": "F2022",
+              "end": "",
+              "minUnits": 5,
+              "maxUnits": 5,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 287,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
         {
           "group": "And",
           "classes": [
@@ -352,7 +395,8 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
-              "publishedCourseIdentifierYearTermId": null,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 275,
               "position": 0,
               "type": "Course"
             },
@@ -372,7 +416,8 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
-              "publishedCourseIdentifierYearTermId": null,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 279,
               "position": 1,
               "type": "Course"
             }
@@ -393,7 +438,8 @@
         "begin": "F2003",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": []
       },
       "courses": [
         {
@@ -415,6 +461,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -436,7 +483,8 @@
         "begin": "F1999",
         "end": "",
         "minUnits": 1,
-        "maxUnits": 1
+        "maxUnits": 1,
+        "pathways": []
       },
       "courses": [
         {
@@ -458,6 +506,7 @@
               "end": "",
               "minUnits": 2,
               "maxUnits": 2,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -476,410 +525,431 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 66835,
-                "courseTitle": "Introduction to Biomedical Engineering",
-                "courseNumber": "100",
-                "prefix": "BME",
-                "prefixParentId": 15914,
-                "prefixDescription": "Biomedical Engineering",
-                "departmentParentId": 1779,
-                "department": "Biomedical Engineering",
-                "begin": "F2016",
-                "end": "",
-                "minUnits": 1,
-                "maxUnits": 1
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 66835,
+                  "courseTitle": "Introduction to Biomedical Engineering",
+                  "courseNumber": "100",
+                  "prefix": "BME",
+                  "prefixParentId": 15914,
+                  "prefixDescription": "Biomedical Engineering",
+                  "departmentParentId": 1779,
+                  "department": "Biomedical Engineering",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "61945d2d-66f8-48aa-bb7e-042f0cd560b3",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "61945d2d-66f8-48aa-bb7e-042f0cd560b3",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 354337,
-                "courseTitle": "General Biology",
-                "courseNumber": "200",
-                "prefix": "BIOL",
-                "prefixParentId": 4898,
-                "prefixDescription": "Biology",
-                "departmentParentId": 1723,
-                "department": "Biology",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 354337,
+                  "courseTitle": "General Biology",
+                  "courseNumber": "200",
+                  "prefix": "BIOL",
+                  "prefixParentId": 4898,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1723,
+                  "department": "Biology",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "2f46a290-0d3d-4c50-92e2-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "2f46a290-0d3d-4c50-92e2-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 286211,
-                "courseTitle": "Human Physiology",
-                "courseNumber": "207",
-                "prefix": "BIOL",
-                "prefixParentId": 4898,
-                "prefixDescription": "Biology",
-                "departmentParentId": 1723,
-                "department": "Biology",
-                "begin": "F2000",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 286211,
+                  "courseTitle": "Human Physiology",
+                  "courseNumber": "207",
+                  "prefix": "BIOL",
+                  "prefixParentId": 4898,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1723,
+                  "department": "Biology",
+                  "begin": "F2000",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "ce9bc2ff-f641-4243-92e3-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "ce9bc2ff-f641-4243-92e3-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 350498,
-                "courseTitle": "Programming for Biomedical Engineers",
-                "courseNumber": "201",
-                "prefix": "BME",
-                "prefixParentId": 15914,
-                "prefixDescription": "Biomedical Engineering",
-                "departmentParentId": 1779,
-                "department": "Biomedical Engineering",
-                "begin": "F2016",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 350498,
+                  "courseTitle": "Programming for Biomedical Engineers",
+                  "courseNumber": "201",
+                  "prefix": "BME",
+                  "prefixParentId": 15914,
+                  "prefixDescription": "Biomedical Engineering",
+                  "departmentParentId": 1779,
+                  "department": "Biomedical Engineering",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "5edaec41-5b99-4f05-92e4-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "5edaec41-5b99-4f05-92e4-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 372274,
-                "courseTitle": "Fundamentals of Medical Electronics",
-                "courseNumber": "205",
-                "prefix": "BME",
-                "prefixParentId": 15914,
-                "prefixDescription": "Biomedical Engineering",
-                "departmentParentId": 1779,
-                "department": "Biomedical Engineering",
-                "begin": "F2019",
-                "end": "",
-                "minUnits": 2,
-                "maxUnits": 2
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 372274,
+                  "courseTitle": "Fundamentals of Medical Electronics",
+                  "courseNumber": "205",
+                  "prefix": "BME",
+                  "prefixParentId": 15914,
+                  "prefixDescription": "Biomedical Engineering",
+                  "departmentParentId": 1779,
+                  "department": "Biomedical Engineering",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 2,
+                  "maxUnits": 2,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "2d03c292-d317-4530-92e5-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "2d03c292-d317-4530-92e5-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 366023,
-                "courseTitle": "Biomechanics I",
-                "courseNumber": "211",
-                "prefix": "BME",
-                "prefixParentId": 15914,
-                "prefixDescription": "Biomedical Engineering",
-                "departmentParentId": 1779,
-                "department": "Biomedical Engineering",
-                "begin": "F2017",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 366023,
+                  "courseTitle": "Biomechanics I",
+                  "courseNumber": "211",
+                  "prefix": "BME",
+                  "prefixParentId": 15914,
+                  "prefixDescription": "Biomedical Engineering",
+                  "departmentParentId": 1779,
+                  "department": "Biomedical Engineering",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "c81ca2a1-d9df-4c30-92e6-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "c81ca2a1-d9df-4c30-92e6-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 303295,
-                "courseTitle": "General Chemistry",
-                "courseNumber": "111A",
-                "prefix": "CHEM",
-                "prefixParentId": 10657,
-                "prefixDescription": "Chemistry and Biochemistry",
-                "departmentParentId": 2394,
-                "department": "Chemistry and Biochemistry",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 303295,
+                  "courseTitle": "General Chemistry",
+                  "courseNumber": "111A",
+                  "prefix": "CHEM",
+                  "prefixParentId": 10657,
+                  "prefixDescription": "Chemistry and Biochemistry",
+                  "departmentParentId": 2394,
+                  "department": "Chemistry and Biochemistry",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "3aedd9ef-7b98-4025-92e7-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "3aedd9ef-7b98-4025-92e7-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 383393,
-                "courseTitle": "Regulatory Basics and Compliance in Biomedical Engineering",
-                "courseNumber": "200",
-                "prefix": "BME",
-                "prefixParentId": 15914,
-                "prefixDescription": "Biomedical Engineering",
-                "departmentParentId": 1779,
-                "department": "Biomedical Engineering",
-                "begin": "F2022",
-                "end": "",
-                "minUnits": 1,
-                "maxUnits": 1
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 383393,
+                  "courseTitle": "Regulatory Basics and Compliance in Biomedical Engineering",
+                  "courseNumber": "200",
+                  "prefix": "BME",
+                  "prefixParentId": 15914,
+                  "prefixDescription": "Biomedical Engineering",
+                  "departmentParentId": 1779,
+                  "department": "Biomedical Engineering",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "fdfbf0ea-b7ba-486e-92e8-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "fdfbf0ea-b7ba-486e-92e8-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 303273,
-                "courseTitle": "General Chemistry",
-                "courseNumber": "111B",
-                "prefix": "CHEM",
-                "prefixParentId": 10657,
-                "prefixDescription": "Chemistry and Biochemistry",
-                "departmentParentId": 2394,
-                "department": "Chemistry and Biochemistry",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 303273,
+                  "courseTitle": "General Chemistry",
+                  "courseNumber": "111B",
+                  "prefix": "CHEM",
+                  "prefixParentId": 10657,
+                  "prefixDescription": "Chemistry and Biochemistry",
+                  "departmentParentId": 2394,
+                  "department": "Chemistry and Biochemistry",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "7c93c1ab-0f32-4bcc-92e9-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "7c93c1ab-0f32-4bcc-92e9-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 326716,
-                "courseTitle": "Introduction to Solid Modeling and Engineering Graphics",
-                "courseNumber": "170",
-                "prefix": "ENGR",
-                "prefixParentId": 3545,
-                "prefixDescription": "Engineering",
-                "departmentParentId": 4786,
-                "department": "Engineering",
-                "begin": "F2019",
-                "end": "",
-                "minUnits": 2,
-                "maxUnits": 2
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 326716,
+                  "courseTitle": "Introduction to Solid Modeling and Engineering Graphics",
+                  "courseNumber": "170",
+                  "prefix": "ENGR",
+                  "prefixParentId": 3545,
+                  "prefixDescription": "Engineering",
+                  "departmentParentId": 4786,
+                  "department": "Engineering",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 2,
+                  "maxUnits": 2,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "ad13485a-b6de-43f1-92ea-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "ad13485a-b6de-43f1-92ea-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 257816,
-                "courseTitle": "Calculus III",
-                "courseNumber": "224",
-                "prefix": "MATH",
-                "prefixParentId": 9989,
-                "prefixDescription": "Mathematics and Statistics",
-                "departmentParentId": 9084,
-                "department": "Mathematics and Statistics",
-                "begin": "F2003",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 257816,
+                  "courseTitle": "Calculus III",
+                  "courseNumber": "224",
+                  "prefix": "MATH",
+                  "prefixParentId": 9989,
+                  "prefixDescription": "Mathematics and Statistics",
+                  "departmentParentId": 9084,
+                  "department": "Mathematics and Statistics",
+                  "begin": "F2003",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "8641d212-a82d-424f-92eb-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "8641d212-a82d-424f-92eb-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 174149,
-                "courseTitle": "Calculus I",
-                "courseNumber": "122",
-                "prefix": "MATH",
-                "prefixParentId": 9989,
-                "prefixDescription": "Mathematics and Statistics",
-                "departmentParentId": 9084,
-                "department": "Mathematics and Statistics",
-                "begin": "F2003",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 174149,
+                  "courseTitle": "Calculus I",
+                  "courseNumber": "122",
+                  "prefix": "MATH",
+                  "prefixParentId": 9989,
+                  "prefixDescription": "Mathematics and Statistics",
+                  "departmentParentId": 9084,
+                  "department": "Mathematics and Statistics",
+                  "begin": "F2003",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "d312633e-75a7-4287-88bd-795f099bbd33",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "d312633e-75a7-4287-88bd-795f099bbd33",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 257780,
-                "courseTitle": "Mechanics and Heat",
-                "courseNumber": "151",
-                "prefix": "PHYS",
-                "prefixParentId": 263,
-                "prefixDescription": "Physics",
-                "departmentParentId": 10794,
-                "department": "Physics",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 257780,
+                  "courseTitle": "Mechanics and Heat",
+                  "courseNumber": "151",
+                  "prefix": "PHYS",
+                  "prefixParentId": 263,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10794,
+                  "department": "Physics",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "eb102dc4-a7b7-4dac-a3c3-f16b807c256c",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "eb102dc4-a7b7-4dac-a3c3-f16b807c256c",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 293340,
-                "courseTitle": "Calculus II",
-                "courseNumber": "123",
-                "prefix": "MATH",
-                "prefixParentId": 9989,
-                "prefixDescription": "Mathematics and Statistics",
-                "departmentParentId": 9084,
-                "department": "Mathematics and Statistics",
-                "begin": "F2003",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 293340,
+                  "courseTitle": "Calculus II",
+                  "courseNumber": "123",
+                  "prefix": "MATH",
+                  "prefixParentId": 9989,
+                  "prefixDescription": "Mathematics and Statistics",
+                  "departmentParentId": 9084,
+                  "department": "Mathematics and Statistics",
+                  "begin": "F2003",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "30c76c9d-018d-49e2-b4a8-9cc225d90f4c",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "30c76c9d-018d-49e2-b4a8-9cc225d90f4c",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 43224,
-                "courseTitle": "Introduction to Engineering Profession",
-                "courseNumber": "101",
-                "prefix": "ENGR",
-                "prefixParentId": 3545,
-                "prefixDescription": "Engineering",
-                "departmentParentId": 4786,
-                "department": "Engineering",
-                "begin": "F1999",
-                "end": "",
-                "minUnits": 1,
-                "maxUnits": 1
-              },
-              "visibleCrossListedCourses": [
-                {
-                  "course": {
-                    "courseIdentifierParentId": 43227,
-                    "courseTitle": "Introduction to the Engineering Profession",
-                    "courseNumber": "101H",
-                    "prefix": "ENGR",
-                    "prefixParentId": 3545,
-                    "prefixDescription": "Engineering",
-                    "departmentParentId": 4786,
-                    "department": "Engineering",
-                    "begin": "F2016",
-                    "end": "",
-                    "minUnits": 1,
-                    "maxUnits": 1
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 43224,
+                  "courseTitle": "Introduction to Engineering Profession",
+                  "courseNumber": "101",
+                  "prefix": "ENGR",
+                  "prefixParentId": 3545,
+                  "prefixDescription": "Engineering",
+                  "departmentParentId": 4786,
+                  "department": "Engineering",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [
+                  {
+                    "course": {
+                      "courseIdentifierParentId": 43227,
+                      "courseTitle": "Introduction to the Engineering Profession",
+                      "courseNumber": "101H",
+                      "prefix": "ENGR",
+                      "prefixParentId": 3545,
+                      "prefixDescription": "Engineering",
+                      "departmentParentId": 4786,
+                      "department": "Engineering",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 1,
+                      "maxUnits": 1,
+                      "pathways": []
+                    }
                   }
-                }
-              ],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "6e72142f-bef9-4a82-819f-31814e8b3908",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 55100,
-                "courseTitle": "Academic Success Skills",
-                "courseNumber": "102",
-                "prefix": "ENGR",
-                "prefixParentId": 3545,
-                "prefixDescription": "Engineering",
-                "departmentParentId": 4786,
-                "department": "Engineering",
-                "begin": "S2007",
-                "end": "",
-                "minUnits": 1,
-                "maxUnits": 1
+                ],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "6e72142f-bef9-4a82-819f-31814e8b3908",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [
-                {
-                  "course": {
-                    "courseIdentifierParentId": 55101,
-                    "courseTitle": "Academic Success Skills",
-                    "courseNumber": "102H",
-                    "prefix": "ENGR",
-                    "prefixParentId": 3545,
-                    "prefixDescription": "Engineering",
-                    "departmentParentId": 4786,
-                    "department": "Engineering",
-                    "begin": "F2016",
-                    "end": "",
-                    "minUnits": 1,
-                    "maxUnits": 1
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 55100,
+                  "courseTitle": "Academic Success Skills",
+                  "courseNumber": "102",
+                  "prefix": "ENGR",
+                  "prefixParentId": 3545,
+                  "prefixDescription": "Engineering",
+                  "departmentParentId": 4786,
+                  "department": "Engineering",
+                  "begin": "S2007",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [
+                  {
+                    "course": {
+                      "courseIdentifierParentId": 55101,
+                      "courseTitle": "Academic Success Skills",
+                      "courseNumber": "102H",
+                      "prefix": "ENGR",
+                      "prefixParentId": 3545,
+                      "prefixDescription": "Engineering",
+                      "departmentParentId": 4786,
+                      "department": "Engineering",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 1,
+                      "maxUnits": 1,
+                      "pathways": []
+                    }
                   }
-                }
-              ],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "9d648fb2-f2a0-41ac-a866-f810af32fa2e",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+                ],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "9d648fb2-f2a0-41ac-a866-f810af32fa2e",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

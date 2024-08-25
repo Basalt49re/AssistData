@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -40,9 +42,146 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
-  "agreements": [],
+  "agreements": [
+    {
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 382381,
+              "courseTitle": "Introduction to U.S. Latina/o Literature",
+              "courseNumber": "200",
+              "prefix": "ENGL",
+              "prefixParentId": 2765,
+              "prefixDescription": "English",
+              "departmentParentId": 5045,
+              "department": "English",
+              "begin": "F2022",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 287,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 205533,
+              "courseTitle": "Latin American Civilization",
+              "courseNumber": "240",
+              "prefix": "HIST",
+              "prefixParentId": 3041,
+              "prefixDescription": "History",
+              "departmentParentId": 7031,
+              "department": "History",
+              "begin": "F1995",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 179,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 194617,
+              "courseTitle": "History of Mexico & the Mexican and Chicano Peoples",
+              "courseNumber": "243",
+              "prefix": "HIST",
+              "prefixParentId": 3041,
+              "prefixDescription": "History",
+              "departmentParentId": 7031,
+              "department": "History",
+              "begin": "F2001",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 203,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 275689,
+              "courseTitle": "Introduction to Chicana/o Studies",
+              "courseNumber": "107",
+              "prefix": "SOCI",
+              "prefixParentId": 9125,
+              "prefixDescription": "Sociology",
+              "departmentParentId": 12126,
+              "department": "Sociology",
+              "begin": "F2017",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 267,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 193009,
+              "courseTitle": "Introduction to Latin American Literature",
+              "courseNumber": "240",
+              "prefix": "SPAN",
+              "prefixParentId": 3239,
+              "prefixDescription": "Spanish",
+              "departmentParentId": 12308,
+              "department": "Spanish",
+              "begin": "F2009",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 235,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "groups": {
     "PREPARATION FOR THE MINOR": [
       {
@@ -58,18 +197,21 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Requirement",
-              "requirement": {
-                "name": "Lower-division Latin American and Latino Studies electives"
-              },
-              "requirementAttributes": [],
-              "id": "18193ddd-ac92-40ff-9aeb-0125385210ad",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Requirement",
+                "requirement": {
+                  "name": "Lower-division Latin American and Latino Studies electives"
+                },
+                "requirementAttributes": [],
+                "id": "18193ddd-ac92-40ff-9aeb-0125385210ad",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

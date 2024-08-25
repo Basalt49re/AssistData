@@ -19,7 +19,9 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -40,7 +42,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "agreements": [
     {
@@ -56,7 +60,8 @@
         "begin": "F1999",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": []
       },
       "courses": [
         {
@@ -78,6 +83,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -99,9 +105,57 @@
         "begin": "F1998",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": []
       },
       "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 247532,
+              "courseTitle": "Financial Accounting I",
+              "courseNumber": "1A",
+              "prefix": "ACTG",
+              "prefixParentId": 5730,
+              "prefixDescription": "Accounting",
+              "departmentParentId": 92,
+              "department": "Accounting",
+              "begin": "F1999",
+              "end": "",
+              "minUnits": 5,
+              "maxUnits": 5,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 195,
+              "position": 0,
+              "type": "Course"
+            },
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 360120,
+              "courseTitle": "Honors Financial Accounting II",
+              "courseNumber": "1BH",
+              "prefix": "ACTG",
+              "prefixParentId": 5730,
+              "prefixDescription": "Accounting",
+              "departmentParentId": 92,
+              "department": "Accounting",
+              "begin": "Su2017",
+              "end": "",
+              "minUnits": 5,
+              "maxUnits": 5,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 266,
+              "position": 1,
+              "type": "Course"
+            }
+          ]
+        },
         {
           "group": "And",
           "classes": [
@@ -121,7 +175,8 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
-              "publishedCourseIdentifierYearTermId": null,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 196,
               "position": 1,
               "type": "Course"
             },
@@ -141,7 +196,8 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
-              "publishedCourseIdentifierYearTermId": null,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 195,
               "position": 0,
               "type": "Course"
             }
@@ -162,7 +218,8 @@
         "begin": "S2006",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": []
       },
       "courses": [
         {
@@ -184,6 +241,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -209,6 +267,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -227,261 +286,275 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 241985,
-                "courseTitle": "Food Production and Service in Hospitality Management",
-                "courseNumber": "276",
-                "prefix": "HM",
-                "prefixParentId": 13987,
-                "prefixDescription": "Hospitality Management",
-                "departmentParentId": 7164,
-                "department": "Hospitality Management",
-                "begin": "F2019",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 241985,
+                  "courseTitle": "Food Production and Service in Hospitality Management",
+                  "courseNumber": "276",
+                  "prefix": "HM",
+                  "prefixParentId": 13987,
+                  "prefixDescription": "Hospitality Management",
+                  "departmentParentId": 7164,
+                  "department": "Hospitality Management",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "e637bac3-80ea-45e3-8921-b6f3ae920a20",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "e637bac3-80ea-45e3-8921-b6f3ae920a20",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 372462,
-                "courseTitle": "Legal Issues in Hospitality Management",
-                "courseNumber": "278",
-                "prefix": "HM",
-                "prefixParentId": 13987,
-                "prefixDescription": "Hospitality Management",
-                "departmentParentId": 7164,
-                "department": "Hospitality Management",
-                "begin": "F2019",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 372462,
+                  "courseTitle": "Legal Issues in Hospitality Management",
+                  "courseNumber": "278",
+                  "prefix": "HM",
+                  "prefixParentId": 13987,
+                  "prefixDescription": "Hospitality Management",
+                  "departmentParentId": 7164,
+                  "department": "Hospitality Management",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "fbc7aa9b-b2ff-4755-a62e-d44cab1ff9de",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "fbc7aa9b-b2ff-4755-a62e-d44cab1ff9de",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 349525,
-                "courseTitle": "Cost Control in Hospitality Management",
-                "courseNumber": "277",
-                "prefix": "HM",
-                "prefixParentId": 13987,
-                "prefixDescription": "Hospitality Management",
-                "departmentParentId": 7164,
-                "department": "Hospitality Management",
-                "begin": "F2019",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 349525,
+                  "courseTitle": "Cost Control in Hospitality Management",
+                  "courseNumber": "277",
+                  "prefix": "HM",
+                  "prefixParentId": 13987,
+                  "prefixDescription": "Hospitality Management",
+                  "departmentParentId": 7164,
+                  "department": "Hospitality Management",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "3bce9148-2e32-4b34-be29-aa352162386e",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "3bce9148-2e32-4b34-be29-aa352162386e",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 316955,
-                "courseTitle": "Orientation to the Hospitality Management Major",
-                "courseNumber": "179",
-                "prefix": "HM",
-                "prefixParentId": 13987,
-                "prefixDescription": "Hospitality Management",
-                "departmentParentId": 7164,
-                "department": "Hospitality Management",
-                "begin": "F2020",
-                "end": "",
-                "minUnits": 2,
-                "maxUnits": 2
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 316955,
+                  "courseTitle": "Orientation to the Hospitality Management Major",
+                  "courseNumber": "179",
+                  "prefix": "HM",
+                  "prefixParentId": 13987,
+                  "prefixDescription": "Hospitality Management",
+                  "departmentParentId": 7164,
+                  "department": "Hospitality Management",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 2,
+                  "maxUnits": 2,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "6e22ef90-c1df-4cfc-974e-67f528d85ba2",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "6e22ef90-c1df-4cfc-974e-67f528d85ba2",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 212175,
-                "courseTitle": "Introduction to Hospitality Management",
-                "courseNumber": "170",
-                "prefix": "HM",
-                "prefixParentId": 13987,
-                "prefixDescription": "Hospitality Management",
-                "departmentParentId": 7164,
-                "department": "Hospitality Management",
-                "begin": "F2019",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 212175,
+                  "courseTitle": "Introduction to Hospitality Management",
+                  "courseNumber": "170",
+                  "prefix": "HM",
+                  "prefixParentId": 13987,
+                  "prefixDescription": "Hospitality Management",
+                  "departmentParentId": 7164,
+                  "department": "Hospitality Management",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "71c1e4d2-4d35-41c2-b7eb-5dd38e4745b7",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "71c1e4d2-4d35-41c2-b7eb-5dd38e4745b7",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 383405,
-                "courseTitle": "Hotel and Lodging Management",
-                "courseNumber": "272",
-                "prefix": "HM",
-                "prefixParentId": 13987,
-                "prefixDescription": "Hospitality Management",
-                "departmentParentId": 7164,
-                "department": "Hospitality Management",
-                "begin": "F2022",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 383405,
+                  "courseTitle": "Hotel and Lodging Management",
+                  "courseNumber": "272",
+                  "prefix": "HM",
+                  "prefixParentId": 13987,
+                  "prefixDescription": "Hospitality Management",
+                  "departmentParentId": 7164,
+                  "department": "Hospitality Management",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "651455d6-4b4d-4ec9-ba6b-c78f541dcb78",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "651455d6-4b4d-4ec9-ba6b-c78f541dcb78",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 174571,
-                "courseTitle": "Principles of Microeconomics",
-                "courseNumber": "101",
-                "prefix": "ECON",
-                "prefixParentId": 1255,
-                "prefixDescription": "Economics",
-                "departmentParentId": 4282,
-                "department": "Economics",
-                "begin": "F1999",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 174571,
+                  "courseTitle": "Principles of Microeconomics",
+                  "courseNumber": "101",
+                  "prefix": "ECON",
+                  "prefixParentId": 1255,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4282,
+                  "department": "Economics",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "b8e900a9-6092-4cf9-9c74-b013af4c1a47",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "b8e900a9-6092-4cf9-9c74-b013af4c1a47",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 41717,
-                "courseTitle": "Applied Foodservice Sanitation",
-                "courseNumber": "173",
-                "prefix": "HM",
-                "prefixParentId": 13987,
-                "prefixDescription": "Hospitality Management",
-                "departmentParentId": 7164,
-                "department": "Hospitality Management",
-                "begin": "F2019",
-                "end": "",
-                "minUnits": 1,
-                "maxUnits": 1
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 41717,
+                  "courseTitle": "Applied Foodservice Sanitation",
+                  "courseNumber": "173",
+                  "prefix": "HM",
+                  "prefixParentId": 13987,
+                  "prefixDescription": "Hospitality Management",
+                  "departmentParentId": 7164,
+                  "department": "Hospitality Management",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "1789bbef-661c-46be-b597-990e32bc7c51",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "1789bbef-661c-46be-b597-990e32bc7c51",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 204330,
-                "courseTitle": "Fundamentals of Food Preparation",
-                "courseNumber": "176",
-                "prefix": "HM",
-                "prefixParentId": 13987,
-                "prefixDescription": "Hospitality Management",
-                "departmentParentId": 7164,
-                "department": "Hospitality Management",
-                "begin": "F2019",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 204330,
+                  "courseTitle": "Fundamentals of Food Preparation",
+                  "courseNumber": "176",
+                  "prefix": "HM",
+                  "prefixParentId": 13987,
+                  "prefixDescription": "Hospitality Management",
+                  "departmentParentId": 7164,
+                  "department": "Hospitality Management",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "cd4c9b5f-f24a-4b5b-85b3-3932803f1ecf",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "cd4c9b5f-f24a-4b5b-85b3-3932803f1ecf",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 226573,
-                "courseTitle": "Elementary Financial Accounting",
-                "courseNumber": "201",
-                "prefix": "ACCT",
-                "prefixParentId": 5751,
-                "prefixDescription": "Accounting",
-                "departmentParentId": 39,
-                "department": "Accounting",
-                "begin": "F1998",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 226573,
+                  "courseTitle": "Elementary Financial Accounting",
+                  "courseNumber": "201",
+                  "prefix": "ACCT",
+                  "prefixParentId": 5751,
+                  "prefixDescription": "Accounting",
+                  "departmentParentId": 39,
+                  "department": "Accounting",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "0ac48d83-b2dd-40dc-b016-ee46c8954dd7",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "0ac48d83-b2dd-40dc-b016-ee46c8954dd7",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 210587,
-                "courseTitle": "Introductory Nutrition",
-                "courseNumber": "132",
-                "prefix": "NUTR",
-                "prefixParentId": 13982,
-                "prefixDescription": "Nutrition and Dietetics",
-                "departmentParentId": 9804,
-                "department": "Nutrition and Dietetics",
-                "begin": "S2006",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "29dcdeff-deda-4a36-ad07-999a15e4c8b8",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 210587,
+                  "courseTitle": "Introductory Nutrition",
+                  "courseNumber": "132",
+                  "prefix": "NUTR",
+                  "prefixParentId": 13982,
+                  "prefixDescription": "Nutrition and Dietetics",
+                  "departmentParentId": 9804,
+                  "department": "Nutrition and Dietetics",
+                  "begin": "S2006",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "29dcdeff-deda-4a36-ad07-999a15e4c8b8",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

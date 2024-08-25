@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -40,11 +42,39 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "agreements": [
     {
       "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 200795,
+              "courseTitle": "Art of Pre-Hispanic Mexico",
+              "courseNumber": "012A",
+              "prefix": "ARTS",
+              "prefixParentId": 4503,
+              "prefixDescription": "Art",
+              "departmentParentId": 1093,
+              "department": "Art",
+              "begin": "F2017",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": null,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
         {
           "group": "And",
           "classes": [
@@ -64,6 +94,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -89,31 +120,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
-              "publishedCourseIdentifierYearTermId": null,
-              "position": 0,
-              "type": "Course"
-            }
-          ]
-        },
-        {
-          "group": "And",
-          "classes": [
-            {
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "attributes": [],
-              "courseIdentifierParentId": 200795,
-              "courseTitle": "Art of Pre-Hispanic Mexico",
-              "courseNumber": "012A",
-              "prefix": "ARTS",
-              "prefixParentId": 4503,
-              "prefixDescription": "Art",
-              "departmentParentId": 1093,
-              "department": "Art",
-              "begin": "F2017",
-              "end": "",
-              "minUnits": 3,
-              "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -138,18 +145,21 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Requirement",
-              "requirement": {
-                "name": "Lower-division Latin American and Latino Studies electives"
-              },
-              "requirementAttributes": [],
-              "id": "18193ddd-ac92-40ff-9aeb-0125385210ad",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Requirement",
+                "requirement": {
+                  "name": "Lower-division Latin American and Latino Studies electives"
+                },
+                "requirementAttributes": [],
+                "id": "18193ddd-ac92-40ff-9aeb-0125385210ad",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

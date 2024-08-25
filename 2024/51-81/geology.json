@@ -19,7 +19,9 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -40,7 +42,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "agreements": [
     {
@@ -56,7 +60,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -78,6 +83,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -98,6 +104,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -119,7 +126,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -141,6 +149,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -161,6 +170,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -182,7 +192,8 @@
         "begin": "F2003",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": null
       },
       "courses": [
         {
@@ -204,6 +215,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -224,6 +236,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -245,7 +258,8 @@
         "begin": "F2003",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": null
       },
       "courses": [
         {
@@ -267,6 +281,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -287,6 +302,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -308,7 +324,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": null
       },
       "courses": [
         {
@@ -330,6 +347,7 @@
               "end": "",
               "minUnits": 6,
               "maxUnits": 6,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -351,7 +369,8 @@
         "begin": "F1998",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": null
       },
       "courses": [
         {
@@ -373,6 +392,7 @@
               "end": "",
               "minUnits": 6,
               "maxUnits": 6,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -394,7 +414,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": null
       },
       "courses": [
         {
@@ -416,6 +437,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -436,6 +458,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -457,7 +480,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": null
       },
       "courses": [
         {
@@ -479,6 +503,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -499,6 +524,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -518,56 +544,64 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 214165,
-                "courseTitle": "Planet Earth",
-                "courseNumber": "102",
-                "prefix": "ERTH",
-                "prefixParentId": 11298,
-                "prefixDescription": "Earth Science",
-                "departmentParentId": 14332,
-                "department": "Earth Science",
-                "begin": "F2023",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "b7226018-f4a4-4805-94b9-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 252252,
-                "courseTitle": "Natural Disasters",
-                "courseNumber": "110",
-                "prefix": "ERTH",
-                "prefixParentId": 11298,
-                "prefixDescription": "Earth Science",
-                "departmentParentId": 14332,
-                "department": "Earth Science",
-                "begin": "F2023",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "3d9f45a0-3895-4a1b-c424-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 214165,
+                  "courseTitle": "Planet Earth",
+                  "courseNumber": "102",
+                  "prefix": "ERTH",
+                  "prefixParentId": 11298,
+                  "prefixDescription": "Earth Science",
+                  "departmentParentId": 14332,
+                  "department": "Earth Science",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "b7226018-f4a4-4805-94b9-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 252252,
+                  "courseTitle": "Natural Disasters",
+                  "courseNumber": "110",
+                  "prefix": "ERTH",
+                  "prefixParentId": 11298,
+                  "prefixDescription": "Earth Science",
+                  "departmentParentId": 14332,
+                  "department": "Earth Science",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "3d9f45a0-3895-4a1b-c424-08db99b6efb0",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       },
       {
@@ -578,56 +612,64 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 303295,
-                "courseTitle": "General Chemistry",
-                "courseNumber": "111A",
-                "prefix": "CHEM",
-                "prefixParentId": 10657,
-                "prefixDescription": "Chemistry and Biochemistry",
-                "departmentParentId": 2394,
-                "department": "Chemistry and Biochemistry",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "82e6d334-e912-483a-94bb-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 309463,
-                "courseTitle": "Advanced General Chemistry",
-                "courseNumber": "112A",
-                "prefix": "CHEM",
-                "prefixParentId": 10657,
-                "prefixDescription": "Chemistry and Biochemistry",
-                "departmentParentId": 2394,
-                "department": "Chemistry and Biochemistry",
-                "begin": "F2014",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "769734f9-8c48-41ba-c425-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 303295,
+                  "courseTitle": "General Chemistry",
+                  "courseNumber": "111A",
+                  "prefix": "CHEM",
+                  "prefixParentId": 10657,
+                  "prefixDescription": "Chemistry and Biochemistry",
+                  "departmentParentId": 2394,
+                  "department": "Chemistry and Biochemistry",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "82e6d334-e912-483a-94bb-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 309463,
+                  "courseTitle": "Advanced General Chemistry",
+                  "courseNumber": "112A",
+                  "prefix": "CHEM",
+                  "prefixParentId": 10657,
+                  "prefixDescription": "Chemistry and Biochemistry",
+                  "departmentParentId": 2394,
+                  "department": "Chemistry and Biochemistry",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "769734f9-8c48-41ba-c425-08db99b6efb0",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       },
       {
@@ -638,56 +680,64 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 303273,
-                "courseTitle": "General Chemistry",
-                "courseNumber": "111B",
-                "prefix": "CHEM",
-                "prefixParentId": 10657,
-                "prefixDescription": "Chemistry and Biochemistry",
-                "departmentParentId": 2394,
-                "department": "Chemistry and Biochemistry",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "e53525b7-4580-4303-94bd-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 360041,
-                "courseTitle": "Advanced General Chemistry",
-                "courseNumber": "112B",
-                "prefix": "CHEM",
-                "prefixParentId": 10657,
-                "prefixDescription": "Chemistry and Biochemistry",
-                "departmentParentId": 2394,
-                "department": "Chemistry and Biochemistry",
-                "begin": "F2014",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "b9c1cf35-9e55-46bf-c426-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 303273,
+                  "courseTitle": "General Chemistry",
+                  "courseNumber": "111B",
+                  "prefix": "CHEM",
+                  "prefixParentId": 10657,
+                  "prefixDescription": "Chemistry and Biochemistry",
+                  "departmentParentId": 2394,
+                  "department": "Chemistry and Biochemistry",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "e53525b7-4580-4303-94bd-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 360041,
+                  "courseTitle": "Advanced General Chemistry",
+                  "courseNumber": "112B",
+                  "prefix": "CHEM",
+                  "prefixParentId": 10657,
+                  "prefixDescription": "Chemistry and Biochemistry",
+                  "departmentParentId": 2394,
+                  "department": "Chemistry and Biochemistry",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "b9c1cf35-9e55-46bf-c426-08db99b6efb0",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       },
       {
@@ -697,123 +747,131 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 209869,
-                "courseTitle": "Introduction to Geologic Field Methods",
-                "courseNumber": "250",
-                "prefix": "ERTH",
-                "prefixParentId": 11298,
-                "prefixDescription": "Earth Science",
-                "departmentParentId": 14332,
-                "department": "Earth Science",
-                "begin": "F2023",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 209869,
+                  "courseTitle": "Introduction to Geologic Field Methods",
+                  "courseNumber": "250",
+                  "prefix": "ERTH",
+                  "prefixParentId": 11298,
+                  "prefixDescription": "Earth Science",
+                  "departmentParentId": 14332,
+                  "department": "Earth Science",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "09b03393-2c32-4f00-90da-9bce704ebf42",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "09b03393-2c32-4f00-90da-9bce704ebf42",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 293338,
-                "courseTitle": "Historical Geology",
-                "courseNumber": "240",
-                "prefix": "ERTH",
-                "prefixParentId": 11298,
-                "prefixDescription": "Earth Science",
-                "departmentParentId": 14332,
-                "department": "Earth Science",
-                "begin": "F2023",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 293338,
+                  "courseTitle": "Historical Geology",
+                  "courseNumber": "240",
+                  "prefix": "ERTH",
+                  "prefixParentId": 11298,
+                  "prefixDescription": "Earth Science",
+                  "departmentParentId": 14332,
+                  "department": "Earth Science",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "fe662e96-dc53-4886-b813-d56ab3464f6a",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "fe662e96-dc53-4886-b813-d56ab3464f6a",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 174149,
-                "courseTitle": "Calculus I",
-                "courseNumber": "122",
-                "prefix": "MATH",
-                "prefixParentId": 9989,
-                "prefixDescription": "Mathematics and Statistics",
-                "departmentParentId": 9084,
-                "department": "Mathematics and Statistics",
-                "begin": "F2003",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 174149,
+                  "courseTitle": "Calculus I",
+                  "courseNumber": "122",
+                  "prefix": "MATH",
+                  "prefixParentId": 9989,
+                  "prefixDescription": "Mathematics and Statistics",
+                  "departmentParentId": 9084,
+                  "department": "Mathematics and Statistics",
+                  "begin": "F2003",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "2095e805-3635-42f3-a679-b4cf8311da20",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "2095e805-3635-42f3-a679-b4cf8311da20",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 293340,
-                "courseTitle": "Calculus II",
-                "courseNumber": "123",
-                "prefix": "MATH",
-                "prefixParentId": 9989,
-                "prefixDescription": "Mathematics and Statistics",
-                "departmentParentId": 9084,
-                "department": "Mathematics and Statistics",
-                "begin": "F2003",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 293340,
+                  "courseTitle": "Calculus II",
+                  "courseNumber": "123",
+                  "prefix": "MATH",
+                  "prefixParentId": 9989,
+                  "prefixDescription": "Mathematics and Statistics",
+                  "departmentParentId": 9084,
+                  "department": "Mathematics and Statistics",
+                  "begin": "F2003",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "b84ae4e0-edb3-46fb-ab34-c28f339e095a",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "b84ae4e0-edb3-46fb-ab34-c28f339e095a",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 42410,
-                "courseTitle": "Planet Earth Lab",
-                "courseNumber": "104",
-                "prefix": "ERTH",
-                "prefixParentId": 11298,
-                "prefixDescription": "Earth Science",
-                "departmentParentId": 14332,
-                "department": "Earth Science",
-                "begin": "F2023",
-                "end": "",
-                "minUnits": 1,
-                "maxUnits": 1
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "d5fd9645-7016-41b5-9777-1f091d04e2f0",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 42410,
+                  "courseTitle": "Planet Earth Lab",
+                  "courseNumber": "104",
+                  "prefix": "ERTH",
+                  "prefixParentId": 11298,
+                  "prefixDescription": "Earth Science",
+                  "departmentParentId": 14332,
+                  "department": "Earth Science",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "d5fd9645-7016-41b5-9777-1f091d04e2f0",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       },
       {
@@ -824,102 +882,112 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 257780,
-                "courseTitle": "Mechanics and Heat",
-                "courseNumber": "151",
-                "prefix": "PHYS",
-                "prefixParentId": 263,
-                "prefixDescription": "Physics",
-                "departmentParentId": 10794,
-                "department": "Physics",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 257780,
+                  "courseTitle": "Mechanics and Heat",
+                  "courseNumber": "151",
+                  "prefix": "PHYS",
+                  "prefixParentId": 263,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10794,
+                  "department": "Physics",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "d4a1e96a-b12f-4de2-94bf-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "d4a1e96a-b12f-4de2-94bf-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 257794,
-                "courseTitle": "Electricity and Magnetism",
-                "courseNumber": "152",
-                "prefix": "PHYS",
-                "prefixParentId": 263,
-                "prefixDescription": "Physics",
-                "departmentParentId": 10794,
-                "department": "Physics",
-                "begin": "F1998",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 257794,
+                  "courseTitle": "Electricity and Magnetism",
+                  "courseNumber": "152",
+                  "prefix": "PHYS",
+                  "prefixParentId": 263,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10794,
+                  "department": "Physics",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "8d6d7b2c-5e6a-47a9-94c0-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 354320,
+                  "courseTitle": "General Physics",
+                  "courseNumber": "100A",
+                  "prefix": "PHYS",
+                  "prefixParentId": 263,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10794,
+                  "department": "Physics",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "e09d2c94-2d6c-4e0e-89ef-38d58bc94506",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "8d6d7b2c-5e6a-47a9-94c0-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 354320,
-                "courseTitle": "General Physics",
-                "courseNumber": "100A",
-                "prefix": "PHYS",
-                "prefixParentId": 263,
-                "prefixDescription": "Physics",
-                "departmentParentId": 10794,
-                "department": "Physics",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "e09d2c94-2d6c-4e0e-89ef-38d58bc94506",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 293300,
-                "courseTitle": "General Physics",
-                "courseNumber": "100B",
-                "prefix": "PHYS",
-                "prefixParentId": 263,
-                "prefixDescription": "Physics",
-                "departmentParentId": 10794,
-                "department": "Physics",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "ad3f212c-cf12-48ed-807e-4c7baf85265a",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 293300,
+                  "courseTitle": "General Physics",
+                  "courseNumber": "100B",
+                  "prefix": "PHYS",
+                  "prefixParentId": 263,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10794,
+                  "department": "Physics",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "ad3f212c-cf12-48ed-807e-4c7baf85265a",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

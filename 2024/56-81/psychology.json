@@ -23,7 +23,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -44,7 +46,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "agreements": [
     {
@@ -60,9 +64,36 @@
         "begin": "S2016",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": []
       },
       "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 385526,
+              "courseTitle": "Elementary Statistics Enhanced",
+              "courseNumber": "120E",
+              "prefix": "MATH",
+              "prefixParentId": 9964,
+              "prefixDescription": "Mathematics",
+              "departmentParentId": 8992,
+              "department": "Mathematics",
+              "begin": "F2023",
+              "end": "",
+              "minUnits": 4,
+              "maxUnits": 4,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 291,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
         {
           "group": "And",
           "classes": [
@@ -82,7 +113,8 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
-              "publishedCourseIdentifierYearTermId": null,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 287,
               "position": 0,
               "type": "Course"
             }
@@ -107,7 +139,8 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
-              "publishedCourseIdentifierYearTermId": null,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 259,
               "position": 0,
               "type": "Course"
             }
@@ -120,7 +153,7 @@
               "visibleCrossListedCourses": [
                 {
                   "id": "cf30bf5e-e215-4ced-b049-2f101def367c",
-                  "publishedCourseIdentifierYearTermId": null,
+                  "publishedCourseIdentifierYearTermId": 255,
                   "courseIdentifierParentId": 137093,
                   "courseTitle": "Statistics for the Behavioral Sciences",
                   "courseNumber": "205",
@@ -132,7 +165,8 @@
                   "begin": "F2014",
                   "end": "",
                   "minUnits": 4,
-                  "maxUnits": 4
+                  "maxUnits": 4,
+                  "pathways": []
                 }
               ],
               "requisites": [],
@@ -149,7 +183,8 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
-              "publishedCourseIdentifierYearTermId": null,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 255,
               "position": 0,
               "type": "Course"
             }
@@ -162,7 +197,7 @@
               "visibleCrossListedCourses": [
                 {
                   "id": "07525c6c-e6b5-4ca9-93e8-5185dc2868bf",
-                  "publishedCourseIdentifierYearTermId": null,
+                  "publishedCourseIdentifierYearTermId": 255,
                   "courseIdentifierParentId": 154829,
                   "courseTitle": "Statistics for the Behavioral Sciences",
                   "courseNumber": "205",
@@ -174,7 +209,8 @@
                   "begin": "F2014",
                   "end": "",
                   "minUnits": 4,
-                  "maxUnits": 4
+                  "maxUnits": 4,
+                  "pathways": []
                 }
               ],
               "requisites": [],
@@ -191,7 +227,8 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
-              "publishedCourseIdentifierYearTermId": null,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 255,
               "position": 0,
               "type": "Course"
             }
@@ -212,7 +249,8 @@
         "begin": "F2008",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": []
       },
       "courses": [
         {
@@ -234,6 +272,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -255,7 +294,8 @@
         "begin": "F2008",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": []
       },
       "courses": [
         {
@@ -277,6 +317,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -298,7 +339,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": []
       },
       "courses": [
         {
@@ -320,6 +362,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -338,100 +381,107 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 294148,
-                "courseTitle": "Introductory Statistics",
-                "courseNumber": "110",
-                "prefix": "PSY",
-                "prefixParentId": 4673,
-                "prefixDescription": "Psychology",
-                "departmentParentId": 11201,
-                "department": "Psychology",
-                "begin": "S2016",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 294148,
+                  "courseTitle": "Introductory Statistics",
+                  "courseNumber": "110",
+                  "prefix": "PSY",
+                  "prefixParentId": 4673,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11201,
+                  "department": "Psychology",
+                  "begin": "S2016",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "9ce8bf9e-ffd4-414c-a97f-6cc5eb23c244",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "9ce8bf9e-ffd4-414c-a97f-6cc5eb23c244",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 218103,
-                "courseTitle": "Psychobiology",
-                "courseNumber": "241",
-                "prefix": "PSY",
-                "prefixParentId": 4673,
-                "prefixDescription": "Psychology",
-                "departmentParentId": 11201,
-                "department": "Psychology",
-                "begin": "F2008",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 218103,
+                  "courseTitle": "Psychobiology",
+                  "courseNumber": "241",
+                  "prefix": "PSY",
+                  "prefixParentId": 4673,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11201,
+                  "department": "Psychology",
+                  "begin": "F2008",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "db936af4-357d-4612-a1fe-26478a993705",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "db936af4-357d-4612-a1fe-26478a993705",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 286363,
-                "courseTitle": "Research Methods",
-                "courseNumber": "220",
-                "prefix": "PSY",
-                "prefixParentId": 4673,
-                "prefixDescription": "Psychology",
-                "departmentParentId": 11201,
-                "department": "Psychology",
-                "begin": "F2008",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 286363,
+                  "courseTitle": "Research Methods",
+                  "courseNumber": "220",
+                  "prefix": "PSY",
+                  "prefixParentId": 4673,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11201,
+                  "department": "Psychology",
+                  "begin": "F2008",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "e0fb1cc1-ad23-4230-9d0b-3fbfef912d47",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "e0fb1cc1-ad23-4230-9d0b-3fbfef912d47",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 178825,
-                "courseTitle": "General Psychology",
-                "courseNumber": "100",
-                "prefix": "PSY",
-                "prefixParentId": 4673,
-                "prefixDescription": "Psychology",
-                "departmentParentId": 11201,
-                "department": "Psychology",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "3dbecb19-9726-4fbd-a1f3-13c5d5fac65d",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 178825,
+                  "courseTitle": "General Psychology",
+                  "courseNumber": "100",
+                  "prefix": "PSY",
+                  "prefixParentId": 4673,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11201,
+                  "department": "Psychology",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "3dbecb19-9726-4fbd-a1f3-13c5d5fac65d",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

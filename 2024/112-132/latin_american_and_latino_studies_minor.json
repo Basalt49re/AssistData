@@ -23,7 +23,9 @@
         "termType": "Semester",
         "fromYear": 1998
       }
-    ]
+    ],
+    "beginId": 49,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -44,9 +46,42 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
-  "agreements": [],
+  "agreements": [
+    {
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 382174,
+              "courseTitle": "Chicano/Latino Literature",
+              "courseNumber": "031",
+              "prefix": "EGSJ",
+              "prefixParentId": 16871,
+              "prefixDescription": "Ethnic, Gender, and Social Justice Studies",
+              "departmentParentId": 13975,
+              "department": "Ethnic, Gender, and Social Justice Studies",
+              "begin": "F2022",
+              "end": "F2024",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 287,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "groups": {
     "PREPARATION FOR THE MINOR": [
       {
@@ -62,18 +97,21 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Requirement",
-              "requirement": {
-                "name": "Lower-division Latin American and Latino Studies electives"
-              },
-              "requirementAttributes": [],
-              "id": "18193ddd-ac92-40ff-9aeb-0125385210ad",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Requirement",
+                "requirement": {
+                  "name": "Lower-division Latin American and Latino Studies electives"
+                },
+                "requirementAttributes": [],
+                "id": "18193ddd-ac92-40ff-9aeb-0125385210ad",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

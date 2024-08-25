@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -40,7 +42,9 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "agreements": [
     {
@@ -56,7 +60,8 @@
         "begin": "F2000",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": []
     }
@@ -70,31 +75,35 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 359575,
-                "courseTitle": "Introduction to Legal Process",
-                "courseNumber": "10",
-                "prefix": "LGST",
-                "prefixParentId": 6147,
-                "prefixDescription": "Legal Studies",
-                "departmentParentId": 8439,
-                "department": "Legal Studies",
-                "begin": "F2000",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "93fa4820-7845-417c-a58f-08e7ddbbd5ce",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 359575,
+                  "courseTitle": "Introduction to Legal Process",
+                  "courseNumber": "10",
+                  "prefix": "LGST",
+                  "prefixParentId": 6147,
+                  "prefixDescription": "Legal Studies",
+                  "departmentParentId": 8439,
+                  "department": "Legal Studies",
+                  "begin": "F2000",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "93fa4820-7845-417c-a58f-08e7ddbbd5ce",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

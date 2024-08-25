@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -40,9 +42,120 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
-  "agreements": [],
+  "agreements": [
+    {
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 382387,
+              "courseTitle": "Latin American and Indigenous Peoples History and Culture",
+              "courseNumber": "101",
+              "prefix": "ETHN",
+              "prefixParentId": 16893,
+              "prefixDescription": "Ethnic Studies",
+              "departmentParentId": 13998,
+              "department": "Ethnic Studies",
+              "begin": "F2022",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 287,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 336188,
+              "courseTitle": "Survey of Latin American History",
+              "courseNumber": "420",
+              "prefix": "HIST",
+              "prefixParentId": 3027,
+              "prefixDescription": "History",
+              "departmentParentId": 7020,
+              "department": "History",
+              "begin": "F1995",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 179,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 348652,
+              "courseTitle": "History of Latin@s/x in the United States",
+              "courseNumber": "429",
+              "prefix": "HIST",
+              "prefixParentId": 3027,
+              "prefixDescription": "History",
+              "departmentParentId": 7020,
+              "department": "History",
+              "begin": "F2022",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 287,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 204733,
+              "courseTitle": "Readings in Literature of the Latino in the United States",
+              "courseNumber": "370",
+              "prefix": "LIT.",
+              "prefixParentId": 4577,
+              "prefixDescription": "Literature",
+              "departmentParentId": 8661,
+              "department": "Literature",
+              "begin": "S2009",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 233,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "groups": {
     "PREPARATION FOR THE MINOR": [
       {
@@ -58,18 +171,21 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Requirement",
-              "requirement": {
-                "name": "Lower-division Latin American and Latino Studies electives"
-              },
-              "requirementAttributes": [],
-              "id": "18193ddd-ac92-40ff-9aeb-0125385210ad",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Requirement",
+                "requirement": {
+                  "name": "Lower-division Latin American and Latino Studies electives"
+                },
+                "requirementAttributes": [],
+                "id": "18193ddd-ac92-40ff-9aeb-0125385210ad",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

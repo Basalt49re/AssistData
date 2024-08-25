@@ -23,7 +23,9 @@
         "termType": "Semester",
         "fromYear": 2009
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -44,7 +46,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "agreements": [],
   "groups": {
@@ -56,31 +60,35 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 305505,
-                "courseTitle": "Spanish for Bilinguals",
-                "courseNumber": "250",
-                "prefix": "SPAN",
-                "prefixParentId": 3170,
-                "prefixDescription": "Spanish",
-                "departmentParentId": 12265,
-                "department": "Spanish",
-                "begin": "F1999",
-                "end": "",
-                "minUnits": 6,
-                "maxUnits": 6
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "a4587143-6654-448a-8151-ac6da88e1072",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 305505,
+                  "courseTitle": "Spanish for Bilinguals",
+                  "courseNumber": "250",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3170,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12265,
+                  "department": "Spanish",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 6,
+                  "maxUnits": 6,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "a4587143-6654-448a-8151-ac6da88e1072",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

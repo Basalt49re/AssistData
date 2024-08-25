@@ -23,7 +23,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -44,7 +46,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "agreements": [
     {
@@ -60,7 +64,8 @@
         "begin": "F2012",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": []
       },
       "courses": [
         {
@@ -82,6 +87,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -103,7 +109,8 @@
         "begin": "F1999",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": []
       },
       "courses": [
         {
@@ -125,6 +132,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -146,7 +154,8 @@
         "begin": "F1999",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": []
       },
       "courses": [
         {
@@ -168,6 +177,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -189,7 +199,8 @@
         "begin": "S2006",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": []
       },
       "courses": [
         {
@@ -211,6 +222,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -233,9 +245,10 @@
               "departmentParentId": 1936,
               "department": "Business",
               "begin": "F1995",
-              "end": "",
+              "end": "F2024",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -257,11 +270,12 @@
         "begin": "F2015",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": []
       },
       "courses": [
         {
-          "group": "And",
+          "group": "Or",
           "classes": [
             {
               "visibleCrossListedCourses": [],
@@ -279,8 +293,30 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
-              "publishedCourseIdentifierYearTermId": null,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 251,
               "position": 0,
+              "type": "Course"
+            },
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 385529,
+              "courseTitle": "Calculus for Business and the Social Sciences Enhanced",
+              "courseNumber": "130E",
+              "prefix": "MATH",
+              "prefixParentId": 9964,
+              "prefixDescription": "Mathematics",
+              "departmentParentId": 8992,
+              "department": "Mathematics",
+              "begin": "F2023",
+              "end": "",
+              "minUnits": 4,
+              "maxUnits": 4,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 291,
+              "position": 1,
               "type": "Course"
             }
           ]
@@ -300,7 +336,8 @@
         "begin": "F1998",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": []
       },
       "courses": [
         {
@@ -322,6 +359,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -343,11 +381,12 @@
         "begin": "F2014",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": []
       },
       "courses": [
         {
-          "group": "And",
+          "group": "Or",
           "classes": [
             {
               "visibleCrossListedCourses": [],
@@ -365,30 +404,13 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
-              "publishedCourseIdentifierYearTermId": null,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 259,
               "position": 0,
               "type": "Course"
             }
           ]
-        }
-      ]
-    },
-    {
-      "target": {
-        "courseIdentifierParentId": 176742,
-        "courseTitle": "Statistics for Everyday Life",
-        "courseNumber": "108",
-        "prefix": "STAT",
-        "prefixParentId": 14697,
-        "prefixDescription": "Statistics",
-        "departmentParentId": 12546,
-        "department": "Statistics",
-        "begin": "S2010",
-        "end": "",
-        "minUnits": 3,
-        "maxUnits": 3
-      },
-      "courses": [
+        },
         {
           "group": "And",
           "classes": [
@@ -396,19 +418,20 @@
               "visibleCrossListedCourses": [],
               "requisites": [],
               "attributes": [],
-              "courseIdentifierParentId": 202371,
-              "courseTitle": "Elementary Statistics",
-              "courseNumber": "120",
+              "courseIdentifierParentId": 385526,
+              "courseTitle": "Elementary Statistics Enhanced",
+              "courseNumber": "120E",
               "prefix": "MATH",
               "prefixParentId": 9964,
               "prefixDescription": "Mathematics",
               "departmentParentId": 8992,
               "department": "Mathematics",
-              "begin": "F2015",
+              "begin": "F2023",
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
-              "publishedCourseIdentifierYearTermId": null,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 291,
               "position": 0,
               "type": "Course"
             }
@@ -433,7 +456,131 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
-              "publishedCourseIdentifierYearTermId": null,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 271,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "courseIdentifierParentId": 176742,
+        "courseTitle": "Statistics for Everyday Life",
+        "courseNumber": "108",
+        "prefix": "STAT",
+        "prefixParentId": 14697,
+        "prefixDescription": "Statistics",
+        "departmentParentId": 12546,
+        "department": "Statistics",
+        "begin": "S2010",
+        "end": "",
+        "minUnits": 3,
+        "maxUnits": 3,
+        "pathways": []
+      },
+      "courses": [
+        {
+          "group": "Or",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 349681,
+              "courseTitle": "Quantitative Business Analysis",
+              "courseNumber": "204",
+              "prefix": "BUS",
+              "prefixParentId": 8242,
+              "prefixDescription": "Business",
+              "departmentParentId": 1936,
+              "department": "Business",
+              "begin": "F2018",
+              "end": "",
+              "minUnits": 4,
+              "maxUnits": 4,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 271,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 202371,
+              "courseTitle": "Elementary Statistics",
+              "courseNumber": "120",
+              "prefix": "MATH",
+              "prefixParentId": 9964,
+              "prefixDescription": "Mathematics",
+              "departmentParentId": 8992,
+              "department": "Mathematics",
+              "begin": "F2015",
+              "end": "",
+              "minUnits": 4,
+              "maxUnits": 4,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 259,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 385526,
+              "courseTitle": "Elementary Statistics Enhanced",
+              "courseNumber": "120E",
+              "prefix": "MATH",
+              "prefixParentId": 9964,
+              "prefixDescription": "Mathematics",
+              "departmentParentId": 8992,
+              "department": "Mathematics",
+              "begin": "F2023",
+              "end": "",
+              "minUnits": 4,
+              "maxUnits": 4,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 291,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 382754,
+              "courseTitle": "Social Justice Statistics",
+              "courseNumber": "180",
+              "prefix": "SOC",
+              "prefixParentId": 9031,
+              "prefixDescription": "Sociology",
+              "departmentParentId": 12069,
+              "department": "Sociology",
+              "begin": "F2022",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 287,
               "position": 0,
               "type": "Course"
             }
@@ -454,7 +601,8 @@
         "begin": "F2022",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": []
       },
       "courses": [
         {
@@ -476,6 +624,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -505,6 +654,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -530,6 +680,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -555,6 +706,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -580,6 +732,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -605,6 +758,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -630,6 +784,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -652,9 +807,10 @@
               "departmentParentId": 12424,
               "department": "Speech",
               "begin": "F1995",
-              "end": "",
+              "end": "F2024",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -673,146 +829,155 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 265979,
-                "courseTitle": "Managerial Accounting",
-                "courseNumber": "202",
-                "prefix": "ACCT",
-                "prefixParentId": 5751,
-                "prefixDescription": "Accounting",
-                "departmentParentId": 39,
-                "department": "Accounting",
-                "begin": "F2012",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 265979,
+                  "courseTitle": "Managerial Accounting",
+                  "courseNumber": "202",
+                  "prefix": "ACCT",
+                  "prefixParentId": 5751,
+                  "prefixDescription": "Accounting",
+                  "departmentParentId": 39,
+                  "department": "Accounting",
+                  "begin": "F2012",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "83d1e8dd-3860-4aef-8172-44f5976f17eb",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "83d1e8dd-3860-4aef-8172-44f5976f17eb",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 190442,
-                "courseTitle": "Principles of Macroeconomics",
-                "courseNumber": "100",
-                "prefix": "ECON",
-                "prefixParentId": 1255,
-                "prefixDescription": "Economics",
-                "departmentParentId": 4282,
-                "department": "Economics",
-                "begin": "F1999",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 190442,
+                  "courseTitle": "Principles of Macroeconomics",
+                  "courseNumber": "100",
+                  "prefix": "ECON",
+                  "prefixParentId": 1255,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4282,
+                  "department": "Economics",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "cfc89bf0-b16f-4777-acc8-cf64a3b9a193",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "cfc89bf0-b16f-4777-acc8-cf64a3b9a193",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 174571,
-                "courseTitle": "Principles of Microeconomics",
-                "courseNumber": "101",
-                "prefix": "ECON",
-                "prefixParentId": 1255,
-                "prefixDescription": "Economics",
-                "departmentParentId": 4282,
-                "department": "Economics",
-                "begin": "F1999",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 174571,
+                  "courseTitle": "Principles of Microeconomics",
+                  "courseNumber": "101",
+                  "prefix": "ECON",
+                  "prefixParentId": 1255,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4282,
+                  "department": "Economics",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "13c76e75-c51b-435e-9628-0b4674354743",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "13c76e75-c51b-435e-9628-0b4674354743",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 211217,
-                "courseTitle": "Introduction to Law and Business Transactions",
-                "courseNumber": "220",
-                "prefix": "BLAW",
-                "prefixParentId": 13986,
-                "prefixDescription": "Business Law",
-                "departmentParentId": 2108,
-                "department": "Business Law",
-                "begin": "S2006",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 211217,
+                  "courseTitle": "Introduction to Law and Business Transactions",
+                  "courseNumber": "220",
+                  "prefix": "BLAW",
+                  "prefixParentId": 13986,
+                  "prefixDescription": "Business Law",
+                  "departmentParentId": 2108,
+                  "department": "Business Law",
+                  "begin": "S2006",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "d3e6ff90-2a8e-4750-a5a6-488d7e6225ba",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "d3e6ff90-2a8e-4750-a5a6-488d7e6225ba",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 177104,
-                "courseTitle": "Calculus for Business",
-                "courseNumber": "115",
-                "prefix": "MATH",
-                "prefixParentId": 9989,
-                "prefixDescription": "Mathematics and Statistics",
-                "departmentParentId": 9084,
-                "department": "Mathematics and Statistics",
-                "begin": "F2015",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 177104,
+                  "courseTitle": "Calculus for Business",
+                  "courseNumber": "115",
+                  "prefix": "MATH",
+                  "prefixParentId": 9989,
+                  "prefixDescription": "Mathematics and Statistics",
+                  "departmentParentId": 9084,
+                  "department": "Mathematics and Statistics",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "a7e42f6f-246c-49a6-aeda-863e4d059709",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "a7e42f6f-246c-49a6-aeda-863e4d059709",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 226573,
-                "courseTitle": "Elementary Financial Accounting",
-                "courseNumber": "201",
-                "prefix": "ACCT",
-                "prefixParentId": 5751,
-                "prefixDescription": "Accounting",
-                "departmentParentId": 39,
-                "department": "Accounting",
-                "begin": "F1998",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "1e5c5602-bc06-4a20-9697-a79a2c9db4c2",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 226573,
+                  "courseTitle": "Elementary Financial Accounting",
+                  "courseNumber": "201",
+                  "prefix": "ACCT",
+                  "prefixParentId": 5751,
+                  "prefixDescription": "Accounting",
+                  "departmentParentId": 39,
+                  "department": "Accounting",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "1e5c5602-bc06-4a20-9697-a79a2c9db4c2",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ],
@@ -825,56 +990,64 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 268090,
-                "courseTitle": "Introductory Business Statistics",
-                "courseNumber": "118",
-                "prefix": "STAT",
-                "prefixParentId": 14697,
-                "prefixDescription": "Statistics",
-                "departmentParentId": 12546,
-                "department": "Statistics",
-                "begin": "F2014",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "ba5d577d-5df6-4699-ce2b-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 176742,
-                "courseTitle": "Statistics for Everyday Life",
-                "courseNumber": "108",
-                "prefix": "STAT",
-                "prefixParentId": 14697,
-                "prefixDescription": "Statistics",
-                "departmentParentId": 12546,
-                "department": "Statistics",
-                "begin": "S2010",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "4e07283d-c12d-4eaf-9b3e-4a55483340bb",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 268090,
+                  "courseTitle": "Introductory Business Statistics",
+                  "courseNumber": "118",
+                  "prefix": "STAT",
+                  "prefixParentId": 14697,
+                  "prefixDescription": "Statistics",
+                  "departmentParentId": 12546,
+                  "department": "Statistics",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "ba5d577d-5df6-4699-ce2b-08db99b6efb0",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 176742,
+                  "courseTitle": "Statistics for Everyday Life",
+                  "courseNumber": "108",
+                  "prefix": "STAT",
+                  "prefixParentId": 14697,
+                  "prefixDescription": "Statistics",
+                  "departmentParentId": 12546,
+                  "department": "Statistics",
+                  "begin": "S2010",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "4e07283d-c12d-4eaf-9b3e-4a55483340bb",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ],
@@ -887,44 +1060,51 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "CSUGE",
-              "csuge": {
-                "areaType": "CSUGE",
-                "name": "Critical Thinking",
-                "code": "A3"
-              },
-              "id": "a6e9d381-3550-4fcd-2006-08db93657f9b",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 348000,
-                "courseTitle": "Critical Thinking and Information Technology Literacy",
-                "courseNumber": "100",
-                "prefix": "I S",
-                "prefixParentId": 5316,
-                "prefixDescription": "Information Systems",
-                "departmentParentId": 7508,
-                "department": "Information Systems",
-                "begin": "S2013",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "abf2c49c-5578-4f55-967d-6d8873bbdd08",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "CSUGE",
+                "csuge": {
+                  "areaType": "CSUGE",
+                  "name": "Critical Thinking",
+                  "code": "A3"
+                },
+                "id": "a6e9d381-3550-4fcd-2006-08db93657f9b",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 348000,
+                  "courseTitle": "Critical Thinking and Information Technology Literacy",
+                  "courseNumber": "100",
+                  "prefix": "I S",
+                  "prefixParentId": 5316,
+                  "prefixDescription": "Information Systems",
+                  "departmentParentId": 7508,
+                  "department": "Information Systems",
+                  "begin": "S2013",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "abf2c49c-5578-4f55-967d-6d8873bbdd08",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ],
@@ -936,31 +1116,35 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 238112,
-                "courseTitle": "Introduction to Business Data Analysis and Programming",
-                "courseNumber": "233",
-                "prefix": "I S",
-                "prefixParentId": 5316,
-                "prefixDescription": "Information Systems",
-                "departmentParentId": 7508,
-                "department": "Information Systems",
-                "begin": "F2022",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "0789a1a7-7dcc-4add-a85c-61e8e3ced4ec",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 238112,
+                  "courseTitle": "Introduction to Business Data Analysis and Programming",
+                  "courseNumber": "233",
+                  "prefix": "I S",
+                  "prefixParentId": 5316,
+                  "prefixDescription": "Information Systems",
+                  "departmentParentId": 7508,
+                  "department": "Information Systems",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "0789a1a7-7dcc-4add-a85c-61e8e3ced4ec",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

@@ -33,7 +33,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -54,7 +56,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "agreements": [
     {
@@ -70,7 +74,8 @@
         "begin": "S2016",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": null
       },
       "courses": [
         {
@@ -92,6 +97,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -117,6 +123,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -142,6 +149,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -167,6 +175,7 @@
               "end": "",
               "minUnits": 4.5,
               "maxUnits": 4.5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -188,7 +197,8 @@
         "begin": "S2016",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": null
       },
       "courses": [
         {
@@ -210,6 +220,7 @@
               "end": "",
               "minUnits": 4.5,
               "maxUnits": 4.5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -235,6 +246,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -260,6 +272,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -285,6 +298,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -306,7 +320,8 @@
         "begin": "S2016",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": null
       },
       "courses": [
         {
@@ -328,6 +343,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -353,6 +369,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -378,6 +395,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -403,6 +421,7 @@
               "end": "",
               "minUnits": 4.5,
               "maxUnits": 4.5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -424,7 +443,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -446,6 +466,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -471,6 +492,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -492,7 +514,8 @@
         "begin": "F1999",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -514,6 +537,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -539,6 +563,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -557,54 +582,59 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 341614,
-                "courseTitle": "Principles of Sociology",
-                "courseNumber": "100",
-                "prefix": "SOC",
-                "prefixParentId": 9057,
-                "prefixDescription": "Sociology",
-                "departmentParentId": 12086,
-                "department": "Sociology",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 341614,
+                  "courseTitle": "Principles of Sociology",
+                  "courseNumber": "100",
+                  "prefix": "SOC",
+                  "prefixParentId": 9057,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12086,
+                  "department": "Sociology",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "74b0b3eb-9fe7-42af-8ab7-434b9174ffb4",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "74b0b3eb-9fe7-42af-8ab7-434b9174ffb4",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 341534,
-                "courseTitle": "Social Trends and Problems",
-                "courseNumber": "142",
-                "prefix": "SOC",
-                "prefixParentId": 9057,
-                "prefixDescription": "Sociology",
-                "departmentParentId": 12086,
-                "department": "Sociology",
-                "begin": "F1999",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "7b18505a-d42a-44a5-8b25-cfb6ba27fa8c",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 341534,
+                  "courseTitle": "Social Trends and Problems",
+                  "courseNumber": "142",
+                  "prefix": "SOC",
+                  "prefixParentId": 9057,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12086,
+                  "department": "Sociology",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "7b18505a-d42a-44a5-8b25-cfb6ba27fa8c",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       },
       {
@@ -615,81 +645,93 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 273792,
-                "courseTitle": "Elementary Statistics",
-                "courseNumber": "170",
-                "prefix": "SOC",
-                "prefixParentId": 9057,
-                "prefixDescription": "Sociology",
-                "departmentParentId": 12086,
-                "department": "Sociology",
-                "begin": "S2016",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "30058cc9-f2e2-4818-209d-08db93657f9b",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 293277,
-                "courseTitle": "Elementary Statistics in Social and Behavioral Sciences",
-                "courseNumber": "190",
-                "prefix": "HDEV",
-                "prefixParentId": 2266,
-                "prefixDescription": "Human Development",
-                "departmentParentId": 7208,
-                "department": "Human Development",
-                "begin": "S2016",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "d18cef73-700c-4a90-8d9c-08dba897c33b",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 294148,
-                "courseTitle": "Introductory Statistics",
-                "courseNumber": "110",
-                "prefix": "PSY",
-                "prefixParentId": 4673,
-                "prefixDescription": "Psychology",
-                "departmentParentId": 11201,
-                "department": "Psychology",
-                "begin": "S2016",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "830491ad-c823-4a34-8d9d-08dba897c33b",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 273792,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "170",
+                  "prefix": "SOC",
+                  "prefixParentId": 9057,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12086,
+                  "department": "Sociology",
+                  "begin": "S2016",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "30058cc9-f2e2-4818-209d-08db93657f9b",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 293277,
+                  "courseTitle": "Elementary Statistics in Social and Behavioral Sciences",
+                  "courseNumber": "190",
+                  "prefix": "HDEV",
+                  "prefixParentId": 2266,
+                  "prefixDescription": "Human Development",
+                  "departmentParentId": 7208,
+                  "department": "Human Development",
+                  "begin": "S2016",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "d18cef73-700c-4a90-8d9c-08dba897c33b",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 294148,
+                  "courseTitle": "Introductory Statistics",
+                  "courseNumber": "110",
+                  "prefix": "PSY",
+                  "prefixParentId": 4673,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11201,
+                  "department": "Psychology",
+                  "begin": "S2016",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "830491ad-c823-4a34-8d9d-08dba897c33b",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       },
       {
@@ -699,31 +741,35 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 272742,
-                "courseTitle": "Introduction to Research Methods",
-                "courseNumber": "270",
-                "prefix": "SOC",
-                "prefixParentId": 9057,
-                "prefixDescription": "Sociology",
-                "departmentParentId": 12086,
-                "department": "Sociology",
-                "begin": "F2015",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "04746ec0-b71d-4d22-d322-08dbc501b57d",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 272742,
+                  "courseTitle": "Introduction to Research Methods",
+                  "courseNumber": "270",
+                  "prefix": "SOC",
+                  "prefixParentId": 9057,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12086,
+                  "department": "Sociology",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "04746ec0-b71d-4d22-d322-08dbc501b57d",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

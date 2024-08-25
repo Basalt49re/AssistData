@@ -23,7 +23,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -44,7 +46,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "agreements": [
     {
@@ -60,7 +64,8 @@
         "begin": "F1999",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -82,6 +87,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -103,7 +109,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -125,6 +132,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -143,54 +151,59 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 178825,
-                "courseTitle": "General Psychology",
-                "courseNumber": "100",
-                "prefix": "PSY",
-                "prefixParentId": 4673,
-                "prefixDescription": "Psychology",
-                "departmentParentId": 11201,
-                "department": "Psychology",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 178825,
+                  "courseTitle": "General Psychology",
+                  "courseNumber": "100",
+                  "prefix": "PSY",
+                  "prefixParentId": 4673,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11201,
+                  "department": "Psychology",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "64e00813-9fd9-44f4-af21-004f8d809530",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "64e00813-9fd9-44f4-af21-004f8d809530",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 178193,
-                "courseTitle": "Introduction to Cultural Anthropology",
-                "courseNumber": "120",
-                "prefix": "ANTH",
-                "prefixParentId": 10764,
-                "prefixDescription": "Anthropology",
-                "departmentParentId": 729,
-                "department": "Anthropology",
-                "begin": "F1999",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "996eca8e-a4db-47cc-b4db-c6891aebe9a0",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 178193,
+                  "courseTitle": "Introduction to Cultural Anthropology",
+                  "courseNumber": "120",
+                  "prefix": "ANTH",
+                  "prefixParentId": 10764,
+                  "prefixDescription": "Anthropology",
+                  "departmentParentId": 729,
+                  "department": "Anthropology",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "996eca8e-a4db-47cc-b4db-c6891aebe9a0",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       },
       {
@@ -200,31 +213,35 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 49360,
-                "courseTitle": "Introduction to Family and Consumer Sciences",
-                "courseNumber": "299",
-                "prefix": "CAFF",
-                "prefixParentId": 13980,
-                "prefixDescription": "Consumer Affairs",
-                "departmentParentId": 3394,
-                "department": "Consumer Affairs",
-                "begin": "F2020",
-                "end": "",
-                "minUnits": 1,
-                "maxUnits": 1
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "203dd9a4-761b-4016-bdd4-636a0cd99495",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 49360,
+                  "courseTitle": "Introduction to Family and Consumer Sciences",
+                  "courseNumber": "299",
+                  "prefix": "CAFF",
+                  "prefixParentId": 13980,
+                  "prefixDescription": "Consumer Affairs",
+                  "departmentParentId": 3394,
+                  "department": "Consumer Affairs",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "203dd9a4-761b-4016-bdd4-636a0cd99495",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

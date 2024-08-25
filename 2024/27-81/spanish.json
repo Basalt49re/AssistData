@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -40,9 +42,83 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
-  "agreements": [],
+  "agreements": [
+    {
+      "target": {
+        "courseIdentifierParentId": 305505,
+        "courseTitle": "Spanish for Bilinguals",
+        "courseNumber": "250",
+        "prefix": "SPAN",
+        "prefixParentId": 3170,
+        "prefixDescription": "Spanish",
+        "departmentParentId": 12265,
+        "department": "Spanish",
+        "begin": "F1999",
+        "end": "",
+        "minUnits": 6,
+        "maxUnits": 6,
+        "pathways": null
+      },
+      "courses": [
+        {
+          "group": "Or",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 373731,
+              "courseTitle": "Spanish for Native Speakers I",
+              "courseNumber": "413",
+              "prefix": "SPAN",
+              "prefixParentId": 3113,
+              "prefixDescription": "Spanish",
+              "departmentParentId": 12231,
+              "department": "Spanish",
+              "begin": "Su2020",
+              "end": "",
+              "minUnits": 4,
+              "maxUnits": 4,
+              "pathways": null,
+              "publishedCourseIdentifierYearTermId": 278,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 379267,
+              "courseTitle": "Spanish for Native Speakers II",
+              "courseNumber": "415",
+              "prefix": "SPAN",
+              "prefixParentId": 3113,
+              "prefixDescription": "Spanish",
+              "departmentParentId": 12231,
+              "department": "Spanish",
+              "begin": "Su2022",
+              "end": "",
+              "minUnits": 4,
+              "maxUnits": 4,
+              "pathways": null,
+              "publishedCourseIdentifierYearTermId": 286,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "groups": {
     "PREREQUISITES": [
       {
@@ -52,31 +128,35 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 305505,
-                "courseTitle": "Spanish for Bilinguals",
-                "courseNumber": "250",
-                "prefix": "SPAN",
-                "prefixParentId": 3170,
-                "prefixDescription": "Spanish",
-                "departmentParentId": 12265,
-                "department": "Spanish",
-                "begin": "F1999",
-                "end": "",
-                "minUnits": 6,
-                "maxUnits": 6
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "a4587143-6654-448a-8151-ac6da88e1072",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 305505,
+                  "courseTitle": "Spanish for Bilinguals",
+                  "courseNumber": "250",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3170,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12265,
+                  "department": "Spanish",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 6,
+                  "maxUnits": 6,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "a4587143-6654-448a-8151-ac6da88e1072",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

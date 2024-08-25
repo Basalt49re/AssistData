@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -40,7 +42,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "agreements": [
     {
@@ -56,7 +60,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -78,6 +83,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -96,31 +102,35 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 250292,
-                "courseTitle": "Jewish Civilization",
-                "courseNumber": "141",
-                "prefix": "HIST",
-                "prefixParentId": 2979,
-                "prefixDescription": "History",
-                "departmentParentId": 6982,
-                "department": "History",
-                "begin": "F2005",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "82d0bfd3-578f-4e54-ba5c-9fc213400239",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 250292,
+                  "courseTitle": "Jewish Civilization",
+                  "courseNumber": "141",
+                  "prefix": "HIST",
+                  "prefixParentId": 2979,
+                  "prefixDescription": "History",
+                  "departmentParentId": 6982,
+                  "department": "History",
+                  "begin": "F2005",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "82d0bfd3-578f-4e54-ba5c-9fc213400239",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ],
@@ -138,54 +148,59 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 214314,
-                "courseTitle": "Introduction to the Bible",
-                "courseNumber": "210",
-                "prefix": "R/ST",
-                "prefixParentId": 2142,
-                "prefixDescription": "Religious Studies",
-                "departmentParentId": 11672,
-                "department": "Religious Studies",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 214314,
+                  "courseTitle": "Introduction to the Bible",
+                  "courseNumber": "210",
+                  "prefix": "R/ST",
+                  "prefixParentId": 2142,
+                  "prefixDescription": "Religious Studies",
+                  "departmentParentId": 11672,
+                  "department": "Religious Studies",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "d85da356-a869-42e4-95d9-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "d85da356-a869-42e4-95d9-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 241362,
-                "courseTitle": "Heaven, Hell and Other Afterlives",
-                "courseNumber": "230",
-                "prefix": "R/ST",
-                "prefixParentId": 2142,
-                "prefixDescription": "Religious Studies",
-                "departmentParentId": 11672,
-                "department": "Religious Studies",
-                "begin": "F2011",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "517773c2-6ab3-4d58-95da-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 241362,
+                  "courseTitle": "Heaven, Hell and Other Afterlives",
+                  "courseNumber": "230",
+                  "prefix": "R/ST",
+                  "prefixParentId": 2142,
+                  "prefixDescription": "Religious Studies",
+                  "departmentParentId": 11672,
+                  "department": "Religious Studies",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "517773c2-6ab3-4d58-95da-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ],
@@ -203,100 +218,107 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 383411,
-                "courseTitle": "Jewish Humor",
-                "courseNumber": "100",
-                "prefix": "HEBW",
-                "prefixParentId": 13081,
-                "prefixDescription": "Hebrew",
-                "departmentParentId": 6905,
-                "department": "Hebrew",
-                "begin": "F2022",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 383411,
+                  "courseTitle": "Jewish Humor",
+                  "courseNumber": "100",
+                  "prefix": "HEBW",
+                  "prefixParentId": 13081,
+                  "prefixDescription": "Hebrew",
+                  "departmentParentId": 6905,
+                  "department": "Hebrew",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "f6eaabaa-e093-48e5-95db-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "f6eaabaa-e093-48e5-95db-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 356250,
-                "courseTitle": "Fundamentals of Hebrew",
-                "courseNumber": "101A",
-                "prefix": "HEBW",
-                "prefixParentId": 13081,
-                "prefixDescription": "Hebrew",
-                "departmentParentId": 6905,
-                "department": "Hebrew",
-                "begin": "S2010",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 356250,
+                  "courseTitle": "Fundamentals of Hebrew",
+                  "courseNumber": "101A",
+                  "prefix": "HEBW",
+                  "prefixParentId": 13081,
+                  "prefixDescription": "Hebrew",
+                  "departmentParentId": 6905,
+                  "department": "Hebrew",
+                  "begin": "S2010",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "9ae93264-178d-40ea-95dc-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "9ae93264-178d-40ea-95dc-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 298881,
-                "courseTitle": "Fundamentals of Hebrew",
-                "courseNumber": "101B",
-                "prefix": "HEBW",
-                "prefixParentId": 13081,
-                "prefixDescription": "Hebrew",
-                "departmentParentId": 6905,
-                "department": "Hebrew",
-                "begin": "S2010",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 298881,
+                  "courseTitle": "Fundamentals of Hebrew",
+                  "courseNumber": "101B",
+                  "prefix": "HEBW",
+                  "prefixParentId": 13081,
+                  "prefixDescription": "Hebrew",
+                  "departmentParentId": 6905,
+                  "department": "Hebrew",
+                  "begin": "S2010",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "44f323b3-f164-468e-95dd-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "44f323b3-f164-468e-95dd-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 236144,
-                "courseTitle": "Love and Marriage in the Biblical Tradition",
-                "courseNumber": "210",
-                "prefix": "HEBW",
-                "prefixParentId": 13081,
-                "prefixDescription": "Hebrew",
-                "departmentParentId": 6905,
-                "department": "Hebrew",
-                "begin": "F2022",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "94c8572c-f5ac-463f-95de-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 236144,
+                  "courseTitle": "Love and Marriage in the Biblical Tradition",
+                  "courseNumber": "210",
+                  "prefix": "HEBW",
+                  "prefixParentId": 13081,
+                  "prefixDescription": "Hebrew",
+                  "departmentParentId": 6905,
+                  "department": "Hebrew",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "94c8572c-f5ac-463f-95de-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

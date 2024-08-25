@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -40,7 +42,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "agreements": [
     {
@@ -56,7 +60,8 @@
         "begin": "F2003",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": null
       },
       "courses": [
         {
@@ -78,6 +83,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": 203,
               "position": 0,
               "type": "Course"
@@ -99,7 +105,8 @@
         "begin": "F2003",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -121,6 +128,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -142,7 +150,8 @@
         "begin": "F2003",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": null
       },
       "courses": [
         {
@@ -164,6 +173,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": 203,
               "position": 0,
               "type": "Course"
@@ -185,7 +195,8 @@
         "begin": "F2003",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": null
       },
       "courses": [
         {
@@ -207,6 +218,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -228,7 +240,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 4,
-        "maxUnits": 4
+        "maxUnits": 4,
+        "pathways": null
       },
       "courses": [
         {
@@ -250,6 +263,7 @@
               "end": "",
               "minUnits": 4,
               "maxUnits": 4,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -271,7 +285,8 @@
         "begin": "F2009",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -293,6 +308,7 @@
               "end": "",
               "minUnits": 3.5,
               "maxUnits": 3.5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -318,6 +334,7 @@
               "end": "",
               "minUnits": 3.5,
               "maxUnits": 3.5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -343,6 +360,7 @@
               "end": "",
               "minUnits": 3.5,
               "maxUnits": 3.5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -361,169 +379,179 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 174149,
-                "courseTitle": "Calculus I",
-                "courseNumber": "122",
-                "prefix": "MATH",
-                "prefixParentId": 9989,
-                "prefixDescription": "Mathematics and Statistics",
-                "departmentParentId": 9084,
-                "department": "Mathematics and Statistics",
-                "begin": "F2003",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 174149,
+                  "courseTitle": "Calculus I",
+                  "courseNumber": "122",
+                  "prefix": "MATH",
+                  "prefixParentId": 9989,
+                  "prefixDescription": "Mathematics and Statistics",
+                  "departmentParentId": 9084,
+                  "department": "Mathematics and Statistics",
+                  "begin": "F2003",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "4f0be2f8-0675-4289-8cb3-58deceef9d3f",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "4f0be2f8-0675-4289-8cb3-58deceef9d3f",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 222660,
-                "courseTitle": "Fundamental Concepts for Advanced Mathematics",
-                "courseNumber": "233",
-                "prefix": "MATH",
-                "prefixParentId": 9989,
-                "prefixDescription": "Mathematics and Statistics",
-                "departmentParentId": 9084,
-                "department": "Mathematics and Statistics",
-                "begin": "F2003",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 222660,
+                  "courseTitle": "Fundamental Concepts for Advanced Mathematics",
+                  "courseNumber": "233",
+                  "prefix": "MATH",
+                  "prefixParentId": 9989,
+                  "prefixDescription": "Mathematics and Statistics",
+                  "departmentParentId": 9084,
+                  "department": "Mathematics and Statistics",
+                  "begin": "F2003",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "d4b419df-b7c1-4446-9b85-051476e087b1",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "d4b419df-b7c1-4446-9b85-051476e087b1",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 178786,
-                "courseTitle": "Introduction to Linear Algebra",
-                "courseNumber": "247",
-                "prefix": "MATH",
-                "prefixParentId": 9989,
-                "prefixDescription": "Mathematics and Statistics",
-                "departmentParentId": 9084,
-                "department": "Mathematics and Statistics",
-                "begin": "F2003",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 178786,
+                  "courseTitle": "Introduction to Linear Algebra",
+                  "courseNumber": "247",
+                  "prefix": "MATH",
+                  "prefixParentId": 9989,
+                  "prefixDescription": "Mathematics and Statistics",
+                  "departmentParentId": 9084,
+                  "department": "Mathematics and Statistics",
+                  "begin": "F2003",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "96b65bff-3042-4bf4-af79-557c163fd6a7",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "96b65bff-3042-4bf4-af79-557c163fd6a7",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 293340,
-                "courseTitle": "Calculus II",
-                "courseNumber": "123",
-                "prefix": "MATH",
-                "prefixParentId": 9989,
-                "prefixDescription": "Mathematics and Statistics",
-                "departmentParentId": 9084,
-                "department": "Mathematics and Statistics",
-                "begin": "F2003",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 293340,
+                  "courseTitle": "Calculus II",
+                  "courseNumber": "123",
+                  "prefix": "MATH",
+                  "prefixParentId": 9989,
+                  "prefixDescription": "Mathematics and Statistics",
+                  "departmentParentId": 9084,
+                  "department": "Mathematics and Statistics",
+                  "begin": "F2003",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "4efb5c88-2bc3-473f-80e1-01f6206b56ca",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "4efb5c88-2bc3-473f-80e1-01f6206b56ca",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 257816,
-                "courseTitle": "Calculus III",
-                "courseNumber": "224",
-                "prefix": "MATH",
-                "prefixParentId": 9989,
-                "prefixDescription": "Mathematics and Statistics",
-                "departmentParentId": 9084,
-                "department": "Mathematics and Statistics",
-                "begin": "F2003",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 257816,
+                  "courseTitle": "Calculus III",
+                  "courseNumber": "224",
+                  "prefix": "MATH",
+                  "prefixParentId": 9989,
+                  "prefixDescription": "Mathematics and Statistics",
+                  "departmentParentId": 9084,
+                  "department": "Mathematics and Statistics",
+                  "begin": "F2003",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "33fb004b-79a9-4f1f-820d-6d5953cfd73e",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "33fb004b-79a9-4f1f-820d-6d5953cfd73e",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 257780,
-                "courseTitle": "Mechanics and Heat",
-                "courseNumber": "151",
-                "prefix": "PHYS",
-                "prefixParentId": 263,
-                "prefixDescription": "Physics",
-                "departmentParentId": 10794,
-                "department": "Physics",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 4,
-                "maxUnits": 4
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 257780,
+                  "courseTitle": "Mechanics and Heat",
+                  "courseNumber": "151",
+                  "prefix": "PHYS",
+                  "prefixParentId": 263,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10794,
+                  "department": "Physics",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "280922bf-afa5-4957-bb20-8b3b823db68c",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "280922bf-afa5-4957-bb20-8b3b823db68c",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 341666,
-                "courseTitle": "Introduction to Programming and Problem Solving",
-                "courseNumber": "174",
-                "prefix": "CECS",
-                "prefixParentId": 1109,
-                "prefixDescription": "Computer Engineering Computer Science",
-                "departmentParentId": 3046,
-                "department": "Computer Engineering Computer Science",
-                "begin": "F2009",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "92ed1ca4-c5df-4151-be1d-68a8384b8bd2",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 341666,
+                  "courseTitle": "Introduction to Programming and Problem Solving",
+                  "courseNumber": "174",
+                  "prefix": "CECS",
+                  "prefixParentId": 1109,
+                  "prefixDescription": "Computer Engineering Computer Science",
+                  "departmentParentId": 3046,
+                  "department": "Computer Engineering Computer Science",
+                  "begin": "F2009",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "92ed1ca4-c5df-4151-be1d-68a8384b8bd2",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

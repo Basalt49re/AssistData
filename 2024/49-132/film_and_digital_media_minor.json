@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -40,7 +42,9 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "agreements": [
     {
@@ -56,7 +60,8 @@
         "begin": "F2011",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": []
       },
       "courses": [
         {
@@ -78,6 +83,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -97,79 +103,96 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 281604,
-                "courseTitle": "Introduction to Film Studies",
-                "courseNumber": "20A",
-                "prefix": "FILM",
-                "prefixParentId": 8717,
-                "prefixDescription": "Film and Digital Media",
-                "departmentParentId": 5616,
-                "department": "Film and Digital Media",
-                "begin": "F2011",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 281604,
+                  "courseTitle": "Introduction to Film Studies",
+                  "courseNumber": "20A",
+                  "prefix": "FILM",
+                  "prefixParentId": 8717,
+                  "prefixDescription": "Film and Digital Media",
+                  "departmentParentId": 5616,
+                  "department": "Film and Digital Media",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "74a6a7d7-036c-4710-9692-309808999ad4",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 308765,
+                  "courseTitle": "Introduction to Digital Media",
+                  "courseNumber": "20C",
+                  "prefix": "FILM",
+                  "prefixParentId": 8717,
+                  "prefixDescription": "Film and Digital Media",
+                  "departmentParentId": 5616,
+                  "department": "Film and Digital Media",
+                  "begin": "F2001",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "1a466300-4c56-445b-b629-9435f00d17ed",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "74a6a7d7-036c-4710-9692-309808999ad4",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 308765,
-                "courseTitle": "Introduction to Digital Media",
-                "courseNumber": "20C",
-                "prefix": "FILM",
-                "prefixParentId": 8717,
-                "prefixDescription": "Film and Digital Media",
-                "departmentParentId": 5616,
-                "department": "Film and Digital Media",
-                "begin": "F2001",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "1a466300-4c56-445b-b629-9435f00d17ed",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 359270,
-                "courseTitle": "Introduction to Television Studies",
-                "courseNumber": "20B",
-                "prefix": "FILM",
-                "prefixParentId": 8717,
-                "prefixDescription": "Film and Digital Media",
-                "departmentParentId": 5616,
-                "department": "Film and Digital Media",
-                "begin": "F2011",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "af5deddc-a4d9-4d53-a8e3-d772c3a83c6e",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 359270,
+                  "courseTitle": "Introduction to Television Studies",
+                  "courseNumber": "20B",
+                  "prefix": "FILM",
+                  "prefixParentId": 8717,
+                  "prefixDescription": "Film and Digital Media",
+                  "departmentParentId": 5616,
+                  "department": "Film and Digital Media",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "af5deddc-a4d9-4d53-a8e3-d772c3a83c6e",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

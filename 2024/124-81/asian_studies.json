@@ -23,7 +23,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -44,7 +46,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "agreements": [
     {
@@ -60,7 +64,8 @@
         "begin": "F2014",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -82,6 +87,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -103,7 +109,8 @@
         "begin": "F1999",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -125,6 +132,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -150,6 +158,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -171,7 +180,8 @@
         "begin": "S2010",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -193,7 +203,8 @@
                   "begin": "F2005",
                   "end": "",
                   "minUnits": 3,
-                  "maxUnits": 3
+                  "maxUnits": 3,
+                  "pathways": null
                 }
               ],
               "requisites": [],
@@ -210,6 +221,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -235,7 +247,8 @@
                   "begin": "F2005",
                   "end": "",
                   "minUnits": 3,
-                  "maxUnits": 3
+                  "maxUnits": 3,
+                  "pathways": null
                 }
               ],
               "requisites": [],
@@ -252,6 +265,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -277,6 +291,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -302,7 +317,8 @@
                   "begin": "F2015",
                   "end": "",
                   "minUnits": 3,
-                  "maxUnits": 3
+                  "maxUnits": 3,
+                  "pathways": null
                 }
               ],
               "requisites": [],
@@ -319,6 +335,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -344,7 +361,8 @@
                   "begin": "F2015",
                   "end": "",
                   "minUnits": 3,
-                  "maxUnits": 3
+                  "maxUnits": 3,
+                  "pathways": null
                 }
               ],
               "requisites": [],
@@ -361,6 +379,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -379,31 +398,35 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 261798,
-                "courseTitle": "Asian Eats",
-                "courseNumber": "100",
-                "prefix": "AAAS",
-                "prefixParentId": 15616,
-                "prefixDescription": "Asian and Asian American Studies",
-                "departmentParentId": 1272,
-                "department": "Asian and Asian American Studies",
-                "begin": "F2014",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "729ffa1e-41a9-40d4-2dd7-08db8e278443",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 261798,
+                  "courseTitle": "Asian Eats",
+                  "courseNumber": "100",
+                  "prefix": "AAAS",
+                  "prefixParentId": 15616,
+                  "prefixDescription": "Asian and Asian American Studies",
+                  "departmentParentId": 1272,
+                  "department": "Asian and Asian American Studies",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "729ffa1e-41a9-40d4-2dd7-08db8e278443",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       },
       {
@@ -414,81 +437,93 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 343562,
-                "courseTitle": "Introduction to Eastern Ways of Thinking",
-                "courseNumber": "190",
-                "prefix": "A/ST",
-                "prefixParentId": 8669,
-                "prefixDescription": "Asian Studies",
-                "departmentParentId": 1277,
-                "department": "Asian Studies",
-                "begin": "F2014",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "e4de7627-12ac-4fcf-b50d-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 261806,
-                "courseTitle": "Popular Culture in East Asia",
-                "courseNumber": "200",
-                "prefix": "A/ST",
-                "prefixParentId": 8669,
-                "prefixDescription": "Asian Studies",
-                "departmentParentId": 1277,
-                "department": "Asian Studies",
-                "begin": "F2014",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "e29dc185-b79b-4e47-b50e-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 176727,
-                "courseTitle": "Asian American History",
-                "courseNumber": "120",
-                "prefix": "ASAM",
-                "prefixParentId": 3322,
-                "prefixDescription": "Asian American Studies",
-                "departmentParentId": 1259,
-                "department": "Asian American Studies",
-                "begin": "S2007",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "ea0279e3-129f-4e84-a4cb-492b9e262fcf",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 343562,
+                  "courseTitle": "Introduction to Eastern Ways of Thinking",
+                  "courseNumber": "190",
+                  "prefix": "A/ST",
+                  "prefixParentId": 8669,
+                  "prefixDescription": "Asian Studies",
+                  "departmentParentId": 1277,
+                  "department": "Asian Studies",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "e4de7627-12ac-4fcf-b50d-08db99b6efb0",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 261806,
+                  "courseTitle": "Popular Culture in East Asia",
+                  "courseNumber": "200",
+                  "prefix": "A/ST",
+                  "prefixParentId": 8669,
+                  "prefixDescription": "Asian Studies",
+                  "departmentParentId": 1277,
+                  "department": "Asian Studies",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "e29dc185-b79b-4e47-b50e-08db99b6efb0",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 176727,
+                  "courseTitle": "Asian American History",
+                  "courseNumber": "120",
+                  "prefix": "ASAM",
+                  "prefixParentId": 3322,
+                  "prefixDescription": "Asian American Studies",
+                  "departmentParentId": 1259,
+                  "department": "Asian American Studies",
+                  "begin": "S2007",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "ea0279e3-129f-4e84-a4cb-492b9e262fcf",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ],
@@ -501,56 +536,64 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 174571,
-                "courseTitle": "Principles of Microeconomics",
-                "courseNumber": "101",
-                "prefix": "ECON",
-                "prefixParentId": 1255,
-                "prefixDescription": "Economics",
-                "departmentParentId": 4282,
-                "department": "Economics",
-                "begin": "F1999",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "9d9a4f09-9721-4c7e-8785-0b77799df1a9",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 176742,
-                "courseTitle": "Statistics for Everyday Life",
-                "courseNumber": "108",
-                "prefix": "STAT",
-                "prefixParentId": 14697,
-                "prefixDescription": "Statistics",
-                "departmentParentId": 12546,
-                "department": "Statistics",
-                "begin": "S2010",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "f812660d-c81f-4934-b50f-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 174571,
+                  "courseTitle": "Principles of Microeconomics",
+                  "courseNumber": "101",
+                  "prefix": "ECON",
+                  "prefixParentId": 1255,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4282,
+                  "department": "Economics",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "9d9a4f09-9721-4c7e-8785-0b77799df1a9",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 176742,
+                  "courseTitle": "Statistics for Everyday Life",
+                  "courseNumber": "108",
+                  "prefix": "STAT",
+                  "prefixParentId": 14697,
+                  "prefixDescription": "Statistics",
+                  "departmentParentId": 12546,
+                  "department": "Statistics",
+                  "begin": "S2010",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "f812660d-c81f-4934-b50f-08db99b6efb0",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -40,9 +42,172 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
-  "agreements": [],
+  "agreements": [
+    {
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 202974,
+              "courseTitle": "Latino, Mexican-American, and Chicano Literature",
+              "courseNumber": "335",
+              "prefix": "ENGLT",
+              "prefixParentId": 13309,
+              "prefixDescription": "English - Literature",
+              "departmentParentId": 5034,
+              "department": "English",
+              "begin": "Su2003",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 210,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 273473,
+              "courseTitle": "The Sociology & Psychology of Mexicans and Latinos in the U.S.",
+              "courseNumber": "341",
+              "prefix": "ETHNS",
+              "prefixParentId": 15848,
+              "prefixDescription": "Ethnic Studies",
+              "departmentParentId": 5413,
+              "department": "Ethnic Studies",
+              "begin": "S2016",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 261,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 368855,
+              "courseTitle": "History of the Chicano/Mexican American",
+              "courseNumber": "327",
+              "prefix": "HIST",
+              "prefixParentId": 3026,
+              "prefixDescription": "History",
+              "departmentParentId": 7019,
+              "department": "History",
+              "begin": "Su2019",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 274,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 188437,
+              "courseTitle": "History of Mexico",
+              "courseNumber": "373",
+              "prefix": "HIST",
+              "prefixParentId": 3026,
+              "prefixDescription": "History",
+              "departmentParentId": 7019,
+              "department": "History",
+              "begin": "Su2003",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 210,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 264956,
+              "courseTitle": "The History of Modern Latin American and Caribbean",
+              "courseNumber": "375",
+              "prefix": "HIST",
+              "prefixParentId": 3026,
+              "prefixDescription": "History",
+              "departmentParentId": 7019,
+              "department": "History",
+              "begin": "F2012",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 247,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 244209,
+              "courseTitle": "Latin America",
+              "courseNumber": "313",
+              "prefix": "POLS",
+              "prefixParentId": 2036,
+              "prefixDescription": "Political Science",
+              "departmentParentId": 11095,
+              "department": "Political Science(s)",
+              "begin": "F2007",
+              "end": "F2024",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 227,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "groups": {
     "PREPARATION FOR THE MINOR": [
       {
@@ -58,18 +223,21 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Requirement",
-              "requirement": {
-                "name": "Lower-division Latin American and Latino Studies electives"
-              },
-              "requirementAttributes": [],
-              "id": "18193ddd-ac92-40ff-9aeb-0125385210ad",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Requirement",
+                "requirement": {
+                  "name": "Lower-division Latin American and Latino Studies electives"
+                },
+                "requirementAttributes": [],
+                "id": "18193ddd-ac92-40ff-9aeb-0125385210ad",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

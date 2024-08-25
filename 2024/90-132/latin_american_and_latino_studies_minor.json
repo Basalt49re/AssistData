@@ -23,7 +23,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -44,9 +46,130 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
-  "agreements": [],
+  "agreements": [
+    {
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 381711,
+              "courseTitle": "Chicana Thought and Cultural Expression",
+              "courseNumber": "4",
+              "prefix": "ETHN",
+              "prefixParentId": 15089,
+              "prefixDescription": "Ethnic Studies",
+              "departmentParentId": 5407,
+              "department": "Ethnic Studies",
+              "begin": "F2022",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 287,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [
+                {
+                  "id": "ca239a4c-30ee-4968-f510-08dc9b7d86c9",
+                  "publishedCourseIdentifierYearTermId": 291,
+                  "courseIdentifierParentId": 380984,
+                  "courseTitle": "Mexican American History",
+                  "courseNumber": "15",
+                  "prefix": "HIST",
+                  "prefixParentId": 2988,
+                  "prefixDescription": "History",
+                  "departmentParentId": 6989,
+                  "department": "History",
+                  "begin": "F2023",
+                  "end": "F2024",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                }
+              ],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 384862,
+              "courseTitle": "Mexican American History",
+              "courseNumber": "15",
+              "prefix": "ETHN",
+              "prefixParentId": 15089,
+              "prefixDescription": "Ethnic Studies",
+              "departmentParentId": 5407,
+              "department": "Ethnic Studies",
+              "begin": "F2023",
+              "end": "F2024",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 291,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [
+                {
+                  "id": "b3a51e83-ec7b-4c2d-f511-08dc9b7d86c9",
+                  "publishedCourseIdentifierYearTermId": 291,
+                  "courseIdentifierParentId": 384862,
+                  "courseTitle": "Mexican American History",
+                  "courseNumber": "15",
+                  "prefix": "ETHN",
+                  "prefixParentId": 15089,
+                  "prefixDescription": "Ethnic Studies",
+                  "departmentParentId": 5407,
+                  "department": "Ethnic Studies",
+                  "begin": "F2023",
+                  "end": "F2024",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                }
+              ],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 380984,
+              "courseTitle": "Mexican American History",
+              "courseNumber": "15",
+              "prefix": "HIST",
+              "prefixParentId": 2988,
+              "prefixDescription": "History",
+              "departmentParentId": 6989,
+              "department": "History",
+              "begin": "F2023",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 291,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "groups": {
     "PREPARATION FOR THE MINOR": [
       {
@@ -62,18 +185,21 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Requirement",
-              "requirement": {
-                "name": "Lower-division Latin American and Latino Studies electives"
-              },
-              "requirementAttributes": [],
-              "id": "18193ddd-ac92-40ff-9aeb-0125385210ad",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Requirement",
+                "requirement": {
+                  "name": "Lower-division Latin American and Latino Studies electives"
+                },
+                "requirementAttributes": [],
+                "id": "18193ddd-ac92-40ff-9aeb-0125385210ad",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

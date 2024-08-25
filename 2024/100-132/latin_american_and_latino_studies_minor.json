@@ -12,12 +12,6 @@
         "hasDepartments": true,
         "fromYear": 0,
         "hideInList": false
-      },
-      {
-        "name": "Mendocino College",
-        "hasDepartments": false,
-        "fromYear": 1980,
-        "hideInList": true
       }
     ],
     "termTypeAcademicYears": [
@@ -29,7 +23,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -50,9 +46,120 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
-  "agreements": [],
+  "agreements": [
+    {
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 206873,
+              "courseTitle": "Mexican American Culture",
+              "courseNumber": "235",
+              "prefix": "ETH",
+              "prefixParentId": 16876,
+              "prefixDescription": "Ethnic Studies",
+              "departmentParentId": 14507,
+              "department": "Ethnic Studies",
+              "begin": "F2021",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 283,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 257370,
+              "courseTitle": "Mexican American History",
+              "courseNumber": "207",
+              "prefix": "HST",
+              "prefixParentId": 3000,
+              "prefixDescription": "History",
+              "departmentParentId": 7054,
+              "department": "History",
+              "begin": "F2008",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 231,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 159755,
+              "courseTitle": "Mexican History",
+              "courseNumber": "220",
+              "prefix": "HST",
+              "prefixParentId": 3000,
+              "prefixDescription": "History",
+              "departmentParentId": 7054,
+              "department": "History",
+              "begin": "F1995",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 179,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 274000,
+              "courseTitle": "Introduction to Latin-American Literature and Film",
+              "courseNumber": "212",
+              "prefix": "SPN",
+              "prefixParentId": 3193,
+              "prefixDescription": "Spanish",
+              "departmentParentId": 12332,
+              "department": "Spanish",
+              "begin": "F2016",
+              "end": "F2024",
+              "minUnits": 4,
+              "maxUnits": 4,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 263,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "groups": {
     "PREPARATION FOR THE MINOR": [
       {
@@ -68,18 +175,21 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Requirement",
-              "requirement": {
-                "name": "Lower-division Latin American and Latino Studies electives"
-              },
-              "requirementAttributes": [],
-              "id": "18193ddd-ac92-40ff-9aeb-0125385210ad",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Requirement",
+                "requirement": {
+                  "name": "Lower-division Latin American and Latino Studies electives"
+                },
+                "requirementAttributes": [],
+                "id": "18193ddd-ac92-40ff-9aeb-0125385210ad",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

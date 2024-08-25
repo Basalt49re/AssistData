@@ -1,0 +1,253 @@
+{
+  "major": "Latin American & Latino Studies B.A.",
+  "from": {
+    "id": 9,
+    "code": "CERRO   ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Cerro Coso Community College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 132,
+    "code": "UCSC    ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Santa Cruz",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "target": {
+        "courseIdentifierParentId": 306890,
+        "courseTitle": "Introduction to Latin American and Latino Studies",
+        "courseNumber": "1",
+        "prefix": "LALS",
+        "prefixParentId": 9787,
+        "prefixDescription": "Latin American and Latino Studies",
+        "departmentParentId": 8321,
+        "department": "Latin American and Latino Studies",
+        "begin": "F1995",
+        "end": "",
+        "minUnits": 5,
+        "maxUnits": 5,
+        "pathways": []
+      },
+      "courses": []
+    },
+    {
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [
+                {
+                  "id": "1e530154-2135-4787-3978-08dc90e24b40",
+                  "publishedCourseIdentifierYearTermId": 243,
+                  "courseIdentifierParentId": 191711,
+                  "courseTitle": "Hispanic Cinema",
+                  "courseNumber": "C211",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3098,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12217,
+                  "department": "Spanish",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                }
+              ],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 191713,
+              "courseTitle": "Hispanic Cinema",
+              "courseNumber": "C211",
+              "prefix": "FILM",
+              "prefixParentId": 13764,
+              "prefixDescription": "Film",
+              "departmentParentId": 5599,
+              "department": "Film",
+              "begin": "F2011",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 243,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 139033,
+              "courseTitle": "History of Mexico",
+              "courseNumber": "C209",
+              "prefix": "HIST",
+              "prefixParentId": 2911,
+              "prefixDescription": "History",
+              "departmentParentId": 6927,
+              "department": "History",
+              "begin": "Su2000",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 198,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [
+                {
+                  "id": "6fb55481-cc25-4b37-3979-08dc90e24b40",
+                  "publishedCourseIdentifierYearTermId": 243,
+                  "courseIdentifierParentId": 191713,
+                  "courseTitle": "Hispanic Cinema",
+                  "courseNumber": "C211",
+                  "prefix": "FILM",
+                  "prefixParentId": 13764,
+                  "prefixDescription": "Film",
+                  "departmentParentId": 5599,
+                  "department": "Film",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                }
+              ],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 191711,
+              "courseTitle": "Hispanic Cinema",
+              "courseNumber": "C211",
+              "prefix": "SPAN",
+              "prefixParentId": 3098,
+              "prefixDescription": "Spanish",
+              "departmentParentId": 12217,
+              "department": "Spanish",
+              "begin": "F2011",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 243,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "groups": {
+    "PREPARATION FOR THE MAJOR": [
+      {
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "ce12b22f-c8db-49cf-df66-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "sections": [
+          {
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "courses": [
+              {
+                "type": "Requirement",
+                "requirement": {
+                  "name": "Lower-division Latin American and Latino Studies electives"
+                },
+                "requirementAttributes": [],
+                "id": "a687e4e0-ad3f-42f4-c6b1-08db99b6efb0",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 306890,
+                  "courseTitle": "Introduction to Latin American and Latino Studies",
+                  "courseNumber": "1",
+                  "prefix": "LALS",
+                  "prefixParentId": 9787,
+                  "prefixDescription": "Latin American and Latino Studies",
+                  "departmentParentId": 8321,
+                  "department": "Latin American and Latino Studies",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "2f5f2b48-f8c8-4f57-a9a5-775fbce44f1a",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -40,9 +42,29 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "agreements": [
+    {
+      "target": {
+        "courseIdentifierParentId": 303759,
+        "courseTitle": "Introduction to Linguistics",
+        "courseNumber": "50",
+        "prefix": "LING",
+        "prefixParentId": 2584,
+        "prefixDescription": "Linguistics",
+        "departmentParentId": 8644,
+        "department": "Linguistics",
+        "begin": "F2011",
+        "end": "",
+        "minUnits": 5,
+        "maxUnits": 5,
+        "pathways": null
+      },
+      "courses": []
+    },
     {
       "target": {
         "courseIdentifierParentId": 373337,
@@ -56,7 +78,8 @@
         "begin": "F2019",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -83,6 +106,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -108,6 +132,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -138,6 +163,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -163,6 +189,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -193,6 +220,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 2,
               "type": "Course"
@@ -218,6 +246,7 @@
               "end": "",
               "minUnits": 2.5,
               "maxUnits": 2.5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -243,6 +272,7 @@
               "end": "",
               "minUnits": 2.5,
               "maxUnits": 2.5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -250,23 +280,6 @@
           ]
         }
       ]
-    },
-    {
-      "target": {
-        "courseIdentifierParentId": 303759,
-        "courseTitle": "Introduction to Linguistics",
-        "courseNumber": "50",
-        "prefix": "LING",
-        "prefixParentId": 2584,
-        "prefixDescription": "Linguistics",
-        "departmentParentId": 8644,
-        "department": "Linguistics",
-        "begin": "F2011",
-        "end": "",
-        "minUnits": 5,
-        "maxUnits": 5
-      },
-      "courses": []
     },
     {
       "target": {
@@ -281,7 +294,8 @@
         "begin": "F2019",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -308,6 +322,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -333,6 +348,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -363,6 +379,7 @@
               "end": "",
               "minUnits": 2.5,
               "maxUnits": 2.5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -388,6 +405,7 @@
               "end": "",
               "minUnits": 2.5,
               "maxUnits": 2.5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -413,6 +431,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 2,
               "type": "Course"
@@ -443,6 +462,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -468,6 +488,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -486,100 +507,107 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 308908,
-                "courseTitle": "Medical Spanish",
-                "courseNumber": "5M",
-                "prefix": "SPAN",
-                "prefixParentId": 12537,
-                "prefixDescription": "Spanish",
-                "departmentParentId": 12301,
-                "department": "Spanish",
-                "begin": "F2003",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 308908,
+                  "courseTitle": "Medical Spanish",
+                  "courseNumber": "5M",
+                  "prefix": "SPAN",
+                  "prefixParentId": 12537,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12301,
+                  "department": "Spanish",
+                  "begin": "F2003",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "6c4012a7-7228-4b64-79fa-08dba897c33b",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "6c4012a7-7228-4b64-79fa-08dba897c33b",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 373337,
-                "courseTitle": "First-Year Spanish",
-                "courseNumber": "1",
-                "prefix": "SPAN",
-                "prefixParentId": 12537,
-                "prefixDescription": "Spanish",
-                "departmentParentId": 12301,
-                "department": "Spanish",
-                "begin": "F2019",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 373337,
+                  "courseTitle": "First-Year Spanish",
+                  "courseNumber": "1",
+                  "prefix": "SPAN",
+                  "prefixParentId": 12537,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12301,
+                  "department": "Spanish",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "ca772962-997b-4043-a803-812a91059873",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "ca772962-997b-4043-a803-812a91059873",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 303759,
-                "courseTitle": "Introduction to Linguistics",
-                "courseNumber": "50",
-                "prefix": "LING",
-                "prefixParentId": 2584,
-                "prefixDescription": "Linguistics",
-                "departmentParentId": 8644,
-                "department": "Linguistics",
-                "begin": "F2011",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 303759,
+                  "courseTitle": "Introduction to Linguistics",
+                  "courseNumber": "50",
+                  "prefix": "LING",
+                  "prefixParentId": 2584,
+                  "prefixDescription": "Linguistics",
+                  "departmentParentId": 8644,
+                  "department": "Linguistics",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "4d378ba2-0746-4300-82ce-f235bce03995",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "4d378ba2-0746-4300-82ce-f235bce03995",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 373338,
-                "courseTitle": "First-Year Spanish",
-                "courseNumber": "2",
-                "prefix": "SPAN",
-                "prefixParentId": 12537,
-                "prefixDescription": "Spanish",
-                "departmentParentId": 12301,
-                "department": "Spanish",
-                "begin": "F2019",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "05f73c56-e3af-45dc-bcdb-ba252fd456f5",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 373338,
+                  "courseTitle": "First-Year Spanish",
+                  "courseNumber": "2",
+                  "prefix": "SPAN",
+                  "prefixParentId": 12537,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12301,
+                  "department": "Spanish",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "05f73c56-e3af-45dc-bcdb-ba252fd456f5",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

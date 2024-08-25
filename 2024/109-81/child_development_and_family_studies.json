@@ -33,7 +33,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -54,7 +56,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "agreements": [
     {
@@ -70,7 +74,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -92,6 +97,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -113,7 +119,8 @@
         "begin": "F1999",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -135,6 +142,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -156,7 +164,8 @@
         "begin": "F2022",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -178,6 +187,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -199,7 +209,8 @@
         "begin": "F2022",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -221,6 +232,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -242,7 +254,8 @@
         "begin": "F2022",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -264,6 +277,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -282,54 +296,59 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 178825,
-                "courseTitle": "General Psychology",
-                "courseNumber": "100",
-                "prefix": "PSY",
-                "prefixParentId": 4673,
-                "prefixDescription": "Psychology",
-                "departmentParentId": 11201,
-                "department": "Psychology",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 178825,
+                  "courseTitle": "General Psychology",
+                  "courseNumber": "100",
+                  "prefix": "PSY",
+                  "prefixParentId": 4673,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11201,
+                  "department": "Psychology",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "1ffdaf91-9603-43c5-a317-79b448daee57",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "1ffdaf91-9603-43c5-a317-79b448daee57",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 178193,
-                "courseTitle": "Introduction to Cultural Anthropology",
-                "courseNumber": "120",
-                "prefix": "ANTH",
-                "prefixParentId": 10764,
-                "prefixDescription": "Anthropology",
-                "departmentParentId": 729,
-                "department": "Anthropology",
-                "begin": "F1999",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "15f21739-fbc0-4eee-a60b-c3cfde1e077a",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 178193,
+                  "courseTitle": "Introduction to Cultural Anthropology",
+                  "courseNumber": "120",
+                  "prefix": "ANTH",
+                  "prefixParentId": 10764,
+                  "prefixDescription": "Anthropology",
+                  "departmentParentId": 729,
+                  "department": "Anthropology",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "15f21739-fbc0-4eee-a60b-c3cfde1e077a",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ],
@@ -341,77 +360,83 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 212172,
-                "courseTitle": "Principles and Practices of Teaching Young Children",
-                "courseNumber": "211",
-                "prefix": "CDFS",
-                "prefixParentId": 13978,
-                "prefixDescription": "Child Development and Family Studies",
-                "departmentParentId": 2531,
-                "department": "Child Development and Family Studies",
-                "begin": "F2022",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 212172,
+                  "courseTitle": "Principles and Practices of Teaching Young Children",
+                  "courseNumber": "211",
+                  "prefix": "CDFS",
+                  "prefixParentId": 13978,
+                  "prefixDescription": "Child Development and Family Studies",
+                  "departmentParentId": 2531,
+                  "department": "Child Development and Family Studies",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "e8edb641-a5c5-4955-9ebb-c99d05b093f9",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "e8edb641-a5c5-4955-9ebb-c99d05b093f9",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 49360,
-                "courseTitle": "Introduction to Family and Consumer Sciences",
-                "courseNumber": "299",
-                "prefix": "CAFF",
-                "prefixParentId": 13980,
-                "prefixDescription": "Consumer Affairs",
-                "departmentParentId": 3394,
-                "department": "Consumer Affairs",
-                "begin": "F2020",
-                "end": "",
-                "minUnits": 1,
-                "maxUnits": 1
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 49360,
+                  "courseTitle": "Introduction to Family and Consumer Sciences",
+                  "courseNumber": "299",
+                  "prefix": "CAFF",
+                  "prefixParentId": 13980,
+                  "prefixDescription": "Consumer Affairs",
+                  "departmentParentId": 3394,
+                  "department": "Consumer Affairs",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "e9469af5-32ff-4ece-88ce-7e3795ec105a",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "e9469af5-32ff-4ece-88ce-7e3795ec105a",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 176309,
-                "courseTitle": "Child Growth and Development",
-                "courseNumber": "111",
-                "prefix": "CDFS",
-                "prefixParentId": 13978,
-                "prefixDescription": "Child Development and Family Studies",
-                "departmentParentId": 2531,
-                "department": "Child Development and Family Studies",
-                "begin": "F2022",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "3311ffe2-bcce-4ec1-890a-c8fc4824e3a4",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 176309,
+                  "courseTitle": "Child Growth and Development",
+                  "courseNumber": "111",
+                  "prefix": "CDFS",
+                  "prefixParentId": 13978,
+                  "prefixDescription": "Child Development and Family Studies",
+                  "departmentParentId": 2531,
+                  "department": "Child Development and Family Studies",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "3311ffe2-bcce-4ec1-890a-c8fc4824e3a4",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       },
       {
@@ -422,56 +447,64 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 241981,
-                "courseTitle": "Introduction to Curriculum for Infants and Toddlers",
-                "courseNumber": "215",
-                "prefix": "CDFS",
-                "prefixParentId": 13978,
-                "prefixDescription": "Child Development and Family Studies",
-                "departmentParentId": 2531,
-                "department": "Child Development and Family Studies",
-                "begin": "F2022",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "88fa56dc-e4e9-4ca3-930e-08db8f7b9dd1",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 176669,
-                "courseTitle": "Introduction to Curriculum for Preschool Children",
-                "courseNumber": "214",
-                "prefix": "CDFS",
-                "prefixParentId": 13978,
-                "prefixDescription": "Child Development and Family Studies",
-                "departmentParentId": 2531,
-                "department": "Child Development and Family Studies",
-                "begin": "F2022",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "34cfa2f1-2249-468f-a06d-cc6c57bbe114",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 241981,
+                  "courseTitle": "Introduction to Curriculum for Infants and Toddlers",
+                  "courseNumber": "215",
+                  "prefix": "CDFS",
+                  "prefixParentId": 13978,
+                  "prefixDescription": "Child Development and Family Studies",
+                  "departmentParentId": 2531,
+                  "department": "Child Development and Family Studies",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "88fa56dc-e4e9-4ca3-930e-08db8f7b9dd1",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 176669,
+                  "courseTitle": "Introduction to Curriculum for Preschool Children",
+                  "courseNumber": "214",
+                  "prefix": "CDFS",
+                  "prefixParentId": 13978,
+                  "prefixDescription": "Child Development and Family Studies",
+                  "departmentParentId": 2531,
+                  "department": "Child Development and Family Studies",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "34cfa2f1-2249-468f-a06d-cc6c57bbe114",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

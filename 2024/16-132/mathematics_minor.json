@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -40,7 +42,9 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "agreements": [
     {
@@ -56,7 +60,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -78,6 +83,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -99,7 +105,8 @@
         "begin": "F2013",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -121,6 +128,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -142,7 +150,8 @@
         "begin": "F2013",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -164,6 +173,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -185,7 +195,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -207,6 +218,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -228,7 +240,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -250,6 +263,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -268,123 +282,131 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 359398,
-                "courseTitle": " Calculus for Science, Engineering, and Mathematics",
-                "courseNumber": "19A",
-                "prefix": "MATH",
-                "prefixParentId": 10044,
-                "prefixDescription": "Mathematics",
-                "departmentParentId": 9058,
-                "department": "Mathematics",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 359398,
+                  "courseTitle": " Calculus for Science, Engineering, and Mathematics",
+                  "courseNumber": "19A",
+                  "prefix": "MATH",
+                  "prefixParentId": 10044,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9058,
+                  "department": "Mathematics",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "0ea01df2-1b24-4bf0-b090-926a688ac052",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "0ea01df2-1b24-4bf0-b090-926a688ac052",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 282277,
-                "courseTitle": "Vector Calculus",
-                "courseNumber": "23B",
-                "prefix": "MATH",
-                "prefixParentId": 10044,
-                "prefixDescription": "Mathematics",
-                "departmentParentId": 9058,
-                "department": "Mathematics",
-                "begin": "F2013",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 282277,
+                  "courseTitle": "Vector Calculus",
+                  "courseNumber": "23B",
+                  "prefix": "MATH",
+                  "prefixParentId": 10044,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9058,
+                  "department": "Mathematics",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "be5de7c3-3ed3-4f38-8c0b-c40b85f1a339",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "be5de7c3-3ed3-4f38-8c0b-c40b85f1a339",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 308408,
-                "courseTitle": "Vector Calculus",
-                "courseNumber": "23A",
-                "prefix": "MATH",
-                "prefixParentId": 10044,
-                "prefixDescription": "Mathematics",
-                "departmentParentId": 9058,
-                "department": "Mathematics",
-                "begin": "F2013",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 308408,
+                  "courseTitle": "Vector Calculus",
+                  "courseNumber": "23A",
+                  "prefix": "MATH",
+                  "prefixParentId": 10044,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9058,
+                  "department": "Mathematics",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "9f742122-6988-471e-b462-b6ba57536d30",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "9f742122-6988-471e-b462-b6ba57536d30",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 308411,
-                "courseTitle": "Calculus for Science, Engineering, and Mathematics",
-                "courseNumber": "19B",
-                "prefix": "MATH",
-                "prefixParentId": 10044,
-                "prefixDescription": "Mathematics",
-                "departmentParentId": 9058,
-                "department": "Mathematics",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 308411,
+                  "courseTitle": "Calculus for Science, Engineering, and Mathematics",
+                  "courseNumber": "19B",
+                  "prefix": "MATH",
+                  "prefixParentId": 10044,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9058,
+                  "department": "Mathematics",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "fd95e5ec-0109-4b1a-840c-7e7755823704",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "fd95e5ec-0109-4b1a-840c-7e7755823704",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 307010,
-                "courseTitle": "Linear Algebra",
-                "courseNumber": "21",
-                "prefix": "MATH",
-                "prefixParentId": 10044,
-                "prefixDescription": "Mathematics",
-                "departmentParentId": 9058,
-                "department": "Mathematics",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "51f8e3c6-cb11-4e25-bf23-d4890a73fbee",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 307010,
+                  "courseTitle": "Linear Algebra",
+                  "courseNumber": "21",
+                  "prefix": "MATH",
+                  "prefixParentId": 10044,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9058,
+                  "department": "Mathematics",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "51f8e3c6-cb11-4e25-bf23-d4890a73fbee",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -40,7 +42,9 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "agreements": [
     {
@@ -56,7 +60,8 @@
         "begin": "F1994",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": null
       },
       "courses": [
         {
@@ -78,6 +83,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -107,6 +113,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -132,6 +139,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -157,6 +165,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -182,6 +191,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -207,7 +217,8 @@
                   "begin": "F2021",
                   "end": "",
                   "minUnits": 3,
-                  "maxUnits": 3
+                  "maxUnits": 3,
+                  "pathways": null
                 }
               ],
               "requisites": [],
@@ -224,6 +235,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -249,6 +261,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -274,7 +287,8 @@
                   "begin": "F2021",
                   "end": "",
                   "minUnits": 3,
-                  "maxUnits": 3
+                  "maxUnits": 3,
+                  "pathways": null
                 }
               ],
               "requisites": [],
@@ -291,6 +305,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -316,7 +331,8 @@
                   "begin": "F2021",
                   "end": "",
                   "minUnits": 3,
-                  "maxUnits": 3
+                  "maxUnits": 3,
+                  "pathways": null
                 }
               ],
               "requisites": [],
@@ -333,6 +349,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -355,9 +372,10 @@
               "departmentParentId": 5021,
               "department": "English",
               "begin": "F1995",
-              "end": "",
+              "end": "F2024",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -383,7 +401,8 @@
                   "begin": "F2021",
                   "end": "",
                   "minUnits": 3,
-                  "maxUnits": 3
+                  "maxUnits": 3,
+                  "pathways": null
                 }
               ],
               "requisites": [],
@@ -400,6 +419,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -425,6 +445,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -450,7 +471,8 @@
                   "begin": "F2021",
                   "end": "",
                   "minUnits": 3,
-                  "maxUnits": 3
+                  "maxUnits": 3,
+                  "pathways": null
                 }
               ],
               "requisites": [],
@@ -467,6 +489,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -492,7 +515,8 @@
                   "begin": "F2021",
                   "end": "",
                   "minUnits": 3,
-                  "maxUnits": 3
+                  "maxUnits": 3,
+                  "pathways": null
                 }
               ],
               "requisites": [],
@@ -509,6 +533,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -528,43 +553,58 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Requirement",
-              "requirement": {
-                "name": "Literature courses"
-              },
-              "requirementAttributes": [],
-              "id": "aef9c925-9b3b-4bec-797f-08dba897c33b",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 277514,
-                "courseTitle": "Literary Interpretation",
-                "courseNumber": "1",
-                "prefix": "LIT",
-                "prefixParentId": 4578,
-                "prefixDescription": "Literature",
-                "departmentParentId": 8662,
-                "department": "Literature",
-                "begin": "F1994",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "523418bc-a8f8-4b22-92c1-f650f1ab7762",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "courses": [
+              {
+                "type": "Requirement",
+                "requirement": {
+                  "name": "Literature courses"
+                },
+                "requirementAttributes": [],
+                "id": "aef9c925-9b3b-4bec-797f-08dba897c33b",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 277514,
+                  "courseTitle": "Literary Interpretation",
+                  "courseNumber": "1",
+                  "prefix": "LIT",
+                  "prefixParentId": 4578,
+                  "prefixDescription": "Literature",
+                  "departmentParentId": 8662,
+                  "department": "Literature",
+                  "begin": "F1994",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "523418bc-a8f8-4b22-92c1-f650f1ab7762",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

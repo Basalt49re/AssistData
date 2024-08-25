@@ -19,7 +19,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -40,11 +42,83 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "agreements": [
     {
       "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 204822,
+              "courseTitle": "Latinos in American Politics",
+              "courseNumber": "18",
+              "prefix": "ETNC",
+              "prefixParentId": 4017,
+              "prefixDescription": "Ethnic Studies",
+              "departmentParentId": 5424,
+              "department": "Ethnic Studies",
+              "begin": "F2023",
+              "end": "F2024",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 291,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [
+                {
+                  "id": "a13bcc99-abd8-4ffc-8f20-33cbe93c3344",
+                  "publishedCourseIdentifierYearTermId": 279,
+                  "courseIdentifierParentId": 373711,
+                  "courseTitle": "Chicano History 1848 to Present",
+                  "courseNumber": "23",
+                  "prefix": "ETNC",
+                  "prefixParentId": 4017,
+                  "prefixDescription": "Ethnic Studies",
+                  "departmentParentId": 5424,
+                  "department": "Ethnic Studies",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                }
+              ],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 373763,
+              "courseTitle": "Chicano History 1848 to Present",
+              "courseNumber": "23",
+              "prefix": "HIST",
+              "prefixParentId": 3033,
+              "prefixDescription": "History",
+              "departmentParentId": 7024,
+              "department": "History",
+              "begin": "F2020",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 279,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
         {
           "group": "And",
           "classes": [
@@ -64,7 +138,8 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
-              "publishedCourseIdentifierYearTermId": null,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 291,
               "position": 0,
               "type": "Course"
             }
@@ -76,134 +151,8 @@
             {
               "visibleCrossListedCourses": [
                 {
-                  "id": "994ed9b2-e4ee-4578-8be9-fe2f6189ab1b",
-                  "publishedCourseIdentifierYearTermId": null,
-                  "courseIdentifierParentId": 373763,
-                  "courseTitle": "Chicano History 1848 to Present",
-                  "courseNumber": "23",
-                  "prefix": "HIST",
-                  "prefixParentId": 3033,
-                  "prefixDescription": "History",
-                  "departmentParentId": 7024,
-                  "department": "History",
-                  "begin": "F2020",
-                  "end": "",
-                  "minUnits": 3,
-                  "maxUnits": 3
-                }
-              ],
-              "requisites": [],
-              "attributes": [],
-              "courseIdentifierParentId": 373711,
-              "courseTitle": "Chicano History 1848 to Present",
-              "courseNumber": "23",
-              "prefix": "ETNC",
-              "prefixParentId": 4017,
-              "prefixDescription": "Ethnic Studies",
-              "departmentParentId": 5424,
-              "department": "Ethnic Studies",
-              "begin": "F2020",
-              "end": "",
-              "minUnits": 3,
-              "maxUnits": 3,
-              "publishedCourseIdentifierYearTermId": null,
-              "position": 0,
-              "type": "Course"
-            }
-          ]
-        },
-        {
-          "group": "And",
-          "classes": [
-            {
-              "visibleCrossListedCourses": [
-                {
-                  "id": "c9a1cc75-33d2-4d10-88ee-c07911d3aa72",
-                  "publishedCourseIdentifierYearTermId": null,
-                  "courseIdentifierParentId": 231483,
-                  "courseTitle": "Sociology of Latinos and Latinas",
-                  "courseNumber": "14",
-                  "prefix": "ETNC",
-                  "prefixParentId": 4017,
-                  "prefixDescription": "Ethnic Studies",
-                  "departmentParentId": 5424,
-                  "department": "Ethnic Studies",
-                  "begin": "F2013",
-                  "end": "",
-                  "minUnits": 3,
-                  "maxUnits": 3
-                }
-              ],
-              "requisites": [],
-              "attributes": [],
-              "courseIdentifierParentId": 231482,
-              "courseTitle": "Sociology of Latinos and Latinas",
-              "courseNumber": "14",
-              "prefix": "SOCI",
-              "prefixParentId": 9117,
-              "prefixDescription": "Sociology",
-              "departmentParentId": 12149,
-              "department": "Sociology",
-              "begin": "F2013",
-              "end": "",
-              "minUnits": 3,
-              "maxUnits": 3,
-              "publishedCourseIdentifierYearTermId": null,
-              "position": 0,
-              "type": "Course"
-            }
-          ]
-        },
-        {
-          "group": "And",
-          "classes": [
-            {
-              "visibleCrossListedCourses": [
-                {
-                  "id": "39baa6ff-d2b7-4852-8057-68c6522e59c9",
-                  "publishedCourseIdentifierYearTermId": null,
-                  "courseIdentifierParentId": 373711,
-                  "courseTitle": "Chicano History 1848 to Present",
-                  "courseNumber": "23",
-                  "prefix": "ETNC",
-                  "prefixParentId": 4017,
-                  "prefixDescription": "Ethnic Studies",
-                  "departmentParentId": 5424,
-                  "department": "Ethnic Studies",
-                  "begin": "F2020",
-                  "end": "",
-                  "minUnits": 3,
-                  "maxUnits": 3
-                }
-              ],
-              "requisites": [],
-              "attributes": [],
-              "courseIdentifierParentId": 373763,
-              "courseTitle": "Chicano History 1848 to Present",
-              "courseNumber": "23",
-              "prefix": "HIST",
-              "prefixParentId": 3033,
-              "prefixDescription": "History",
-              "departmentParentId": 7024,
-              "department": "History",
-              "begin": "F2020",
-              "end": "",
-              "minUnits": 3,
-              "maxUnits": 3,
-              "publishedCourseIdentifierYearTermId": null,
-              "position": 0,
-              "type": "Course"
-            }
-          ]
-        },
-        {
-          "group": "And",
-          "classes": [
-            {
-              "visibleCrossListedCourses": [
-                {
-                  "id": "41a36561-f03f-4fd0-885e-693b102cd4f8",
-                  "publishedCourseIdentifierYearTermId": null,
+                  "id": "5f6208c7-9f04-41a2-5d96-08dba8a7a9a4",
+                  "publishedCourseIdentifierYearTermId": 251,
                   "courseIdentifierParentId": 231482,
                   "courseTitle": "Sociology of Latinos and Latinas",
                   "courseNumber": "14",
@@ -215,7 +164,8 @@
                   "begin": "F2013",
                   "end": "",
                   "minUnits": 3,
-                  "maxUnits": 3
+                  "maxUnits": 3,
+                  "pathways": []
                 }
               ],
               "requisites": [],
@@ -232,7 +182,96 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
-              "publishedCourseIdentifierYearTermId": null,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 251,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [
+                {
+                  "id": "efec3d5b-6839-43d0-89bd-e0b7eb95ac08",
+                  "publishedCourseIdentifierYearTermId": 251,
+                  "courseIdentifierParentId": 231483,
+                  "courseTitle": "Sociology of Latinos and Latinas",
+                  "courseNumber": "14",
+                  "prefix": "ETNC",
+                  "prefixParentId": 4017,
+                  "prefixDescription": "Ethnic Studies",
+                  "departmentParentId": 5424,
+                  "department": "Ethnic Studies",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                }
+              ],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 231482,
+              "courseTitle": "Sociology of Latinos and Latinas",
+              "courseNumber": "14",
+              "prefix": "SOCI",
+              "prefixParentId": 9117,
+              "prefixDescription": "Sociology",
+              "departmentParentId": 12149,
+              "department": "Sociology",
+              "begin": "F2013",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 251,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [
+                {
+                  "id": "f77fef63-2805-48bd-9922-273f72855464",
+                  "publishedCourseIdentifierYearTermId": 279,
+                  "courseIdentifierParentId": 373763,
+                  "courseTitle": "Chicano History 1848 to Present",
+                  "courseNumber": "23",
+                  "prefix": "HIST",
+                  "prefixParentId": 3033,
+                  "prefixDescription": "History",
+                  "departmentParentId": 7024,
+                  "department": "History",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": []
+                }
+              ],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 373711,
+              "courseTitle": "Chicano History 1848 to Present",
+              "courseNumber": "23",
+              "prefix": "ETNC",
+              "prefixParentId": 4017,
+              "prefixDescription": "Ethnic Studies",
+              "departmentParentId": 5424,
+              "department": "Ethnic Studies",
+              "begin": "F2020",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": 279,
               "position": 0,
               "type": "Course"
             }
@@ -256,18 +295,21 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Requirement",
-              "requirement": {
-                "name": "Lower-division Latin American and Latino Studies electives"
-              },
-              "requirementAttributes": [],
-              "id": "18193ddd-ac92-40ff-9aeb-0125385210ad",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Requirement",
+                "requirement": {
+                  "name": "Lower-division Latin American and Latino Studies electives"
+                },
+                "requirementAttributes": [],
+                "id": "18193ddd-ac92-40ff-9aeb-0125385210ad",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

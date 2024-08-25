@@ -23,7 +23,9 @@
         "termType": "Semester",
         "fromYear": 1998
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -44,7 +46,9 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "agreements": [],
   "groups": {
@@ -56,31 +60,35 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 384589,
-                "courseTitle": "Introduction to History of Consciousness",
-                "courseNumber": "1",
-                "prefix": "HISC",
-                "prefixParentId": 17154,
-                "prefixDescription": "History of Consciousness",
-                "departmentParentId": 14258,
-                "department": "History of Consciousness",
-                "begin": "F2022",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "f2c55859-0a9e-4fc0-9aff-582fce55cb41",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 384589,
+                  "courseTitle": "Introduction to History of Consciousness",
+                  "courseNumber": "1",
+                  "prefix": "HISC",
+                  "prefixParentId": 17154,
+                  "prefixDescription": "History of Consciousness",
+                  "departmentParentId": 14258,
+                  "department": "History of Consciousness",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "f2c55859-0a9e-4fc0-9aff-582fce55cb41",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

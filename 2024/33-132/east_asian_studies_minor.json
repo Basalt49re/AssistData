@@ -27,7 +27,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "to": {
     "id": 132,
@@ -48,7 +50,9 @@
         "termType": "Quarter",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 31,
+    "endId": null
   },
   "agreements": [
     {
@@ -64,7 +68,8 @@
         "begin": "F2019",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": []
       },
       "courses": [
         {
@@ -91,6 +96,7 @@
               "end": "F2024",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 3,
               "type": "Course"
@@ -116,6 +122,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -141,6 +148,7 @@
               "end": "F2024",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 2,
               "type": "Course"
@@ -166,6 +174,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -196,6 +205,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -221,6 +231,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -242,7 +253,8 @@
         "begin": "F2019",
         "end": "",
         "minUnits": 5,
-        "maxUnits": 5
+        "maxUnits": 5,
+        "pathways": []
       },
       "courses": [
         {
@@ -269,6 +281,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -294,6 +307,7 @@
               "end": "",
               "minUnits": 5,
               "maxUnits": 5,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -324,6 +338,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 2,
               "type": "Course"
@@ -349,6 +364,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -374,6 +390,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 1,
               "type": "Course"
@@ -399,6 +416,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": [],
               "publishedCourseIdentifierYearTermId": null,
               "position": 3,
               "type": "Course"
@@ -418,102 +436,128 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 286317,
-                "courseTitle": "The Making of Modern East Asia",
-                "courseNumber": "40B",
-                "prefix": "HIS",
-                "prefixParentId": 3032,
-                "prefixDescription": "History",
-                "departmentParentId": 6918,
-                "department": "History",
-                "begin": "F2009",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+          {
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 286317,
+                  "courseTitle": "The Making of Modern East Asia",
+                  "courseNumber": "40B",
+                  "prefix": "HIS",
+                  "prefixParentId": 3032,
+                  "prefixDescription": "History",
+                  "departmentParentId": 6918,
+                  "department": "History",
+                  "begin": "F2009",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "fa6b20c5-8aee-4381-bd86-cfb9dd43779b",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "fa6b20c5-8aee-4381-bd86-cfb9dd43779b",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 304658,
-                "courseTitle": "Early Modern East Asia",
-                "courseNumber": "40A",
-                "prefix": "HIS",
-                "prefixParentId": 3032,
-                "prefixDescription": "History",
-                "departmentParentId": 6918,
-                "department": "History",
-                "begin": "F2008",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 304658,
+                  "courseTitle": "Early Modern East Asia",
+                  "courseNumber": "40A",
+                  "prefix": "HIS",
+                  "prefixParentId": 3032,
+                  "prefixDescription": "History",
+                  "departmentParentId": 6918,
+                  "department": "History",
+                  "begin": "F2008",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "bb1dad2e-a11d-425e-8800-8beeb7645090",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 373334,
+                  "courseTitle": "First-Year Japanese",
+                  "courseNumber": "1",
+                  "prefix": "JAPN",
+                  "prefixParentId": 16604,
+                  "prefixDescription": "Japanese",
+                  "departmentParentId": 13750,
+                  "department": "Japanese",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "46a91d22-180a-4f37-8d78-405ee4f8c211",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "bb1dad2e-a11d-425e-8800-8beeb7645090",
-              "position": 0,
-              "attributes": []
-            }
-          ],
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 373334,
-                "courseTitle": "First-Year Japanese",
-                "courseNumber": "1",
-                "prefix": "JAPN",
-                "prefixParentId": 16604,
-                "prefixDescription": "Japanese",
-                "departmentParentId": 13750,
-                "department": "Japanese",
-                "begin": "F2019",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "46a91d22-180a-4f37-8d78-405ee4f8c211",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 373326,
-                "courseTitle": "First-Year Chinese",
-                "courseNumber": "1",
-                "prefix": "CHIN",
-                "prefixParentId": 16601,
-                "prefixDescription": "Chinese",
-                "departmentParentId": 13746,
-                "department": "Chinese",
-                "begin": "F2019",
-                "end": "",
-                "minUnits": 5,
-                "maxUnits": 5
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "454d866e-c5f1-498a-b8e0-b7a78febb21a",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 373326,
+                  "courseTitle": "First-Year Chinese",
+                  "courseNumber": "1",
+                  "prefix": "CHIN",
+                  "prefixParentId": 16601,
+                  "prefixDescription": "Chinese",
+                  "departmentParentId": 13746,
+                  "department": "Chinese",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "454d866e-c5f1-498a-b8e0-b7a78febb21a",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]

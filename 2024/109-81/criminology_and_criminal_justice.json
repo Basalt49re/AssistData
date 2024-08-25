@@ -33,7 +33,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "to": {
     "id": 81,
@@ -54,7 +56,9 @@
         "termType": "Semester",
         "fromYear": 1980
       }
-    ]
+    ],
+    "beginId": 0,
+    "endId": null
   },
   "agreements": [
     {
@@ -70,7 +74,8 @@
         "begin": "F2008",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -92,6 +97,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -113,7 +119,8 @@
         "begin": "F1993",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -135,6 +142,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -156,7 +164,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -178,6 +187,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -199,7 +209,8 @@
         "begin": "F1997",
         "end": "",
         "minUnits": 3,
-        "maxUnits": 3
+        "maxUnits": 3,
+        "pathways": null
       },
       "courses": [
         {
@@ -221,6 +232,7 @@
               "end": "",
               "minUnits": 3,
               "maxUnits": 3,
+              "pathways": null,
               "publishedCourseIdentifierYearTermId": null,
               "position": 0,
               "type": "Course"
@@ -239,31 +251,35 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 223211,
-                "courseTitle": "The Criminal Justice System in Society",
-                "courseNumber": "101",
-                "prefix": "CRJU",
-                "prefixParentId": 5588,
-                "prefixDescription": "Criminal Justice",
-                "departmentParentId": 3594,
-                "department": "Criminal Justice",
-                "begin": "F2008",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "765143e3-f28b-4572-870c-b5d1825757c8",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 223211,
+                  "courseTitle": "The Criminal Justice System in Society",
+                  "courseNumber": "101",
+                  "prefix": "CRJU",
+                  "prefixParentId": 5588,
+                  "prefixDescription": "Criminal Justice",
+                  "departmentParentId": 3594,
+                  "department": "Criminal Justice",
+                  "begin": "F2008",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "765143e3-f28b-4572-870c-b5d1825757c8",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ],
@@ -281,77 +297,83 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 157922,
-                "courseTitle": "Introduction to American Govt",
-                "courseNumber": "100",
-                "prefix": "POSC",
-                "prefixParentId": 1974,
-                "prefixDescription": "Political Science",
-                "departmentParentId": 11069,
-                "department": "Political Science",
-                "begin": "F1993",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 157922,
+                  "courseTitle": "Introduction to American Govt",
+                  "courseNumber": "100",
+                  "prefix": "POSC",
+                  "prefixParentId": 1974,
+                  "prefixDescription": "Political Science",
+                  "departmentParentId": 11069,
+                  "department": "Political Science",
+                  "begin": "F1993",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "77e0a5d4-d5da-4a6a-bef3-15eb9628094d",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "77e0a5d4-d5da-4a6a-bef3-15eb9628094d",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 178825,
-                "courseTitle": "General Psychology",
-                "courseNumber": "100",
-                "prefix": "PSY",
-                "prefixParentId": 4673,
-                "prefixDescription": "Psychology",
-                "departmentParentId": 11201,
-                "department": "Psychology",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 178825,
+                  "courseTitle": "General Psychology",
+                  "courseNumber": "100",
+                  "prefix": "PSY",
+                  "prefixParentId": 4673,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11201,
+                  "department": "Psychology",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "2cf38ac3-0004-4d2e-94c8-6049105cc491",
+                "position": 0,
+                "attributes": []
               },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "2cf38ac3-0004-4d2e-94c8-6049105cc491",
-              "position": 0,
-              "attributes": []
-            },
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 341614,
-                "courseTitle": "Principles of Sociology",
-                "courseNumber": "100",
-                "prefix": "SOC",
-                "prefixParentId": 9057,
-                "prefixDescription": "Sociology",
-                "departmentParentId": 12086,
-                "department": "Sociology",
-                "begin": "F1997",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "ba6376ea-bd4b-41b9-8691-e710c41652af",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 341614,
+                  "courseTitle": "Principles of Sociology",
+                  "courseNumber": "100",
+                  "prefix": "SOC",
+                  "prefixParentId": 9057,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12086,
+                  "department": "Sociology",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "ba6376ea-bd4b-41b9-8691-e710c41652af",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       },
       {
@@ -361,31 +383,35 @@
           "selectionType": "Complete"
         },
         "sections": [
-          [
-            {
-              "type": "Course",
-              "course": {
-                "courseIdentifierParentId": 387295,
-                "courseTitle": "Cyber Security Principles",
-                "courseNumber": "278",
-                "prefix": "CECS",
-                "prefixParentId": 1109,
-                "prefixDescription": "Computer Engineering Computer Science",
-                "departmentParentId": 3046,
-                "department": "Computer Engineering Computer Science",
-                "begin": "F2017",
-                "end": "",
-                "minUnits": 3,
-                "maxUnits": 3
-              },
-              "visibleCrossListedCourses": [],
-              "requisites": [],
-              "courseAttributes": [],
-              "id": "4db6d6ae-a417-48aa-b9fe-08db99b6efb0",
-              "position": 0,
-              "attributes": []
-            }
-          ]
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 387295,
+                  "courseTitle": "Cyber Security Principles",
+                  "courseNumber": "278",
+                  "prefix": "CECS",
+                  "prefixParentId": 1109,
+                  "prefixDescription": "Computer Engineering Computer Science",
+                  "departmentParentId": 3046,
+                  "department": "Computer Engineering Computer Science",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "4db6d6ae-a417-48aa-b9fe-08db99b6efb0",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
         ]
       }
     ]
