@@ -1,0 +1,356 @@
+{
+  "major": "Informatics, B.S.",
+  "from": {
+    "id": 97,
+    "code": "CITRUS  ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Citrus College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 120,
+    "code": "UCI     ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Irvine",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "target": {
+        "courseIdentifierParentId": 289090,
+        "courseTitle": "Basic Statistics",
+        "courseNumber": "7",
+        "prefix": "STATS",
+        "prefixParentId": 13820,
+        "prefixDescription": "Statistics",
+        "departmentParentId": 12560,
+        "department": "Statistics",
+        "begin": "F2011",
+        "end": "",
+        "minUnits": 4,
+        "maxUnits": 4,
+        "pathways": []
+      },
+      "courses": [
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 183669,
+              "courseTitle": "Introductory Statistics",
+              "courseNumber": "165",
+              "prefix": "MATH",
+              "prefixParentId": 10009,
+              "prefixDescription": "Mathematics",
+              "departmentParentId": 9025,
+              "department": "Mathematics",
+              "begin": "S2000",
+              "end": "",
+              "minUnits": 4,
+              "maxUnits": 4,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": null,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "group": "And",
+          "classes": [
+            {
+              "visibleCrossListedCourses": [],
+              "requisites": [],
+              "attributes": [],
+              "courseIdentifierParentId": 142925,
+              "courseTitle": "Statistics for the Social and Behavioral Sciences",
+              "courseNumber": "103",
+              "prefix": "PSY",
+              "prefixParentId": 4696,
+              "prefixDescription": "Psychology",
+              "departmentParentId": 11204,
+              "department": "Psychology",
+              "begin": "F2021",
+              "end": "",
+              "minUnits": 3,
+              "maxUnits": 3,
+              "pathways": [],
+              "publishedCourseIdentifierYearTermId": null,
+              "position": 0,
+              "type": "Course"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "groups": {
+    "MAJOR PREPARATION COURSES REQUIRED FOR TRANSFER": [
+      {
+        "instruction": null,
+        "sections": [
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Series",
+                "series": {
+                  "conjunction": "And",
+                  "name": "I&C SCI 31, I&C SCI 32, I&C SCI 33",
+                  "courses": [
+                    {
+                      "id": "91992cd9-6300-4c10-ae65-bb0b2f42f9ec",
+                      "position": 0,
+                      "courseIdentifierParentId": 298978,
+                      "courseTitle": "Introduction to Programming",
+                      "courseNumber": "31",
+                      "prefix": "I&C SCI",
+                      "prefixParentId": 11551,
+                      "prefixDescription": "Information & Computer Science",
+                      "departmentParentId": 7498,
+                      "department": "Information & Computer Science",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": []
+                    },
+                    {
+                      "id": "cd322e3c-632c-4494-bee1-3799168c654b",
+                      "position": 1,
+                      "courseIdentifierParentId": 272014,
+                      "courseTitle": "Programming with Software Libraries",
+                      "courseNumber": "32",
+                      "prefix": "I&C SCI",
+                      "prefixParentId": 11551,
+                      "prefixDescription": "Information & Computer Science",
+                      "departmentParentId": 7498,
+                      "department": "Information & Computer Science",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": []
+                    },
+                    {
+                      "id": "9089ce73-75e1-4575-adea-b4982c8a1590",
+                      "position": 2,
+                      "courseIdentifierParentId": 298980,
+                      "courseTitle": "Intermediate Programming",
+                      "courseNumber": "33",
+                      "prefix": "I&C SCI",
+                      "prefixParentId": 11551,
+                      "prefixDescription": "Information & Computer Science",
+                      "departmentParentId": 7498,
+                      "department": "Information & Computer Science",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": []
+                    }
+                  ],
+                  "seriesPathways": []
+                },
+                "requisites": [],
+                "visibleCrossListedCourses": [],
+                "seriesAttributes": [],
+                "courseAttributes": [],
+                "id": "3460d6a9-8492-469b-a85d-215010777971",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "instruction": {
+          "type": "NFromArea",
+          "amount": 1,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 1,
+          "areaType": "None",
+          "id": "df4e2287-1a69-4e44-dfd3-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "sections": [
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 300168,
+                  "courseTitle": "Boolean Logic and Discrete Structures",
+                  "courseNumber": "6B",
+                  "prefix": "I&C SCI",
+                  "prefixParentId": 11551,
+                  "prefixDescription": "Information & Computer Science",
+                  "departmentParentId": 7498,
+                  "department": "Information & Computer Science",
+                  "begin": "S2018",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "822752d2-1b95-47dc-c88b-08db99b6efb0",
+                "position": 0,
+                "attributes": []
+              },
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 289090,
+                  "courseTitle": "Basic Statistics",
+                  "courseNumber": "7",
+                  "prefix": "STATS",
+                  "prefixParentId": 13820,
+                  "prefixDescription": "Statistics",
+                  "departmentParentId": 12560,
+                  "department": "Statistics",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "fcf8c740-4ae7-425c-c88c-08db99b6efb0",
+                "position": 0,
+                "attributes": []
+              },
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 265039,
+                  "courseTitle": "Introduction to Probability and Statistics for Computer Science",
+                  "courseNumber": "67",
+                  "prefix": "STATS",
+                  "prefixParentId": 13820,
+                  "prefixDescription": "Statistics",
+                  "departmentParentId": 12560,
+                  "department": "Statistics",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "9e00f919-a607-4264-c88d-08db99b6efb0",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ADDITIONAL APPROVED COURSES FOR THE MAJOR": [
+      {
+        "instruction": null,
+        "sections": [
+          {
+            "advisements": [],
+            "courses": [
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 302690,
+                  "courseTitle": "Programming in Java as a Second Language",
+                  "courseNumber": "45J",
+                  "prefix": "I&C SCI",
+                  "prefixParentId": 11551,
+                  "prefixDescription": "Information & Computer Science",
+                  "departmentParentId": 7498,
+                  "department": "Information & Computer Science",
+                  "begin": "F2012",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "15dce684-c726-4fd1-8b1d-37ca42f7fab6",
+                "position": 0,
+                "attributes": []
+              },
+              {
+                "type": "Course",
+                "course": {
+                  "courseIdentifierParentId": 357430,
+                  "courseTitle": "Introduction to Software Engineering",
+                  "courseNumber": "43",
+                  "prefix": "IN4MATX",
+                  "prefixParentId": 13686,
+                  "prefixDescription": "Informatics",
+                  "departmentParentId": 7496,
+                  "department": "Informatics",
+                  "begin": "F2012",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": []
+                },
+                "visibleCrossListedCourses": [],
+                "requisites": [],
+                "courseAttributes": [],
+                "id": "394a4ce9-0b3c-40f5-b79a-650205dcec96",
+                "position": 0,
+                "attributes": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
