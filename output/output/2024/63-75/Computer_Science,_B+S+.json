@@ -1,0 +1,772 @@
+{
+  "major": "Computer Science, B.S.",
+  "from": {
+    "id": 63,
+    "code": "PALOVRDE",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Palo Verde College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 75,
+    "code": "CPP     ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "California Polytechnic University, Pomona",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2018
+      },
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "41815e61-05fb-4670-8785-d11f2768a0c1",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 358944,
+                  "courseTitle": "Calculus I",
+                  "courseNumber": "220",
+                  "prefix": "MAT",
+                  "prefixParentId": 9970,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8939,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "251130d3-bc43-4d38-a054-8a73cace1d4c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 378849,
+                        "courseTitle": "Introduction to Cyber Security and Network Communications",
+                        "courseNumber": "2610",
+                        "prefix": "CS",
+                        "prefixParentId": 518,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3233,
+                        "department": "Computer Science",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "59f2e9cd-d3e8-42eb-bbfb-3832945926c3",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 364099,
+                        "courseTitle": "Probability and Statistics for Computer Scientists and Engineers",
+                        "courseNumber": "2260",
+                        "prefix": "STA",
+                        "prefixParentId": 3364,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 9086,
+                        "department": "Mathematics and Statistics",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ebc649b5-283e-459e-9664-22da938d083f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 272001,
+                        "courseTitle": "Systems Programming",
+                        "courseNumber": "2600",
+                        "prefix": "CS",
+                        "prefixParentId": 518,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3233,
+                        "department": "Computer Science",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "MAJOR REQUIRED": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "a60c15e1-5ba9-4e63-7913-08db8f7b48fa",
+          "selectionType": "Select"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "557d0230-a523-44f9-a6fe-58f0c0059d41",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "d2848587-2ac1-4ea1-8030-905d2b73ef31",
+                        "position": 0,
+                        "courseIdentifierParentId": 155995,
+                        "courseTitle": "Life Science",
+                        "courseNumber": "1110",
+                        "prefix": "BIO",
+                        "prefixParentId": 4890,
+                        "prefixDescription": "Biological Sciences",
+                        "departmentParentId": 1633,
+                        "department": "Biological Sciences",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 2,
+                        "maxUnits": 2,
+                        "pathways": null
+                      },
+                      {
+                        "id": "7337254a-a785-4ace-8a7d-39e56efe8b33",
+                        "position": 1,
+                        "courseIdentifierParentId": 311090,
+                        "courseTitle": "Life Science Laboratory",
+                        "courseNumber": "1110L",
+                        "prefix": "BIO",
+                        "prefixParentId": 4890,
+                        "prefixDescription": "Biological Sciences",
+                        "departmentParentId": 1633,
+                        "department": "Biological Sciences",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c8ea9294-e9ae-4edc-9341-08db8f7b9dd1",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 155995,
+                        "courseTitle": "Life Science",
+                        "courseNumber": "1110",
+                        "prefix": "BIO",
+                        "prefixParentId": 4890,
+                        "prefixDescription": "Biological Sciences",
+                        "departmentParentId": 1633,
+                        "department": "Biological Sciences",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 2,
+                        "maxUnits": 2,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "096b883f-6717-40f8-9342-08db8f7b9dd1",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 311090,
+                        "courseTitle": "Life Science Laboratory",
+                        "courseNumber": "1110L",
+                        "prefix": "BIO",
+                        "prefixParentId": 4890,
+                        "prefixDescription": "Biological Sciences",
+                        "departmentParentId": 1633,
+                        "department": "Biological Sciences",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "MAJOR REQUIRED: COMPUTER SCIENCE LOWER-DIVISION SEQUENCE": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "1bb2391f-992d-466b-ba45-98560097f8b5",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 363914,
+                        "courseTitle": "Discrete Structures",
+                        "courseNumber": "1300",
+                        "prefix": "CS",
+                        "prefixParentId": 518,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3233,
+                        "department": "Computer Science",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5f504eb6-5a5e-4eaf-8ae8-48c86932f8f0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 363916,
+                        "courseTitle": "Data Structures and Advanced Programming",
+                        "courseNumber": "2400",
+                        "prefix": "CS",
+                        "prefixParentId": 518,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3233,
+                        "department": "Computer Science",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2930558e-4ccf-4f08-b673-5a937a9356ce",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 363915,
+                        "courseTitle": "Introduction to Programming and Problem Solving",
+                        "courseNumber": "1400",
+                        "prefix": "CS",
+                        "prefixParentId": 518,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3233,
+                        "department": "Computer Science",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "55992038-3da5-4bbd-8099-405244c99f28",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 351673,
+                        "courseTitle": "Computer Organization and Assembly Programming",
+                        "courseNumber": "2640",
+                        "prefix": "CS",
+                        "prefixParentId": 518,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3233,
+                        "department": "Computer Science",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "MAJOR REQUIRED: CALCULUS I & II": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "eff4a2c3-d7a1-4d37-9482-31ca9529d4f1",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 275934,
+                        "courseTitle": "Calculus II",
+                        "courseNumber": "1150",
+                        "prefix": "MAT",
+                        "prefixParentId": 9982,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9086,
+                        "department": "Mathematics and Statistics",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "41815e61-05fb-4670-8785-d11f2768a0c1",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 275919,
+                        "courseTitle": "Calculus I",
+                        "courseNumber": "1140",
+                        "prefix": "MAT",
+                        "prefixParentId": 9982,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9086,
+                        "department": "Mathematics and Statistics",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "MAJOR REQUIRED: CALCULUS-BASED PHYSICS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b2c344bf-1ce1-4f72-b08e-a88117e38542",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "7feba748-d516-4929-afe5-0b3956002b31",
+                        "position": 0,
+                        "courseIdentifierParentId": 330151,
+                        "courseTitle": "Introduction to Newtonian Mechanics",
+                        "courseNumber": "1510",
+                        "prefix": "PHY",
+                        "prefixParentId": 255,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10868,
+                        "department": "Physics and Astronomy",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      },
+                      {
+                        "id": "a6bbd689-7da8-4874-bec2-1c27ad685238",
+                        "position": 1,
+                        "courseIdentifierParentId": 27031,
+                        "courseTitle": "Newtonian Mechanics Laboratory",
+                        "courseNumber": "1510L",
+                        "prefix": "PHY",
+                        "prefixParentId": 255,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10868,
+                        "department": "Physics and Astronomy",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "MAJOR REQUIRED ELECTIVES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFromUnits",
+                "amount": 6,
+                "amountQuantifier": "UpTo",
+                "amountUnitType": "Unit",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "7a2e2406-cca9-4871-924d-b703547d5da9",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 375504,
+                        "courseTitle": "Fundamentals of Data Science",
+                        "courseNumber": "2410",
+                        "prefix": "CS",
+                        "prefixParentId": 518,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3233,
+                        "department": "Computer Science",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d9e3c246-94db-4180-8842-50b370501e3c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 373039,
+                        "courseTitle": "Python for Programmers",
+                        "courseNumber": "2520",
+                        "prefix": "CS",
+                        "prefixParentId": 518,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3233,
+                        "department": "Computer Science",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "851cae67-ded5-4c7e-b7a5-14182d2662c9",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 286609,
+                        "courseTitle": "C++ Programming",
+                        "courseNumber": "2560",
+                        "prefix": "CS",
+                        "prefixParentId": 518,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3233,
+                        "department": "Computer Science",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f96a7ee2-83dc-4adf-8468-83f370e65569",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 378848,
+                        "courseTitle": "Introduction to Web Science and Technology",
+                        "courseNumber": "2250",
+                        "prefix": "CS",
+                        "prefixParentId": 518,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3233,
+                        "department": "Computer Science",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b18201ae-af12-4d86-83ef-06a674fdebe6",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 244322,
+                        "courseTitle": "User Interface Design and Programming",
+                        "courseNumber": "2450",
+                        "prefix": "CS",
+                        "prefixParentId": 518,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3233,
+                        "department": "Computer Science",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "major": "Film, Television and Media, B.A",
+  "from": {
+    "id": 25,
+    "code": "LATT    ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Los Angeles Trade Technical College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 50,
+    "code": "CSUDH   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Dominguez Hills",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "d456a7b2-9a1a-47fb-78b7-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 237682,
+                  "courseTitle": "Introduction to Digital Video",
+                  "courseNumber": "100",
+                  "prefix": "DIGLMD",
+                  "prefixParentId": 14752,
+                  "prefixDescription": "Digital Media",
+                  "departmentParentId": 3930,
+                  "department": "Digital Media",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "bf11f796-ab2c-4050-7227-08dbdbbe1f5e",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f9b393d4-0051-4894-78b6-08dbdbbe1f5f",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "468427d6-8851-4711-8435-ea0d8bc2d321",
+                        "position": 0,
+                        "courseIdentifierParentId": 369207,
+                        "courseTitle": "Digital Tool Kit",
+                        "courseNumber": "106",
+                        "prefix": "COM",
+                        "prefixParentId": 12234,
+                        "prefixDescription": "Communications",
+                        "departmentParentId": 2876,
+                        "department": "Communications",
+                        "begin": "S2018",
+                        "end": "",
+                        "minUnits": 2,
+                        "maxUnits": 2,
+                        "pathways": null
+                      },
+                      {
+                        "id": "05d5b8df-a086-44a0-85ae-ee5a0c5a3881",
+                        "position": 1,
+                        "courseIdentifierParentId": 369208,
+                        "courseTitle": "Digital Took Kit Laboratory",
+                        "courseNumber": "107",
+                        "prefix": "COM",
+                        "prefixParentId": 12234,
+                        "prefixDescription": "Communications",
+                        "departmentParentId": 2876,
+                        "department": "Communications",
+                        "begin": "S2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d456a7b2-9a1a-47fb-78b7-08dbdbbe1f5f",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "64031c69-f1fc-40ec-8219-004334e47812",
+                        "position": 0,
+                        "courseIdentifierParentId": 224473,
+                        "courseTitle": "Introduction to Digital Media Production",
+                        "courseNumber": "110",
+                        "prefix": "COM",
+                        "prefixParentId": 12234,
+                        "prefixDescription": "Communications",
+                        "departmentParentId": 2876,
+                        "department": "Communications",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 2,
+                        "maxUnits": 2,
+                        "pathways": null
+                      },
+                      {
+                        "id": "10dab36b-c685-4140-92d4-8825ca569770",
+                        "position": 1,
+                        "courseIdentifierParentId": 369209,
+                        "courseTitle": "Introduction to Digital Media Production Laboratory",
+                        "courseNumber": "111",
+                        "prefix": "COM",
+                        "prefixParentId": 12234,
+                        "prefixDescription": "Communications",
+                        "departmentParentId": 2876,
+                        "department": "Communications",
+                        "begin": "Su2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ab9e783e-99f4-424b-78b8-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 330018,
+                        "courseTitle": "Introduction to Film",
+                        "courseNumber": "130",
+                        "prefix": "COM",
+                        "prefixParentId": 12234,
+                        "prefixDescription": "Communications",
+                        "departmentParentId": 2876,
+                        "department": "Communications",
+                        "begin": "F2010",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "849ad9fd-c5e9-47b9-78b9-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 369210,
+                        "courseTitle": "Genre Analysis",
+                        "courseNumber": "200",
+                        "prefix": "COM",
+                        "prefixParentId": 12234,
+                        "prefixDescription": "Communications",
+                        "departmentParentId": 2876,
+                        "department": "Communications",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "LOWER DIVISION REQUIRED COURSES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "5c082b78-313b-480b-7228-08dbdbbe1f5e",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "43d38ae5-c17a-41af-ac15-111ef5870c07",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 330004,
+                        "courseTitle": "Media and Society",
+                        "courseNumber": "100",
+                        "prefix": "COM",
+                        "prefixParentId": 12234,
+                        "prefixDescription": "Communications",
+                        "departmentParentId": 2876,
+                        "department": "Communications",
+                        "begin": "F2010",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "3953de35-f50d-4ea3-9166-67e8e3ff252d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 369206,
+                        "courseTitle": "Introduction to Media Criticism",
+                        "courseNumber": "105",
+                        "prefix": "COM",
+                        "prefixParentId": 12234,
+                        "prefixDescription": "Communications",
+                        "departmentParentId": 2876,
+                        "department": "Communications",
+                        "begin": "S2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

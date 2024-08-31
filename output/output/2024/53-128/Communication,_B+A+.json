@@ -1,0 +1,738 @@
+{
+  "major": "Communication, B.A.",
+  "from": {
+    "id": 53,
+    "code": "MTSJC   ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Mt. San Jacinto College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 128,
+    "code": "UCSB    ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Santa Barbara",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "005c109f-0575-44ce-8498-08dba897c33b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 218566,
+                  "courseTitle": "Survey of Communication Studies",
+                  "courseNumber": "120",
+                  "prefix": "COMM-",
+                  "prefixParentId": 12235,
+                  "prefixDescription": "Communication Studies",
+                  "departmentParentId": 14409,
+                  "department": "Communication Studies",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "10eaf7d2-6e56-41e3-849b-08dba897c33b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "c93abd63-b39b-4b0f-5565-08dbf8543c4a",
+              "sendingArticulationId": "47724c8c-e97e-4d39-b2a3-9529004b2a50",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "d1f44b8a-4e57-41da-6818-08dc190a494b",
+              "sendingArticulationId": "47724c8c-e97e-4d39-b2a3-9529004b2a50",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "ab438d9d-b6ca-4ff5-6819-08dc190a494b",
+              "sendingArticulationId": "47724c8c-e97e-4d39-b2a3-9529004b2a50",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 296025,
+                  "courseTitle": "Honors Introduction to Statistics",
+                  "courseNumber": "140H",
+                  "prefix": "MATH-",
+                  "prefixParentId": 9961,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8989,
+                  "department": "Mathematics",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 291,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "08ad04ce-7fc4-4b2b-8c40-08dc190a494b",
+                      "publishedCourseIdentifierYearTermId": 287,
+                      "courseIdentifierParentId": 367064,
+                      "courseTitle": "Statistics for Behavioral Sciences",
+                      "courseNumber": "121",
+                      "prefix": "SOCI-",
+                      "prefixParentId": 9027,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12140,
+                      "department": "Sociology",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 365775,
+                  "courseTitle": "Statistics for Behavioral Sciences",
+                  "courseNumber": "121",
+                  "prefix": "PSYC-",
+                  "prefixParentId": 4642,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11237,
+                  "department": "Psychology",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 287,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "9f0b6b11-8685-47cf-8c41-08dc190a494b",
+                      "publishedCourseIdentifierYearTermId": 287,
+                      "courseIdentifierParentId": 365775,
+                      "courseTitle": "Statistics for Behavioral Sciences",
+                      "courseNumber": "121",
+                      "prefix": "PSYC-",
+                      "prefixParentId": 4642,
+                      "prefixDescription": "Psychology",
+                      "departmentParentId": 11237,
+                      "department": "Psychology",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 367064,
+                  "courseTitle": "Statistics for Behavioral Sciences",
+                  "courseNumber": "121",
+                  "prefix": "SOCI-",
+                  "prefixParentId": 9027,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12140,
+                  "department": "Sociology",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 287,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 333846,
+                  "courseTitle": "Introduction to Statistics",
+                  "courseNumber": "140",
+                  "prefix": "MATH-",
+                  "prefixParentId": 9961,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8989,
+                  "department": "Mathematics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 287,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "c9b316a1-5fec-43ed-86a2-769ceec7cb38",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "e392b646-7dc0-4aac-5564-08dbf8543c4a",
+              "sendingArticulationId": "1b6d8846-064d-48db-a124-70f2f78f9fec",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "8d9ebd30-566f-4fce-a918-4e0ba0b1f86e",
+              "sendingArticulationId": "1b6d8846-064d-48db-a124-70f2f78f9fec",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "895e8f69-f81b-40e3-93e5-bd6146577eab",
+              "sendingArticulationId": "1b6d8846-064d-48db-a124-70f2f78f9fec",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 296025,
+                  "courseTitle": "Honors Introduction to Statistics",
+                  "courseNumber": "140H",
+                  "prefix": "MATH-",
+                  "prefixParentId": 9961,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8989,
+                  "department": "Mathematics",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 291,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "4b1b5c48-bdf8-4d4b-83da-085f5fbf62c8",
+                      "publishedCourseIdentifierYearTermId": 287,
+                      "courseIdentifierParentId": 367064,
+                      "courseTitle": "Statistics for Behavioral Sciences",
+                      "courseNumber": "121",
+                      "prefix": "SOCI-",
+                      "prefixParentId": 9027,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12140,
+                      "department": "Sociology",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 365775,
+                  "courseTitle": "Statistics for Behavioral Sciences",
+                  "courseNumber": "121",
+                  "prefix": "PSYC-",
+                  "prefixParentId": 4642,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11237,
+                  "department": "Psychology",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 287,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "a7722a02-754f-4250-b4c2-9796b4a8cb9e",
+                      "publishedCourseIdentifierYearTermId": 287,
+                      "courseIdentifierParentId": 365775,
+                      "courseTitle": "Statistics for Behavioral Sciences",
+                      "courseNumber": "121",
+                      "prefix": "PSYC-",
+                      "prefixParentId": 4642,
+                      "prefixDescription": "Psychology",
+                      "departmentParentId": 11237,
+                      "department": "Psychology",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 367064,
+                  "courseTitle": "Statistics for Behavioral Sciences",
+                  "courseNumber": "121",
+                  "prefix": "SOCI-",
+                  "prefixParentId": 9027,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12140,
+                  "department": "Sociology",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 287,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 333846,
+                  "courseTitle": "Introduction to Statistics",
+                  "courseNumber": "140",
+                  "prefix": "MATH-",
+                  "prefixParentId": 9961,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8989,
+                  "department": "Mathematics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 287,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "505c32d4-2cd2-48f7-1443-08dba898cc31",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c9b316a1-5fec-43ed-86a2-769ceec7cb38",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 257632,
+                        "courseTitle": "Statistical Analysis for Communication",
+                        "courseNumber": "87",
+                        "prefix": "COMM",
+                        "prefixParentId": 12262,
+                        "prefixDescription": "Communication",
+                        "departmentParentId": 2788,
+                        "department": "Communication",
+                        "begin": "F2010",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "10eaf7d2-6e56-41e3-849b-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 308406,
+                        "courseTitle": "Understanding Data",
+                        "courseNumber": "5A",
+                        "prefix": "PSTAT",
+                        "prefixParentId": 627,
+                        "prefixDescription": "Statistics and Applied Probability",
+                        "departmentParentId": 12561,
+                        "department": "Statistics and Applied Probability",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a474da7a-70b0-4bb1-849c-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 304771,
+                        "courseTitle": "Statistics for Life Sciences",
+                        "courseNumber": "5LS",
+                        "prefix": "PSTAT",
+                        "prefixParentId": 627,
+                        "prefixDescription": "Statistics and Applied Probability",
+                        "departmentParentId": 12561,
+                        "department": "Statistics and Applied Probability",
+                        "begin": "F2010",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "769fcc60-7780-4f2d-144e-08dba898cc31",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "7502276f-08c1-4d9f-8499-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 286391,
+                        "courseTitle": "Communication Research Methods",
+                        "courseNumber": "88",
+                        "prefix": "COMM",
+                        "prefixParentId": 12262,
+                        "prefixDescription": "Communication",
+                        "departmentParentId": 2788,
+                        "department": "Communication",
+                        "begin": "F2009",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "6fededc6-67f1-4f9a-144f-08dba898cc31",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a3df93d6-c16d-43d7-849a-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 286505,
+                        "courseTitle": "Theories of Communication",
+                        "courseNumber": "89",
+                        "prefix": "COMM",
+                        "prefixParentId": 12262,
+                        "prefixDescription": "Communication",
+                        "departmentParentId": 2788,
+                        "department": "Communication",
+                        "begin": "F2009",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "PRE-MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "1a1b86f3-7556-4fbc-144d-08dba898cc31",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "005c109f-0575-44ce-8498-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 257629,
+                        "courseTitle": "Introduction to Communication",
+                        "courseNumber": "1",
+                        "prefix": "COMM",
+                        "prefixParentId": 12262,
+                        "prefixDescription": "Communication",
+                        "departmentParentId": 2788,
+                        "department": "Communication",
+                        "begin": "F2010",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

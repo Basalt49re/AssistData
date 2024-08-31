@@ -1,0 +1,975 @@
+{
+  "major": "Music, B.M. - Performance Option",
+  "from": {
+    "id": 18,
+    "code": "POSITAS ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Las Positas College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 75,
+    "code": "CPP     ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "California Polytechnic University, Pomona",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2018
+      },
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "d62d1e9d-89f3-43be-1845-08dbfdcaf961",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 280581,
+                  "courseTitle": "Beginning French",
+                  "courseNumber": "1A",
+                  "prefix": "FREN",
+                  "prefixParentId": 6727,
+                  "prefixDescription": "French",
+                  "departmentParentId": 5925,
+                  "department": "French",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "9eea72cc-c2fb-454d-185c-08dbfdcaf961",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 265585,
+                  "courseTitle": "Music Theory and Musicianship 1",
+                  "courseNumber": "8A",
+                  "prefix": "MUS",
+                  "prefixParentId": 13071,
+                  "prefixDescription": "Music",
+                  "departmentParentId": 9397,
+                  "department": "Music",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 297887,
+                  "courseTitle": "Music Theory and Musicianship 2",
+                  "courseNumber": "8B",
+                  "prefix": "MUS",
+                  "prefixParentId": 13071,
+                  "prefixDescription": "Music",
+                  "departmentParentId": 9397,
+                  "department": "Music",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "a164d70b-b38c-4c98-68fe-08dbfdccbd2c",
+          "selectionType": "Select"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d62d1e9d-89f3-43be-1845-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 245373,
+                        "courseTitle": "Elementary French I",
+                        "courseNumber": "1111",
+                        "prefix": "FRE",
+                        "prefixParentId": 16162,
+                        "prefixDescription": "French",
+                        "departmentParentId": 5082,
+                        "department": "English and Modern Languages",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "4280a7fe-e0a7-4369-1846-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 281284,
+                        "courseTitle": "Elementary German I",
+                        "courseNumber": "1111",
+                        "prefix": "GER",
+                        "prefixParentId": 16163,
+                        "prefixDescription": "German",
+                        "departmentParentId": 5082,
+                        "department": "English and Modern Languages",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "81a54b27-68ed-4fb9-1848-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 29078,
+                        "courseTitle": "Jazz Improvisation, Beginning",
+                        "courseNumber": "1161A",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d16190d6-4e8a-4f55-1849-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 113771,
+                        "courseTitle": "Songwriting I",
+                        "courseNumber": "1290",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2023",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "cc3c3e1a-ab5d-450a-184a-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 52823,
+                        "courseTitle": "Songwriting II",
+                        "courseNumber": "2290",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2023",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "MAJOR REQUIRED": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6c60d6c2-a40f-4265-184b-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C- or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 27480,
+                        "courseTitle": "Class Piano I",
+                        "courseNumber": "1121A",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ecd014ef-dce9-4097-184c-08dbfdcaf961",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [
+                      "Minimum grade required: C- or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "fc6fb7ec-fdee-43e2-954a-51a446fc2945",
+                        "position": 0,
+                        "courseIdentifierParentId": 136373,
+                        "courseTitle": "Physics of Musical Sound",
+                        "courseNumber": "1050",
+                        "prefix": "PHY",
+                        "prefixParentId": 255,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10868,
+                        "department": "Physics and Astronomy",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 2,
+                        "maxUnits": 2,
+                        "pathways": null
+                      },
+                      {
+                        "id": "6e600fd6-c380-463e-a64b-ea68e5c48477",
+                        "position": 1,
+                        "courseIdentifierParentId": 28743,
+                        "courseTitle": "Physics of Musical Sound Laboratory",
+                        "courseNumber": "1050L",
+                        "prefix": "PHY",
+                        "prefixParentId": 255,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10868,
+                        "department": "Physics and Astronomy",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d2ee4b06-72e7-4fd0-184e-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C- or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 25371,
+                        "courseTitle": "Musicianship II",
+                        "courseNumber": "2221A",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "74ff0562-3405-4cf8-184f-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C- or better",
+                      "Course must be taken for at least 4 units"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 26848,
+                        "courseTitle": "Performance Seminar",
+                        "courseNumber": "2700",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0daeedf5-c415-4914-1851-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C- or better",
+                      "Course must be taken for at least 4 units"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 363861,
+                        "courseTitle": "Performance Studio Lower Division",
+                        "courseNumber": "1811",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5a827a13-317d-496c-1852-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C- or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 383428,
+                        "courseTitle": "Music Theory: Classical I",
+                        "courseNumber": "2202",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "861311db-4a8b-4fa8-1853-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C- or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 27512,
+                        "courseTitle": "Class Piano II",
+                        "courseNumber": "1131A",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "35530713-831a-48a6-1854-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C- or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 27481,
+                        "courseTitle": "Class Piano III",
+                        "courseNumber": "2121A",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "72ff6638-57ce-4022-1855-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C- or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 275204,
+                        "courseTitle": "World of Music",
+                        "courseNumber": "1030",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d1652e97-dc77-4097-1856-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C- or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 27499,
+                        "courseTitle": "Class Piano IV",
+                        "courseNumber": "2131A",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a8c76c02-dc96-48f1-1857-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C- or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 136412,
+                        "courseTitle": "Introduction to Music Technology",
+                        "courseNumber": "1080",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9eea72cc-c2fb-454d-185c-08dbfdcaf961",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [],
+                    "generalAttributes": [
+                      "Minimum grade required: C- or better"
+                    ],
+                    "courses": [
+                      {
+                        "id": "168f4917-b331-4e62-9ea5-0d74472bb5b7",
+                        "position": 0,
+                        "courseIdentifierParentId": 293331,
+                        "courseTitle": "Introduction to Music Theory",
+                        "courseNumber": "1201",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      },
+                      {
+                        "id": "349b5ed4-baef-4178-8d71-7c60b76ff6c6",
+                        "position": 1,
+                        "courseIdentifierParentId": 24978,
+                        "courseTitle": "Musicianship I",
+                        "courseNumber": "2211A",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ADDITIONAL MUSIC THEORY COURSES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "8e604cea-5539-47d9-185a-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C- or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 383429,
+                        "courseTitle": "Jazz and Pop Harmony and Techniques",
+                        "courseNumber": "2203",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "51ac114a-9a7f-468d-185b-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C- or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 383430,
+                        "courseTitle": "20th and 21st Century Music Theory",
+                        "courseNumber": "2204",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "MAJOR OPTION REQUIRED": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e22b8fab-5fac-4054-1858-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 351891,
+                        "courseTitle": "Careers in Music",
+                        "courseNumber": "1040",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c5310027-7c22-43b4-1859-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Course must be taken for at least 3 units"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 26848,
+                        "courseTitle": "Performance Seminar",
+                        "courseNumber": "2700",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "OPTION REQUIRED ELECTIVES/EMPHASIS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2a25b3b0-3eb9-4be8-1847-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 98111,
+                        "courseTitle": "Diction for Singers",
+                        "courseNumber": "2610",
+                        "prefix": "MU",
+                        "prefixParentId": 6584,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9496,
+                        "department": "Music",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 2,
+                        "maxUnits": 2,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1254 @@
+{
+  "major": "Physics B.S. Physical Science Option",
+  "from": {
+    "id": 27,
+    "code": "ARC     ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "American River College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 50,
+    "code": "CSUDH   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Dominguez Hills",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "12af50bc-7dc9-41e2-065c-08dbfdcaf961",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 234346,
+                  "courseTitle": "Introduction to Computer Information Science",
+                  "courseNumber": "310",
+                  "prefix": "CISC",
+                  "prefixParentId": 13251,
+                  "prefixDescription": "Computer Information Science - Core",
+                  "departmentParentId": 3073,
+                  "department": "Computer Information Science - Core",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "8b0b1096-9342-4ee6-065d-08dbfdcaf961",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 283901,
+                  "courseTitle": "Beginning Visual Basic",
+                  "courseNumber": "370",
+                  "prefix": "CISP",
+                  "prefixParentId": 13257,
+                  "prefixDescription": "Computer Information Science - Programming",
+                  "departmentParentId": 3075,
+                  "department": "Computer Information Science - Programming",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "0eb6379d-9118-45fd-065e-08dbfdcaf961",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "16ff9782-3176-4446-b219-5e8d8aef9401",
+              "sendingArticulationId": "47125f8f-988b-45f7-8e2b-c86d183a8839",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 248908,
+                  "courseTitle": "Object Oriented Programming with C++",
+                  "courseNumber": "400",
+                  "prefix": "CISP",
+                  "prefixParentId": 13257,
+                  "prefixDescription": "Computer Information Science - Programming",
+                  "departmentParentId": 3075,
+                  "department": "Computer Information Science - Programming",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Preferred course"
+                    }
+                  ],
+                  "courseIdentifierParentId": 298420,
+                  "courseTitle": "Object Oriented Programming with Java",
+                  "courseNumber": "401",
+                  "prefix": "CISP",
+                  "prefixParentId": 13257,
+                  "prefixDescription": "Computer Information Science - Programming",
+                  "departmentParentId": 3075,
+                  "department": "Computer Information Science - Programming",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "2d279eb0-75c3-4f3f-291d-08dbfdcaf961",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 173463,
+                  "courseTitle": "Physical Geology",
+                  "courseNumber": "300",
+                  "prefix": "GEOL",
+                  "prefixParentId": 11249,
+                  "prefixDescription": "Geology",
+                  "departmentParentId": 6295,
+                  "department": "Geology",
+                  "begin": "Su2003",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "c6d35a08-e11f-4c51-291e-08dbfdcaf961",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 33339,
+                  "courseTitle": "Physical Geology Laboratory",
+                  "courseNumber": "301",
+                  "prefix": "GEOL",
+                  "prefixParentId": 11249,
+                  "prefixDescription": "Geology",
+                  "departmentParentId": 6295,
+                  "department": "Geology",
+                  "begin": "Su2003",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "78c47137-e1cb-4a2e-214f-08dc2665a19f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 173250,
+                  "courseTitle": "Historical Geology",
+                  "courseNumber": "310",
+                  "prefix": "GEOL",
+                  "prefixParentId": 11249,
+                  "prefixDescription": "Geology",
+                  "departmentParentId": 6295,
+                  "department": "Geology",
+                  "begin": "Su2003",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "78712482-ae66-47b5-0663-08dbfdcaf961",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 279372,
+                  "courseTitle": "Calculus I",
+                  "courseNumber": "400",
+                  "prefix": "MATH",
+                  "prefixParentId": 9933,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8968,
+                  "department": "Mathematics",
+                  "begin": "F2004",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "0b7c3aa1-7b23-41b5-0664-08dbfdcaf961",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 303825,
+                  "courseTitle": "Calculus II",
+                  "courseNumber": "401",
+                  "prefix": "MATH",
+                  "prefixParentId": 9933,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8968,
+                  "department": "Mathematics",
+                  "begin": "F2004",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "917a4e03-251d-48a5-0665-08dbfdcaf961",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 279361,
+                  "courseTitle": "Calculus III",
+                  "courseNumber": "402",
+                  "prefix": "MATH",
+                  "prefixParentId": 9933,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8968,
+                  "department": "Mathematics",
+                  "begin": "F2004",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "18dfb1bc-962d-4d50-214c-08dc2665a19f",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    },
+    {
+      "templateCellId": "4cac3dba-0b9c-435a-214d-08dc2665a19f",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    },
+    {
+      "templateCellId": "4880c7d2-d49f-4e0a-065f-08dbfdcaf961",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [
+          "Articulates as a sequence only"
+        ],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 278239,
+                  "courseTitle": "Mechanics of Solids and Fluids",
+                  "courseNumber": "410",
+                  "prefix": "PHYS",
+                  "prefixParentId": 206,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10764,
+                  "department": "Physics",
+                  "begin": "Su2003",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 210,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 248847,
+                  "courseTitle": "Heat, Waves, Light and Modern Physics",
+                  "courseNumber": "431",
+                  "prefix": "PHYS",
+                  "prefixParentId": 206,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10764,
+                  "department": "Physics",
+                  "begin": "Su2003",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 210,
+                  "position": 2,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 243463,
+                  "courseTitle": "Electricity and Magnetism",
+                  "courseNumber": "421",
+                  "prefix": "PHYS",
+                  "prefixParentId": 206,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10764,
+                  "department": "Physics",
+                  "begin": "Su2003",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 210,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "6b91469f-e733-48c9-a6d9-ccc4e6198e88",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [
+          "Articulates as a sequence only",
+          "Minimum grade required: C or better"
+        ],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 303819,
+                  "courseTitle": "General Chemistry II",
+                  "courseNumber": "401",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3767,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2287,
+                  "department": "Chemistry",
+                  "begin": "Su2017",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 266,
+                  "position": 1,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 285110,
+                  "courseTitle": "General Chemistry I",
+                  "courseNumber": "400",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3767,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2287,
+                  "department": "Chemistry",
+                  "begin": "Su2017",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 266,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "055c14e2-c67b-48ec-64ad-08dbfdccbd2c",
+          "selectionType": "Select"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "12af50bc-7dc9-41e2-065c-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 98997,
+                        "courseTitle": "Introduction to Computer Education",
+                        "courseNumber": "101",
+                        "prefix": "CSC",
+                        "prefixParentId": 504,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3249,
+                        "department": "Computer Science",
+                        "begin": "S2006",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "8b0b1096-9342-4ee6-065d-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 330009,
+                        "courseTitle": "Introduction to Computers and Basic Programming",
+                        "courseNumber": "111",
+                        "prefix": "CSC",
+                        "prefixParentId": 504,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3249,
+                        "department": "Computer Science",
+                        "begin": "F1989",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0eb6379d-9118-45fd-065e-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 170526,
+                        "courseTitle": "Introduction to Computer Science and Programming I",
+                        "courseNumber": "121",
+                        "prefix": "CSC",
+                        "prefixParentId": 504,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3249,
+                        "department": "Computer Science",
+                        "begin": "S2000",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "03381720-7708-4433-03bc-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2d279eb0-75c3-4f3f-291d-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 135377,
+                        "courseTitle": "Physical Geology",
+                        "courseNumber": "100",
+                        "prefix": "EAR",
+                        "prefixParentId": 9866,
+                        "prefixDescription": "Geology/Earth Sciences",
+                        "departmentParentId": 4172,
+                        "department": "Earth Sciences",
+                        "begin": "Su2009",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c6d35a08-e11f-4c51-291e-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 25618,
+                        "courseTitle": "Physical Geology Laboratory",
+                        "courseNumber": "101",
+                        "prefix": "EAR",
+                        "prefixParentId": 9866,
+                        "prefixDescription": "Geology/Earth Sciences",
+                        "departmentParentId": 4172,
+                        "department": "Earth Sciences",
+                        "begin": "Su2009",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "39b72a08-9f90-4da9-03bd-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "78c47137-e1cb-4a2e-214f-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 330013,
+                        "courseTitle": "Earth History and Evolution",
+                        "courseNumber": "200",
+                        "prefix": "EAR",
+                        "prefixParentId": 9866,
+                        "prefixDescription": "Geology/Earth Sciences",
+                        "departmentParentId": 4172,
+                        "department": "Earth Sciences",
+                        "begin": "Su2009",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "3d700520-cd7a-4c87-2150-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 25984,
+                        "courseTitle": "Earth History Laboratory",
+                        "courseNumber": "201",
+                        "prefix": "EAR",
+                        "prefixParentId": 9866,
+                        "prefixDescription": "Geology/Earth Sciences",
+                        "departmentParentId": 4172,
+                        "department": "Earth Sciences",
+                        "begin": "Su2009",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "LOWER DIVISION REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "e06e3a3a-e9cf-4d01-64af-08dbfdccbd2c",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6b91469f-e733-48c9-a6d9-ccc4e6198e88",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "e336b2ee-a58b-45fe-abee-be62fc035240",
+                        "position": 0,
+                        "courseIdentifierParentId": 276727,
+                        "courseTitle": "General Chemistry I",
+                        "courseNumber": "110",
+                        "prefix": "CHE",
+                        "prefixParentId": 3790,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2256,
+                        "department": "Chemistry",
+                        "begin": "F1989",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      },
+                      {
+                        "id": "85809a22-4b9e-44dc-8201-46efaa4dbf39",
+                        "position": 1,
+                        "courseIdentifierParentId": 276729,
+                        "courseTitle": "General Chemistry II",
+                        "courseNumber": "112",
+                        "prefix": "CHE",
+                        "prefixParentId": 3790,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2256,
+                        "department": "Chemistry",
+                        "begin": "F1989",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "78712482-ae66-47b5-0663-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 245017,
+                        "courseTitle": "Calculus I",
+                        "courseNumber": "191",
+                        "prefix": "MAT",
+                        "prefixParentId": 9957,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 8938,
+                        "department": "Mathematics",
+                        "begin": "F2004",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0b7c3aa1-7b23-41b5-0664-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 274785,
+                        "courseTitle": "Calculus II",
+                        "courseNumber": "193",
+                        "prefix": "MAT",
+                        "prefixParentId": 9957,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 8938,
+                        "department": "Mathematics",
+                        "begin": "F2004",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "917a4e03-251d-48a5-0665-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 280934,
+                        "courseTitle": "Calculus III",
+                        "courseNumber": "211",
+                        "prefix": "MAT",
+                        "prefixParentId": 9957,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 8938,
+                        "department": "Mathematics",
+                        "begin": "F2004",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "4880c7d2-d49f-4e0a-065f-08dbfdcaf961",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "95d0673c-d684-432e-b6fc-1038515eb6df",
+                        "position": 0,
+                        "courseIdentifierParentId": 358294,
+                        "courseTitle": "General Physics I",
+                        "courseNumber": "130",
+                        "prefix": "PHY",
+                        "prefixParentId": 230,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10728,
+                        "department": "Physics",
+                        "begin": "F1989",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      },
+                      {
+                        "id": "5a3f3fde-4396-460c-8081-6403a3044efa",
+                        "position": 1,
+                        "courseIdentifierParentId": 276731,
+                        "courseTitle": "General Physics II",
+                        "courseNumber": "132",
+                        "prefix": "PHY",
+                        "prefixParentId": 230,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10728,
+                        "department": "Physics",
+                        "begin": "F1989",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "8e0c77d8-7ec7-40d2-0660-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 245010,
+                        "courseTitle": "General Physics III",
+                        "courseNumber": "134",
+                        "prefix": "PHY",
+                        "prefixParentId": 230,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10728,
+                        "department": "Physics",
+                        "begin": "S1997",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

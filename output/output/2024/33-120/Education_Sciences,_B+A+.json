@@ -1,0 +1,467 @@
+{
+  "major": "Education Sciences, B.A.",
+  "from": {
+    "id": 33,
+    "code": "SFCITY  ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "City College of San Francisco",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2019
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 2016
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 120,
+    "code": "UCI     ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Irvine",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "58d2d22b-eefa-4969-a83b-5cced91cb622",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 267661,
+                  "courseTitle": "Introduction to Research Methods",
+                  "courseNumber": "21",
+                  "prefix": "SOC",
+                  "prefixParentId": 9007,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12055,
+                  "department": "Sociology",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "a26afc02-3bca-4ecb-9ee0-bdb0ab77773b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "7b80c41c-bdd8-4299-98d7-63a335ba21fa",
+              "sendingArticulationId": "db0ea985-4a03-4158-8574-e3341683706f",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "49a659f9-77cb-4d7a-a155-c0f27021b0a9",
+              "sendingArticulationId": "db0ea985-4a03-4158-8574-e3341683706f",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "d88ff158-e71e-421d-82b1-03cf0db17929",
+              "sendingArticulationId": "db0ea985-4a03-4158-8574-e3341683706f",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 281186,
+                  "courseTitle": "Statistics for Behavioral Sciences",
+                  "courseNumber": "5",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4622,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11232,
+                  "department": "Psychology",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 288534,
+                  "courseTitle": "Introductory Statistics for Economics, Business and Social Sciences",
+                  "courseNumber": "5",
+                  "prefix": "ECON",
+                  "prefixParentId": 1211,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4244,
+                  "department": "Economics",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 254913,
+                  "courseTitle": "Probability and Statistics",
+                  "courseNumber": "80",
+                  "prefix": "MATH",
+                  "prefixParentId": 9940,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8974,
+                  "department": "Mathematics",
+                  "begin": "S2019",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 272241,
+                  "courseTitle": "Introduction to Statistical Methods in LALS",
+                  "courseNumber": "5",
+                  "prefix": "LALS",
+                  "prefixParentId": 13367,
+                  "prefixDescription": "Latin American & Latina/o/e/x Studies",
+                  "departmentParentId": 14343,
+                  "department": "Latin American & Latina/o/e/x Studies",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "bb931233-41ba-471a-b81b-b238854b9b11",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "58d2d22b-eefa-4969-a83b-5cced91cb622",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 299455,
+                        "courseTitle": "Educational Research Design",
+                        "courseNumber": "10",
+                        "prefix": "EDUC",
+                        "prefixParentId": 13082,
+                        "prefixDescription": "Education",
+                        "departmentParentId": 4439,
+                        "department": "Education",
+                        "begin": "S2014",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a26afc02-3bca-4ecb-9ee0-bdb0ab77773b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 272804,
+                        "courseTitle": "Statistics for Education Research",
+                        "courseNumber": "15",
+                        "prefix": "EDUC",
+                        "prefixParentId": 13082,
+                        "prefixDescription": "Education",
+                        "departmentParentId": 4439,
+                        "department": "Education",
+                        "begin": "S2014",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "bfd026e5-49e8-4b59-8ed7-32b0d754a5c5",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 304138,
+                        "courseTitle": "Theories of Development and Learning Applied to Education",
+                        "courseNumber": "40",
+                        "prefix": "EDUC",
+                        "prefixParentId": 13082,
+                        "prefixDescription": "Education",
+                        "departmentParentId": 4439,
+                        "department": "Education",
+                        "begin": "S2014",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "fc94a669-d5dd-4b38-a385-69a3cc22e125",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 272805,
+                        "courseTitle": "21st Century Literacies",
+                        "courseNumber": "30",
+                        "prefix": "EDUC",
+                        "prefixParentId": 13082,
+                        "prefixDescription": "Education",
+                        "departmentParentId": 4439,
+                        "department": "Education",
+                        "begin": "S2014",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "bb931233-41ba-471a-b81b-b238854b9b11",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Course(s) must be taken at university"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 372881,
+                        "courseTitle": "Introduction to Education: Disciplinary Perspectives",
+                        "courseNumber": "25",
+                        "prefix": "EDUC",
+                        "prefixParentId": 13082,
+                        "prefixDescription": "Education",
+                        "departmentParentId": 4439,
+                        "department": "Education",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5059bbd3-8b92-4888-9d2f-5ad7a49d0b3a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 291205,
+                        "courseTitle": "Origins, Purposes, and Central Issues in K-12 Education",
+                        "courseNumber": "50",
+                        "prefix": "EDUC",
+                        "prefixParentId": 13082,
+                        "prefixDescription": "Education",
+                        "departmentParentId": 4439,
+                        "department": "Education",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

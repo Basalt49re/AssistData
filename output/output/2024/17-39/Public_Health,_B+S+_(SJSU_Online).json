@@ -1,0 +1,1190 @@
+{
+  "major": "Public Health, B.S. (SJSU Online)",
+  "from": {
+    "id": 17,
+    "code": "MERCED  ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Merced College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 39,
+    "code": "SJSU    ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "San Jose State University",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "c4654e41-a093-43c1-7a1a-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 141764,
+                  "courseTitle": "Introduction to Literature",
+                  "courseNumber": "-01B",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2639,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4964,
+                  "department": "English",
+                  "begin": "S2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "c6bd9630-1f99-4589-0c2b-08dc3c638a97",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "13170144-ff66-4704-9b78-4bb03a402dca",
+              "sendingArticulationId": "8e92c9aa-030e-4de1-a8d8-283980a14ccf",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "8447f39f-829e-430b-8175-1bb6fa90666a",
+              "sendingArticulationId": "8e92c9aa-030e-4de1-a8d8-283980a14ccf",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "22cb8a86-f185-4233-fcd8-08dc25cffeac",
+              "sendingArticulationId": "8e92c9aa-030e-4de1-a8d8-283980a14ccf",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            },
+            {
+              "id": "ad02e900-dc3c-445f-fcd9-08dc25cffeac",
+              "sendingArticulationId": "8e92c9aa-030e-4de1-a8d8-283980a14ccf",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 3,
+              "sendingCourseGroupEndPosition": 4
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "348de286-9837-4fbb-9162-08dc25f6e76b",
+                      "publishedCourseIdentifierYearTermId": 199,
+                      "courseIdentifierParentId": 182465,
+                      "courseTitle": "Honors Critical Reasoning and Writing",
+                      "courseNumber": "-13H",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2639,
+                      "prefixDescription": "English",
+                      "departmentParentId": 4964,
+                      "department": "English",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 182463,
+                  "courseTitle": "Honors Critical Reasoning and Writing",
+                  "courseNumber": "-13H",
+                  "prefix": "PHIL",
+                  "prefixParentId": 5390,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10109,
+                  "department": "Philosophy",
+                  "begin": "F2000",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 199,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "4e4c1a50-e322-4482-9163-08dc25f6e76b",
+                      "publishedCourseIdentifierYearTermId": 195,
+                      "courseIdentifierParentId": 165873,
+                      "courseTitle": "Critical Reasoning and Writing",
+                      "courseNumber": "-13",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2639,
+                      "prefixDescription": "English",
+                      "departmentParentId": 4964,
+                      "department": "English",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 165874,
+                  "courseTitle": "Critical Reasoning and Writing",
+                  "courseNumber": "-13",
+                  "prefix": "PHIL",
+                  "prefixParentId": 5390,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10109,
+                  "department": "Philosophy",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 195,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 370856,
+                  "courseTitle": "Critical Thinking Across the Curriculum",
+                  "courseNumber": "-01C",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2639,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4964,
+                  "department": "English",
+                  "begin": "S2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 285,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "9d119be5-69ab-44c9-b747-2716a150f2ae",
+                      "publishedCourseIdentifierYearTermId": 195,
+                      "courseIdentifierParentId": 165874,
+                      "courseTitle": "Critical Reasoning and Writing",
+                      "courseNumber": "-13",
+                      "prefix": "PHIL",
+                      "prefixParentId": 5390,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10109,
+                      "department": "Philosophy",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 165873,
+                  "courseTitle": "Critical Reasoning and Writing",
+                  "courseNumber": "-13",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2639,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4964,
+                  "department": "English",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 195,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "4f6ed431-5d33-40d4-b32b-5f541be58895",
+                      "publishedCourseIdentifierYearTermId": 199,
+                      "courseIdentifierParentId": 182463,
+                      "courseTitle": "Honors Critical Reasoning and Writing",
+                      "courseNumber": "-13H",
+                      "prefix": "PHIL",
+                      "prefixParentId": 5390,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10109,
+                      "department": "Philosophy",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 182465,
+                  "courseTitle": "Honors Critical Reasoning and Writing",
+                  "courseNumber": "-13H",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2639,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4964,
+                  "department": "English",
+                  "begin": "F2000",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 199,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "5d731afb-f8c6-4d0e-8f63-08dc6f7eef5c",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 257976,
+                  "courseTitle": "Introductory Chemistry",
+                  "courseNumber": "-02A",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3758,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2278,
+                  "department": "Chemistry",
+                  "begin": "Su2020",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "5aa53983-5211-47f5-8f64-08dc6f7eef5c",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 165151,
+                  "courseTitle": "Contemporary Health",
+                  "courseNumber": "-10",
+                  "prefix": "HLTH",
+                  "prefixParentId": 2081,
+                  "prefixDescription": "Health",
+                  "departmentParentId": 6674,
+                  "department": "Health",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "3b0e4fa9-bc73-4396-8f65-08dc6f7eef5c",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "b6668dcc-1dd2-44fb-aac7-60e655c83ae9",
+              "sendingArticulationId": "57f6db4f-0a80-49ce-a4b1-f7c92070ff5e",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "0f92a9e7-a0ef-419c-aa9d-fb0373bd6e1c",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 249847,
+                      "courseTitle": "Human Development",
+                      "courseNumber": "-09",
+                      "prefix": "PSYC",
+                      "prefixParentId": 4604,
+                      "prefixDescription": "Psychology",
+                      "departmentParentId": 11268,
+                      "department": "Psychology",
+                      "begin": "Su2021",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 249848,
+                  "courseTitle": "Human Development",
+                  "courseNumber": "-09",
+                  "prefix": "CLDV",
+                  "prefixParentId": 13787,
+                  "prefixDescription": "Child Development",
+                  "departmentParentId": 2522,
+                  "department": "Child Development",
+                  "begin": "Su2021",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "af1996be-eb9a-440d-bbc3-d31ce225c2ce",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 249848,
+                      "courseTitle": "Human Development",
+                      "courseNumber": "-09",
+                      "prefix": "CLDV",
+                      "prefixParentId": 13787,
+                      "prefixDescription": "Child Development",
+                      "departmentParentId": 2522,
+                      "department": "Child Development",
+                      "begin": "Su2021",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 249847,
+                  "courseTitle": "Human Development",
+                  "courseNumber": "-09",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4604,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11268,
+                  "department": "Psychology",
+                  "begin": "Su2021",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "efee5f9b-9822-471a-8f67-08dc6f7eef5c",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "8f441dc4-50db-4b01-8b38-60bbc905c441",
+              "sendingArticulationId": "f2d3b038-026e-4b6c-984e-a039ec2f30dc",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "285f65f1-5020-49da-b438-08dc8019d577",
+              "sendingArticulationId": "f2d3b038-026e-4b6c-984e-a039ec2f30dc",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 384551,
+                  "courseTitle": "Elementary Statistics with Support",
+                  "courseNumber": "-10S",
+                  "prefix": "MATH",
+                  "prefixParentId": 9923,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8960,
+                  "department": "Mathematics",
+                  "begin": "Su2023",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 290,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 252310,
+                  "courseTitle": "Introduction to Statistics in Psychology",
+                  "courseNumber": "-05",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4604,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11268,
+                  "department": "Psychology",
+                  "begin": "Su2021",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 282,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 182540,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "-10",
+                  "prefix": "MATH",
+                  "prefixParentId": 9923,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8960,
+                  "department": "Mathematics",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 195,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "eee1647d-5252-44ec-8f68-08dc6f7eef5c",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "f0279a76-b6e2-4d87-9c57-17a7d2e665db",
+              "sendingArticulationId": "944c1c67-348e-4de9-bc48-348a004e06de",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "c20c8d2d-c204-4216-b437-08dc8019d577",
+              "sendingArticulationId": "944c1c67-348e-4de9-bc48-348a004e06de",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 384551,
+                  "courseTitle": "Elementary Statistics with Support",
+                  "courseNumber": "-10S",
+                  "prefix": "MATH",
+                  "prefixParentId": 9923,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8960,
+                  "department": "Mathematics",
+                  "begin": "Su2023",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 290,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 182540,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "-10",
+                  "prefix": "MATH",
+                  "prefixParentId": 9923,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8960,
+                  "department": "Mathematics",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 195,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 252310,
+                  "courseTitle": "Introduction to Statistics in Psychology",
+                  "courseNumber": "-05",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4604,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11268,
+                  "department": "Psychology",
+                  "begin": "Su2021",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 282,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "NFromArea",
+          "amount": 1,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 1,
+          "areaType": "None",
+          "id": "28786dba-650a-4f01-5bb2-08dc6f7eef5b",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "efee5f9b-9822-471a-8f67-08dc6f7eef5c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 206972,
+                        "courseTitle": "Introductory Health Statistics",
+                        "courseNumber": "67",
+                        "prefix": "PH",
+                        "prefixParentId": 54,
+                        "prefixDescription": "Public Health",
+                        "departmentParentId": 13845,
+                        "department": "Public Health",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "eee1647d-5252-44ec-8f68-08dc6f7eef5c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 156756,
+                        "courseTitle": "Elementary Statistics",
+                        "courseNumber": "95",
+                        "prefix": "STAT",
+                        "prefixParentId": 3357,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 11325,
+                        "department": "Psychology & Statistics",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "4c783eb2-9b93-4629-8f69-08dc6f7eef5c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 226435,
+                        "courseTitle": "Statway: Statistics-Concepts & Methods",
+                        "courseNumber": "15",
+                        "prefix": "UNVS",
+                        "prefixParentId": 14233,
+                        "prefixDescription": "University Studies",
+                        "departmentParentId": 12951,
+                        "department": "University Studies",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "SECOND COURSE IN ENGLISH COMPOSITION": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "NFromArea",
+          "amount": 1,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 1,
+          "areaType": "None",
+          "id": "449a151f-aec0-4b6c-0833-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c4654e41-a093-43c1-7a1a-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 170403,
+                        "courseTitle": "Argument and Analysis",
+                        "courseNumber": "1B",
+                        "prefix": "ENGL",
+                        "prefixParentId": 2661,
+                        "prefixDescription": "English",
+                        "departmentParentId": 5081,
+                        "department": "English and Comparative Literature",
+                        "begin": "F2015",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c6bd9630-1f99-4589-0c2b-08dc3c638a97",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 233088,
+                        "courseTitle": "Critical Thinking and Writing",
+                        "courseNumber": "2",
+                        "prefix": "ENGL",
+                        "prefixParentId": 2661,
+                        "prefixDescription": "English",
+                        "departmentParentId": 5081,
+                        "department": "English and Comparative Literature",
+                        "begin": "F2015",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "LOWER DIVISION MAJOR PREPARATION COURSES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "9a9803d8-aa4b-455b-5bb1-08dc6f7eef5b",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "1db90cba-c59b-4146-8f61-08dc6f7eef5c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 170409,
+                        "courseTitle": "Human Biology",
+                        "courseNumber": "21",
+                        "prefix": "BIOL",
+                        "prefixParentId": 4857,
+                        "prefixDescription": "Biology",
+                        "departmentParentId": 1632,
+                        "department": "Biological Sciences",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "67ca5fb0-693c-43bb-8f62-08dc6f7eef5c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 351861,
+                        "courseTitle": "Human Anatomy",
+                        "courseNumber": "65",
+                        "prefix": "BIOL",
+                        "prefixParentId": 4857,
+                        "prefixDescription": "Biology",
+                        "departmentParentId": 1632,
+                        "department": "Biological Sciences",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5d731afb-f8c6-4d0e-8f63-08dc6f7eef5c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 330358,
+                        "courseTitle": "Introductory Chemistry",
+                        "courseNumber": "30A",
+                        "prefix": "CHEM",
+                        "prefixParentId": 3779,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2296,
+                        "department": "Chemistry",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5aa53983-5211-47f5-8f64-08dc6f7eef5c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 195039,
+                        "courseTitle": "Understanding Your Health",
+                        "courseNumber": "1",
+                        "prefix": "PH",
+                        "prefixParentId": 54,
+                        "prefixDescription": "Public Health",
+                        "departmentParentId": 13845,
+                        "department": "Public Health",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "3b0e4fa9-bc73-4396-8f65-08dc6f7eef5c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 235930,
+                        "courseTitle": "Human Life Span",
+                        "courseNumber": "15",
+                        "prefix": "PH",
+                        "prefixParentId": 54,
+                        "prefixDescription": "Public Health",
+                        "departmentParentId": 13845,
+                        "department": "Public Health",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "82184c1f-3f5d-44ff-8f66-08dc6f7eef5c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 376613,
+                        "courseTitle": "Introduction to Public Health",
+                        "courseNumber": "99",
+                        "prefix": "PH",
+                        "prefixParentId": 54,
+                        "prefixDescription": "Public Health",
+                        "departmentParentId": 13845,
+                        "department": "Public Health",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

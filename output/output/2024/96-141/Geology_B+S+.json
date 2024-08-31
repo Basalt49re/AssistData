@@ -1,0 +1,857 @@
+{
+  "major": "Geology B.S.",
+  "from": {
+    "id": 96,
+    "code": "CHABOT  ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Chabot College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2022
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 141,
+    "code": "CSUC    ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Chico",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "18c4ef80-2e65-4eb4-8d60-5b9b56babb75",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 302754,
+                  "courseTitle": "General College Chemistry I",
+                  "courseNumber": "1A",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3837,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2343,
+                  "department": "Chemistry",
+                  "begin": "F2008",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "a54d7d1a-ee2e-4c7d-b258-7d87016e38c2",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "74c24021-ecfc-43f7-9f20-e44f684676b6",
+              "sendingArticulationId": "0798a6b0-bfd7-4d74-9e9b-97ba96588a38",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 305831,
+                  "courseTitle": "Physical Geology with Laboratory",
+                  "courseNumber": "1",
+                  "prefix": "GEOS",
+                  "prefixParentId": 15993,
+                  "prefixDescription": "Geological Sciences",
+                  "departmentParentId": 6262,
+                  "department": "Geological Sciences",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 382394,
+                  "courseTitle": "Physical Geology Lab",
+                  "courseNumber": "11L",
+                  "prefix": "GEOS",
+                  "prefixParentId": 15993,
+                  "prefixDescription": "Geological Sciences",
+                  "departmentParentId": 6262,
+                  "department": "Geological Sciences",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 382393,
+                  "courseTitle": "Physical Geology",
+                  "courseNumber": "11",
+                  "prefix": "GEOS",
+                  "prefixParentId": 15993,
+                  "prefixDescription": "Geological Sciences",
+                  "departmentParentId": 6262,
+                  "department": "Geological Sciences",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "66c00064-5b31-445e-852b-edba5080a894",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "0fe87e25-5e72-4a2d-9aa0-02ef15fdae3a",
+              "sendingArticulationId": "67426f83-2a2b-4ac9-abe0-6164232e260b",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Lab must be taken in person"
+                    },
+                    {
+                      "position": 1,
+                      "content": "Course articulates with more than one university course"
+                    },
+                    {
+                      "position": 2,
+                      "content": "Maximum credit, one university course"
+                    }
+                  ],
+                  "courseIdentifierParentId": 357633,
+                  "courseTitle": "College Physics A",
+                  "courseNumber": "3A",
+                  "prefix": "PHYS",
+                  "prefixParentId": 281,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10803,
+                  "department": "Physics",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 255,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Lab must be taken in person"
+                    }
+                  ],
+                  "courseIdentifierParentId": 281047,
+                  "courseTitle": "General Physics I",
+                  "courseNumber": "4A",
+                  "prefix": "PHYS",
+                  "prefixParentId": 281,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10803,
+                  "department": "Physics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "88399774-0f98-43fe-8ff9-c6344634fa43",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Lab must be taken in person"
+                    },
+                    {
+                      "position": 1,
+                      "content": "Course articulates with more than one university course"
+                    },
+                    {
+                      "position": 2,
+                      "content": "Maximum credit, one university course"
+                    }
+                  ],
+                  "courseIdentifierParentId": 357633,
+                  "courseTitle": "College Physics A",
+                  "courseNumber": "3A",
+                  "prefix": "PHYS",
+                  "prefixParentId": 281,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10803,
+                  "department": "Physics",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 255,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "7a04f31f-8810-4d22-bb8c-3714e6403f9c",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 220779,
+                  "courseTitle": "Applied Calculus II",
+                  "courseNumber": "16",
+                  "prefix": "MTH",
+                  "prefixParentId": 10007,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9024,
+                  "department": "Mathematics",
+                  "begin": "F2009",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 220778,
+                  "courseTitle": "Applied Calculus I",
+                  "courseNumber": "15",
+                  "prefix": "MTH",
+                  "prefixParentId": 10007,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9024,
+                  "department": "Mathematics",
+                  "begin": "F2009",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "d25a210c-0fe2-4289-88ab-75a0a23664ea",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 308111,
+                  "courseTitle": "Calculus I",
+                  "courseNumber": "1",
+                  "prefix": "MTH",
+                  "prefixParentId": 10007,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9024,
+                  "department": "Mathematics",
+                  "begin": "F2006",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "ca4f2397-e685-48c9-a5ed-f0d6cf072d8d",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 307819,
+                  "courseTitle": "Calculus II",
+                  "courseNumber": "2",
+                  "prefix": "MTH",
+                  "prefixParentId": 10007,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9024,
+                  "department": "Mathematics",
+                  "begin": "F2006",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "LOWER DIVISION MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "ee5132fe-a4e9-4e3f-dddd-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "18c4ef80-2e65-4eb4-8d60-5b9b56babb75",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 273856,
+                        "courseTitle": "General Chemistry I",
+                        "courseNumber": "111",
+                        "prefix": "CHEM",
+                        "prefixParentId": 3882,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2401,
+                        "department": "Chemistry and Biochemistry",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "64d41a73-1a29-4af0-a733-083b1e7080e9",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 30915,
+                        "courseTitle": "Evolution of the Earth",
+                        "courseNumber": "203",
+                        "prefix": "ERTH",
+                        "prefixParentId": 11951,
+                        "prefixDescription": "Earth and Environmental Sciences",
+                        "departmentParentId": 14197,
+                        "department": "Earth and Environmental Sciences",
+                        "begin": "F2023",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a54d7d1a-ee2e-4c7d-b258-7d87016e38c2",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 177221,
+                        "courseTitle": "Physical Geology",
+                        "courseNumber": "102",
+                        "prefix": "ERTH",
+                        "prefixParentId": 11951,
+                        "prefixDescription": "Earth and Environmental Sciences",
+                        "departmentParentId": 14197,
+                        "department": "Earth and Environmental Sciences",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e3d8dde1-55e0-41c4-8461-b0b29a5f69af",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 326748,
+                        "courseTitle": "Soils and Surficial Processes",
+                        "courseNumber": "265",
+                        "prefix": "ERTH",
+                        "prefixParentId": 11951,
+                        "prefixDescription": "Earth and Environmental Sciences",
+                        "departmentParentId": 14197,
+                        "department": "Earth and Environmental Sciences",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "7a04f31f-8810-4d22-bb8c-3714e6403f9c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 158062,
+                        "courseTitle": "Survey of Calculus",
+                        "courseNumber": "109",
+                        "prefix": "MATH",
+                        "prefixParentId": 10054,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9067,
+                        "department": "Mathematics",
+                        "begin": "F2009",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d25a210c-0fe2-4289-88ab-75a0a23664ea",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 273862,
+                        "courseTitle": "Analytic Geometry and Calculus",
+                        "courseNumber": "120",
+                        "prefix": "MATH",
+                        "prefixParentId": 10054,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9067,
+                        "department": "Mathematics",
+                        "begin": "F2005",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "66c00064-5b31-445e-852b-edba5080a894",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 269392,
+                        "courseTitle": "Physics for Students of Science and Engineering: Mechanics",
+                        "courseNumber": "204A",
+                        "prefix": "PHYS",
+                        "prefixParentId": 333,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10830,
+                        "department": "Physics",
+                        "begin": "F2017",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "88399774-0f98-43fe-8ff9-c6344634fa43",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 280166,
+                        "courseTitle": "General Physics I",
+                        "courseNumber": "202A",
+                        "prefix": "PHYS",
+                        "prefixParentId": 333,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10830,
+                        "department": "Physics",
+                        "begin": "F2017",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [
+              "Only lower division courses listed",
+              "**REFER TO TOP OF AGREEMENT**"
+            ],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ca4f2397-e685-48c9-a5ed-f0d6cf072d8d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 269390,
+                        "courseTitle": "Analytic Geometry and Calculus",
+                        "courseNumber": "121",
+                        "prefix": "MATH",
+                        "prefixParentId": 10054,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9067,
+                        "department": "Mathematics",
+                        "begin": "F2005",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

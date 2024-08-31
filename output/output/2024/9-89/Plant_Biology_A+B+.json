@@ -1,0 +1,932 @@
+{
+  "major": "Plant Biology A.B.",
+  "from": {
+    "id": 9,
+    "code": "CERRO   ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Cerro Coso Community College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 89,
+    "code": "UCD     ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Davis",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "29b3c4ce-3865-48ef-27ce-08dc2665a19f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "a33d30e1-0fb6-45d1-be93-8391bc620d40",
+              "sendingArticulationId": "227ba262-afaf-42ae-9155-275816bae639",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 282893,
+                  "courseTitle": "General Biology II",
+                  "courseNumber": "C112",
+                  "prefix": "BIOL",
+                  "prefixParentId": 4833,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1688,
+                  "department": "Biology",
+                  "begin": "Su2000",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 305590,
+                  "courseTitle": "General Biology II: Honors",
+                  "courseNumber": "C112H",
+                  "prefix": "BIOL",
+                  "prefixParentId": 4833,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1688,
+                  "department": "Biology",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 6,
+                  "maxUnits": 6,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "16a00ad8-d763-4c71-27cf-08dc2665a19f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "765d3ab8-42c6-4fd1-b447-c4af60db4b20",
+              "sendingArticulationId": "672307f3-585c-4d3a-b983-27a159764c36",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 305590,
+                  "courseTitle": "General Biology II: Honors",
+                  "courseNumber": "C112H",
+                  "prefix": "BIOL",
+                  "prefixParentId": 4833,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1688,
+                  "department": "Biology",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 6,
+                  "maxUnits": 6,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 282893,
+                  "courseTitle": "General Biology II",
+                  "courseNumber": "C112",
+                  "prefix": "BIOL",
+                  "prefixParentId": 4833,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1688,
+                  "department": "Biology",
+                  "begin": "Su2000",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "429917d2-46f7-4ea5-27d0-08dc2665a19f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "959b455a-ec51-4060-8a3f-637075b30c3c",
+              "sendingArticulationId": "c52727d4-2079-4b7d-9534-45fa813a0143",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 309801,
+                  "courseTitle": "General Biology I: Honors",
+                  "courseNumber": "C111H",
+                  "prefix": "BIOL",
+                  "prefixParentId": 4833,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1688,
+                  "department": "Biology",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 6,
+                  "maxUnits": 6,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 308550,
+                  "courseTitle": "General Biology I",
+                  "courseNumber": "C111",
+                  "prefix": "BIOL",
+                  "prefixParentId": 4833,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1688,
+                  "department": "Biology",
+                  "begin": "Su2000",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "da9c213e-954c-4f9a-27d7-08dc2665a19f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "99337cb2-58bf-49a3-b8b1-c70b0a3556dd",
+              "sendingArticulationId": "2d692e61-1d46-4603-b26c-24db3be2a871",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 247184,
+                  "courseTitle": "Elementary Probability and Statistics",
+                  "courseNumber": "C121",
+                  "prefix": "MATH",
+                  "prefixParentId": 9916,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8954,
+                  "department": "Mathematics",
+                  "begin": "Su2019",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 274,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 283757,
+                  "courseTitle": "Elementary Probability and Statistics: Honors",
+                  "courseNumber": "C121H",
+                  "prefix": "MATH",
+                  "prefixParentId": 9916,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8954,
+                  "department": "Mathematics",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 263,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "9b8bf9ba-603e-48b4-27d8-08dc2665a19f",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [
+          "Articulates as a sequence only"
+        ],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "4c411f00-e4ec-4329-a562-66b750d60c55",
+              "sendingArticulationId": "5ba63f06-28a2-4217-b8a8-ac9b4553b0a4",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 296467,
+                  "courseTitle": "General Inorganic Chemistry II",
+                  "courseNumber": "C113",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3752,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2271,
+                  "department": "Chemistry",
+                  "begin": "S2002",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 205,
+                  "position": 1,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 262672,
+                  "courseTitle": "General Inorganic Chemistry I",
+                  "courseNumber": "C111",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3752,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2271,
+                  "department": "Chemistry",
+                  "begin": "S2002",
+                  "end": "F2024",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 205,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": [
+                "Complete entire sequence at same institution prior to transfer"
+              ]
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 262672,
+                  "courseTitle": "General Inorganic Chemistry I",
+                  "courseNumber": "C111",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3752,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2271,
+                  "department": "Chemistry",
+                  "begin": "S2002",
+                  "end": "F2024",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 205,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 305603,
+                  "courseTitle": "General Inorganic Chemistry II: Honors Undergraduate Laboratory Research",
+                  "courseNumber": "C113H",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3752,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2271,
+                  "department": "Chemistry",
+                  "begin": "F2018",
+                  "end": "",
+                  "minUnits": 6,
+                  "maxUnits": 6,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 271,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": [
+                "Complete entire sequence at same institution prior to transfer"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "PREPARATION COURSES FOR THE MAJOR, REQUIRED FOR ADMISSION, BIOLOGICAL SCIENCE": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "b9c4f92c-8a58-458e-0558-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [
+          "Required for admission"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "29b3c4ce-3865-48ef-27ce-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 359826,
+                        "courseTitle": "Introduction to Biology: Principles of Ecology & Evolution",
+                        "courseNumber": "002B",
+                        "prefix": "BIS",
+                        "prefixParentId": 9256,
+                        "prefixDescription": "Biological Sciences",
+                        "departmentParentId": 1645,
+                        "department": "Biological Sciences",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "16a00ad8-d763-4c71-27cf-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 304649,
+                        "courseTitle": "Introduction to Biology: Biodiversity & the Tree of Life",
+                        "courseNumber": "002C",
+                        "prefix": "BIS",
+                        "prefixParentId": 9256,
+                        "prefixDescription": "Biological Sciences",
+                        "departmentParentId": 1645,
+                        "department": "Biological Sciences",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "429917d2-46f7-4ea5-27d0-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 270568,
+                        "courseTitle": "Introduction to Biology: Essentials of Life on Earth",
+                        "courseNumber": "002A",
+                        "prefix": "BIS",
+                        "prefixParentId": 9256,
+                        "prefixDescription": "Biological Sciences",
+                        "departmentParentId": 1645,
+                        "department": "Biological Sciences",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "PREPARATION COURSES FOR THE MAJOR, REQUIRED FOR ADMISSION, CHEMISTRY": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "9c6d7352-32be-4319-0559-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9b8bf9ba-603e-48b4-27d8-08dc2665a19f",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [
+                      "Required for admission"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "36f0225e-f16d-4c60-8455-6eea5e0ee3d1",
+                        "position": 0,
+                        "courseIdentifierParentId": 281951,
+                        "courseTitle": "General Chemistry",
+                        "courseNumber": "002A",
+                        "prefix": "CHE",
+                        "prefixParentId": 3829,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2337,
+                        "department": "Chemistry",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      },
+                      {
+                        "id": "8238235c-0ca2-4da4-9ffa-ccdb93c6c83e",
+                        "position": 1,
+                        "courseIdentifierParentId": 281948,
+                        "courseTitle": "General Chemistry",
+                        "courseNumber": "002B",
+                        "prefix": "CHE",
+                        "prefixParentId": 3829,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2337,
+                        "department": "Chemistry",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      },
+                      {
+                        "id": "ab24be8d-eb9e-4ca3-9d2c-e851d3390552",
+                        "position": 2,
+                        "courseIdentifierParentId": 303225,
+                        "courseTitle": "General Chemistry",
+                        "courseNumber": "002C",
+                        "prefix": "CHE",
+                        "prefixParentId": 3829,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2337,
+                        "department": "Chemistry",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "52ffb230-a2bf-4a7a-27d4-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Recommended; Not required for the major"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 381232,
+                        "courseTitle": "General Chemistry for the Physical Sciences & Engineering",
+                        "courseNumber": "004C",
+                        "prefix": "CHE",
+                        "prefixParentId": 3829,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2337,
+                        "department": "Chemistry",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6060453a-b8e6-4e61-27d5-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 381230,
+                        "courseTitle": "General Chemistry for the Physical Sciences & Engineering",
+                        "courseNumber": "004A",
+                        "prefix": "CHE",
+                        "prefixParentId": 3829,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2337,
+                        "department": "Chemistry",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "713d4f78-16bd-4ce2-27d6-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 381231,
+                        "courseTitle": "General Chemistry for the Physical Sciences & Engineering",
+                        "courseNumber": "004B",
+                        "prefix": "CHE",
+                        "prefixParentId": 3829,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2337,
+                        "department": "Chemistry",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "PREPARATION COURSES FOR THE MAJOR, REQUIRED FOR ADMISSION, OTHER MAJOR REQUIREMENTS, CHEMISTRY": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "c41f8c21-a5fe-45b9-0557-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "7dd40017-e956-4b76-27cc-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 354112,
+                        "courseTitle": "Organic Chemistry: Brief Course",
+                        "courseNumber": "008B",
+                        "prefix": "CHE",
+                        "prefixParentId": 3829,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2337,
+                        "department": "Chemistry",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "3ccc652e-d0ce-4121-27cd-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 324838,
+                        "courseTitle": "Organic Chemistry: Brief Course",
+                        "courseNumber": "008A",
+                        "prefix": "CHE",
+                        "prefixParentId": 3829,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2337,
+                        "department": "Chemistry",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 2,
+                        "maxUnits": 2,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "PREPARATION COURSES FOR THE MAJOR, REQUIRED FOR ADMISSION, OTHER MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "6f54be38-7e68-46bc-055a-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "da9c213e-954c-4f9a-27d7-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 354134,
+                        "courseTitle": "Elementary Statistics",
+                        "courseNumber": "013",
+                        "prefix": "STA",
+                        "prefixParentId": 3368,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 12558,
+                        "department": "Statistics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

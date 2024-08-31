@@ -1,0 +1,359 @@
+{
+  "major": "French, B.A.",
+  "from": {
+    "id": 35,
+    "code": "FRESNO  ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Fresno City College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 128,
+    "code": "UCSB    ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Santa Barbara",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "a8b08300-25cb-47b9-1266-08dbfdcaf961",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 253569,
+                  "courseTitle": "Intermediate French",
+                  "courseNumber": "3",
+                  "prefix": "FRENCH",
+                  "prefixParentId": 6744,
+                  "prefixDescription": "French",
+                  "departmentParentId": 5984,
+                  "department": "French",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "54009163-58f8-413d-1264-08dbfdcaf961",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 248940,
+                  "courseTitle": "High-Beginning French",
+                  "courseNumber": "2",
+                  "prefix": "FRENCH",
+                  "prefixParentId": 6744,
+                  "prefixDescription": "French",
+                  "departmentParentId": 5984,
+                  "department": "French",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 305101,
+                  "courseTitle": "Beginning French",
+                  "courseNumber": "1",
+                  "prefix": "FRENCH",
+                  "prefixParentId": 6744,
+                  "prefixDescription": "French",
+                  "departmentParentId": 5984,
+                  "department": "French",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "PREPARATION FOR THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "0fc8d519-4a61-4ff9-6864-08dbfdccbd2c",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [
+                  {
+                    "position": 0,
+                    "content": "Or equivalent"
+                  }
+                ],
+                "courses": [
+                  {
+                    "templateCellId": "54009163-58f8-413d-1264-08dbfdcaf961",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "64a05723-40ed-4f5e-8c62-8f43ad260c66",
+                        "position": 0,
+                        "courseIdentifierParentId": 257599,
+                        "courseTitle": "Elementary French",
+                        "courseNumber": "1",
+                        "prefix": "FR",
+                        "prefixParentId": 6851,
+                        "prefixDescription": "French",
+                        "departmentParentId": 5905,
+                        "department": "French and Italian",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      },
+                      {
+                        "id": "863c06f0-3073-459d-a446-696db610552a",
+                        "position": 1,
+                        "courseIdentifierParentId": 257602,
+                        "courseTitle": "Elementary French",
+                        "courseNumber": "2",
+                        "prefix": "FR",
+                        "prefixParentId": 6851,
+                        "prefixDescription": "French",
+                        "departmentParentId": 5905,
+                        "department": "French and Italian",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      },
+                      {
+                        "id": "a5dc7088-693c-4996-b93c-ee3dd2373048",
+                        "position": 2,
+                        "courseIdentifierParentId": 286366,
+                        "courseTitle": "Elementary French",
+                        "courseNumber": "3",
+                        "prefix": "FR",
+                        "prefixParentId": 6851,
+                        "prefixDescription": "French",
+                        "departmentParentId": 5905,
+                        "department": "French and Italian",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [
+                  {
+                    "position": 0,
+                    "content": "Or equivalent"
+                  }
+                ],
+                "courses": [
+                  {
+                    "templateCellId": "d976497f-5050-44b2-1268-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 293002,
+                        "courseTitle": "Intermediate French",
+                        "courseNumber": "6",
+                        "prefix": "FR",
+                        "prefixParentId": 6851,
+                        "prefixDescription": "French",
+                        "departmentParentId": 5905,
+                        "department": "French and Italian",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a8b08300-25cb-47b9-1266-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 286375,
+                        "courseTitle": "Intermediate French",
+                        "courseNumber": "4",
+                        "prefix": "FR",
+                        "prefixParentId": 6851,
+                        "prefixDescription": "French",
+                        "departmentParentId": 5905,
+                        "department": "French and Italian",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "27a081bb-458b-4731-1267-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 257593,
+                        "courseTitle": "Intermediate French",
+                        "courseNumber": "5",
+                        "prefix": "FR",
+                        "prefixParentId": 6851,
+                        "prefixDescription": "French",
+                        "departmentParentId": 5905,
+                        "department": "French and Italian",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

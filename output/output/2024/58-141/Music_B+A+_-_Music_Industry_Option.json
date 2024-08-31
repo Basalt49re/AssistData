@@ -1,0 +1,933 @@
+{
+  "major": "Music B.A. - Music Industry Option",
+  "from": {
+    "id": 58,
+    "code": "VISTA",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Vista Community College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      },
+      {
+        "name": "Berkeley City College",
+        "hasDepartments": true,
+        "fromYear": 2006,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2017
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 2006
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 141,
+    "code": "CSUC    ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Chico",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "cb11b6c4-f5b7-4937-bb56-90dd24fa2c5b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 255025,
+                  "courseTitle": "Financial Accounting",
+                  "courseNumber": "1A",
+                  "prefix": "BUS",
+                  "prefixParentId": 8244,
+                  "prefixDescription": "Business",
+                  "departmentParentId": 1937,
+                  "department": "Business",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "c3b8c6af-6ebd-4691-9e9e-0f0b136a6a11",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 349494,
+                  "courseTitle": "Music Appreciation",
+                  "courseNumber": "10",
+                  "prefix": "MUSIC",
+                  "prefixParentId": 6567,
+                  "prefixDescription": "Music",
+                  "departmentParentId": 9491,
+                  "department": "Music",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "LOWER DIVISION CORE REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "65ca67c8-a401-410d-de1d-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "52d0ad6d-891c-4430-a0d1-620745dc8f16",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 186175,
+                        "courseTitle": "Theory I",
+                        "courseNumber": "101",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e0a06fbd-9dc2-4eba-a1d6-9046cfd161bf",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 104366,
+                        "courseTitle": "Theory II",
+                        "courseNumber": "102",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9cbcc182-5f04-4173-ab38-7c48f89444f5",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 28910,
+                        "courseTitle": "Beginning Piano I",
+                        "courseNumber": "105",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "74c1c98c-c0fb-4f29-855c-970ee508d4e7",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 52980,
+                        "courseTitle": "Aural Musicianship II",
+                        "courseNumber": "104",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6f456ecf-527e-4b7e-af0e-0cde0382c8dd",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 54345,
+                        "courseTitle": "Aural Musicianship I",
+                        "courseNumber": "103",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "21e9cfa3-bfee-4bd8-a343-77cb79e3dba1",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 54342,
+                        "courseTitle": "Beginning Piano II",
+                        "courseNumber": "106",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "521d6441-1feb-4790-a490-ae3dd65098e1",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 221542,
+                        "courseTitle": "Theory III",
+                        "courseNumber": "201",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "LOWER DIVISION OPTION REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "dd35ffcb-1f8a-4eb7-de20-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "354bf865-907b-4964-a2d8-cbb8d4a52fb7",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 241317,
+                        "courseTitle": "History of Rock Music",
+                        "courseNumber": "294",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "cb11b6c4-f5b7-4937-bb56-90dd24fa2c5b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 133783,
+                        "courseTitle": "Introduction to Financial Accounting",
+                        "courseNumber": "201",
+                        "prefix": "ACCT",
+                        "prefixParentId": 13335,
+                        "prefixDescription": "Accounting",
+                        "departmentParentId": 1982,
+                        "department": "Business",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "cb8ea874-1444-4849-9eca-61c12c9e5a48",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 54352,
+                        "courseTitle": "Computer Literacy for Musicians",
+                        "courseNumber": "108",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c3b8c6af-6ebd-4691-9e9e-0f0b136a6a11",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 345712,
+                        "courseTitle": "The Appreciation of Music",
+                        "courseNumber": "292",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "7ebba7d2-dd1e-4767-b035-8932e2c6eedb",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 250234,
+                        "courseTitle": "Introduction to Music Technology",
+                        "courseNumber": "109",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [
+              "Only lower division courses listed",
+              "**REFER TO TOP OF AGREEMENT**"
+            ],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "92994b15-0a84-44f3-acdd-c1b4bef70f6a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 136252,
+                        "courseTitle": "Theory IV",
+                        "courseNumber": "202",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [
+              "Only lower division courses listed",
+              "**REFER TO TOP OF AGREEMENT**"
+            ],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6e15f5ec-90c9-4bb6-a0b3-9d4377196401",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 209609,
+                        "courseTitle": "History of Jazz",
+                        "courseNumber": "293",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "744bb39f-47cc-47b1-9448-37da2089ce56",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 250233,
+                        "courseTitle": "American Music: Its History and International Influence",
+                        "courseNumber": "291",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "254b7d20-6009-46ad-9952-2e9d995ef615",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 241320,
+                        "courseTitle": "African American Music",
+                        "courseNumber": "296",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 2,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [
+              "Only lower division courses listed",
+              "**REFER TO TOP OF AGREEMENT**"
+            ],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "963565d2-dd39-4030-89e2-e7d7d9d5ce4b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 61910,
+                        "courseTitle": "Studio Instruction in Applied Music: Woodwinds",
+                        "courseNumber": "110G",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "26366e7a-8441-4078-b227-764ffdd51c56",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "**REFER TO TOP OF AGREEMENT**"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 43663,
+                        "courseTitle": "Studio Instruction in Applied Music",
+                        "courseNumber": "110",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "99aff82e-8642-473b-b41a-d5e2ab575eaa",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 63594,
+                        "courseTitle": "Studio Instruction in Applied Music: Strings",
+                        "courseNumber": "110E",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c176e6db-562a-41bd-92e8-07359b2866ae",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 47140,
+                        "courseTitle": "Studio Instruction in Applied Music: Voice",
+                        "courseNumber": "110F",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2d73afcc-0a39-4e03-810c-0279b0740f18",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 63593,
+                        "courseTitle": "Studio Instruction in Applied Music: Percussion",
+                        "courseNumber": "110D",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "eb1839c8-5337-47d9-8124-b1ad1479e2cd",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 316596,
+                        "courseTitle": "Studio Instruction in Applied Music: Brass",
+                        "courseNumber": "110A",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "73a6294e-5336-4f2e-a2c1-e43103006c5e",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 316597,
+                        "courseTitle": "Studio Instruction in Applied Music: Guitar",
+                        "courseNumber": "110B",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "827c0158-7a5a-4f66-9e77-45a6f31f68d0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 45174,
+                        "courseTitle": "Studio Instruction in Applied Music: Keyboard",
+                        "courseNumber": "110C",
+                        "prefix": "MUSC",
+                        "prefixParentId": 6656,
+                        "prefixDescription": "Music",
+                        "departmentParentId": 9533,
+                        "department": "Music and Theatre",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "major": "Humanities & Communication, B.A., Philosophy & Applied Ethics Concentration",
+  "from": {
+    "id": 9,
+    "code": "CERRO   ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Cerro Coso Community College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 12,
+    "code": "CSUMB   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Monterey Bay",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "48edc6d0-0f8c-425b-9963-4a32d06c26fe",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    },
+    {
+      "templateCellId": "3226b501-4983-458b-a6a7-011f9fb075b3",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "9e038248-8c5e-4129-a1ea-478434da66c2",
+              "sendingArticulationId": "1164ca1e-fbc8-4b5a-bfab-b75fe9ecb87d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "d1962165-3490-4b12-bc41-ce5d996acc36",
+              "sendingArticulationId": "1164ca1e-fbc8-4b5a-bfab-b75fe9ecb87d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 266530,
+                  "courseTitle": "Logic and Critical Reasoning",
+                  "courseNumber": "C131",
+                  "prefix": "PHIL",
+                  "prefixParentId": 5384,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10104,
+                  "department": "Philosophy",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 287896,
+                  "courseTitle": "Critical Thinking Through Literature: Honors",
+                  "courseNumber": "C102H",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2632,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4959,
+                  "department": "English",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 162420,
+                  "courseTitle": "Critical Thinking Through Literature",
+                  "courseNumber": "C102",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2632,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4959,
+                  "department": "English",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "cf0a6d40-5a49-4d5b-14f0-08dbeab4b1c7",
+          "selectionType": "Select"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "48edc6d0-0f8c-425b-9963-4a32d06c26fe",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 378910,
+                        "courseTitle": "Introduction to Ethnic Studies",
+                        "courseNumber": "243",
+                        "prefix": "HCOM",
+                        "prefixParentId": 10384,
+                        "prefixDescription": "Humanities and Communication",
+                        "departmentParentId": 7205,
+                        "department": "Humanities and Communication",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ac266272-a224-44da-8544-8519dc606354",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 299092,
+                        "courseTitle": "World Religions",
+                        "courseNumber": "230",
+                        "prefix": "GS",
+                        "prefixParentId": 11603,
+                        "prefixDescription": "Global Studies",
+                        "departmentParentId": 6565,
+                        "department": "Global Studies",
+                        "begin": "F2012",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9855f103-28bb-4846-aa66-566d7d950481",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 375081,
+                        "courseTitle": "Philosophy of Human Nature",
+                        "courseNumber": "202",
+                        "prefix": "HCOM",
+                        "prefixParentId": 10384,
+                        "prefixDescription": "Humanities and Communication",
+                        "departmentParentId": 7205,
+                        "department": "Humanities and Communication",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "3226b501-4983-458b-a6a7-011f9fb075b3",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 369586,
+                        "courseTitle": "Critical Thinking & Ethics",
+                        "courseNumber": "200",
+                        "prefix": "HCOM",
+                        "prefixParentId": 10384,
+                        "prefixDescription": "Humanities and Communication",
+                        "departmentParentId": 7205,
+                        "department": "Humanities and Communication",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

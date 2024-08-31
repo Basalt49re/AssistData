@@ -1,0 +1,1775 @@
+{
+  "major": "Chicano/Latino Studies, B.A.",
+  "from": {
+    "id": 33,
+    "code": "SFCITY  ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "City College of San Francisco",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2019
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 2016
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 120,
+    "code": "UCI     ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Irvine",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "f6ad2c0c-40b0-47c6-6d41-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    },
+    {
+      "templateCellId": "aeef9998-e7a5-4020-6d3e-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 307891,
+                  "courseTitle": "Intermediate Spanish",
+                  "courseNumber": "3",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3121,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12235,
+                  "department": "Spanish",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "e9d4d735-1f98-42e9-6d3f-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Requirement",
+        "requirementAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Requirement",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "18a7ffef-62fd-40af-9629-88f45d6e7643",
+              "sendingArticulationId": "4ca40236-dae5-4b52-a644-0912bbd9ce25",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "10e5dd73-59bd-46a9-af4c-237956f98f92",
+              "sendingArticulationId": "4ca40236-dae5-4b52-a644-0912bbd9ce25",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "407028c3-e6a4-4574-952f-d59d31cd2699",
+              "sendingArticulationId": "4ca40236-dae5-4b52-a644-0912bbd9ce25",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 281199,
+                  "courseTitle": "Calculus I",
+                  "courseNumber": "110A",
+                  "prefix": "MATH",
+                  "prefixParentId": 9940,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8974,
+                  "department": "Mathematics",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 272241,
+                  "courseTitle": "Introduction to Statistical Methods in LALS",
+                  "courseNumber": "5",
+                  "prefix": "LALS",
+                  "prefixParentId": 13367,
+                  "prefixDescription": "Latin American & Latina/o/e/x Studies",
+                  "departmentParentId": 14343,
+                  "department": "Latin American & Latina/o/e/x Studies",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 254913,
+                  "courseTitle": "Probability and Statistics",
+                  "courseNumber": "80",
+                  "prefix": "MATH",
+                  "prefixParentId": 9940,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8974,
+                  "department": "Mathematics",
+                  "begin": "S2019",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 281199,
+                  "courseTitle": "Calculus I",
+                  "courseNumber": "110A",
+                  "prefix": "MATH",
+                  "prefixParentId": 9940,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8974,
+                  "department": "Mathematics",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 281199,
+                  "courseTitle": "Calculus I",
+                  "courseNumber": "110A",
+                  "prefix": "MATH",
+                  "prefixParentId": 9940,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8974,
+                  "department": "Mathematics",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 288534,
+                  "courseTitle": "Introductory Statistics for Economics, Business and Social Sciences",
+                  "courseNumber": "5",
+                  "prefix": "ECON",
+                  "prefixParentId": 1211,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4244,
+                  "department": "Economics",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 281199,
+                  "courseTitle": "Calculus I",
+                  "courseNumber": "110A",
+                  "prefix": "MATH",
+                  "prefixParentId": 9940,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8974,
+                  "department": "Mathematics",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 281186,
+                  "courseTitle": "Statistics for Behavioral Sciences",
+                  "courseNumber": "5",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4622,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11232,
+                  "department": "Psychology",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "404219fe-9665-4097-bd05-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Requirement",
+        "requirementAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Requirement",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 225181,
+                  "courseTitle": "Latinas in the U.S.: Voces",
+                  "courseNumber": "10",
+                  "prefix": "LALS",
+                  "prefixParentId": 13367,
+                  "prefixDescription": "Latin American & Latina/o/e/x Studies",
+                  "departmentParentId": 14343,
+                  "department": "Latin American & Latina/o/e/x Studies",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "cb51fb4a-0b07-41e3-9dc6-f932a242a072",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 345516,
+                      "courseTitle": "Latin American Workers in the Americas",
+                      "courseNumber": "15",
+                      "prefix": "LBCS",
+                      "prefixParentId": 9897,
+                      "prefixDescription": "Labor and Community Studies",
+                      "departmentParentId": 8241,
+                      "department": "Labor Studies",
+                      "begin": "S2006",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 345517,
+                  "courseTitle": "Latin American Workers in the Americas",
+                  "courseNumber": "15",
+                  "prefix": "LALS",
+                  "prefixParentId": 13367,
+                  "prefixDescription": "Latin American & Latina/o/e/x Studies",
+                  "departmentParentId": 14343,
+                  "department": "Latin American & Latina/o/e/x Studies",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 201456,
+                  "courseTitle": "History of the Mexican-American/Chicano",
+                  "courseNumber": "21",
+                  "prefix": "HIST",
+                  "prefixParentId": 2933,
+                  "prefixDescription": "History",
+                  "departmentParentId": 6946,
+                  "department": "History",
+                  "begin": "F2002",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 250450,
+                  "courseTitle": "Latinx Diaspora: The Impact of Latinxs Living in the United States",
+                  "courseNumber": "1",
+                  "prefix": "LALS",
+                  "prefixParentId": 13367,
+                  "prefixDescription": "Latin American & Latina/o/e/x Studies",
+                  "departmentParentId": 14343,
+                  "department": "Latin American & Latina/o/e/x Studies",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "5c050c9a-d8d7-42a8-bd06-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Requirement",
+        "requirementAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Requirement",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 214110,
+                  "courseTitle": "Asian American Experience: 1820 to Present",
+                  "courseNumber": "20",
+                  "prefix": "ASAM",
+                  "prefixParentId": 3314,
+                  "prefixDescription": "Asian American Studies",
+                  "departmentParentId": 1258,
+                  "department": "Asian American Studies",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 161478,
+                  "courseTitle": "The Chinese American Community",
+                  "courseNumber": "40",
+                  "prefix": "ASAM",
+                  "prefixParentId": 3314,
+                  "prefixDescription": "Asian American Studies",
+                  "departmentParentId": 1258,
+                  "department": "Asian American Studies",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 203461,
+                  "courseTitle": "The Black Experience in California, 1500 to the Present",
+                  "courseNumber": "40",
+                  "prefix": "AFAM",
+                  "prefixParentId": 5896,
+                  "prefixDescription": "African American Studies",
+                  "departmentParentId": 260,
+                  "department": "African American Studies",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 339761,
+                  "courseTitle": "Filipino American Community",
+                  "courseNumber": "8",
+                  "prefix": "ASAM",
+                  "prefixParentId": 3314,
+                  "prefixDescription": "Asian American Studies",
+                  "departmentParentId": 1258,
+                  "department": "Asian American Studies",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 193390,
+                  "courseTitle": "Economics of the African-American Community",
+                  "courseNumber": "30",
+                  "prefix": "ECON",
+                  "prefixParentId": 1211,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4244,
+                  "department": "Economics",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 239244,
+                  "courseTitle": "From Funk to Hip Hop",
+                  "courseNumber": "55",
+                  "prefix": "AFAM",
+                  "prefixParentId": 5896,
+                  "prefixDescription": "African American Studies",
+                  "departmentParentId": 260,
+                  "department": "African American Studies",
+                  "begin": "S2002",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 336365,
+                  "courseTitle": "African-American Music, Art, and Literature",
+                  "courseNumber": "48",
+                  "prefix": "HUM",
+                  "prefixParentId": 6392,
+                  "prefixDescription": "Humanities",
+                  "departmentParentId": 7315,
+                  "department": "Humanities",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 168246,
+                  "courseTitle": "Asian American Race Relations",
+                  "courseNumber": "27",
+                  "prefix": "ASAM",
+                  "prefixParentId": 3314,
+                  "prefixDescription": "Asian American Studies",
+                  "departmentParentId": 1258,
+                  "department": "Asian American Studies",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 167908,
+                  "courseTitle": "Jazz History, Musical Traditions of the African-American",
+                  "courseNumber": "23",
+                  "prefix": "MUS",
+                  "prefixParentId": 6541,
+                  "prefixDescription": "Music",
+                  "departmentParentId": 9401,
+                  "department": "Music",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 206863,
+                  "courseTitle": "African American Women in the US",
+                  "courseNumber": "60",
+                  "prefix": "AFAM",
+                  "prefixParentId": 5896,
+                  "prefixDescription": "African American Studies",
+                  "departmentParentId": 260,
+                  "department": "African American Studies",
+                  "begin": "Su2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 162247,
+                  "courseTitle": "Asian American Issues through Film",
+                  "courseNumber": "30",
+                  "prefix": "ASAM",
+                  "prefixParentId": 3314,
+                  "prefixDescription": "Asian American Studies",
+                  "departmentParentId": 1258,
+                  "department": "Asian American Studies",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 241356,
+                  "courseTitle": "Asian American Popular Culture",
+                  "courseNumber": "10",
+                  "prefix": "ASAM",
+                  "prefixParentId": 3314,
+                  "prefixDescription": "Asian American Studies",
+                  "departmentParentId": 1258,
+                  "department": "Asian American Studies",
+                  "begin": "F2007",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 137604,
+                  "courseTitle": "African American History From Ancestral West Africa to the Civil War",
+                  "courseNumber": "41A",
+                  "prefix": "HIST",
+                  "prefixParentId": 2933,
+                  "prefixDescription": "History",
+                  "departmentParentId": 6946,
+                  "department": "History",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 205868,
+                  "courseTitle": "Southeast Asians in the U.S.: Experience and Culture",
+                  "courseNumber": "42",
+                  "prefix": "ASAM",
+                  "prefixParentId": 3314,
+                  "prefixDescription": "Asian American Studies",
+                  "departmentParentId": 1258,
+                  "department": "Asian American Studies",
+                  "begin": "F2023",
+                  "end": "F2024",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 187973,
+                  "courseTitle": "Asian American Women",
+                  "courseNumber": "35",
+                  "prefix": "ASAM",
+                  "prefixParentId": 3314,
+                  "prefixDescription": "Asian American Studies",
+                  "departmentParentId": 1258,
+                  "department": "Asian American Studies",
+                  "begin": "F2002",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 165032,
+                  "courseTitle": "Contemporary Issues in the Filipino Diaspora",
+                  "courseNumber": "40",
+                  "prefix": "PHST",
+                  "prefixParentId": 9368,
+                  "prefixDescription": "Philippine Studies",
+                  "departmentParentId": 10090,
+                  "department": "Philippine Studies",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 137354,
+                  "courseTitle": "20th Century African American History from the Reconstruction to 21st Century",
+                  "courseNumber": "41B",
+                  "prefix": "HIST",
+                  "prefixParentId": 2933,
+                  "prefixDescription": "History",
+                  "departmentParentId": 6946,
+                  "department": "History",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 137722,
+                  "courseTitle": "African-American Consciousness",
+                  "courseNumber": "30",
+                  "prefix": "AFAM",
+                  "prefixParentId": 5896,
+                  "prefixDescription": "African American Studies",
+                  "departmentParentId": 260,
+                  "department": "African American Studies",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "a5a40749-ac0f-41ee-bd07-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Requirement",
+        "requirementAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Requirement",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 339747,
+                  "courseTitle": "Biological Anthropology",
+                  "courseNumber": "1",
+                  "prefix": "ANTH",
+                  "prefixParentId": 10711,
+                  "prefixDescription": "Anthropology",
+                  "departmentParentId": 709,
+                  "department": "Anthropology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 196786,
+                  "courseTitle": "Archaeology and Prehistory",
+                  "courseNumber": "2",
+                  "prefix": "ANTH",
+                  "prefixParentId": 10711,
+                  "prefixDescription": "Anthropology",
+                  "departmentParentId": 709,
+                  "department": "Anthropology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 161440,
+                  "courseTitle": "Introduction to Sociology",
+                  "courseNumber": "1",
+                  "prefix": "SOC",
+                  "prefixParentId": 9007,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12055,
+                  "department": "Sociology",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 167448,
+                  "courseTitle": "Principles of Macroeconomics",
+                  "courseNumber": "1",
+                  "prefix": "ECON",
+                  "prefixParentId": 1211,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4244,
+                  "department": "Economics",
+                  "begin": "F2001",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 203495,
+                  "courseTitle": "Introduction to Linguistic Anthropology",
+                  "courseNumber": "4",
+                  "prefix": "ANTH",
+                  "prefixParentId": 10711,
+                  "prefixDescription": "Anthropology",
+                  "departmentParentId": 709,
+                  "department": "Anthropology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 202617,
+                  "courseTitle": "Physical Geography",
+                  "courseNumber": "1",
+                  "prefix": "GEOG",
+                  "prefixParentId": 10519,
+                  "prefixDescription": "Geography",
+                  "departmentParentId": 6152,
+                  "department": "Geography",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 213831,
+                  "courseTitle": "Sex, Marriage, and Family Relations",
+                  "courseNumber": "35",
+                  "prefix": "SOC",
+                  "prefixParentId": 9007,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12055,
+                  "department": "Sociology",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 166797,
+                  "courseTitle": "Principles of Microeconomics",
+                  "courseNumber": "3",
+                  "prefix": "ECON",
+                  "prefixParentId": 1211,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4244,
+                  "department": "Economics",
+                  "begin": "F2001",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 197798,
+                  "courseTitle": "General Psychology",
+                  "courseNumber": "1",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4622,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11232,
+                  "department": "Psychology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 206049,
+                  "courseTitle": "Introduction to Social and Cultural Anthropology",
+                  "courseNumber": "3",
+                  "prefix": "ANTH",
+                  "prefixParentId": 10711,
+                  "prefixDescription": "Anthropology",
+                  "departmentParentId": 709,
+                  "department": "Anthropology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 156694,
+                  "courseTitle": "Cultural Geography",
+                  "courseNumber": "4",
+                  "prefix": "GEOG",
+                  "prefixParentId": 10519,
+                  "prefixDescription": "Geography",
+                  "departmentParentId": 6152,
+                  "department": "Geography",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "d46cdc10-4a39-4d7a-6d40-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    }
+  ],
+  "groups": {
+    "LOWER DIVISION MAJOR PREPARATION COURSES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "648a5189-70b4-45a5-b412-f845753a4e5a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 258243,
+                        "courseTitle": "Introduction to Chicano/Latino Studies II",
+                        "courseNumber": "62",
+                        "prefix": "CHC/LAT",
+                        "prefixParentId": 12593,
+                        "prefixDescription": "Chicano/Latino St",
+                        "departmentParentId": 2439,
+                        "department": "Chicano/Latino St",
+                        "begin": "F2001",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a1d83151-17e5-4559-9d20-e5cefeb44d51",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 287646,
+                        "courseTitle": "Introduction to Chicano/Latino Studies I",
+                        "courseNumber": "61",
+                        "prefix": "CHC/LAT",
+                        "prefixParentId": 12593,
+                        "prefixDescription": "Chicano/Latino St",
+                        "departmentParentId": 2439,
+                        "department": "Chicano/Latino St",
+                        "begin": "F2001",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2b919b08-9a33-4006-9853-4b25df186d60",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 293721,
+                        "courseTitle": "Introduction to Chicano/Latino Studies III",
+                        "courseNumber": "63",
+                        "prefix": "CHC/LAT",
+                        "prefixParentId": 12593,
+                        "prefixDescription": "Chicano/Latino St",
+                        "departmentParentId": 2439,
+                        "department": "Chicano/Latino St",
+                        "begin": "F2001",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "404219fe-9665-4097-bd05-08db99b6efb0",
+                    "type": "Course",
+                    "generalAttributes": [],
+                    "courses": [
+                      null
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5c050c9a-d8d7-42a8-bd06-08db99b6efb0",
+                    "type": "Course",
+                    "generalAttributes": [],
+                    "courses": [
+                      null
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 2,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a5a40749-ac0f-41ee-bd07-08db99b6efb0",
+                    "type": "Course",
+                    "generalAttributes": [],
+                    "courses": [
+                      null
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "aeef9998-e7a5-4020-6d3e-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 295017,
+                        "courseTitle": "Intermediate Spanish",
+                        "courseNumber": "2A",
+                        "prefix": "SPANISH",
+                        "prefixParentId": 3213,
+                        "prefixDescription": "Spanish",
+                        "departmentParentId": 12326,
+                        "department": "Spanish",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "MATHEMATICS REQUIREMENT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "e68c5787-0904-4cad-6f74-08dbdbbe1f5e",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e9d4d735-1f98-42e9-6d3f-08dbdbbe1f5f",
+                    "type": "Course",
+                    "generalAttributes": [],
+                    "courses": [
+                      null
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d46cdc10-4a39-4d7a-6d40-08dbdbbe1f5f",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [
+                      "Course(s) must be taken at university"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "4789fff7-d07d-4c01-91bd-c9d247fd759b",
+                        "position": 0,
+                        "courseIdentifierParentId": 355381,
+                        "courseTitle": "Probability and Statistics in the Social Sciences I",
+                        "courseNumber": "10A",
+                        "prefix": "SOC SCI",
+                        "prefixParentId": 11930,
+                        "prefixDescription": "Social Science",
+                        "departmentParentId": 11957,
+                        "department": "Social Science",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      },
+                      {
+                        "id": "8e228701-2f1b-46d4-80de-1f8374481c25",
+                        "position": 1,
+                        "courseIdentifierParentId": 260148,
+                        "courseTitle": "Probability and Statistics in the Social Sciences II",
+                        "courseNumber": "10B",
+                        "prefix": "SOC SCI",
+                        "prefixParentId": 11930,
+                        "prefixDescription": "Social Science",
+                        "departmentParentId": 11957,
+                        "department": "Social Science",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      },
+                      {
+                        "id": "c8a8d32a-a76e-4eb3-9d22-1553d182a487",
+                        "position": 2,
+                        "courseIdentifierParentId": 295084,
+                        "courseTitle": "Probability and Statistics in the Social Sciences III",
+                        "courseNumber": "10C",
+                        "prefix": "SOC SCI",
+                        "prefixParentId": 11930,
+                        "prefixDescription": "Social Science",
+                        "departmentParentId": 11957,
+                        "department": "Social Science",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ADDITIONAL MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "7206dd5e-384c-4821-6f75-08dbdbbe1f5e",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "209ea32f-e333-46a2-b5ca-45c0c7ada00d",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "**REFER TO TOP OF AGREEMENT**"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 298978,
+                        "courseTitle": "Introduction to Programming",
+                        "courseNumber": "31",
+                        "prefix": "I&C SCI",
+                        "prefixParentId": 11551,
+                        "prefixDescription": "Information & Computer Science",
+                        "departmentParentId": 7498,
+                        "department": "Information & Computer Science",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f6ad2c0c-40b0-47c6-6d41-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Course(s) must be taken at university"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 260196,
+                        "courseTitle": "Computer-Based Research in the Social Sciences",
+                        "courseNumber": "3A",
+                        "prefix": "SOC SCI",
+                        "prefixParentId": 11930,
+                        "prefixDescription": "Social Science",
+                        "departmentParentId": 11957,
+                        "department": "Social Science",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

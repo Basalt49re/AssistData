@@ -1,0 +1,960 @@
+{
+  "major": "English: Concentration in English Education, B.A.",
+  "from": {
+    "id": 27,
+    "code": "ARC     ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "American River College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 116,
+    "code": "SFSU    ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "San Francisco State University",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "b7da1d38-545b-42c1-a0bb-4ca4f11d3119",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 173641,
+                  "courseTitle": "Mythologies of the World",
+                  "courseNumber": "345",
+                  "prefix": "ENGLT",
+                  "prefixParentId": 13265,
+                  "prefixDescription": "English - Literature",
+                  "departmentParentId": 5075,
+                  "department": "English - Literature",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "615274b1-0521-4eb5-a3b0-0f160da5c3c6",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [
+          {
+            "position": 0,
+            "content": "Articulated courses satisfy former 2nd-year composition requirement"
+          }
+        ],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [
+          "Articulated courses satisfy former 2nd-year composition requirement"
+        ],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "e01acf7b-6e3e-47b0-816b-a3eeec3b6952",
+              "sendingArticulationId": "4ea48f5c-0355-40bb-8015-a8c872df5656",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "e01ea378-7a73-444b-a79f-eae5f17b5747",
+              "sendingArticulationId": "4ea48f5c-0355-40bb-8015-a8c872df5656",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "884b077e-fb28-4f65-89a5-315b7264f18d",
+              "sendingArticulationId": "4ea48f5c-0355-40bb-8015-a8c872df5656",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            },
+            {
+              "id": "2fe980f6-8850-476b-b941-5a2edc04dac6",
+              "sendingArticulationId": "4ea48f5c-0355-40bb-8015-a8c872df5656",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 3,
+              "sendingCourseGroupEndPosition": 4
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 173685,
+                  "courseTitle": "College Composition and Literature",
+                  "courseNumber": "301",
+                  "prefix": "ENGWR",
+                  "prefixParentId": 13261,
+                  "prefixDescription": "English - Writing",
+                  "departmentParentId": 5078,
+                  "department": "English - Writing",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 203769,
+                  "courseTitle": "Honors College Composition and Literature",
+                  "courseNumber": "481",
+                  "prefix": "ENGWR",
+                  "prefixParentId": 13261,
+                  "prefixDescription": "English - Writing",
+                  "departmentParentId": 5078,
+                  "department": "English - Writing",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 272438,
+                  "courseTitle": "Argumentative Writing and Critical Thinking Through Literature",
+                  "courseNumber": "303",
+                  "prefix": "ENGWR",
+                  "prefixParentId": 13261,
+                  "prefixDescription": "English - Writing",
+                  "departmentParentId": 5078,
+                  "department": "English - Writing",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 204126,
+                  "courseTitle": "Advanced Composition and Critical Thinking",
+                  "courseNumber": "302",
+                  "prefix": "ENGWR",
+                  "prefixParentId": 13261,
+                  "prefixDescription": "English - Writing",
+                  "departmentParentId": 5078,
+                  "department": "English - Writing",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 186132,
+                  "courseTitle": "Honors Advanced Composition and Critical Thinking",
+                  "courseNumber": "482",
+                  "prefix": "ENGWR",
+                  "prefixParentId": 13261,
+                  "prefixDescription": "English - Writing",
+                  "departmentParentId": 5078,
+                  "department": "English - Writing",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "d9152222-91a4-46da-b765-58d11bca1298",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "78a9f691-45d5-4e29-918a-a78ff8cd47e3",
+              "sendingArticulationId": "06a9bbd5-598e-47a9-afe2-65a08e06128d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "18ace32f-a192-4701-8ff0-1099c75abd17",
+              "sendingArticulationId": "06a9bbd5-598e-47a9-afe2-65a08e06128d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "d8af30ff-a1dd-4fa7-9096-ae3f257c59d8",
+              "sendingArticulationId": "06a9bbd5-598e-47a9-afe2-65a08e06128d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            },
+            {
+              "id": "8dda960b-ae09-44b9-b0fa-0ec26165d8f8",
+              "sendingArticulationId": "06a9bbd5-598e-47a9-afe2-65a08e06128d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 3,
+              "sendingCourseGroupEndPosition": 4
+            },
+            {
+              "id": "c4d901e7-57fa-4a08-b870-b0fac4ebcd7a",
+              "sendingArticulationId": "06a9bbd5-598e-47a9-afe2-65a08e06128d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 4,
+              "sendingCourseGroupEndPosition": 5
+            },
+            {
+              "id": "4bf07277-83ce-43d8-9e17-e5f4765bec10",
+              "sendingArticulationId": "06a9bbd5-598e-47a9-afe2-65a08e06128d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 5,
+              "sendingCourseGroupEndPosition": 6
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 173281,
+                  "courseTitle": "English Literature II",
+                  "courseNumber": "311",
+                  "prefix": "ENGLT",
+                  "prefixParentId": 13265,
+                  "prefixDescription": "English - Literature",
+                  "departmentParentId": 5075,
+                  "department": "English - Literature",
+                  "begin": "Su2016",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 242291,
+                  "courseTitle": "Film Adaptations",
+                  "courseNumber": "403",
+                  "prefix": "ENGLT",
+                  "prefixParentId": 13265,
+                  "prefixDescription": "English - Literature",
+                  "departmentParentId": 5075,
+                  "department": "English - Literature",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 188431,
+                  "courseTitle": "Science Fiction and Fantasy",
+                  "courseNumber": "392",
+                  "prefix": "ENGLT",
+                  "prefixParentId": 13265,
+                  "prefixDescription": "English - Literature",
+                  "departmentParentId": 5075,
+                  "department": "English - Literature",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 146012,
+                  "courseTitle": "American Literature II",
+                  "courseNumber": "321",
+                  "prefix": "ENGLT",
+                  "prefixParentId": 13265,
+                  "prefixDescription": "English - Literature",
+                  "departmentParentId": 5075,
+                  "department": "English - Literature",
+                  "begin": "Su2016",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 146470,
+                  "courseTitle": "Introduction to Shakespeare",
+                  "courseNumber": "380",
+                  "prefix": "ENGLT",
+                  "prefixParentId": 13265,
+                  "prefixDescription": "English - Literature",
+                  "departmentParentId": 5075,
+                  "department": "English - Literature",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 173538,
+                  "courseTitle": "English Literature I",
+                  "courseNumber": "310",
+                  "prefix": "ENGLT",
+                  "prefixParentId": 13265,
+                  "prefixDescription": "English - Literature",
+                  "departmentParentId": 5075,
+                  "department": "English - Literature",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 188182,
+                  "courseTitle": "American Literature I",
+                  "courseNumber": "320",
+                  "prefix": "ENGLT",
+                  "prefixParentId": 13265,
+                  "prefixDescription": "English - Literature",
+                  "departmentParentId": 5075,
+                  "department": "English - Literature",
+                  "begin": "Su2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "73ba2e0a-ff10-4084-bf3e-240a1c319b86",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 188791,
+                  "courseTitle": "Theory and Techniques of Acting 1",
+                  "courseNumber": "350",
+                  "prefix": "TA",
+                  "prefixParentId": 2359,
+                  "prefixDescription": "Theatre Arts",
+                  "departmentParentId": 12845,
+                  "department": "Theatre Arts",
+                  "begin": "F2010",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "74faeb34-ea3e-425b-a5a5-33b30981e11b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 188229,
+                  "courseTitle": "Theory and Techniques of Acting II",
+                  "courseNumber": "351",
+                  "prefix": "TA",
+                  "prefixParentId": 2359,
+                  "prefixDescription": "Theatre Arts",
+                  "departmentParentId": 12845,
+                  "department": "Theatre Arts",
+                  "begin": "F2010",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "CORE REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "615274b1-0521-4eb5-a3b0-0f160da5c3c6",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 330635,
+                        "courseTitle": "Literature Is Not A Luxury: Writing for Self and Community",
+                        "courseNumber": "218",
+                        "prefix": "ENG",
+                        "prefixParentId": 2739,
+                        "prefixDescription": "English",
+                        "departmentParentId": 4948,
+                        "department": "English",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d9152222-91a4-46da-b765-58d11bca1298",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 262640,
+                        "courseTitle": "Topics in Literature and Culture",
+                        "courseNumber": "250",
+                        "prefix": "ENG",
+                        "prefixParentId": 2739,
+                        "prefixDescription": "English",
+                        "departmentParentId": 4948,
+                        "department": "English",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "CONCENTRATION REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b0607738-741f-49d1-84b2-be5ca3e5a604",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 362129,
+                        "courseTitle": "Introduction to the Performance of Literature",
+                        "courseNumber": "220",
+                        "prefix": "COMM",
+                        "prefixParentId": 1404,
+                        "prefixDescription": "Communication Studies",
+                        "departmentParentId": 2845,
+                        "department": "Communication Studies",
+                        "begin": "F2017",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2959145e-bd51-4748-b8e0-ee3ca0f5bab4",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 260319,
+                        "courseTitle": "Ancient Epic Tales",
+                        "courseNumber": "230",
+                        "prefix": "CLAS",
+                        "prefixParentId": 13992,
+                        "prefixDescription": "Classics",
+                        "departmentParentId": 2695,
+                        "department": "Classics",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "652fa2f3-cf9d-43a1-8b6d-e22406e774f2",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 208975,
+                        "courseTitle": "Fables and Tales",
+                        "courseNumber": "250",
+                        "prefix": "CWL",
+                        "prefixParentId": 5961,
+                        "prefixDescription": "Comparative and World Literature",
+                        "departmentParentId": 2935,
+                        "department": "Comparative and World Literature",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b7da1d38-545b-42c1-a0bb-4ca4f11d3119",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 330849,
+                        "courseTitle": "Myths of the World",
+                        "courseNumber": "260",
+                        "prefix": "CWL",
+                        "prefixParentId": 5961,
+                        "prefixDescription": "Comparative and World Literature",
+                        "departmentParentId": 2935,
+                        "department": "Comparative and World Literature",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "62332dcb-3ac4-4094-972f-f7a273ff5e99",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 172070,
+                        "courseTitle": "American Indian Oral Literature",
+                        "courseNumber": "162",
+                        "prefix": "AIS",
+                        "prefixParentId": 3986,
+                        "prefixDescription": "American Indian Studies",
+                        "departmentParentId": 492,
+                        "department": "American Indian Studies",
+                        "begin": "F1997",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "THEATRE ARTS EMPHASIS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "73ba2e0a-ff10-4084-bf3e-240a1c319b86",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 136950,
+                        "courseTitle": "Acting Workshop I",
+                        "courseNumber": "130",
+                        "prefix": "TH A",
+                        "prefixParentId": 620,
+                        "prefixDescription": "Theatre Arts",
+                        "departmentParentId": 12792,
+                        "department": "Theatre Arts",
+                        "begin": "F1998",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "74faeb34-ea3e-425b-a5a5-33b30981e11b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 158790,
+                        "courseTitle": "Acting Workshop II",
+                        "courseNumber": "230",
+                        "prefix": "TH A",
+                        "prefixParentId": 620,
+                        "prefixDescription": "Theatre Arts",
+                        "departmentParentId": 12792,
+                        "department": "Theatre Arts",
+                        "begin": "F1994",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

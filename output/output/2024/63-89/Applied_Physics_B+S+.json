@@ -1,0 +1,1138 @@
+{
+  "major": "Applied Physics B.S.",
+  "from": {
+    "id": 63,
+    "code": "PALOVRDE",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Palo Verde College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 89,
+    "code": "UCD     ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Davis",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "97f8c77c-5723-4cea-363c-08dc2665a19f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 358944,
+                  "courseTitle": "Calculus I",
+                  "courseNumber": "220",
+                  "prefix": "MAT",
+                  "prefixParentId": 9970,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8939,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "efcc33a2-ca99-4ea1-088d-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "fe74e0a7-2a94-4578-3638-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 370072,
+                        "courseTitle": "Introduction to Physics Computation",
+                        "courseNumber": "040",
+                        "prefix": "PHY",
+                        "prefixParentId": 273,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10853,
+                        "department": "Physics",
+                        "begin": "W2023",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "67bcbb06-225e-4de0-3639-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 365017,
+                        "courseTitle": "Experimental Techniques",
+                        "courseNumber": "080",
+                        "prefix": "PHY",
+                        "prefixParentId": 273,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10853,
+                        "department": "Physics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "PREPARATION COURSES FOR THE MAJOR, MATHEMATICS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "6dc95ff9-0352-45f5-088f-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [
+          "Required for admission"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "97f8c77c-5723-4cea-363c-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 292181,
+                        "courseTitle": "Calculus",
+                        "courseNumber": "021A",
+                        "prefix": "MAT",
+                        "prefixParentId": 9999,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9018,
+                        "department": "Mathematics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6699a8aa-acfb-42d2-363d-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 256943,
+                        "courseTitle": "Calculus",
+                        "courseNumber": "021B",
+                        "prefix": "MAT",
+                        "prefixParentId": 9999,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9018,
+                        "department": "Mathematics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "fd7f7573-bac0-4655-363e-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 292042,
+                        "courseTitle": "Vector Analysis ",
+                        "courseNumber": "021D",
+                        "prefix": "MAT",
+                        "prefixParentId": 9999,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9018,
+                        "department": "Mathematics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "18ca8565-4a04-4e87-363f-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 256916,
+                        "courseTitle": "Calculus",
+                        "courseNumber": "021C",
+                        "prefix": "MAT",
+                        "prefixParentId": 9999,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9018,
+                        "department": "Mathematics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "PREPARATION COURSES FOR THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "5cffb86b-10bf-43e3-088e-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [
+          "Required for admission"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "17fa8913-a7c0-4f74-363a-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 340711,
+                        "courseTitle": "Linear Algebra ",
+                        "courseNumber": "022A",
+                        "prefix": "MAT",
+                        "prefixParentId": 9999,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9018,
+                        "department": "Mathematics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0e925a09-1ada-441d-363b-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 174021,
+                        "courseTitle": "Differential Equations ",
+                        "courseNumber": "022B",
+                        "prefix": "MAT",
+                        "prefixParentId": 9999,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9018,
+                        "department": "Mathematics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "PHYSICS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "34195439-0584-4aa1-0895-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [
+          "Required for admission"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2d203ac0-6a10-4e94-3649-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 256877,
+                        "courseTitle": "Modern Physics ",
+                        "courseNumber": "009D",
+                        "prefix": "PHY",
+                        "prefixParentId": 273,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10853,
+                        "department": "Physics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "fb63d3ac-f934-4713-364a-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 283910,
+                        "courseTitle": "Classical Physics ",
+                        "courseNumber": "009B",
+                        "prefix": "PHY",
+                        "prefixParentId": 273,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10853,
+                        "department": "Physics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "057bbdba-d95b-4036-364b-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 256444,
+                        "courseTitle": "Classical Physics ",
+                        "courseNumber": "009C",
+                        "prefix": "PHY",
+                        "prefixParentId": 273,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10853,
+                        "department": "Physics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "946b101a-25c7-4425-364c-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 353900,
+                        "courseTitle": "Classical Physics ",
+                        "courseNumber": "009A",
+                        "prefix": "PHY",
+                        "prefixParentId": 273,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10853,
+                        "department": "Physics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "7392ce1f-4c71-4141-364d-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 288888,
+                        "courseTitle": "Honors Physics ",
+                        "courseNumber": "009HE",
+                        "prefix": "PHY",
+                        "prefixParentId": 273,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10853,
+                        "department": "Physics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6161f91f-28df-4404-364e-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 285275,
+                        "courseTitle": "Honors Physics ",
+                        "courseNumber": "009HC",
+                        "prefix": "PHY",
+                        "prefixParentId": 273,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10853,
+                        "department": "Physics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "649fb15f-dba7-4c2e-364f-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 256440,
+                        "courseTitle": "Honors Physics ",
+                        "courseNumber": "009HA",
+                        "prefix": "PHY",
+                        "prefixParentId": 273,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10853,
+                        "department": "Physics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c6778f99-af72-4aee-3650-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 256447,
+                        "courseTitle": "Honors Physics ",
+                        "courseNumber": "009HD",
+                        "prefix": "PHY",
+                        "prefixParentId": 273,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10853,
+                        "department": "Physics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e4da8f37-ff3f-46b5-3651-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 308889,
+                        "courseTitle": "Honors Physics ",
+                        "courseNumber": "009HB",
+                        "prefix": "PHY",
+                        "prefixParentId": 273,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10853,
+                        "department": "Physics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ATMOSPHERIC PHYSICS CONCENTRATION": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "4f2f8cf6-5fb8-4412-0893-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "3077f809-3874-4dc4-3646-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 370072,
+                        "courseTitle": "Introduction to Physics Computation",
+                        "courseNumber": "040",
+                        "prefix": "PHY",
+                        "prefixParentId": 273,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10853,
+                        "department": "Physics",
+                        "begin": "W2023",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "CHEMICAL PHYSICS CONCENTRATION": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "74a327e9-7c5b-4cb2-0890-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5ba0279c-0431-4c21-3641-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 281951,
+                        "courseTitle": "General Chemistry",
+                        "courseNumber": "002A",
+                        "prefix": "CHE",
+                        "prefixParentId": 3829,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2337,
+                        "department": "Chemistry",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "31282471-b9f1-4d08-3642-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 303225,
+                        "courseTitle": "General Chemistry",
+                        "courseNumber": "002C",
+                        "prefix": "CHE",
+                        "prefixParentId": 3829,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2337,
+                        "department": "Chemistry",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2309342f-0e24-4a32-3643-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 281948,
+                        "courseTitle": "General Chemistry",
+                        "courseNumber": "002B",
+                        "prefix": "CHE",
+                        "prefixParentId": 3829,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2337,
+                        "department": "Chemistry",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d3dc8f6c-68df-42e8-3640-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 370072,
+                        "courseTitle": "Introduction to Physics Computation",
+                        "courseNumber": "040",
+                        "prefix": "PHY",
+                        "prefixParentId": 273,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10853,
+                        "department": "Physics",
+                        "begin": "W2023",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "COMPUTATIONAL PHYSICS CONCENTRATION": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "ee67c1f3-eb0e-44be-0894-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "375c4956-d67b-47fb-3647-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 292100,
+                        "courseTitle": "Programming & Problem Solving ",
+                        "courseNumber": "036A",
+                        "prefix": "ECS",
+                        "prefixParentId": 1110,
+                        "prefixDescription": "Engineering Computer Science",
+                        "departmentParentId": 14251,
+                        "department": "Computer Science",
+                        "begin": "F2023",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ad5c618c-9c3d-436c-3648-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 292111,
+                        "courseTitle": "Software Development & Object-Oriented Programming in C++",
+                        "courseNumber": "036B",
+                        "prefix": "ECS",
+                        "prefixParentId": 1110,
+                        "prefixDescription": "Engineering Computer Science",
+                        "departmentParentId": 14251,
+                        "department": "Computer Science",
+                        "begin": "F2023",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "PHYSICAL ELECTRONICS CONCENTRATION": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "7c7a68ce-5a61-4069-0892-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c8669d29-9d68-4129-3645-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 256978,
+                        "courseTitle": "Circuits I ",
+                        "courseNumber": "017",
+                        "prefix": "ENG",
+                        "prefixParentId": 3550,
+                        "prefixDescription": "Engineering",
+                        "departmentParentId": 4738,
+                        "department": "Engineering",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "GEOPHYSICS CONCENTRATION": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "00531cb7-77a8-4974-0891-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9464e26b-cf20-4bbe-3644-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 370072,
+                        "courseTitle": "Introduction to Physics Computation",
+                        "courseNumber": "040",
+                        "prefix": "PHY",
+                        "prefixParentId": 273,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10853,
+                        "department": "Physics",
+                        "begin": "W2023",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "MATERIALS SCIENCE CONCENTRATION": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "315a1cfc-6656-4bb9-0897-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "db962f1c-868e-42f1-3653-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 370072,
+                        "courseTitle": "Introduction to Physics Computation",
+                        "courseNumber": "040",
+                        "prefix": "PHY",
+                        "prefixParentId": 273,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10853,
+                        "department": "Physics",
+                        "begin": "W2023",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "PHYSICAL OCEANOGRAPHY CONCENTRATION": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "b0e59b90-c455-4d3a-0896-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "748ee4ab-41a2-403e-3652-08dc2665a19f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 370072,
+                        "courseTitle": "Introduction to Physics Computation",
+                        "courseNumber": "040",
+                        "prefix": "PHY",
+                        "prefixParentId": 273,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10853,
+                        "department": "Physics",
+                        "begin": "W2023",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
