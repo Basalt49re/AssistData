@@ -1,0 +1,4712 @@
+{
+  "major": "Kinesiology, B.S.",
+  "from": {
+    "id": 36,
+    "code": "KRC",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Kings River College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      },
+      {
+        "name": "Reedley College",
+        "hasDepartments": true,
+        "fromYear": 1998,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2023
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1998
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 39,
+    "code": "SJSU    ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "San Jose State University",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "c4654e41-a093-43c1-7a1a-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "e8d83be4-94a5-4d48-a6e6-e2469f555ad3",
+              "sendingArticulationId": "4387781a-dc67-418a-9de0-784a2b0c69bc",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 213461,
+                  "courseTitle": "Honors Introduction to the Study of Literature",
+                  "courseNumber": "1BH",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2659,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4975,
+                  "department": "English",
+                  "begin": "F2006",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 138921,
+                  "courseTitle": "Introduction to the Study of Literature",
+                  "courseNumber": "1B",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2659,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4975,
+                  "department": "English",
+                  "begin": "S2001",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "c6bd9630-1f99-4589-0c2b-08dc3c638a97",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "255bc809-71b7-40c1-a0ed-3df04d935fab",
+              "sendingArticulationId": "dfff9a5f-a049-4dce-822c-b38247c73386",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "713e8cd1-c3ec-43ee-8f21-da0fc560a5b3",
+              "sendingArticulationId": "dfff9a5f-a049-4dce-822c-b38247c73386",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "fb3ad6ea-bb8d-4ff6-95e4-024ca1ef002d",
+              "sendingArticulationId": "dfff9a5f-a049-4dce-822c-b38247c73386",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            },
+            {
+              "id": "96f92f2f-ff1d-4f52-83c3-28c52a345b6f",
+              "sendingArticulationId": "dfff9a5f-a049-4dce-822c-b38247c73386",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 3,
+              "sendingCourseGroupEndPosition": 4
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 227853,
+                  "courseTitle": "Honors Critical Reading and Writing Through Literature",
+                  "courseNumber": "2H",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2659,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4975,
+                  "department": "English",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 226286,
+                  "courseTitle": "Critical Reading and Writing",
+                  "courseNumber": "3",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2659,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4975,
+                  "department": "English",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 226306,
+                  "courseTitle": "Critical Reasoning and Analytic Writing",
+                  "courseNumber": "2",
+                  "prefix": "PHIL",
+                  "prefixParentId": 5410,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10122,
+                  "department": "Philosophy",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 174100,
+                  "courseTitle": "Honors Critical Reading and Writing",
+                  "courseNumber": "3H",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2659,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4975,
+                  "department": "English",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 242047,
+                  "courseTitle": "Critical Reading and Writing Through Literature",
+                  "courseNumber": "2",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2659,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4975,
+                  "department": "English",
+                  "begin": "F2002",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "ac206b70-d4cf-4be8-65ad-08dc79c8f59c",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 282642,
+                  "courseTitle": "Human Physiology",
+                  "courseNumber": "22",
+                  "prefix": "BIOL",
+                  "prefixParentId": 4855,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1702,
+                  "department": "Biology",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "10595b90-08da-47fd-65ae-08dc79c8f59c",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "049faf8c-d0cf-4665-93c9-d29227683c09",
+              "sendingArticulationId": "b1222fc1-7d22-49de-873c-dc62cdb21a9e",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 292032,
+                  "courseTitle": "Introductory General Chemistry",
+                  "courseNumber": "3A",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3777,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2294,
+                  "department": "Chemistry",
+                  "begin": "F1996",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 179765,
+                  "courseTitle": "Elementary Chemistry",
+                  "courseNumber": "10",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3777,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2294,
+                  "department": "Chemistry",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "27d18b76-8a08-44a4-aaa6-1c8fc8dce7af",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 282740,
+                  "courseTitle": "Human Anatomy",
+                  "courseNumber": "20",
+                  "prefix": "BIOL",
+                  "prefixParentId": 4855,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1702,
+                  "department": "Biology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "19180304-636e-406a-96cd-ddc13ea61242",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "4d0c37da-bec0-4aae-a916-98536ef58eb6",
+              "sendingArticulationId": "703747ea-7a8c-4475-9416-3b89f4ff29aa",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "706be87b-f74c-44c2-8dcf-8849fefbfc1c",
+              "sendingArticulationId": "703747ea-7a8c-4475-9416-3b89f4ff29aa",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "dcad53ef-1721-4c56-ae4e-fda18321c0a5",
+              "sendingArticulationId": "703747ea-7a8c-4475-9416-3b89f4ff29aa",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 346070,
+                  "courseTitle": "Biometrics",
+                  "courseNumber": "9",
+                  "prefix": "PLS",
+                  "prefixParentId": 11961,
+                  "prefixDescription": "Plant Science",
+                  "departmentParentId": 10935,
+                  "department": "Plant Science",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 290126,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "7",
+                  "prefix": "STAT",
+                  "prefixParentId": 3356,
+                  "prefixDescription": "Statistics",
+                  "departmentParentId": 12540,
+                  "department": "Statistics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 353676,
+                  "courseTitle": "Introduction to Statistics",
+                  "courseNumber": "11",
+                  "prefix": "MATH",
+                  "prefixParentId": 9943,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8976,
+                  "department": "Mathematics",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 360928,
+                  "courseTitle": "Introduction to Statistics with Support",
+                  "courseNumber": "11C",
+                  "prefix": "MATH",
+                  "prefixParentId": 9943,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8976,
+                  "department": "Mathematics",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "c42ec4df-38f5-4b19-a044-2f7c0f811dab",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    },
+    {
+      "templateCellId": "c3d15eb2-5b11-47ad-983f-793585ae8ece",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 355671,
+                  "courseTitle": "Beginning American Sign Language",
+                  "courseNumber": "1",
+                  "prefix": "ASL",
+                  "prefixParentId": 3917,
+                  "prefixDescription": "American Sign Language",
+                  "departmentParentId": 529,
+                  "department": "American Sign Language",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "9b410c35-cb33-42d9-8366-1d162ccf7314",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 267054,
+                  "courseTitle": "Beginning Wheel Throwing",
+                  "courseNumber": "10",
+                  "prefix": "ART",
+                  "prefixParentId": 4459,
+                  "prefixDescription": "Art",
+                  "departmentParentId": 1056,
+                  "department": "Art",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "a70001fb-7559-44fd-65b5-08dc79c8f59c",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "ed14f380-571e-4a53-a7df-0f9b0e5a2a74",
+              "sendingArticulationId": "bc3e8ac3-25fd-467e-98eb-e519901bb570",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 342347,
+                  "courseTitle": "Honors General Psychology",
+                  "courseNumber": "2H",
+                  "prefix": "PSY",
+                  "prefixParentId": 4625,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11190,
+                  "department": "Psychology",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 217598,
+                  "courseTitle": "General Psychology",
+                  "courseNumber": "2",
+                  "prefix": "PSY",
+                  "prefixParentId": 4625,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11190,
+                  "department": "Psychology",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "a508dd7d-8896-4049-65b3-08dc79c8f59c",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 161321,
+                  "courseTitle": "Nutrition",
+                  "courseNumber": "40",
+                  "prefix": "FN",
+                  "prefixParentId": 11843,
+                  "prefixDescription": "Foods and Nutrition",
+                  "departmentParentId": 5824,
+                  "department": "Foods and Nutrition",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "eec4cc06-ceb9-4647-65b4-08dc79c8f59c",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 344038,
+                  "courseTitle": "Nutrition and Health",
+                  "courseNumber": "35",
+                  "prefix": "FN",
+                  "prefixParentId": 11843,
+                  "prefixDescription": "Foods and Nutrition",
+                  "departmentParentId": 5824,
+                  "department": "Foods and Nutrition",
+                  "begin": "F2001",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "0ac037a5-4c51-4c6f-88b9-c3e16b03f8ef",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "ed14f380-571e-4a53-a7df-0f9b0e5a2a74",
+              "sendingArticulationId": "bc3e8ac3-25fd-467e-98eb-e519901bb570",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 342347,
+                  "courseTitle": "Honors General Psychology",
+                  "courseNumber": "2H",
+                  "prefix": "PSY",
+                  "prefixParentId": 4625,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11190,
+                  "department": "Psychology",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 217598,
+                  "courseTitle": "General Psychology",
+                  "courseNumber": "2",
+                  "prefix": "PSY",
+                  "prefixParentId": 4625,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11190,
+                  "department": "Psychology",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "f9b4baaa-b7b6-4aa6-af61-156bc4e8f5eb",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "4d0c37da-bec0-4aae-a916-98536ef58eb6",
+              "sendingArticulationId": "703747ea-7a8c-4475-9416-3b89f4ff29aa",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "706be87b-f74c-44c2-8dcf-8849fefbfc1c",
+              "sendingArticulationId": "703747ea-7a8c-4475-9416-3b89f4ff29aa",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "dcad53ef-1721-4c56-ae4e-fda18321c0a5",
+              "sendingArticulationId": "703747ea-7a8c-4475-9416-3b89f4ff29aa",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 346070,
+                  "courseTitle": "Biometrics",
+                  "courseNumber": "9",
+                  "prefix": "PLS",
+                  "prefixParentId": 11961,
+                  "prefixDescription": "Plant Science",
+                  "departmentParentId": 10935,
+                  "department": "Plant Science",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 290126,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "7",
+                  "prefix": "STAT",
+                  "prefixParentId": 3356,
+                  "prefixDescription": "Statistics",
+                  "departmentParentId": 12540,
+                  "department": "Statistics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 353676,
+                  "courseTitle": "Introduction to Statistics",
+                  "courseNumber": "11",
+                  "prefix": "MATH",
+                  "prefixParentId": 9943,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8976,
+                  "department": "Mathematics",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 360928,
+                  "courseTitle": "Introduction to Statistics with Support",
+                  "courseNumber": "11C",
+                  "prefix": "MATH",
+                  "prefixParentId": 9943,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8976,
+                  "department": "Mathematics",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "64a36e1f-5a52-4885-a3e4-c8844afc6a07",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 294851,
+                  "courseTitle": "General Physics I",
+                  "courseNumber": "2A",
+                  "prefix": "PHYS",
+                  "prefixParentId": 217,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10725,
+                  "department": "Physics",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "9c4c487c-9ff2-4c3f-83f4-746bddef0cdb",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "4d0c37da-bec0-4aae-a916-98536ef58eb6",
+              "sendingArticulationId": "703747ea-7a8c-4475-9416-3b89f4ff29aa",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "706be87b-f74c-44c2-8dcf-8849fefbfc1c",
+              "sendingArticulationId": "703747ea-7a8c-4475-9416-3b89f4ff29aa",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "dcad53ef-1721-4c56-ae4e-fda18321c0a5",
+              "sendingArticulationId": "703747ea-7a8c-4475-9416-3b89f4ff29aa",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 346070,
+                  "courseTitle": "Biometrics",
+                  "courseNumber": "9",
+                  "prefix": "PLS",
+                  "prefixParentId": 11961,
+                  "prefixDescription": "Plant Science",
+                  "departmentParentId": 10935,
+                  "department": "Plant Science",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 290126,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "7",
+                  "prefix": "STAT",
+                  "prefixParentId": 3356,
+                  "prefixDescription": "Statistics",
+                  "departmentParentId": 12540,
+                  "department": "Statistics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 353676,
+                  "courseTitle": "Introduction to Statistics",
+                  "courseNumber": "11",
+                  "prefix": "MATH",
+                  "prefixParentId": 9943,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8976,
+                  "department": "Mathematics",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 360928,
+                  "courseTitle": "Introduction to Statistics with Support",
+                  "courseNumber": "11C",
+                  "prefix": "MATH",
+                  "prefixParentId": 9943,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8976,
+                  "department": "Mathematics",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "2a63ad9d-a834-4b6e-aaaa-c5242e898d9e",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 303052,
+                  "courseTitle": "General Chemistry",
+                  "courseNumber": "1A",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3777,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2294,
+                  "department": "Chemistry",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "9f862477-c1c6-4d79-8515-09f02366e37e",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "ed14f380-571e-4a53-a7df-0f9b0e5a2a74",
+              "sendingArticulationId": "bc3e8ac3-25fd-467e-98eb-e519901bb570",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 342347,
+                  "courseTitle": "Honors General Psychology",
+                  "courseNumber": "2H",
+                  "prefix": "PSY",
+                  "prefixParentId": 4625,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11190,
+                  "department": "Psychology",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 217598,
+                  "courseTitle": "General Psychology",
+                  "courseNumber": "2",
+                  "prefix": "PSY",
+                  "prefixParentId": 4625,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11190,
+                  "department": "Psychology",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "50b5d7c8-44b0-49db-bcba-6becb88cb91e",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 246966,
+                  "courseTitle": "General Physics II",
+                  "courseNumber": "2B",
+                  "prefix": "PHYS",
+                  "prefixParentId": 217,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10725,
+                  "department": "Physics",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "c5b3ec03-e2e3-43f2-bd80-036c7f8bc512",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 278055,
+                  "courseTitle": "General Chemistry and Qualitative Analysis",
+                  "courseNumber": "1B",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3777,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2294,
+                  "department": "Chemistry",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "f77b9700-4cf3-41d7-a57d-e3c412d09211",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 107038,
+                  "courseTitle": "Introduction to Kinesiology",
+                  "courseNumber": "22",
+                  "prefix": "KINES",
+                  "prefixParentId": 15739,
+                  "prefixDescription": "Kinesiology",
+                  "departmentParentId": 8121,
+                  "department": "Kinesiology",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "63b1d544-81dd-4c2a-65af-08dc79c8f59c",
+      "receivingAttributes": null,
+      "articulation": {
+        "type": "Transferability",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": null,
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 161267,
+                  "courseTitle": "Finite Mathematics for Business",
+                  "courseNumber": "39",
+                  "prefix": "BA",
+                  "prefixParentId": 4054,
+                  "prefixDescription": "Business Administration",
+                  "departmentParentId": 2023,
+                  "department": "Business Administration",
+                  "begin": "F2004",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 232391,
+                  "courseTitle": "Discrete Mathematics for Computer Science",
+                  "courseNumber": "26",
+                  "prefix": "CSCI",
+                  "prefixParentId": 495,
+                  "prefixDescription": "Computer Science",
+                  "departmentParentId": 3260,
+                  "department": "Computer Science",
+                  "begin": "F2004",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 361596,
+                  "courseTitle": "College Algebra for STEM",
+                  "courseNumber": "3A",
+                  "prefix": "MATH",
+                  "prefixParentId": 9943,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8976,
+                  "department": "Mathematics",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 333183,
+                  "courseTitle": "Trigonometry",
+                  "courseNumber": "4A",
+                  "prefix": "MATH",
+                  "prefixParentId": 9943,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8976,
+                  "department": "Mathematics",
+                  "begin": "F2002",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 287522,
+                  "courseTitle": "Calculus I",
+                  "courseNumber": "5A",
+                  "prefix": "MATH",
+                  "prefixParentId": 9943,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8976,
+                  "department": "Mathematics",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 290958,
+                  "courseTitle": "Calculus II",
+                  "courseNumber": "5B",
+                  "prefix": "MATH",
+                  "prefixParentId": 9943,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8976,
+                  "department": "Mathematics",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 253597,
+                  "courseTitle": "Calculus III",
+                  "courseNumber": "6",
+                  "prefix": "MATH",
+                  "prefixParentId": 9943,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8976,
+                  "department": "Mathematics",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 227894,
+                  "courseTitle": "Mathematics for Elementary School Teachers I",
+                  "courseNumber": "10A",
+                  "prefix": "MATH",
+                  "prefixParentId": 9943,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8976,
+                  "department": "Mathematics",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 343717,
+                  "courseTitle": "Mathematics for Elementary School Teachers II",
+                  "courseNumber": "10B",
+                  "prefix": "MATH",
+                  "prefixParentId": 9943,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8976,
+                  "department": "Mathematics",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 353676,
+                  "courseTitle": "Introduction to Statistics",
+                  "courseNumber": "11",
+                  "prefix": "MATH",
+                  "prefixParentId": 9943,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8976,
+                  "department": "Mathematics",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 360928,
+                  "courseTitle": "Introduction to Statistics with Support",
+                  "courseNumber": "11C",
+                  "prefix": "MATH",
+                  "prefixParentId": 9943,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8976,
+                  "department": "Mathematics",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 360031,
+                  "courseTitle": "Differential Equations and Linear Algebra",
+                  "courseNumber": "17",
+                  "prefix": "MATH",
+                  "prefixParentId": 9943,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8976,
+                  "department": "Mathematics",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 235680,
+                  "courseTitle": "Finite Mathematics",
+                  "courseNumber": "21",
+                  "prefix": "MATH",
+                  "prefixParentId": 9943,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8976,
+                  "department": "Mathematics",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 138765,
+                  "courseTitle": "Contemporary Mathematics",
+                  "courseNumber": "45",
+                  "prefix": "MATH",
+                  "prefixParentId": 9943,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8976,
+                  "department": "Mathematics",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 346070,
+                  "courseTitle": "Biometrics",
+                  "courseNumber": "9",
+                  "prefix": "PLS",
+                  "prefixParentId": 11961,
+                  "prefixDescription": "Plant Science",
+                  "departmentParentId": 10935,
+                  "department": "Plant Science",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 364783,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "42",
+                  "prefix": "PSY",
+                  "prefixParentId": 4625,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11190,
+                  "department": "Psychology",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 290126,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "7",
+                  "prefix": "STAT",
+                  "prefixParentId": 3356,
+                  "prefixDescription": "Statistics",
+                  "departmentParentId": 12540,
+                  "department": "Statistics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "e7c7e2c1-7121-4faf-a613-08dc79c2212b",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ac206b70-d4cf-4be8-65ad-08dc79c8f59c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 358352,
+                        "courseTitle": "Human Physiology",
+                        "courseNumber": "66",
+                        "prefix": "BIOL",
+                        "prefixParentId": 4857,
+                        "prefixDescription": "Biology",
+                        "departmentParentId": 1632,
+                        "department": "Biological Sciences",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "10595b90-08da-47fd-65ae-08dc79c8f59c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 330358,
+                        "courseTitle": "Introductory Chemistry",
+                        "courseNumber": "30A",
+                        "prefix": "CHEM",
+                        "prefixParentId": 3779,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2296,
+                        "department": "Chemistry",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "63b1d544-81dd-4c2a-65af-08dc79c8f59c",
+                    "type": "Course",
+                    "generalAttributes": [],
+                    "courses": [
+                      null
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "SECOND COURSE IN ENGLISH COMPOSITION": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "NFromArea",
+          "amount": 1,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 1,
+          "areaType": "None",
+          "id": "449a151f-aec0-4b6c-0833-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c4654e41-a093-43c1-7a1a-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 170403,
+                        "courseTitle": "Argument and Analysis",
+                        "courseNumber": "1B",
+                        "prefix": "ENGL",
+                        "prefixParentId": 2661,
+                        "prefixDescription": "English",
+                        "departmentParentId": 5081,
+                        "department": "English and Comparative Literature",
+                        "begin": "F2015",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c6bd9630-1f99-4589-0c2b-08dc3c638a97",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 233088,
+                        "courseTitle": "Critical Thinking and Writing",
+                        "courseNumber": "2",
+                        "prefix": "ENGL",
+                        "prefixParentId": 2661,
+                        "prefixDescription": "English",
+                        "departmentParentId": 5081,
+                        "department": "English and Comparative Literature",
+                        "begin": "F2015",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "PREPARATION FOR THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "NFromArea",
+          "amount": 1,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 1,
+          "areaType": "None",
+          "id": "8fc1dff6-e46a-4294-a612-08dc79c2212b",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "27d18b76-8a08-44a4-aaa6-1c8fc8dce7af",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 351861,
+                        "courseTitle": "Human Anatomy",
+                        "courseNumber": "65",
+                        "prefix": "BIOL",
+                        "prefixParentId": 4857,
+                        "prefixDescription": "Biology",
+                        "departmentParentId": 1632,
+                        "department": "Biological Sciences",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "08ab899b-6b47-4d09-9c47-a00d84526f1c",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Acceptable substitute"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 357509,
+                        "courseTitle": "Human Anatomy",
+                        "courseNumber": "65O",
+                        "prefix": "BIOL",
+                        "prefixParentId": 4857,
+                        "prefixDescription": "Biology",
+                        "departmentParentId": 1632,
+                        "department": "Biological Sciences",
+                        "begin": "Su2013",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "LOWER DIVISION CORE REQUIREMENTS OF THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f77b9700-4cf3-41d7-a57d-e3c412d09211",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 97941,
+                        "courseTitle": "Introduction to Kinesiology",
+                        "courseNumber": "70",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ACTIVITY COURSES, PERSONAL DEFENSE OR COMBATIVES GROUP": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d9996d80-a067-4c28-bb01-fa9f5c48af5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374937,
+                        "courseTitle": "Beginning Tae Kwon Do",
+                        "courseNumber": "54A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ef8b2cde-321b-4a91-8e86-de076002df88",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374935,
+                        "courseTitle": "Beginning Karate",
+                        "courseNumber": "53A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c2ebb61d-824c-418d-8709-faf62403b074",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374931,
+                        "courseTitle": "Intermediate Aikido",
+                        "courseNumber": "51B",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "087075db-ef0a-485f-a7f7-a9b5120f9d50",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374933,
+                        "courseTitle": "Intermediate Judo",
+                        "courseNumber": "52B",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "85602054-79f3-4929-89d8-e8bcdf1a2563",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374936,
+                        "courseTitle": "Intermediate Karate",
+                        "courseNumber": "53B",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "fea9bd5d-cb51-4174-841a-0e91e43195f3",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374938,
+                        "courseTitle": "Beginning Self-Defense",
+                        "courseNumber": "55A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5e687694-36d9-42b3-a914-f22309c50a5c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374930,
+                        "courseTitle": "Beginning Aikido",
+                        "courseNumber": "51A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b87cf037-2550-4e62-a15d-cb54b1a27c86",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374932,
+                        "courseTitle": "Beginning Judo",
+                        "courseNumber": "52A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0df75d22-3c8b-40e5-b506-a133dcd68235",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374934,
+                        "courseTitle": "Competitive Judo",
+                        "courseNumber": "52C",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ACTIVITY COURSES, FITNESS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0742cc52-cc40-431c-95f1-9f476fb75b9e",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374922,
+                        "courseTitle": "Aerobics",
+                        "courseNumber": "32",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b04c10c9-aad9-4eca-955a-7fa34aa3c473",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374925,
+                        "courseTitle": "Intermediate Weight Training",
+                        "courseNumber": "35B",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "facfa74e-6233-41a6-bfae-d63e43d480ee",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374923,
+                        "courseTitle": "Step Training",
+                        "courseNumber": "34",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "36120a39-4d1a-488a-90e9-e1940c13cd08",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374919,
+                        "courseTitle": "Cardio Kickboxing",
+                        "courseNumber": "29",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ca3f2495-a0b6-4037-ab15-b21ba6b90be5",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374926,
+                        "courseTitle": "Fitness Walking",
+                        "courseNumber": "37",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9aede9db-dba7-42c5-b873-de874e45a6cd",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374940,
+                        "courseTitle": "Intermediate Hatha Yoga",
+                        "courseNumber": "61B",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "87fd43f7-5647-422e-8215-35ca69db3e51",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374927,
+                        "courseTitle": "Beginning Jogging",
+                        "courseNumber": "38",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "75b59bcd-7e97-4cfa-9d80-a735150711f9",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374939,
+                        "courseTitle": "Beginning Hatha Yoga",
+                        "courseNumber": "61A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e6388e99-744c-4c3f-bb9f-f0f108ed522f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374920,
+                        "courseTitle": "Pilates",
+                        "courseNumber": "30",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6bd90b14-b79b-499c-85de-b24a9ef6cce0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374929,
+                        "courseTitle": "Tai Chi (Non-Combative)",
+                        "courseNumber": "50",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "bcdd273a-a771-48bc-9274-bedc6bdd4b04",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374924,
+                        "courseTitle": "Beginning Weight Training",
+                        "courseNumber": "35A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "1d5be030-af0d-40b2-b328-693c0a29960a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374921,
+                        "courseTitle": "Body Sculpting",
+                        "courseNumber": "31",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ACTIVITY COURSES, DANCE": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "135f833e-fbe2-4d66-969f-0b7de71ad6ec",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 49639,
+                        "courseTitle": "Beginning Latin Dance",
+                        "courseNumber": "48A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ed0c4610-0ed6-4b50-8de7-1e241c273834",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 54699,
+                        "courseTitle": "Beginning Lindy Hop and Night Club Swing",
+                        "courseNumber": "45A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6d1f7ed9-aa8b-474c-9335-81a7b50bdf08",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 104208,
+                        "courseTitle": "Topics in Ballet I",
+                        "courseNumber": "41A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 2,
+                        "maxUnits": 2,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "eeb7913a-8960-41bb-9f99-c91dcec13f8f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 49640,
+                        "courseTitle": "BEGINNING LATIN DANCE",
+                        "courseNumber": "48A",
+                        "prefix": "DANC",
+                        "prefixParentId": 10224,
+                        "prefixDescription": "Dance",
+                        "departmentParentId": 3704,
+                        "department": "Dance",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "8ca8cc27-4365-47c6-8c13-bb07fe7fb5b9",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374868,
+                        "courseTitle": "Mexican Folklorico Dance",
+                        "courseNumber": "7",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "40757876-e87d-400f-bc62-b3a68f00f0a0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 45525,
+                        "courseTitle": "Beginning Social Dance",
+                        "courseNumber": "46A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6accd8f4-3aab-490b-bc51-e49d1a04b0ba",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374928,
+                        "courseTitle": "Beginning West Coast Swing",
+                        "courseNumber": "47A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ACTIVITY COURSES, INDIVIDUAL OR DUAL GROUP": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "3142fe9b-3f9d-4c5e-9e1a-bc267d7b0c43",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374904,
+                        "courseTitle": "Beginning Badminton",
+                        "courseNumber": "20A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "cedba03d-8b05-42ca-9fb8-4df89b4edad6",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374860,
+                        "courseTitle": "Beginning Swimming",
+                        "courseNumber": "2A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "aa025b16-905c-4888-92b9-25c133aa2f02",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374909,
+                        "courseTitle": "Beginning Tennis",
+                        "courseNumber": "21A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "4a6c596f-4d9f-4873-a717-e4d008a3f9fa",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374911,
+                        "courseTitle": "Intermediate Archery",
+                        "courseNumber": "23B",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "1b0381b9-5d58-420c-9202-fbda64ec3b38",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374906,
+                        "courseTitle": "Advanced Badminton",
+                        "courseNumber": "20C",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "534dccea-35e6-47df-b804-f534044db634",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374912,
+                        "courseTitle": "Beginning Bowling",
+                        "courseNumber": "24A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "73a87547-ea86-42e0-a265-b226b9a2c23b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374916,
+                        "courseTitle": "Beginning Table Tennis",
+                        "courseNumber": "27A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e461f404-3bc8-4243-a49d-7c4c6c3d7aea",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374900,
+                        "courseTitle": "Beginning Handball",
+                        "courseNumber": "18A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "611820d6-3626-48d9-a7c5-12ad636d0f1e",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374913,
+                        "courseTitle": "Intermediate Bowling",
+                        "courseNumber": "24B",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0368c86b-7fb1-41cd-80a3-a4a1200d7b66",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374908,
+                        "courseTitle": "Intermediate Tennis",
+                        "courseNumber": "21B",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "7e97d71b-4b76-4481-833f-3bae415d5e26",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374918,
+                        "courseTitle": "Beginning Gymnastics",
+                        "courseNumber": "28A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "3d6bd853-3649-4660-b1cb-f175bf8cb724",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374866,
+                        "courseTitle": "Advanced Swimming",
+                        "courseNumber": "2C",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "009494aa-3181-4ad2-ac64-081fb56857f9",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374905,
+                        "courseTitle": "Intermediate Badminton",
+                        "courseNumber": "20B",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ca686c75-5b1a-4e23-8885-8b7dc827bf7f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374865,
+                        "courseTitle": "Intermediate Swimming",
+                        "courseNumber": "2B",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9b362f26-eb8d-48a9-b642-e3b4e683cc0a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374910,
+                        "courseTitle": "Beginning Archery",
+                        "courseNumber": "23A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "4d93d17c-3198-4749-809c-ed237cd9fe74",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374914,
+                        "courseTitle": "Beginning Golf",
+                        "courseNumber": "25A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "698a6dda-6106-4f83-932b-58e9bc8a27ea",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374919,
+                        "courseTitle": "Cardio Kickboxing",
+                        "courseNumber": "29",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "61c43db2-1c86-43e9-9588-157cdf28565e",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374941,
+                        "courseTitle": "Beginning Ice Skating",
+                        "courseNumber": "62A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5cbcf9b5-0f52-4de0-8b1b-a002cdd14eab",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374915,
+                        "courseTitle": "Intermediate Golf",
+                        "courseNumber": "25B",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ACTIVITY COURSES, TEAM SPORTS GROUP": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c31f72e5-bdcb-45c8-a7c9-b2614bffa17f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374943,
+                        "courseTitle": "Beginning Ice Hockey",
+                        "courseNumber": "65A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "792cd158-2823-4021-a496-31b63d146253",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374872,
+                        "courseTitle": "Beginning Rowing",
+                        "courseNumber": "11A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "bf04bddd-b015-47c7-9094-ce894dce0e1f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374873,
+                        "courseTitle": "Beginning Rugby",
+                        "courseNumber": "13A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "bd6c8764-3eb8-490c-8658-35930bf67a9d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374898,
+                        "courseTitle": "Beginning Basketball",
+                        "courseNumber": "15A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e67f1936-1bac-4871-bb13-32c83604aae3",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374897,
+                        "courseTitle": "Advanced Volleyball",
+                        "courseNumber": "14C",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e12482fd-c7ff-4199-8007-ea10a8615b24",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374876,
+                        "courseTitle": "Intermediate Volleyball",
+                        "courseNumber": "14B",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5f7d3ae3-caca-40f3-b6dd-226a61239c50",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374899,
+                        "courseTitle": "Intermediate Basketball",
+                        "courseNumber": "15B",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f2bf3770-06f2-4f6c-aa44-05f5ebeaf686",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374875,
+                        "courseTitle": "Beginning Volleyball",
+                        "courseNumber": "14A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ACTIVITY COURSES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "48656030-275c-4432-97fe-e4d514227098",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374869,
+                        "courseTitle": "Skin and SCUBA Diving",
+                        "courseNumber": "8",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 2,
+                        "maxUnits": 2,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "7f466f25-0668-42f1-a4d3-d55d75152807",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374942,
+                        "courseTitle": "Beginning Hiking and Backpacking",
+                        "courseNumber": "63A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "638e303f-e323-4408-8060-75b6dc85a03d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374870,
+                        "courseTitle": "Beginning Sailing",
+                        "courseNumber": "9A",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "AREA OF SPECIALIZATION, EXERCISE AND FITNESS SPECIALIST": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [
+          "**REFER TO TOP OF AGREEMENT**"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "df6a39fc-bad1-418a-65b0-08dc79c8f59c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 238790,
+                        "courseTitle": "Stress Management: A Multidisciplinary Perspective",
+                        "courseNumber": "69",
+                        "prefix": "KIN",
+                        "prefixParentId": 13973,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8103,
+                        "department": "Kinesiology",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a70001fb-7559-44fd-65b5-08dc79c8f59c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 135934,
+                        "courseTitle": "General Psychology",
+                        "courseNumber": "1",
+                        "prefix": "PSYC",
+                        "prefixParentId": 4627,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11325,
+                        "department": "Psychology & Statistics",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a508dd7d-8896-4049-65b3-08dc79c8f59c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 330365,
+                        "courseTitle": "Nutrition for the Health Professions",
+                        "courseNumber": "8",
+                        "prefix": "NUFS",
+                        "prefixParentId": 958,
+                        "prefixDescription": "Nutrition and Food Science",
+                        "departmentParentId": 9817,
+                        "department": "Nutrition, Food Science and Packaging",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "eec4cc06-ceb9-4647-65b4-08dc79c8f59c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 330416,
+                        "courseTitle": "Introduction to Human Nutrition",
+                        "courseNumber": "9",
+                        "prefix": "NUFS",
+                        "prefixParentId": 958,
+                        "prefixDescription": "Nutrition and Food Science",
+                        "departmentParentId": 9817,
+                        "department": "Nutrition, Food Science and Packaging",
+                        "begin": "F2014",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "AREA OF SPECIALIZATION, INCLUSIVE PHYSICAL ACTIVITY IN COMMUNITIES (IPAC)": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [
+          "**REFER TO TOP OF AGREEMENT**"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "19180304-636e-406a-96cd-ddc13ea61242",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 156756,
+                        "courseTitle": "Elementary Statistics",
+                        "courseNumber": "95",
+                        "prefix": "STAT",
+                        "prefixParentId": 3357,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 11325,
+                        "department": "Psychology & Statistics",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c42ec4df-38f5-4b19-a044-2f7c0f811dab",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 217359,
+                        "courseTitle": "Event Planning",
+                        "courseNumber": "97",
+                        "prefix": "RECL",
+                        "prefixParentId": 15413,
+                        "prefixDescription": "Recreation",
+                        "departmentParentId": 11630,
+                        "department": "Recreation and Leisure Studies",
+                        "begin": "F2017",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c3d15eb2-5b11-47ad-983f-793585ae8ece",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 330388,
+                        "courseTitle": "American Sign Language I",
+                        "courseNumber": "14A",
+                        "prefix": "EDSE",
+                        "prefixParentId": 8002,
+                        "prefixDescription": "Special Education",
+                        "departmentParentId": 4459,
+                        "department": "Education - Special Education",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9b410c35-cb33-42d9-8366-1d162ccf7314",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 156726,
+                        "courseTitle": "Introduction to Ceramics",
+                        "courseNumber": "46",
+                        "prefix": "ART",
+                        "prefixParentId": 4461,
+                        "prefixDescription": "Art",
+                        "departmentParentId": 1058,
+                        "department": "Art",
+                        "begin": "F2011",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "AREA OF SPECIALIZATION, REHABILITATION SCIENCE": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [
+          "**REFER TO TOP OF AGREEMENT**"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "64a36e1f-5a52-4885-a3e4-c8844afc6a07",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 282167,
+                        "courseTitle": "Fundamentals of Physics",
+                        "courseNumber": "2A",
+                        "prefix": "PHYS",
+                        "prefixParentId": 219,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10863,
+                        "department": "Physics & Astronomy",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9c4c487c-9ff2-4c3f-83f4-746bddef0cdb",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 156756,
+                        "courseTitle": "Elementary Statistics",
+                        "courseNumber": "95",
+                        "prefix": "STAT",
+                        "prefixParentId": 3357,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 11325,
+                        "department": "Psychology & Statistics",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2a63ad9d-a834-4b6e-aaaa-c5242e898d9e",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 276951,
+                        "courseTitle": "General Chemistry",
+                        "courseNumber": "1A",
+                        "prefix": "CHEM",
+                        "prefixParentId": 3779,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2296,
+                        "department": "Chemistry",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9f862477-c1c6-4d79-8515-09f02366e37e",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 135934,
+                        "courseTitle": "General Psychology",
+                        "courseNumber": "1",
+                        "prefix": "PSYC",
+                        "prefixParentId": 4627,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11325,
+                        "department": "Psychology & Statistics",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "50b5d7c8-44b0-49db-bcba-6becb88cb91e",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 351863,
+                        "courseTitle": "Fundamentals of Physics",
+                        "courseNumber": "2B",
+                        "prefix": "PHYS",
+                        "prefixParentId": 219,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10863,
+                        "department": "Physics & Astronomy",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c5b3ec03-e2e3-43f2-bd80-036c7f8bc512",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 301227,
+                        "courseTitle": "General Chemistry",
+                        "courseNumber": "1B",
+                        "prefix": "CHEM",
+                        "prefixParentId": 3779,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2296,
+                        "department": "Chemistry",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "AREA OF SPECIALIZATION, SPORT MANAGEMENT AND CULTURE": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [
+          "**REFER TO TOP OF AGREEMENT**"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0ac037a5-4c51-4c6f-88b9-c3e16b03f8ef",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 135934,
+                        "courseTitle": "General Psychology",
+                        "courseNumber": "1",
+                        "prefix": "PSYC",
+                        "prefixParentId": 4627,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11325,
+                        "department": "Psychology & Statistics",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f9b4baaa-b7b6-4aa6-af61-156bc4e8f5eb",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 156756,
+                        "courseTitle": "Elementary Statistics",
+                        "courseNumber": "95",
+                        "prefix": "STAT",
+                        "prefixParentId": 3357,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 11325,
+                        "department": "Psychology & Statistics",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

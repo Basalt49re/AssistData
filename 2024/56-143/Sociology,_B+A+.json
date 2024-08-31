@@ -1,0 +1,834 @@
+{
+  "major": "Sociology, B.A.",
+  "from": {
+    "id": 56,
+    "code": "PALOMAR ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Palomar College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2018
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 143,
+    "code": "CSUCI   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Channel Islands",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2001
+      }
+    ],
+    "beginId": 52,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "c4343147-82db-442e-c7d0-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "a0901c8b-c732-46dd-91ed-82f154cc4148",
+              "sendingArticulationId": "125ff95c-c7ca-4eb3-90bf-f2fc5c6fb7d4",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "a367c2a0-b962-4462-b447-ad74699aadfb",
+              "sendingArticulationId": "125ff95c-c7ca-4eb3-90bf-f2fc5c6fb7d4",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "4ac148f5-aaf2-4361-a887-bffd3817ed45",
+              "sendingArticulationId": "125ff95c-c7ca-4eb3-90bf-f2fc5c6fb7d4",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            },
+            {
+              "id": "9e3cddca-72ad-4022-b416-08dc8019d577",
+              "sendingArticulationId": "125ff95c-c7ca-4eb3-90bf-f2fc5c6fb7d4",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 3,
+              "sendingCourseGroupEndPosition": 4
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 382754,
+                  "courseTitle": "Social Justice Statistics",
+                  "courseNumber": "180",
+                  "prefix": "SOC",
+                  "prefixParentId": 9031,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12069,
+                  "department": "Sociology",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 287,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "b7e0a81e-4e54-48e4-a81b-3292c726fb89",
+                      "publishedCourseIdentifierYearTermId": 255,
+                      "courseIdentifierParentId": 137093,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "205",
+                      "prefix": "SOC",
+                      "prefixParentId": 9031,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12069,
+                      "department": "Sociology",
+                      "begin": "F2014",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 154829,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "205",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4646,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11239,
+                  "department": "Psychology",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 255,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 349681,
+                  "courseTitle": "Quantitative Business Analysis",
+                  "courseNumber": "204",
+                  "prefix": "BUS",
+                  "prefixParentId": 8242,
+                  "prefixDescription": "Business",
+                  "departmentParentId": 1936,
+                  "department": "Business",
+                  "begin": "F2018",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 271,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "2a021103-1e48-43d9-8304-561e35813278",
+                      "publishedCourseIdentifierYearTermId": 255,
+                      "courseIdentifierParentId": 154829,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "205",
+                      "prefix": "PSYC",
+                      "prefixParentId": 4646,
+                      "prefixDescription": "Psychology",
+                      "departmentParentId": 11239,
+                      "department": "Psychology",
+                      "begin": "F2014",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 137093,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "205",
+                  "prefix": "SOC",
+                  "prefixParentId": 9031,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12069,
+                  "department": "Sociology",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 255,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 202371,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "120",
+                  "prefix": "MATH",
+                  "prefixParentId": 9964,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8992,
+                  "department": "Mathematics",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 259,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "c94da941-a13d-4664-c7d1-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "25413621-9886-4712-ac0c-d52cb0b55c4f",
+              "sendingArticulationId": "3b65b708-bb2a-4708-92e2-52b3f096cf5c",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "58429211-3673-4fac-8fd3-9cc88439f0a7",
+              "sendingArticulationId": "3b65b708-bb2a-4708-92e2-52b3f096cf5c",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "3bb57ef9-d979-4ee2-9c67-9008eaa445af",
+              "sendingArticulationId": "3b65b708-bb2a-4708-92e2-52b3f096cf5c",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            },
+            {
+              "id": "68a86d99-8058-42ea-b417-08dc8019d577",
+              "sendingArticulationId": "3b65b708-bb2a-4708-92e2-52b3f096cf5c",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 3,
+              "sendingCourseGroupEndPosition": 4
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 382754,
+                  "courseTitle": "Social Justice Statistics",
+                  "courseNumber": "180",
+                  "prefix": "SOC",
+                  "prefixParentId": 9031,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12069,
+                  "department": "Sociology",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 287,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 349681,
+                  "courseTitle": "Quantitative Business Analysis",
+                  "courseNumber": "204",
+                  "prefix": "BUS",
+                  "prefixParentId": 8242,
+                  "prefixDescription": "Business",
+                  "departmentParentId": 1936,
+                  "department": "Business",
+                  "begin": "F2018",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 271,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "efedbb21-7df1-48a3-afde-4c236da5ddc0",
+                      "publishedCourseIdentifierYearTermId": 255,
+                      "courseIdentifierParentId": 154829,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "205",
+                      "prefix": "PSYC",
+                      "prefixParentId": 4646,
+                      "prefixDescription": "Psychology",
+                      "departmentParentId": 11239,
+                      "department": "Psychology",
+                      "begin": "F2014",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 137093,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "205",
+                  "prefix": "SOC",
+                  "prefixParentId": 9031,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12069,
+                  "department": "Sociology",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 255,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 202371,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "120",
+                  "prefix": "MATH",
+                  "prefixParentId": 9964,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8992,
+                  "department": "Mathematics",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 259,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "6179c668-2c85-4b7d-8db6-698f16b5d9fd",
+                      "publishedCourseIdentifierYearTermId": 255,
+                      "courseIdentifierParentId": 137093,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "205",
+                      "prefix": "SOC",
+                      "prefixParentId": 9031,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12069,
+                      "department": "Sociology",
+                      "begin": "F2014",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 154829,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "205",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4646,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11239,
+                  "department": "Psychology",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 255,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "aaed7033-a068-4d91-a3ba-b57c896ded5a",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 216543,
+                  "courseTitle": "Introduction to Sociology",
+                  "courseNumber": "100",
+                  "prefix": "SOC",
+                  "prefixParentId": 9031,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12069,
+                  "department": "Sociology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "519d08ec-77b6-47b1-80e8-6d064160e097",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 384999,
+                  "courseTitle": "Research Methods for Sociology",
+                  "courseNumber": "210",
+                  "prefix": "SOC",
+                  "prefixParentId": 9031,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12069,
+                  "department": "Sociology",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 291,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "0bde15a1-a11d-42f6-bc6a-c5da444d4637",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 196217,
+                  "courseTitle": "Social Problems",
+                  "courseNumber": "110",
+                  "prefix": "SOC",
+                  "prefixParentId": 9031,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12069,
+                  "department": "Sociology",
+                  "begin": "F2005",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "NFromConjunction",
+          "conjunction": "And",
+          "amountQuantifier": "None",
+          "amount": 1,
+          "amountUnitType": "Course",
+          "id": "f9df7c19-d1d3-44d9-dfa9-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c4343147-82db-442e-c7d0-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [
+                      "Preferred course"
+                    ],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 205433,
+                        "courseTitle": "Elementary Statistics",
+                        "courseNumber": "201",
+                        "prefix": "MATH",
+                        "prefixParentId": 13177,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9069,
+                        "department": "Mathematics",
+                        "begin": "F2003",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c94da941-a13d-4664-c7d1-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 233301,
+                        "courseTitle": "Biostatistics",
+                        "courseNumber": "202",
+                        "prefix": "MATH",
+                        "prefixParentId": 13177,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9069,
+                        "department": "Mathematics",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "LOWER DIVISION REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "03b2d04b-9dc3-4c64-dfaa-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [
+          "Please refer to additional important General Information section above"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "aaed7033-a068-4d91-a3ba-b57c896ded5a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 209906,
+                        "courseTitle": "Introduction to Sociology",
+                        "courseNumber": "100",
+                        "prefix": "SOC",
+                        "prefixParentId": 13905,
+                        "prefixDescription": "Sociology",
+                        "departmentParentId": 12128,
+                        "department": "Sociology",
+                        "begin": "F2005",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0bde15a1-a11d-42f6-bc6a-c5da444d4637",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 241696,
+                        "courseTitle": "Social Problems",
+                        "courseNumber": "201",
+                        "prefix": "SOC",
+                        "prefixParentId": 13905,
+                        "prefixDescription": "Sociology",
+                        "departmentParentId": 12128,
+                        "department": "Sociology",
+                        "begin": "F2009",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "519d08ec-77b6-47b1-80e8-6d064160e097",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 346616,
+                        "courseTitle": "Introduction to Research Methods",
+                        "courseNumber": "202",
+                        "prefix": "SOC",
+                        "prefixParentId": 13905,
+                        "prefixDescription": "Sociology",
+                        "departmentParentId": 12128,
+                        "department": "Sociology",
+                        "begin": "F2007",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

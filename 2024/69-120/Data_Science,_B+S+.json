@@ -1,0 +1,861 @@
+{
+  "major": "Data Science, B.S.",
+  "from": {
+    "id": 69,
+    "code": "CHAFFEY ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Chaffey College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 120,
+    "code": "UCI     ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Irvine",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "07a9b9ed-0ce1-4a64-c185-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 280874,
+                  "courseTitle": "Calculus III",
+                  "courseNumber": "75",
+                  "prefix": "MATH",
+                  "prefixParentId": 9976,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9002,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "ec6df36f-b534-4019-6e12-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 263590,
+                  "courseTitle": "Linear Algebra",
+                  "courseNumber": "81",
+                  "prefix": "MATH",
+                  "prefixParentId": 9976,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9002,
+                  "department": "Mathematics",
+                  "begin": "F2002",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "a3204897-454f-4b37-8a36-74150595f572",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "df03c2a0-de7f-48e3-9f0e-e5e789d6ef37",
+              "sendingArticulationId": "6baeee78-f9c6-419a-90be-2cbdc0d02740",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 282728,
+                  "courseTitle": "Statistics for Social Science",
+                  "courseNumber": "10",
+                  "prefix": "SCSCI",
+                  "prefixParentId": 11905,
+                  "prefixDescription": "Social Science",
+                  "departmentParentId": 11952,
+                  "department": "Social Science",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 290781,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "10",
+                  "prefix": "STAT",
+                  "prefixParentId": 3363,
+                  "prefixDescription": "Statistics",
+                  "departmentParentId": 12544,
+                  "department": "Statistics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "d4202902-2161-4125-9a76-93ba86d6e7b5",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 283316,
+                  "courseTitle": "Calculus I",
+                  "courseNumber": "65A",
+                  "prefix": "MATH",
+                  "prefixParentId": 9976,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9002,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "16ac82e0-7558-4275-9534-c536831e0ed2",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 255084,
+                  "courseTitle": "Calculus II",
+                  "courseNumber": "65B",
+                  "prefix": "MATH",
+                  "prefixParentId": 9976,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9002,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "182f5294-13e2-4c1f-b28c-dc2696402c60",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 338058,
+                  "courseTitle": "Programming Concepts and Methodology I",
+                  "courseNumber": "1",
+                  "prefix": "COMPSCI",
+                  "prefixParentId": 16129,
+                  "prefixDescription": "Computer Science",
+                  "departmentParentId": 3232,
+                  "department": "Computer Science",
+                  "begin": "S2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 348981,
+                  "courseTitle": "Programming Concepts and Methodology II",
+                  "courseNumber": "2",
+                  "prefix": "COMPSCI",
+                  "prefixParentId": 16129,
+                  "prefixDescription": "Computer Science",
+                  "departmentParentId": 3232,
+                  "department": "Computer Science",
+                  "begin": "S2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "MAJOR PREPARATION COURSES REQUIRED FOR TRANSFER": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "182f5294-13e2-4c1f-b28c-dc2696402c60",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "91992cd9-6300-4c10-ae65-bb0b2f42f9ec",
+                        "position": 0,
+                        "courseIdentifierParentId": 298978,
+                        "courseTitle": "Introduction to Programming",
+                        "courseNumber": "31",
+                        "prefix": "I&C SCI",
+                        "prefixParentId": 11551,
+                        "prefixDescription": "Information & Computer Science",
+                        "departmentParentId": 7498,
+                        "department": "Information & Computer Science",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      },
+                      {
+                        "id": "cd322e3c-632c-4494-bee1-3799168c654b",
+                        "position": 1,
+                        "courseIdentifierParentId": 272014,
+                        "courseTitle": "Programming with Software Libraries",
+                        "courseNumber": "32",
+                        "prefix": "I&C SCI",
+                        "prefixParentId": 11551,
+                        "prefixDescription": "Information & Computer Science",
+                        "departmentParentId": 7498,
+                        "department": "Information & Computer Science",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      },
+                      {
+                        "id": "9089ce73-75e1-4575-adea-b4982c8a1590",
+                        "position": 2,
+                        "courseIdentifierParentId": 298980,
+                        "courseTitle": "Intermediate Programming",
+                        "courseNumber": "33",
+                        "prefix": "I&C SCI",
+                        "prefixParentId": 11551,
+                        "prefixDescription": "Information & Computer Science",
+                        "departmentParentId": 7498,
+                        "department": "Information & Computer Science",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a3204897-454f-4b37-8a36-74150595f572",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 289090,
+                        "courseTitle": "Basic Statistics",
+                        "courseNumber": "7",
+                        "prefix": "STATS",
+                        "prefixParentId": 13820,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 12560,
+                        "department": "Statistics",
+                        "begin": "F2011",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d4202902-2161-4125-9a76-93ba86d6e7b5",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 355339,
+                        "courseTitle": "Single-Variable Calculus",
+                        "courseNumber": "2A",
+                        "prefix": "MATH",
+                        "prefixParentId": 10032,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9047,
+                        "department": "Mathematics",
+                        "begin": "F2000",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "16ac82e0-7558-4275-9534-c536831e0ed2",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 289471,
+                        "courseTitle": "Single-Variable Calculus",
+                        "courseNumber": "2B",
+                        "prefix": "MATH",
+                        "prefixParentId": 10032,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9047,
+                        "department": "Mathematics",
+                        "begin": "F2000",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ADDITIONAL APPROVED COURSES FOR THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "07a9b9ed-0ce1-4a64-c185-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 260214,
+                        "courseTitle": "Multivariable Calculus",
+                        "courseNumber": "2D",
+                        "prefix": "MATH",
+                        "prefixParentId": 10032,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9047,
+                        "department": "Mathematics",
+                        "begin": "F2000",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "8f42956b-6a25-43b7-c186-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 259293,
+                        "courseTitle": "Discrete Mathematics for Computer Science",
+                        "courseNumber": "6D",
+                        "prefix": "I&C SCI",
+                        "prefixParentId": 11551,
+                        "prefixDescription": "Information & Computer Science",
+                        "departmentParentId": 7498,
+                        "department": "Information & Computer Science",
+                        "begin": "F2007",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "1772e578-4b05-4945-c187-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 299018,
+                        "courseTitle": "Programming in C/C++ as a Second Language",
+                        "courseNumber": "45C",
+                        "prefix": "I&C SCI",
+                        "prefixParentId": 11551,
+                        "prefixDescription": "Information & Computer Science",
+                        "departmentParentId": 7498,
+                        "department": "Information & Computer Science",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "19a72b84-1450-456c-c188-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 305521,
+                        "courseTitle": "Introductory Computer Organization",
+                        "courseNumber": "51",
+                        "prefix": "I&C SCI",
+                        "prefixParentId": 11551,
+                        "prefixDescription": "Information & Computer Science",
+                        "departmentParentId": 7498,
+                        "department": "Information & Computer Science",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 6,
+                        "maxUnits": 6,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d8e872ca-dbea-4be4-c189-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 357430,
+                        "courseTitle": "Introduction to Software Engineering",
+                        "courseNumber": "43",
+                        "prefix": "IN4MATX",
+                        "prefixParentId": 13686,
+                        "prefixDescription": "Informatics",
+                        "departmentParentId": 7496,
+                        "department": "Informatics",
+                        "begin": "F2012",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0840db55-1b06-45ff-c18a-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 357812,
+                        "courseTitle": "Statistical Computing and Exploratory Data Analysis",
+                        "courseNumber": "68",
+                        "prefix": "STATS",
+                        "prefixParentId": 13820,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 12560,
+                        "department": "Statistics",
+                        "begin": "F2015",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d291af82-66b1-4e9b-c18e-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 300168,
+                        "courseTitle": "Boolean Logic and Discrete Structures",
+                        "courseNumber": "6B",
+                        "prefix": "I&C SCI",
+                        "prefixParentId": 11551,
+                        "prefixDescription": "Information & Computer Science",
+                        "departmentParentId": 7498,
+                        "department": "Information & Computer Science",
+                        "begin": "S2018",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "76c2c7b0-f0ce-401e-c18f-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 289117,
+                        "courseTitle": "Data Structure Implementation and Analysis",
+                        "courseNumber": "46",
+                        "prefix": "I&C SCI",
+                        "prefixParentId": 11551,
+                        "prefixDescription": "Information & Computer Science",
+                        "departmentParentId": 7498,
+                        "department": "Information & Computer Science",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ec6df36f-b534-4019-6e12-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 289511,
+                        "courseTitle": "Introduction to Linear Algebra",
+                        "courseNumber": "3A",
+                        "prefix": "MATH",
+                        "prefixParentId": 10032,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9047,
+                        "department": "Mathematics",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "afa930cc-2c10-4517-6e13-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 272013,
+                        "courseTitle": "Computational Linear Algebra",
+                        "courseNumber": "6N",
+                        "prefix": "I&C SCI",
+                        "prefixParentId": 11551,
+                        "prefixDescription": "Information & Computer Science",
+                        "departmentParentId": 7498,
+                        "department": "Information & Computer Science",
+                        "begin": "F2012",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

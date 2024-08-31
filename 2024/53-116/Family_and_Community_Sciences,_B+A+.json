@@ -1,0 +1,181 @@
+{
+  "major": "Family and Community Sciences, B.A.",
+  "from": {
+    "id": 53,
+    "code": "MTSJC   ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Mt. San Jacinto College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 116,
+    "code": "SFSU    ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "San Francisco State University",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "21042be1-ed3e-4a01-a064-3e3af2643163",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "323be1e6-abed-4c90-81ea-3a27f068fdcf",
+              "sendingArticulationId": "5185e5c9-8276-4876-89cc-6ce342c38efe",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 185246,
+                  "courseTitle": "Child, Family and Community",
+                  "courseNumber": "125",
+                  "prefix": "CDE-",
+                  "prefixParentId": 12898,
+                  "prefixDescription": "Child Development and Education",
+                  "departmentParentId": 2524,
+                  "department": "Teacher Education and Developmental Studies",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 230707,
+                  "courseTitle": "Honors Child, Family and Community",
+                  "courseNumber": "125H",
+                  "prefix": "CDE-",
+                  "prefixParentId": 12898,
+                  "prefixDescription": "Child Development and Education",
+                  "departmentParentId": 2524,
+                  "department": "Teacher Education and Developmental Studies",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "LOWER DIVISION REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "21042be1-ed3e-4a01-a064-3e3af2643163",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 370458,
+                        "courseTitle": "Young Children and Families",
+                        "courseNumber": "220",
+                        "prefix": "FCS",
+                        "prefixParentId": 4980,
+                        "prefixDescription": "Family and Consumer Sciences",
+                        "departmentParentId": 13591,
+                        "department": "Family and Consumer Sciences",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

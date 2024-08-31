@@ -1,0 +1,379 @@
+{
+  "major": "Philosophy, B.A. - General Option",
+  "from": {
+    "id": 27,
+    "code": "ARC     ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "American River College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 75,
+    "code": "CPP     ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "California Polytechnic University, Pomona",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2018
+      },
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "368a4424-419c-4b17-982a-5d925f231697",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    },
+    {
+      "templateCellId": "9fc8c381-1a03-4d60-b4f8-2cc2a772293a",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 188787,
+                  "courseTitle": "Introduction to Ethics",
+                  "courseNumber": "310",
+                  "prefix": "PHIL",
+                  "prefixParentId": 5400,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10116,
+                  "department": "Philosophy",
+                  "begin": "Su2003",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "7a12d50b-6803-4fe9-9933-25e7c6dd8c3b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "0c3e28c5-f123-4b7d-9e37-856e8d52e0e2",
+              "sendingArticulationId": "377c90c4-4dc1-4f52-8dae-21b9a486f412",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "ad84a57b-e7e3-47a4-afc3-c68281b18fca",
+              "sendingArticulationId": "377c90c4-4dc1-4f52-8dae-21b9a486f412",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "790f73a8-6d95-4be7-8493-417bb52f26a9",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 243848,
+                      "courseTitle": "Symbolic Logic",
+                      "courseNumber": "320",
+                      "prefix": "MATH",
+                      "prefixParentId": 9933,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8968,
+                      "department": "Mathematics",
+                      "begin": "F2004",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 243847,
+                  "courseTitle": "Symbolic Logic",
+                  "courseNumber": "324",
+                  "prefix": "PHIL",
+                  "prefixParentId": 5400,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10116,
+                  "department": "Philosophy",
+                  "begin": "S2012",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 188475,
+                  "courseTitle": "Logic and Critical Reasoning",
+                  "courseNumber": "320",
+                  "prefix": "PHIL",
+                  "prefixParentId": 5400,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10116,
+                  "department": "Philosophy",
+                  "begin": "Su2003",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "7e3f2e7a-b47b-469a-a1c9-c36081679f6b",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 243847,
+                      "courseTitle": "Symbolic Logic",
+                      "courseNumber": "324",
+                      "prefix": "PHIL",
+                      "prefixParentId": 5400,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10116,
+                      "department": "Philosophy",
+                      "begin": "S2012",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 243848,
+                  "courseTitle": "Symbolic Logic",
+                  "courseNumber": "320",
+                  "prefix": "MATH",
+                  "prefixParentId": 9933,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8968,
+                  "department": "Mathematics",
+                  "begin": "F2004",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "MAJOR REQUIRED": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "368a4424-419c-4b17-982a-5d925f231697",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 296853,
+                        "courseTitle": "Philosophy Proseminar II: Philosophical Methods",
+                        "courseNumber": "2900",
+                        "prefix": "PHL",
+                        "prefixParentId": 5446,
+                        "prefixDescription": "Philosophy",
+                        "departmentParentId": 10228,
+                        "department": "Philosophy",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9fc8c381-1a03-4d60-b4f8-2cc2a772293a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 351662,
+                        "courseTitle": "Ethical Problems of Contemporary Life",
+                        "courseNumber": "2040",
+                        "prefix": "PHL",
+                        "prefixParentId": 5446,
+                        "prefixDescription": "Philosophy",
+                        "departmentParentId": 10228,
+                        "department": "Philosophy",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "7a12d50b-6803-4fe9-9933-25e7c6dd8c3b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 352008,
+                        "courseTitle": "Logic and Computing",
+                        "courseNumber": "2180",
+                        "prefix": "PHL",
+                        "prefixParentId": 5446,
+                        "prefixDescription": "Philosophy",
+                        "departmentParentId": 10228,
+                        "department": "Philosophy",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

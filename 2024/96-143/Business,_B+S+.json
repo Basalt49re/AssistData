@@ -1,0 +1,951 @@
+{
+  "major": "Business, B.S.",
+  "from": {
+    "id": 96,
+    "code": "CHABOT  ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Chabot College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2022
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 143,
+    "code": "CSUCI   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Channel Islands",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2001
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "844af4a5-ce61-48b6-205d-08db93657f9b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 220778,
+                  "courseTitle": "Applied Calculus I",
+                  "courseNumber": "15",
+                  "prefix": "MTH",
+                  "prefixParentId": 10007,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9024,
+                  "department": "Mathematics",
+                  "begin": "F2009",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 220779,
+                  "courseTitle": "Applied Calculus II",
+                  "courseNumber": "16",
+                  "prefix": "MTH",
+                  "prefixParentId": 10007,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9024,
+                  "department": "Mathematics",
+                  "begin": "F2009",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "1732392c-655a-42d5-205e-08db93657f9b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 308111,
+                  "courseTitle": "Calculus I",
+                  "courseNumber": "1",
+                  "prefix": "MTH",
+                  "prefixParentId": 10007,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9024,
+                  "department": "Mathematics",
+                  "begin": "F2006",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "16057d3f-8dc8-460a-a9c9-7325d530272d",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "0c1b55e8-f7a5-4b64-bf70-6444733c77c5",
+              "sendingArticulationId": "d1cec21b-e846-4136-9b5b-846e4855061d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 232724,
+                  "courseTitle": "Business Communications",
+                  "courseNumber": "14",
+                  "prefix": "BUS",
+                  "prefixParentId": 8267,
+                  "prefixDescription": "Business",
+                  "departmentParentId": 1956,
+                  "department": "Business",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 143699,
+                  "courseTitle": "Introduction to Business",
+                  "courseNumber": "12",
+                  "prefix": "BUS",
+                  "prefixParentId": 8267,
+                  "prefixDescription": "Business",
+                  "departmentParentId": 1956,
+                  "department": "Business",
+                  "begin": "F2002",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "8512fe66-e21f-4861-ba31-279b2330644d",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "5aa43923-5e19-4d34-91fa-bad7a6d39d44",
+              "sendingArticulationId": "7b8d264c-9c07-476b-bcbe-9ce0594fce7a",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "1fc8997d-6b62-4223-bbf8-5fd7cfb4e5c0",
+              "sendingArticulationId": "7b8d264c-9c07-476b-bcbe-9ce0594fce7a",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "8a3d72f7-7919-4766-a83b-42e1b1b6acd3",
+              "sendingArticulationId": "7b8d264c-9c07-476b-bcbe-9ce0594fce7a",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 365816,
+                  "courseTitle": "Business Statistics",
+                  "courseNumber": "19",
+                  "prefix": "BUS",
+                  "prefixParentId": 8267,
+                  "prefixDescription": "Business",
+                  "departmentParentId": 1956,
+                  "department": "Business",
+                  "begin": "S2019",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 288145,
+                  "courseTitle": "Introductory Statistics for the Behavioral and Social Sciences",
+                  "courseNumber": "5",
+                  "prefix": "PSY",
+                  "prefixParentId": 4694,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11246,
+                  "department": "Psychology",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 354393,
+                  "courseTitle": "Introduction to Probability and Statistics",
+                  "courseNumber": "43",
+                  "prefix": "MTH",
+                  "prefixParentId": 10007,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9024,
+                  "department": "Mathematics",
+                  "begin": "F2006",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 368532,
+                  "courseTitle": "Introduction to Probability and Statistics with Support",
+                  "courseNumber": "43S",
+                  "prefix": "MTH",
+                  "prefixParentId": 10007,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9024,
+                  "department": "Mathematics",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "702f10b8-9ffc-4510-a22e-9761e8ae7fac",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 353166,
+                  "courseTitle": "Financial Accounting",
+                  "courseNumber": "1A",
+                  "prefix": "BUS",
+                  "prefixParentId": 8267,
+                  "prefixDescription": "Business",
+                  "departmentParentId": 1956,
+                  "department": "Business",
+                  "begin": "F2008",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "e708104d-f84f-4043-adf5-b6ec8e31df86",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 278401,
+                  "courseTitle": "Business Law",
+                  "courseNumber": "10",
+                  "prefix": "BUS",
+                  "prefixParentId": 8267,
+                  "prefixDescription": "Business",
+                  "departmentParentId": 1956,
+                  "department": "Business",
+                  "begin": "F2002",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "e9f9a3cc-a843-41a5-99e3-9535371ac0c7",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 202991,
+                  "courseTitle": "Principles of Microeconomics",
+                  "courseNumber": "1",
+                  "prefix": "ECN",
+                  "prefixParentId": 1271,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4296,
+                  "department": "Economics",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "2ec9110b-94f8-49bc-8528-6924eb7ccbf3",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 289667,
+                  "courseTitle": "Managerial Accounting",
+                  "courseNumber": "1B",
+                  "prefix": "BUS",
+                  "prefixParentId": 8267,
+                  "prefixDescription": "Business",
+                  "departmentParentId": 1956,
+                  "department": "Business",
+                  "begin": "F2008",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "12f01a5d-0702-44d7-a812-0036ace48e78",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 338440,
+                  "courseTitle": "Principles of Macroeconomics",
+                  "courseNumber": "2",
+                  "prefix": "ECN",
+                  "prefixParentId": 1271,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4296,
+                  "department": "Economics",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "NFromConjunction",
+          "conjunction": "And",
+          "amountQuantifier": "None",
+          "amount": 1,
+          "amountUnitType": "Course",
+          "id": "3b87b1b6-ea8d-4b3b-bbdf-08db93657755",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [
+          "Minimum grade required: C- or better"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "844af4a5-ce61-48b6-205d-08db93657f9b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 233295,
+                        "courseTitle": "Calculus for Business Applications",
+                        "courseNumber": "140",
+                        "prefix": "MATH",
+                        "prefixParentId": 13177,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9069,
+                        "department": "Mathematics",
+                        "begin": "F2003",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "1732392c-655a-42d5-205e-08db93657f9b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 298045,
+                        "courseTitle": "Calculus I",
+                        "courseNumber": "150",
+                        "prefix": "MATH",
+                        "prefixParentId": 13177,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9069,
+                        "department": "Mathematics",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "LOWER DIVISION REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "0a921988-20ed-4016-bbe0-08db93657755",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [
+          "Minimum grade required: C- or better"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "16057d3f-8dc8-460a-a9c9-7325d530272d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 383656,
+                        "courseTitle": "Introduction to Business through Writing",
+                        "courseNumber": "111",
+                        "prefix": "BUS",
+                        "prefixParentId": 13163,
+                        "prefixDescription": "Business",
+                        "departmentParentId": 1984,
+                        "department": "Business",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "8512fe66-e21f-4861-ba31-279b2330644d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 205433,
+                        "courseTitle": "Elementary Statistics",
+                        "courseNumber": "201",
+                        "prefix": "MATH",
+                        "prefixParentId": 13177,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9069,
+                        "department": "Mathematics",
+                        "begin": "F2003",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "702f10b8-9ffc-4510-a22e-9761e8ae7fac",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 344585,
+                        "courseTitle": "Financial Accounting",
+                        "courseNumber": "210",
+                        "prefix": "ACCT",
+                        "prefixParentId": 13159,
+                        "prefixDescription": "Accounting",
+                        "departmentParentId": 64,
+                        "department": "Accounting",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e708104d-f84f-4043-adf5-b6ec8e31df86",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 242389,
+                        "courseTitle": "Business Law",
+                        "courseNumber": "110",
+                        "prefix": "BUS",
+                        "prefixParentId": 13163,
+                        "prefixDescription": "Business",
+                        "departmentParentId": 1984,
+                        "department": "Business",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e9f9a3cc-a843-41a5-99e3-9535371ac0c7",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 233289,
+                        "courseTitle": "Principles of Microeconomics",
+                        "courseNumber": "110",
+                        "prefix": "ECON",
+                        "prefixParentId": 13170,
+                        "prefixDescription": "Economics",
+                        "departmentParentId": 4340,
+                        "department": "Economics",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2ec9110b-94f8-49bc-8528-6924eb7ccbf3",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 242383,
+                        "courseTitle": "Managerial Accounting",
+                        "courseNumber": "220",
+                        "prefix": "ACCT",
+                        "prefixParentId": 13159,
+                        "prefixDescription": "Accounting",
+                        "departmentParentId": 64,
+                        "department": "Accounting",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "12f01a5d-0702-44d7-a812-0036ace48e78",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 242392,
+                        "courseTitle": "Principles of Macroeconomics",
+                        "courseNumber": "111",
+                        "prefix": "ECON",
+                        "prefixParentId": 13170,
+                        "prefixDescription": "Economics",
+                        "departmentParentId": 4340,
+                        "department": "Economics",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

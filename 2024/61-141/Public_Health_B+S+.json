@@ -1,0 +1,614 @@
+{
+  "major": "Public Health B.S.",
+  "from": {
+    "id": 61,
+    "code": "MEDANOS ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Los Medanos College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 141,
+    "code": "CSUC    ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Chico",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "e29a6b75-24f5-4448-9415-d101c15c48c1",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 302888,
+                  "courseTitle": "Human Physiology",
+                  "courseNumber": "045",
+                  "prefix": "BIOSC",
+                  "prefixParentId": 9254,
+                  "prefixDescription": "Biological Science",
+                  "departmentParentId": 1622,
+                  "department": "Biological Science",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "9cecd935-97c1-4654-aa7b-561417e68052",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 296306,
+                  "courseTitle": "Introduction to Statistics",
+                  "courseNumber": "110",
+                  "prefix": "MATH",
+                  "prefixParentId": 9968,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8996,
+                  "department": "Mathematics",
+                  "begin": "Su2019",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "52f98cdb-b07a-45c9-bcb1-6d7a72668d30",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "f4c17972-eed9-42ab-6bae-08dc83de36d6",
+              "sendingArticulationId": "54b6c7cc-7056-4a2b-bbf3-1b9cd052b01f",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "7a6b65d5-ef29-47b7-698c-08dc84195c29",
+                      "publishedCourseIdentifierYearTermId": 291,
+                      "courseIdentifierParentId": 336156,
+                      "courseTitle": "Child Growth and Development",
+                      "courseNumber": "010",
+                      "prefix": "CHDEV",
+                      "prefixParentId": 7225,
+                      "prefixDescription": "Child Development",
+                      "departmentParentId": 2499,
+                      "department": "Child Development",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 389145,
+                  "courseTitle": "Child Growth and Development",
+                  "courseNumber": "010",
+                  "prefix": "ECE",
+                  "prefixParentId": 17205,
+                  "prefixDescription": "Early Childhood Education",
+                  "departmentParentId": 2499,
+                  "department": "Child Development",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 291,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "46cb6b4c-ca07-4727-be9c-08dc7510d59a",
+                      "publishedCourseIdentifierYearTermId": 291,
+                      "courseIdentifierParentId": 389145,
+                      "courseTitle": "Child Growth and Development",
+                      "courseNumber": "010",
+                      "prefix": "ECE",
+                      "prefixParentId": 17205,
+                      "prefixDescription": "Early Childhood Education",
+                      "departmentParentId": 2499,
+                      "department": "Child Development",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 336156,
+                  "courseTitle": "Child Growth and Development",
+                  "courseNumber": "010",
+                  "prefix": "CHDEV",
+                  "prefixParentId": 7225,
+                  "prefixDescription": "Child Development",
+                  "departmentParentId": 2499,
+                  "department": "Child Development",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 291,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "f3ff26cf-7f55-44e7-ac6c-f8c9faeebc8b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "1c70c224-e0a5-4dda-6baf-08dc83de36d6",
+              "sendingArticulationId": "aeaabec4-e3a5-4ad2-b2c0-573a5d482a12",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "84c07df3-dc96-45be-698d-08dc84195c29",
+                      "publishedCourseIdentifierYearTermId": 291,
+                      "courseIdentifierParentId": 164010,
+                      "courseTitle": "Child, Family and Community",
+                      "courseNumber": "020",
+                      "prefix": "CHDEV",
+                      "prefixParentId": 7225,
+                      "prefixDescription": "Child Development",
+                      "departmentParentId": 2499,
+                      "department": "Child Development",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 389146,
+                  "courseTitle": "Child, Family and Community",
+                  "courseNumber": "020",
+                  "prefix": "ECE",
+                  "prefixParentId": 17205,
+                  "prefixDescription": "Early Childhood Education",
+                  "departmentParentId": 2499,
+                  "department": "Child Development",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 291,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "d99d586d-9ecf-4d30-beb8-08dc7510d59a",
+                      "publishedCourseIdentifierYearTermId": 291,
+                      "courseIdentifierParentId": 389146,
+                      "courseTitle": "Child, Family and Community",
+                      "courseNumber": "020",
+                      "prefix": "ECE",
+                      "prefixParentId": 17205,
+                      "prefixDescription": "Early Childhood Education",
+                      "departmentParentId": 2499,
+                      "department": "Child Development",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 164010,
+                  "courseTitle": "Child, Family and Community",
+                  "courseNumber": "020",
+                  "prefix": "CHDEV",
+                  "prefixParentId": 7225,
+                  "prefixDescription": "Child Development",
+                  "departmentParentId": 2499,
+                  "department": "Child Development",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 291,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "LOWER DIVISION MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "a164f059-ade7-430e-de36-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e29a6b75-24f5-4448-9415-d101c15c48c1",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 299307,
+                        "courseTitle": "Human Physiology",
+                        "courseNumber": "104",
+                        "prefix": "BIOL",
+                        "prefixParentId": 4955,
+                        "prefixDescription": "Biological Sciences",
+                        "departmentParentId": 1643,
+                        "department": "Biological Sciences",
+                        "begin": "F2005",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9cecd935-97c1-4654-aa7b-561417e68052",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 250160,
+                        "courseTitle": "Introduction to Statistics",
+                        "courseNumber": "105",
+                        "prefix": "MATH",
+                        "prefixParentId": 10054,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9067,
+                        "department": "Mathematics",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 2,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [
+              "Only lower division courses listed",
+              "**REFER TO TOP OF AGREEMENT**"
+            ],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "7da6a310-e5d8-4ae9-a367-ca4a88b6ed1f",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C- or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 250220,
+                        "courseTitle": "Human Sexuality",
+                        "courseNumber": "265",
+                        "prefix": "PHHA",
+                        "prefixParentId": 7762,
+                        "prefixDescription": "Public Health and Health Services Administration",
+                        "departmentParentId": 13601,
+                        "department": "Public Health and Health Services Administration",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [
+              "Only lower division courses listed",
+              "**REFER TO TOP OF AGREEMENT**"
+            ],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "52f98cdb-b07a-45c9-bcb1-6d7a72668d30",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 208894,
+                        "courseTitle": "Child Development",
+                        "courseNumber": "252",
+                        "prefix": "CHLD",
+                        "prefixParentId": 7267,
+                        "prefixDescription": "Child Development",
+                        "departmentParentId": 2449,
+                        "department": "Child Development",
+                        "begin": "F2005",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a4770483-13b9-4fb6-97e2-d3cdac6d6c0d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 268016,
+                        "courseTitle": "Introduction to Geographical Information Systems",
+                        "courseNumber": "211",
+                        "prefix": "GEOG",
+                        "prefixParentId": 10629,
+                        "prefixDescription": "Geography",
+                        "departmentParentId": 6253,
+                        "department": "Geography and Planning",
+                        "begin": "F2014",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f3ff26cf-7f55-44e7-ac6c-f8c9faeebc8b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 330573,
+                        "courseTitle": "Marriage and Family Relationships",
+                        "courseNumber": "255",
+                        "prefix": "CHLD",
+                        "prefixParentId": 7267,
+                        "prefixDescription": "Child Development",
+                        "departmentParentId": 2449,
+                        "department": "Child Development",
+                        "begin": "F2005",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

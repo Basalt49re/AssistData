@@ -1,0 +1,620 @@
+{
+  "major": "Criminal Justice, BA",
+  "from": {
+    "id": 62,
+    "code": "MTSAC   ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Mount San Antonio College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 98,
+    "code": "CSUB    ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Bakersfield",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "c9f56a49-ef63-470c-529e-08dbf1469773",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 159007,
+                  "courseTitle": "Principles of Investigation",
+                  "courseNumber": "20",
+                  "prefix": "ADJU",
+                  "prefixParentId": 2487,
+                  "prefixDescription": "Administration of Justice: Law Enforcement",
+                  "departmentParentId": 217,
+                  "department": "Administration of Justice: Law Enforcement (ADJU)",
+                  "begin": "F2000",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "f27b3982-d6bf-44b9-5f5e-08dc66197b0d",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "a12f9b46-c2b6-4508-adde-ad12448146bc",
+              "sendingArticulationId": "0a988b6f-16d3-4bd3-b748-37349fcf9a69",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "b2626396-8e16-467b-bd56-0b8a298a7274",
+              "sendingArticulationId": "0a988b6f-16d3-4bd3-b748-37349fcf9a69",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Course is articulated in more than one agreement but credit can only apply to one"
+                    }
+                  ],
+                  "courseIdentifierParentId": 203272,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "110",
+                  "prefix": "MATH",
+                  "prefixParentId": 9969,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9082,
+                  "department": "Mathematics (MATH)",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Course is articulated in more than one agreement but credit can only apply to one"
+                    }
+                  ],
+                  "courseIdentifierParentId": 265818,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "10",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4651,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11326,
+                  "department": "Psychology (PSYC)",
+                  "begin": "F2003",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Course is articulated in more than one agreement but credit can only apply to one"
+                    }
+                  ],
+                  "courseIdentifierParentId": 219675,
+                  "courseTitle": "Elementary Statistics - Honors",
+                  "courseNumber": "110H",
+                  "prefix": "MATH",
+                  "prefixParentId": 9969,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9082,
+                  "department": "Mathematics (MATH)",
+                  "begin": "F1996",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "d8289f28-a66e-4418-b665-058fa9fbb6f3",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "137fb524-b3a6-412e-8185-cfcb8ff38443",
+              "sendingArticulationId": "7cd00832-6b51-40e4-b1af-70989b4672db",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 227797,
+                  "courseTitle": "Introduction to Criminology",
+                  "courseNumber": "5",
+                  "prefix": "SOC",
+                  "prefixParentId": 9036,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12176,
+                  "department": "Sociology (SOC)",
+                  "begin": "S2001",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 213250,
+                  "courseTitle": "The Administration of Justice System",
+                  "courseNumber": "1",
+                  "prefix": "ADJU",
+                  "prefixParentId": 2487,
+                  "prefixDescription": "Administration of Justice: Law Enforcement",
+                  "departmentParentId": 217,
+                  "department": "Administration of Justice: Law Enforcement (ADJU)",
+                  "begin": "F2000",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "fdb481ba-39b9-40d3-f6c4-08dc661065ab",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "4ebec801-6929-4df4-5f5b-08dc66197b0d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 375197,
+                        "courseTitle": "Cybercrime",
+                        "courseNumber": "2460",
+                        "prefix": "CRJU",
+                        "prefixParentId": 5598,
+                        "prefixDescription": "Criminal Justice",
+                        "departmentParentId": 3584,
+                        "department": "Criminal Justice",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "ddb3dfdb-669b-437e-5ac3-08dbf14722d9",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c9f56a49-ef63-470c-529e-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 274978,
+                        "courseTitle": "Criminal Investigation",
+                        "courseNumber": "2500",
+                        "prefix": "CRJU",
+                        "prefixParentId": 5598,
+                        "prefixDescription": "Criminal Justice",
+                        "departmentParentId": 3584,
+                        "department": "Criminal Justice",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "4b7c7a88-9e08-4aec-f6c5-08dc661065ab",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2b56f21d-1bfb-4096-5f5c-08dc66197b0d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 350370,
+                        "courseTitle": "Crime and the Media",
+                        "courseNumber": "2600",
+                        "prefix": "CRJU",
+                        "prefixParentId": 5598,
+                        "prefixDescription": "Criminal Justice",
+                        "departmentParentId": 3584,
+                        "department": "Criminal Justice",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "e583e7da-94ce-4af2-59ca-08dbf14722d9",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f27b3982-d6bf-44b9-5f5e-08dc66197b0d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 264717,
+                        "courseTitle": "Quantitative Analysis in Criminal Justice",
+                        "courseNumber": "2100",
+                        "prefix": "CRJU",
+                        "prefixParentId": 5598,
+                        "prefixDescription": "Criminal Justice",
+                        "departmentParentId": 3584,
+                        "department": "Criminal Justice",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d8289f28-a66e-4418-b665-058fa9fbb6f3",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 285291,
+                        "courseTitle": "Introduction to Criminal Justice",
+                        "courseNumber": "1108",
+                        "prefix": "CRJU",
+                        "prefixParentId": 5598,
+                        "prefixDescription": "Criminal Justice",
+                        "departmentParentId": 3584,
+                        "department": "Criminal Justice",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "97d0aaa5-47ee-4e44-5f5d-08dc66197b0d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 237692,
+                        "courseTitle": "Issues, Values, and Ethics in Criminal Justice",
+                        "courseNumber": "2210",
+                        "prefix": "CRJU",
+                        "prefixParentId": 5598,
+                        "prefixDescription": "Criminal Justice",
+                        "departmentParentId": 3584,
+                        "department": "Criminal Justice",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ELECTIVE COURSES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "63227740-0f34-44f8-5ac5-08dbf14722d9",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "09079e90-1a39-47b9-8bb3-306c9e52d9e1",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 375196,
+                        "courseTitle": "Comparative Criminal Justice",
+                        "courseNumber": "2300",
+                        "prefix": "CRJU",
+                        "prefixParentId": 5598,
+                        "prefixDescription": "Criminal Justice",
+                        "departmentParentId": 3584,
+                        "department": "Criminal Justice",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

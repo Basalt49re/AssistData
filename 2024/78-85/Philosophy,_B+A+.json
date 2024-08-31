@@ -1,0 +1,722 @@
+{
+  "major": "Philosophy, B.A.",
+  "from": {
+    "id": 78,
+    "code": "RCC     ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Riverside City College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2016
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 85,
+    "code": "CSUSB   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "California State University, San Bernardino",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2019
+      },
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "40e9785f-77a4-41d1-8e9b-da219ddfea63",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 211561,
+                  "courseTitle": "Introduction to Symbolic Logic",
+                  "courseNumber": "32",
+                  "prefix": "PHI",
+                  "prefixParentId": 5449,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10095,
+                  "department": "Philosophy",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "1b7f15bc-b7be-4947-82dc-f70a37536bfe",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "e7834bdf-2c89-4741-d7f5-08dbfdcad00e",
+              "sendingArticulationId": "6c6920ab-4d9e-496d-a3de-f461205ebba3",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "bcbe5093-87c7-4a35-50ff-08dbfdcad010",
+                      "publishedCourseIdentifierYearTermId": 179,
+                      "courseIdentifierParentId": 193618,
+                      "courseTitle": "Philosophy of Religion",
+                      "courseNumber": "35",
+                      "prefix": "PHI",
+                      "prefixParentId": 5449,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10095,
+                      "department": "Philosophy",
+                      "begin": "F1995",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 193619,
+                  "courseTitle": "Philosophy of Religion",
+                  "courseNumber": "35",
+                  "prefix": "HUM",
+                  "prefixParentId": 6426,
+                  "prefixDescription": "Humanities",
+                  "departmentParentId": 7330,
+                  "department": "Humanities",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "dc5fbc45-42ab-468b-82e1-2b48f5898ac8",
+                      "publishedCourseIdentifierYearTermId": 179,
+                      "courseIdentifierParentId": 193619,
+                      "courseTitle": "Philosophy of Religion",
+                      "courseNumber": "35",
+                      "prefix": "HUM",
+                      "prefixParentId": 6426,
+                      "prefixDescription": "Humanities",
+                      "departmentParentId": 7330,
+                      "department": "Humanities",
+                      "begin": "F1995",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 193618,
+                  "courseTitle": "Philosophy of Religion",
+                  "courseNumber": "35",
+                  "prefix": "PHI",
+                  "prefixParentId": 5449,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10095,
+                  "department": "Philosophy",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "b35d54c5-31e0-42e7-b80f-bce28c6bba1f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "d9c61747-585d-4c9d-8889-53f0a7375688",
+              "sendingArticulationId": "d35ba658-b11a-4ab5-b6f4-5bafd432754a",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 339188,
+                  "courseTitle": "Introduction to Philosophy",
+                  "courseNumber": "10",
+                  "prefix": "PHI",
+                  "prefixParentId": 5449,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10095,
+                  "department": "Philosophy",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 209884,
+                  "courseTitle": "Honors Introduction to Philosophy",
+                  "courseNumber": "10H",
+                  "prefix": "PHI",
+                  "prefixParentId": 5449,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10095,
+                  "department": "Philosophy",
+                  "begin": "F2006",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "47761113-8be3-47a1-bb42-bd05da48072d",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 373538,
+                  "courseTitle": "Asian Philosophy",
+                  "courseNumber": "36",
+                  "prefix": "PHI",
+                  "prefixParentId": 5449,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10095,
+                  "department": "Philosophy",
+                  "begin": "Su2020",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "649e71e6-22e6-4bbb-8a14-9276d1f76cb2",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 203279,
+                  "courseTitle": "Critical Thinking",
+                  "courseNumber": "11",
+                  "prefix": "PHI",
+                  "prefixParentId": 5449,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10095,
+                  "department": "Philosophy",
+                  "begin": "F2003",
+                  "end": "Su2024",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "8f4ca5c5-8fae-42ef-9c94-7fe56ce83867",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 199150,
+                  "courseTitle": "Introduction to Ethics",
+                  "courseNumber": "12",
+                  "prefix": "PHI",
+                  "prefixParentId": 5449,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10095,
+                  "department": "Philosophy",
+                  "begin": "Su2020",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "ca1b5dc3-9294-436e-b109-d19a8b52ad32",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    }
+  ],
+  "groups": {
+    "LOWER DIVISION REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "a5e06922-c6d8-41e3-8dd1-08dbef767191",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "40e9785f-77a4-41d1-8e9b-da219ddfea63",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374141,
+                        "courseTitle": "Critical Thinking Through Symbolic Logic",
+                        "courseNumber": "2100",
+                        "prefix": "PHIL",
+                        "prefixParentId": 5456,
+                        "prefixDescription": "Philosophy",
+                        "departmentParentId": 10155,
+                        "department": "Philosophy",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "MAJOR ELECTIVES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "NFromArea",
+          "amount": 6,
+          "amountQuantifier": "UpTo",
+          "amountUnitType": "Unit",
+          "toAmountDeterminer": "None",
+          "toAmount": 1,
+          "areaType": "None",
+          "id": "285b37b1-dc61-43c9-8dd2-08dbef767191",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [
+          "**REFER TO TOP OF AGREEMENT**",
+          "Only lower division courses listed"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "1b7f15bc-b7be-4947-82dc-f70a37536bfe",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 379694,
+                        "courseTitle": "Introduction to Philosophy of Religion",
+                        "courseNumber": "1013",
+                        "prefix": "PHIL",
+                        "prefixParentId": 5456,
+                        "prefixDescription": "Philosophy",
+                        "departmentParentId": 10155,
+                        "department": "Philosophy",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b35d54c5-31e0-42e7-b80f-bce28c6bba1f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 379692,
+                        "courseTitle": "Introduction to Philosophy",
+                        "courseNumber": "1011",
+                        "prefix": "PHIL",
+                        "prefixParentId": 5456,
+                        "prefixDescription": "Philosophy",
+                        "departmentParentId": 10155,
+                        "department": "Philosophy",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "47761113-8be3-47a1-bb42-bd05da48072d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 379695,
+                        "courseTitle": "Introduction to Asian Philosophy",
+                        "courseNumber": "1014",
+                        "prefix": "PHIL",
+                        "prefixParentId": 5456,
+                        "prefixDescription": "Philosophy",
+                        "departmentParentId": 10155,
+                        "department": "Philosophy",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "649e71e6-22e6-4bbb-8a14-9276d1f76cb2",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 374139,
+                        "courseTitle": "Critical Thinking Through Argument Analysis",
+                        "courseNumber": "1005",
+                        "prefix": "PHIL",
+                        "prefixParentId": 5456,
+                        "prefixDescription": "Philosophy",
+                        "departmentParentId": 10155,
+                        "department": "Philosophy",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "8f4ca5c5-8fae-42ef-9c94-7fe56ce83867",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 379693,
+                        "courseTitle": "Introduction to Ethics",
+                        "courseNumber": "1012",
+                        "prefix": "PHIL",
+                        "prefixParentId": 5456,
+                        "prefixDescription": "Philosophy",
+                        "departmentParentId": 10155,
+                        "department": "Philosophy",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ca1b5dc3-9294-436e-b109-d19a8b52ad32",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 379696,
+                        "courseTitle": "Introduction to Knowledge and Reality",
+                        "courseNumber": "1015",
+                        "prefix": "PHIL",
+                        "prefixParentId": 5456,
+                        "prefixDescription": "Philosophy",
+                        "departmentParentId": 10155,
+                        "department": "Philosophy",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

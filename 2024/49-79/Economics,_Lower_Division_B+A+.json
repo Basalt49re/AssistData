@@ -1,0 +1,836 @@
+{
+  "major": "Economics, Lower Division B.A.",
+  "from": {
+    "id": 49,
+    "code": "PASADENA",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Pasadena City College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 79,
+    "code": "UCB     ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "University of California, Berkeley",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "0acf67cf-a4f1-4b27-c452-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "0f96e70e-8142-42ed-8ad5-53e5ad7f39bf",
+              "sendingArticulationId": "b6c4f04a-219e-4a6d-a639-32ddd8404d64",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 302919,
+                  "courseTitle": "Single Variable Calculus I",
+                  "courseNumber": "005A",
+                  "prefix": "MATH",
+                  "prefixParentId": 9956,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8986,
+                  "department": "Mathematics",
+                  "begin": "Su2018",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 365043,
+                  "courseTitle": "Honors Single Variable Calculus I",
+                  "courseNumber": "005AH",
+                  "prefix": "MATH",
+                  "prefixParentId": 9956,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8986,
+                  "department": "Mathematics",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "23f0a491-8cf9-49bc-c453-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "9a232afe-e496-4974-8f93-66b94a467780",
+              "sendingArticulationId": "afbc9642-40c3-4cac-a216-787f6414442b",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Regular and honors courses may be combined to complete this series"
+                    }
+                  ],
+                  "courseIdentifierParentId": 359952,
+                  "courseTitle": "Honors Differential Equations",
+                  "courseNumber": "055H",
+                  "prefix": "MATH",
+                  "prefixParentId": 9956,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8986,
+                  "department": "Mathematics",
+                  "begin": "Su2022",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 365097,
+                  "courseTitle": "Honors Single Variable Calculus II",
+                  "courseNumber": "005BH",
+                  "prefix": "MATH",
+                  "prefixParentId": 9956,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8986,
+                  "department": "Mathematics",
+                  "begin": "Su2018",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Regular and honors courses may be combined to complete this series"
+                    }
+                  ],
+                  "courseIdentifierParentId": 308212,
+                  "courseTitle": "Differential Equations",
+                  "courseNumber": "055",
+                  "prefix": "MATH",
+                  "prefixParentId": 9956,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8986,
+                  "department": "Mathematics",
+                  "begin": "Su2022",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 359243,
+                  "courseTitle": "Single Variable Calculus II",
+                  "courseNumber": "005B",
+                  "prefix": "MATH",
+                  "prefixParentId": 9956,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8986,
+                  "department": "Mathematics",
+                  "begin": "Su2018",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "593ae87a-f3cd-4065-c454-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "897d46cd-0bc8-4265-a0ca-6b7ef28e9d1a",
+              "sendingArticulationId": "2954ca2f-9ba0-4965-bb3c-c32b81ddd6a1",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 302919,
+                  "courseTitle": "Single Variable Calculus I",
+                  "courseNumber": "005A",
+                  "prefix": "MATH",
+                  "prefixParentId": 9956,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8986,
+                  "department": "Mathematics",
+                  "begin": "Su2018",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 365043,
+                  "courseTitle": "Honors Single Variable Calculus I",
+                  "courseNumber": "005AH",
+                  "prefix": "MATH",
+                  "prefixParentId": 9956,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8986,
+                  "department": "Mathematics",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "e4486bf0-c68c-4d11-c455-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "377a569e-b510-4194-9719-f9b4da352235",
+              "sendingArticulationId": "ff6f8abc-b086-4bfc-8fd0-90e372a0fb98",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 359243,
+                  "courseTitle": "Single Variable Calculus II",
+                  "courseNumber": "005B",
+                  "prefix": "MATH",
+                  "prefixParentId": 9956,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8986,
+                  "department": "Mathematics",
+                  "begin": "Su2018",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 365097,
+                  "courseTitle": "Honors Single Variable Calculus II",
+                  "courseNumber": "005BH",
+                  "prefix": "MATH",
+                  "prefixParentId": 9956,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8986,
+                  "department": "Mathematics",
+                  "begin": "Su2018",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "17be29a5-c22f-4de6-aac3-b7b90423188c",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "72d6b536-bf4e-4c51-9826-1c963ce17b81",
+              "sendingArticulationId": "4ba03b15-3e8e-476e-8ba4-ffa66d1150d1",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Regular and honors courses may be combined to complete this series"
+                    }
+                  ],
+                  "courseIdentifierParentId": 365174,
+                  "courseTitle": "Honors Principles of Microeconomics",
+                  "courseNumber": "001BH",
+                  "prefix": "ECON",
+                  "prefixParentId": 1225,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4256,
+                  "department": "Economics",
+                  "begin": "Su2018",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 365173,
+                  "courseTitle": "Honors Principles of Macroeconomics",
+                  "courseNumber": "001AH",
+                  "prefix": "ECON",
+                  "prefixParentId": 1225,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4256,
+                  "department": "Economics",
+                  "begin": "Su2018",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 164268,
+                  "courseTitle": "Principles of Macroeconomics",
+                  "courseNumber": "001A",
+                  "prefix": "ECON",
+                  "prefixParentId": 1225,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4256,
+                  "department": "Economics",
+                  "begin": "Su2021",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Regular and honors courses may be combined to complete this series"
+                    }
+                  ],
+                  "courseIdentifierParentId": 157782,
+                  "courseTitle": "Principles of Microeconomics",
+                  "courseNumber": "001B",
+                  "prefix": "ECON",
+                  "prefixParentId": 1225,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4256,
+                  "department": "Economics",
+                  "begin": "Su2021",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "REQUIRED LOWER DIVISION COURSES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "97dfe3e4-f1f4-4cb2-decd-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "17be29a5-c22f-4de6-aac3-b7b90423188c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 245416,
+                        "courseTitle": "Introduction to Economics",
+                        "courseNumber": "1",
+                        "prefix": "ECON",
+                        "prefixParentId": 1253,
+                        "prefixDescription": "Economics",
+                        "departmentParentId": 4280,
+                        "department": "Economics",
+                        "begin": "F1990",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Sequence",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0acf67cf-a4f1-4b27-c452-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 351686,
+                        "courseTitle": "Calculus",
+                        "courseNumber": "1A",
+                        "prefix": "MATH",
+                        "prefixParentId": 9987,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9010,
+                        "department": "Mathematics",
+                        "begin": "F1990",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "23f0a491-8cf9-49bc-c453-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 245397,
+                        "courseTitle": "Calculus",
+                        "courseNumber": "1B",
+                        "prefix": "MATH",
+                        "prefixParentId": 9987,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9010,
+                        "department": "Mathematics",
+                        "begin": "F1990",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "593ae87a-f3cd-4065-c454-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 156008,
+                        "courseTitle": "Analytic Geometry and Calculus",
+                        "courseNumber": "16A",
+                        "prefix": "MATH",
+                        "prefixParentId": 9987,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9010,
+                        "department": "Mathematics",
+                        "begin": "F1990",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e4486bf0-c68c-4d11-c455-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 163606,
+                        "courseTitle": "Analytic Geometry and Calculus",
+                        "courseNumber": "16B",
+                        "prefix": "MATH",
+                        "prefixParentId": 9987,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9010,
+                        "department": "Mathematics",
+                        "begin": "F1990",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "STRONGLY RECOMMENDED COURSES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "NFromArea",
+          "amount": 1,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 1,
+          "areaType": "None",
+          "id": "02f031ca-407c-4847-df37-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "7f7bc68a-5622-4fda-b305-61959567602a",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "This course has a prerequisite of one semester of calculus"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 275224,
+                        "courseTitle": "Introductory Probability and Statistics for Business",
+                        "courseNumber": "21",
+                        "prefix": "STAT",
+                        "prefixParentId": 3366,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 12545,
+                        "department": "Statistics",
+                        "begin": "F1990",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "7e737069-00d8-4132-a4e6-53376ae4123d",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "This course has a prerequisite of one semester of calculus"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 351691,
+                        "courseTitle": "Introduction to Probability and Statistics",
+                        "courseNumber": "20",
+                        "prefix": "STAT",
+                        "prefixParentId": 3366,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 12545,
+                        "department": "Statistics",
+                        "begin": "F1990",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

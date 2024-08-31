@@ -1,0 +1,635 @@
+{
+  "major": "Criminology, B.A.",
+  "from": {
+    "id": 43,
+    "code": "GLENDALE",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Glendale Community College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 75,
+    "code": "CPP     ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "California Polytechnic University, Pomona",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2018
+      },
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "07edf55e-a554-4b77-9346-08db8f7b9dd1",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 243130,
+                  "courseTitle": "Research Methods for Psychology",
+                  "courseNumber": "200",
+                  "prefix": "PSYCH",
+                  "prefixParentId": 4631,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11276,
+                  "department": "Psychology",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 3.5,
+                  "maxUnits": 3.5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 373367,
+                  "courseTitle": "Research Methods for Sociology",
+                  "courseNumber": "200",
+                  "prefix": "SOC",
+                  "prefixParentId": 9016,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12062,
+                  "department": "Sociology",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 3.5,
+                  "maxUnits": 3.5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "88259feb-5611-4db5-8c8b-1e0f02b7b81d",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "a6a66ef9-321a-4c3b-6833-08dc190a494b",
+              "sendingArticulationId": "9cc67e91-b918-43f7-a9cc-3b9887a61575",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 227840,
+                  "courseTitle": "Introduction to Deviance and Criminology",
+                  "courseNumber": "103",
+                  "prefix": "SOC",
+                  "prefixParentId": 9016,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12062,
+                  "department": "Sociology",
+                  "begin": "F2012",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 247,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 77933,
+                  "courseTitle": "Concepts of Criminal Law",
+                  "courseNumber": "103",
+                  "prefix": "ADMJ",
+                  "prefixParentId": 2475,
+                  "prefixDescription": "Administration of Justice",
+                  "departmentParentId": 190,
+                  "department": "Administration of Justice",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 255,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "a9d935e9-3ebb-483b-9ae7-f2e4ec683e97",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "9885b5a5-3608-49c1-aef0-c40343a89882",
+              "sendingArticulationId": "7e225856-bae1-46fd-8c35-b0545b521b50",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 201540,
+                  "courseTitle": "Introduction to Sociology",
+                  "courseNumber": "101",
+                  "prefix": "SOC",
+                  "prefixParentId": 9016,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12062,
+                  "department": "Sociology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 364595,
+                  "courseTitle": "Honors Introduction to Sociology",
+                  "courseNumber": "101H",
+                  "prefix": "SOC",
+                  "prefixParentId": 9016,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12062,
+                  "department": "Sociology",
+                  "begin": "F2018",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "0b385325-32e0-4983-b650-7d814cc374a8",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "8c1d7ea2-69d7-44a1-afff-d6567437c078",
+              "sendingArticulationId": "6de6c34b-0592-40a8-abb3-b1255edee06f",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "facec6ce-40f9-423e-98ab-294560c317cd",
+              "sendingArticulationId": "6de6c34b-0592-40a8-abb3-b1255edee06f",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "af071a48-a3c1-4527-3fef-08dbc4eb4fa2",
+              "sendingArticulationId": "6de6c34b-0592-40a8-abb3-b1255edee06f",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 364644,
+                  "courseTitle": "Honors Statistics",
+                  "courseNumber": "136H",
+                  "prefix": "MATH",
+                  "prefixParentId": 9950,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8980,
+                  "department": "Mathematics",
+                  "begin": "F2018",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 271,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 334386,
+                  "courseTitle": "Statistics",
+                  "courseNumber": "136",
+                  "prefix": "MATH",
+                  "prefixParentId": 9950,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8980,
+                  "department": "Mathematics",
+                  "begin": "Su2008",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 230,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 373649,
+                  "courseTitle": "Introductory Statistics for Economics and Business",
+                  "courseNumber": "127",
+                  "prefix": "ECON",
+                  "prefixParentId": 1220,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4251,
+                  "department": "Economics",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 279,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 370496,
+                  "courseTitle": "Statistics with Support",
+                  "courseNumber": "136+",
+                  "prefix": "MATH",
+                  "prefixParentId": 9950,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8980,
+                  "department": "Mathematics",
+                  "begin": "S2021",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 281,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "f8a61f4f-ff8d-4297-7914-08db8f7b48fa",
+          "selectionType": "Select"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a8835cf0-afbe-4bdd-9345-08db8f7b9dd1",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 375503,
+                        "courseTitle": "Research Methods in Criminology",
+                        "courseNumber": "2205",
+                        "prefix": "CRM",
+                        "prefixParentId": 16161,
+                        "prefixDescription": "Criminology",
+                        "departmentParentId": 13523,
+                        "department": "Sociology",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "07edf55e-a554-4b77-9346-08db8f7b9dd1",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 297905,
+                        "courseTitle": "Research Methods in Sociology",
+                        "courseNumber": "2205",
+                        "prefix": "SOC",
+                        "prefixParentId": 9049,
+                        "prefixDescription": "Sociology",
+                        "departmentParentId": 13523,
+                        "department": "Sociology",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "MAJOR REQUIRED": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "88259feb-5611-4db5-8c8b-1e0f02b7b81d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 363141,
+                        "courseTitle": "Introduction to Criminology",
+                        "courseNumber": "2201",
+                        "prefix": "CRM",
+                        "prefixParentId": 16161,
+                        "prefixDescription": "Criminology",
+                        "departmentParentId": 13523,
+                        "department": "Sociology",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a9d935e9-3ebb-483b-9ae7-f2e4ec683e97",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 351674,
+                        "courseTitle": "Introduction to Sociology",
+                        "courseNumber": "2201",
+                        "prefix": "SOC",
+                        "prefixParentId": 9049,
+                        "prefixDescription": "Sociology",
+                        "departmentParentId": 13523,
+                        "department": "Sociology",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0b385325-32e0-4983-b650-7d814cc374a8",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 283171,
+                        "courseTitle": "Statistics with Applications",
+                        "courseNumber": "1200",
+                        "prefix": "STA",
+                        "prefixParentId": 3364,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 9086,
+                        "department": "Mathematics and Statistics",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

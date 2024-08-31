@@ -1,0 +1,1733 @@
+{
+  "major": "Public Health, B.A. ",
+  "from": {
+    "id": 138,
+    "code": "SWSTRN  ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Southwestern College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 144,
+    "code": "UCM     ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "University of California, Merced",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2002
+      }
+    ],
+    "beginId": 53,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "e037cce6-8aa3-43a6-b8e4-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "04284e8e-1efb-432f-87c2-225b5e47d960",
+              "sendingArticulationId": "d04844f6-7638-42e9-8b75-56091b7a9f32",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "e560c235-e860-4d00-a05f-dec459b51e56",
+              "sendingArticulationId": "d04844f6-7638-42e9-8b75-56091b7a9f32",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "c897e9c1-c8e0-4358-b333-c5df9fa9f71c",
+              "sendingArticulationId": "d04844f6-7638-42e9-8b75-56091b7a9f32",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            },
+            {
+              "id": "a3a5c605-2810-406f-9df8-04757470a884",
+              "sendingArticulationId": "d04844f6-7638-42e9-8b75-56091b7a9f32",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 3,
+              "sendingCourseGroupEndPosition": 4
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 352988,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "119",
+                  "prefix": "MATH",
+                  "prefixParentId": 10051,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9064,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "0ea99b06-a2d6-4d13-a008-b19977ab571a",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 147849,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "270",
+                      "prefix": "SOC",
+                      "prefixParentId": 9123,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12124,
+                      "department": "Sociology",
+                      "begin": "S2017",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 147848,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "270",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4745,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11260,
+                  "department": "Psychology",
+                  "begin": "S2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 345606,
+                  "courseTitle": "Biostatistics",
+                  "courseNumber": "215",
+                  "prefix": "BIOL",
+                  "prefixParentId": 4951,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1753,
+                  "department": "Biology",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "818e1d84-5e6b-491a-8cef-a9cc7f14d6d1",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 378115,
+                      "courseTitle": "Statistical Methods for the Behavioral Sciences",
+                      "courseNumber": "280",
+                      "prefix": "SOC",
+                      "prefixParentId": 9123,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12124,
+                      "department": "Sociology",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 378113,
+                  "courseTitle": "Statistical Methods for the Behavioral Sciences",
+                  "courseNumber": "280",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4745,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11260,
+                  "department": "Psychology",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 299831,
+                  "courseTitle": "Statway II",
+                  "courseNumber": "115",
+                  "prefix": "MATH",
+                  "prefixParentId": 10051,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9064,
+                  "department": "Mathematics",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "f5f982d7-756d-435e-b8e5-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 352988,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "119",
+                  "prefix": "MATH",
+                  "prefixParentId": 10051,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9064,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "356392f6-feb6-463a-b8e6-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "8bdd55c4-2eb0-459f-876e-645f37118ed6",
+              "sendingArticulationId": "92c2387f-675b-4081-acc1-8880fdb7786a",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "33d5f494-a2ca-4d69-a1ef-fb80aba0c94c",
+              "sendingArticulationId": "92c2387f-675b-4081-acc1-8880fdb7786a",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "412ff941-3a5d-43a8-8ab5-93e2b79f87df",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 147849,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "270",
+                      "prefix": "SOC",
+                      "prefixParentId": 9123,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12124,
+                      "department": "Sociology",
+                      "begin": "S2017",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 147848,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "270",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4745,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11260,
+                  "department": "Psychology",
+                  "begin": "S2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 352988,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "119",
+                  "prefix": "MATH",
+                  "prefixParentId": 10051,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9064,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "8ce4bd0d-2c8b-4278-b001-990b626ba024",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 378115,
+                      "courseTitle": "Statistical Methods for the Behavioral Sciences",
+                      "courseNumber": "280",
+                      "prefix": "SOC",
+                      "prefixParentId": 9123,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12124,
+                      "department": "Sociology",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 378113,
+                  "courseTitle": "Statistical Methods for the Behavioral Sciences",
+                  "courseNumber": "280",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4745,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11260,
+                  "department": "Psychology",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "c6d62f60-84e0-40ed-b8e7-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "b9b8a4ea-7098-4707-8dcc-0d3770eeccd7",
+              "sendingArticulationId": "1cb84351-bc85-4429-be6f-8a4249fb564b",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "04075a0b-511e-4fef-86fd-e8414677196a",
+              "sendingArticulationId": "1cb84351-bc85-4429-be6f-8a4249fb564b",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "99044b83-d9a6-4911-88ba-28b612e26585",
+              "sendingArticulationId": "1cb84351-bc85-4429-be6f-8a4249fb564b",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 373488,
+                  "courseTitle": "College Composition for Multilingual Students",
+                  "courseNumber": "115A",
+                  "prefix": "ESL",
+                  "prefixParentId": 4220,
+                  "prefixDescription": "English as a Second Language",
+                  "departmentParentId": 5153,
+                  "department": "English as a Second Language",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 196622,
+                  "courseTitle": "College Composition: Reading and Writing Analytically",
+                  "courseNumber": "115",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2763,
+                  "prefixDescription": "English",
+                  "departmentParentId": 5043,
+                  "department": "English",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 304267,
+                  "courseTitle": "Honors College Composition: Reading and Writing Analytically",
+                  "courseNumber": "115H",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2763,
+                  "prefixDescription": "English",
+                  "departmentParentId": 5043,
+                  "department": "English",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 349432,
+                  "courseTitle": "Reading and Composition for Nursing and Allied Health Occupations",
+                  "courseNumber": "140",
+                  "prefix": "ADN",
+                  "prefixParentId": 12194,
+                  "prefixDescription": "Associate Degree Nursing",
+                  "departmentParentId": 1296,
+                  "department": "Associate Degree Nursing",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "0551d820-21b9-4715-b8e8-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "56f8b7b1-3aaa-4b69-bd26-ad34ac037cd4",
+              "sendingArticulationId": "0e0e0571-af6c-478b-8413-2b2c5ccc8d92",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 334678,
+                  "courseTitle": "Critical Thinking and Argument",
+                  "courseNumber": "116",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2763,
+                  "prefixDescription": "English",
+                  "departmentParentId": 5043,
+                  "department": "English",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 201842,
+                  "courseTitle": "Logic and Critical Thinking",
+                  "courseNumber": "103",
+                  "prefix": "PHIL",
+                  "prefixParentId": 5513,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10191,
+                  "department": "Philosophy",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "3f81333c-c879-4180-a5a2-1f9e1644dbb1",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 268322,
+                  "courseTitle": "Introduction to Public Health",
+                  "courseNumber": "212",
+                  "prefix": "HLTH",
+                  "prefixParentId": 2117,
+                  "prefixDescription": "Health",
+                  "departmentParentId": 6705,
+                  "department": "Health",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "b2f367e5-e52a-4626-8632-eb479047dca1",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 177189,
+                  "courseTitle": "Fundamentals of Nutrition",
+                  "courseNumber": "204",
+                  "prefix": "HLTH",
+                  "prefixParentId": 2117,
+                  "prefixDescription": "Health",
+                  "departmentParentId": 6705,
+                  "department": "Health",
+                  "begin": "F2005",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "1ceca14d-cb04-4e4d-c129-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "8bdd55c4-2eb0-459f-876e-645f37118ed6",
+              "sendingArticulationId": "92c2387f-675b-4081-acc1-8880fdb7786a",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "33d5f494-a2ca-4d69-a1ef-fb80aba0c94c",
+              "sendingArticulationId": "92c2387f-675b-4081-acc1-8880fdb7786a",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "412ff941-3a5d-43a8-8ab5-93e2b79f87df",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 147849,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "270",
+                      "prefix": "SOC",
+                      "prefixParentId": 9123,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12124,
+                      "department": "Sociology",
+                      "begin": "S2017",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 147848,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "270",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4745,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11260,
+                  "department": "Psychology",
+                  "begin": "S2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 352988,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "119",
+                  "prefix": "MATH",
+                  "prefixParentId": 10051,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9064,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "8ce4bd0d-2c8b-4278-b001-990b626ba024",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 378115,
+                      "courseTitle": "Statistical Methods for the Behavioral Sciences",
+                      "courseNumber": "280",
+                      "prefix": "SOC",
+                      "prefixParentId": 9123,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12124,
+                      "department": "Sociology",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 378113,
+                  "courseTitle": "Statistical Methods for the Behavioral Sciences",
+                  "courseNumber": "280",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4745,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11260,
+                  "department": "Psychology",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "d2619a2d-cdf2-484c-a0f8-80c9d126cd6e",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 352988,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "119",
+                  "prefix": "MATH",
+                  "prefixParentId": 10051,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9064,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "8126cf37-7d44-4383-9de1-d28b92f9008c",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 203815,
+                  "courseTitle": "General Psychology",
+                  "courseNumber": "101",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4745,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11260,
+                  "department": "Psychology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "f85a281f-97d6-4d1e-9cac-d34dd4f833ac",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 159709,
+                  "courseTitle": "Cultural Anthropology",
+                  "courseNumber": "102",
+                  "prefix": "ANTH",
+                  "prefixParentId": 10828,
+                  "prefixDescription": "Anthropology",
+                  "departmentParentId": 764,
+                  "department": "Anthropology",
+                  "begin": "F2001",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "6e46f512-89d9-490c-dd7e-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [
+          "**REFER TO TOP OF AGREEMENT**",
+          "Minimum grade required: C or better",
+          "Required for admission"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6cf28f79-a8a3-4763-b8e3-08db99b6efb0",
+                    "type": "Course",
+                    "generalAttributes": [],
+                    "courses": [
+                      null
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "MAJOR PREPARATION COURSES REQUIRED FOR TRANSFER": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "NFromConjunction",
+          "conjunction": "Or",
+          "amountQuantifier": "None",
+          "amount": 1,
+          "amountUnitType": "Course",
+          "id": "777219db-485e-44cd-db15-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [
+          "**REFER TO TOP OF AGREEMENT**",
+          "Minimum grade required: C or better",
+          "Required for admission"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d2619a2d-cdf2-484c-a0f8-80c9d126cd6e",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 300183,
+                        "courseTitle": "Statistics for Scientific Data Analysis",
+                        "courseNumber": "018",
+                        "prefix": "MATH",
+                        "prefixParentId": 13957,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9070,
+                        "department": "Mathematics",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "1ceca14d-cb04-4e4d-c129-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 269489,
+                        "courseTitle": "Analysis of Psychological Data",
+                        "courseNumber": "010",
+                        "prefix": "PSY",
+                        "prefixParentId": 13961,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11217,
+                        "department": "Psychology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ADDITIONAL MAJOR PREPARATION COURSES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "d992048a-eca9-4983-dd7a-08db99b6efac",
+          "selectionType": "Select"
+        },
+        "groupAttributes": [
+          "Minimum grade required: C or better"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "3f81333c-c879-4180-a5a2-1f9e1644dbb1",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Recommended to be completed prior to transfer"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 273195,
+                        "courseTitle": "Introduction to Public Health",
+                        "courseNumber": "001",
+                        "prefix": "PH",
+                        "prefixParentId": 15646,
+                        "prefixDescription": "Public Health",
+                        "departmentParentId": 11343,
+                        "department": "Public Health",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9ae48106-00f0-46ee-ab2d-d31c8db8b7d2",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 269471,
+                        "courseTitle": "To Know Ourselves: Molecular Basis of Health and Disease",
+                        "courseNumber": "003",
+                        "prefix": "BIO",
+                        "prefixParentId": 13943,
+                        "prefixDescription": "Biological Sciences",
+                        "departmentParentId": 1651,
+                        "department": "Biological Sciences",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "39c93623-c345-4756-af9e-96a414c39d8e",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 304580,
+                        "courseTitle": "Global and International Public Health",
+                        "courseNumber": "005",
+                        "prefix": "PH",
+                        "prefixParentId": 15646,
+                        "prefixDescription": "Public Health",
+                        "departmentParentId": 11343,
+                        "department": "Public Health",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "STATISTICS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "NFromArea",
+          "amount": 1,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 1,
+          "areaType": "None",
+          "id": "f64c1977-b95f-4421-dd7f-08db99b6efac",
+          "selectionType": "Select"
+        },
+        "groupAttributes": [
+          "Minimum grade required: C or better",
+          "Recommended to be completed prior to transfer"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e037cce6-8aa3-43a6-b8e4-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 383812,
+                        "courseTitle": "Introduction to Biostatistics",
+                        "courseNumber": "010",
+                        "prefix": "PH",
+                        "prefixParentId": 15646,
+                        "prefixDescription": "Public Health",
+                        "departmentParentId": 11343,
+                        "department": "Public Health",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f5f982d7-756d-435e-b8e5-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "**REFER TO TOP OF AGREEMENT**"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 300183,
+                        "courseTitle": "Statistics for Scientific Data Analysis",
+                        "courseNumber": "018",
+                        "prefix": "MATH",
+                        "prefixParentId": 13957,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9070,
+                        "department": "Mathematics",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "356392f6-feb6-463a-b8e6-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "**REFER TO TOP OF AGREEMENT**"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 269489,
+                        "courseTitle": "Analysis of Psychological Data",
+                        "courseNumber": "010",
+                        "prefix": "PSY",
+                        "prefixParentId": 13961,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11217,
+                        "department": "Psychology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ADDITIONAL ELECTIVE COURSES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "NFromArea",
+          "amount": 2,
+          "amountQuantifier": "UpTo",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 1,
+          "areaType": "None",
+          "id": "a9796942-1cfe-43bb-dd7b-08db99b6efac",
+          "selectionType": "Select"
+        },
+        "groupAttributes": [
+          "Only lower division courses listed",
+          "**REFER TO CATALOG**",
+          "**REFER TO TOP OF AGREEMENT**"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2150b6fb-2b2d-4596-b8e9-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 383801,
+                        "courseTitle": "Introduction to Geographic Information Systems",
+                        "courseNumber": "002",
+                        "prefix": "GEOG",
+                        "prefixParentId": 17117,
+                        "prefixDescription": "Geography",
+                        "departmentParentId": 14226,
+                        "department": "Geography",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b2f367e5-e52a-4626-8632-eb479047dca1",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 356647,
+                        "courseTitle": "Nutrition",
+                        "courseNumber": "060",
+                        "prefix": "BIO",
+                        "prefixParentId": 13943,
+                        "prefixDescription": "Biological Sciences",
+                        "departmentParentId": 1651,
+                        "department": "Biological Sciences",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "RECOMMENDED BUT NOT REQUIRED": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "860012e2-2e27-42b3-dd79-08db99b6efac",
+          "selectionType": "Select"
+        },
+        "groupAttributes": [
+          "**REFER TO TOP OF AGREEMENT**"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "8126cf37-7d44-4383-9de1-d28b92f9008c",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Recommended; Not required for the major"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 269488,
+                        "courseTitle": "Introduction to Psychology",
+                        "courseNumber": "001",
+                        "prefix": "PSY",
+                        "prefixParentId": 13961,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11217,
+                        "department": "Psychology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f85a281f-97d6-4d1e-9cac-d34dd4f833ac",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Recommended; Not required for the major"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 299506,
+                        "courseTitle": "Introduction to Sociocultural Anthropology",
+                        "courseNumber": "001",
+                        "prefix": "ANTH",
+                        "prefixParentId": 13940,
+                        "prefixDescription": "Anthropology",
+                        "departmentParentId": 769,
+                        "department": "Anthropology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ENGLISH COMPOSITION": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "21beca05-9672-4601-dd7c-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c6d62f60-84e0-40ed-b8e7-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "**REFER TO TOP OF AGREEMENT**",
+                      "Minimum grade required: C or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 269491,
+                        "courseTitle": "Academic Writing",
+                        "courseNumber": "001",
+                        "prefix": "WRI",
+                        "prefixParentId": 13965,
+                        "prefixDescription": "Writing",
+                        "departmentParentId": 13255,
+                        "department": "Writing",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "SECOND COURSE IN ENGLISH COMPOSITION": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "084606e1-4b04-4542-dd7d-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0551d820-21b9-4715-b8e8-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "**REFER TO TOP OF AGREEMENT**",
+                      "Minimum grade required: C or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 296253,
+                        "courseTitle": "College Reading and Composition",
+                        "courseNumber": "010",
+                        "prefix": "WRI",
+                        "prefixParentId": 13965,
+                        "prefixDescription": "Writing",
+                        "departmentParentId": 13255,
+                        "department": "Writing",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

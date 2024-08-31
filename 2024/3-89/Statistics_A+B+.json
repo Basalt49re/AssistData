@@ -1,0 +1,1232 @@
+{
+  "major": "Statistics A.B.",
+  "from": {
+    "id": 3,
+    "code": "LACC    ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Los Angeles City College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 89,
+    "code": "UCD     ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Davis",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "64160753-b0c2-4c5b-ecb5-08dbfdcaf960",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Effective next fall, this course will no longer articulate"
+                    }
+                  ],
+                  "courseIdentifierParentId": 381880,
+                  "courseTitle": "Statistics for Data Science",
+                  "courseNumber": "229",
+                  "prefix": "MATH",
+                  "prefixParentId": 9910,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8948,
+                  "department": "Mathematics",
+                  "begin": "W2022",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 284,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "e89680af-263b-45de-ecb6-08dbfdcaf960",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "8b04035a-33a0-4692-ae57-f93c53670926",
+              "sendingArticulationId": "098b6998-db46-49d6-b434-19275ded72bb",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "5200ccb1-9d92-4fa6-a538-87680759baf2",
+              "sendingArticulationId": "098b6998-db46-49d6-b434-19275ded72bb",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 157736,
+                  "courseTitle": "Business Statistics",
+                  "courseNumber": "015",
+                  "prefix": "BUS",
+                  "prefixParentId": 8208,
+                  "prefixDescription": "Business",
+                  "departmentParentId": 1909,
+                  "department": "Business",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 279,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 265779,
+                  "courseTitle": "Statistics",
+                  "courseNumber": "227",
+                  "prefix": "MATH",
+                  "prefixParentId": 9910,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8948,
+                  "department": "Mathematics",
+                  "begin": "F2003",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 211,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 375992,
+                  "courseTitle": "Statistics with Support",
+                  "courseNumber": "227S",
+                  "prefix": "MATH",
+                  "prefixParentId": 9910,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8948,
+                  "department": "Mathematics",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 279,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "1320dcdf-fbd4-42f9-ecba-08dbfdcaf960",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 302813,
+                  "courseTitle": "Calculus II",
+                  "courseNumber": "262",
+                  "prefix": "MATH",
+                  "prefixParentId": 9910,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8948,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "5f89719d-5ebf-4170-ecbb-08dbfdcaf960",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 280521,
+                  "courseTitle": "Calculus I",
+                  "courseNumber": "261",
+                  "prefix": "MATH",
+                  "prefixParentId": 9910,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8948,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "c6fa2b9c-710f-4336-ecbc-08dbfdcaf960",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 281097,
+                  "courseTitle": "Calculus III",
+                  "courseNumber": "263",
+                  "prefix": "MATH",
+                  "prefixParentId": 9910,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8948,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "afbbd0c5-5532-4b84-ecbd-08dbfdcaf960",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "404a258d-74f0-4a47-9370-1e1a09d1c06d",
+              "sendingArticulationId": "20121d73-a7ac-46d7-86e6-81110128f0c3",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 281595,
+                  "courseTitle": "Calculus for Business and Social Sciences",
+                  "courseNumber": "236",
+                  "prefix": "MATH",
+                  "prefixParentId": 9910,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8948,
+                  "department": "Mathematics",
+                  "begin": "F2001",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 280521,
+                  "courseTitle": "Calculus I",
+                  "courseNumber": "261",
+                  "prefix": "MATH",
+                  "prefixParentId": 9910,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8948,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "3c787fe2-7a4f-4a5a-ecbe-08dbfdcaf960",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 280521,
+                  "courseTitle": "Calculus I",
+                  "courseNumber": "261",
+                  "prefix": "MATH",
+                  "prefixParentId": 9910,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8948,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "cd332b56-c891-4d2b-ecbf-08dbfdcaf960",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 302813,
+                  "courseTitle": "Calculus II",
+                  "courseNumber": "262",
+                  "prefix": "MATH",
+                  "prefixParentId": 9910,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8948,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "b0b9f3df-ec6d-427b-ecc0-08dbfdcaf960",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 197273,
+                  "courseTitle": "Programming In C++",
+                  "courseNumber": "116",
+                  "prefix": "CS",
+                  "prefixParentId": 16590,
+                  "prefixDescription": "Computer Science",
+                  "departmentParentId": 14318,
+                  "department": "Computer Science",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "17fc128d-902b-49cb-ecc1-08dbfdcaf960",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "3d887c8b-3d37-4dd4-9c24-8818a32ecff0",
+              "sendingArticulationId": "4942ec8a-158d-4bf9-824c-77f244493747",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 226101,
+                  "courseTitle": "Programming in JAVA",
+                  "courseNumber": "113",
+                  "prefix": "CS",
+                  "prefixParentId": 16590,
+                  "prefixDescription": "Computer Science",
+                  "departmentParentId": 14318,
+                  "department": "Computer Science",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 198441,
+                  "courseTitle": "Programming Logic and Design (Introduction to Programming)",
+                  "courseNumber": "102",
+                  "prefix": "CS",
+                  "prefixParentId": 16590,
+                  "prefixDescription": "Computer Science",
+                  "departmentParentId": 14318,
+                  "department": "Computer Science",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "b8bd8b76-351e-445f-ecc2-08dbfdcaf960",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 340100,
+                  "courseTitle": "Linear Algebra",
+                  "courseNumber": "270",
+                  "prefix": "MATH",
+                  "prefixParentId": 9910,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8948,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "PREPARATION COURSES FOR THE MAJOR, COMPUTER SCIENCE ENGINEERING": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "NFromArea",
+          "amount": 1,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 1,
+          "areaType": "None",
+          "id": "1033c14f-774d-4f19-5f37-08dbfdccbd2c",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b0b9f3df-ec6d-427b-ecc0-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 292100,
+                        "courseTitle": "Programming & Problem Solving ",
+                        "courseNumber": "036A",
+                        "prefix": "ECS",
+                        "prefixParentId": 1110,
+                        "prefixDescription": "Engineering Computer Science",
+                        "departmentParentId": 14251,
+                        "department": "Computer Science",
+                        "begin": "F2023",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "17fc128d-902b-49cb-ecc1-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 284824,
+                        "courseTitle": "Introduction to Programming",
+                        "courseNumber": "032A",
+                        "prefix": "ECS",
+                        "prefixParentId": 1110,
+                        "prefixDescription": "Engineering Computer Science",
+                        "departmentParentId": 14251,
+                        "department": "Computer Science",
+                        "begin": "F2023",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "PREPARATION COURSES FOR THE MAJOR, MATHEMATICS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "46956cd4-482b-4b23-5f36-08dbfdccbd2c",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [
+          "Please refer to additional important General Information section above"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "afbbd0c5-5532-4b84-ecbd-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 340713,
+                        "courseTitle": "Short Calculus",
+                        "courseNumber": "016A",
+                        "prefix": "MAT",
+                        "prefixParentId": 9999,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9018,
+                        "department": "Mathematics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "3c787fe2-7a4f-4a5a-ecbe-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 174018,
+                        "courseTitle": "Short Calculus",
+                        "courseNumber": "016B",
+                        "prefix": "MAT",
+                        "prefixParentId": 9999,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9018,
+                        "department": "Mathematics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "cd332b56-c891-4d2b-ecbf-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 209463,
+                        "courseTitle": "Short Calculus",
+                        "courseNumber": "016C",
+                        "prefix": "MAT",
+                        "prefixParentId": 9999,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9018,
+                        "department": "Mathematics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c5aa9102-67a2-4ccd-ecb7-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 264014,
+                        "courseTitle": "Calculus for Biology & Medicine ",
+                        "courseNumber": "017B",
+                        "prefix": "MAT",
+                        "prefixParentId": 9999,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9018,
+                        "department": "Mathematics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ab068d11-3767-43ad-ecb8-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 297418,
+                        "courseTitle": "Calculus for Biology & Medicine ",
+                        "courseNumber": "017A",
+                        "prefix": "MAT",
+                        "prefixParentId": 9999,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9018,
+                        "department": "Mathematics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "bd6684f0-6bb7-4211-ecb9-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 293866,
+                        "courseTitle": "Calculus for Biology & Medicine ",
+                        "courseNumber": "017C",
+                        "prefix": "MAT",
+                        "prefixParentId": 9999,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9018,
+                        "department": "Mathematics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "1320dcdf-fbd4-42f9-ecba-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 256943,
+                        "courseTitle": "Calculus",
+                        "courseNumber": "021B",
+                        "prefix": "MAT",
+                        "prefixParentId": 9999,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9018,
+                        "department": "Mathematics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5f89719d-5ebf-4170-ecbb-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 292181,
+                        "courseTitle": "Calculus",
+                        "courseNumber": "021A",
+                        "prefix": "MAT",
+                        "prefixParentId": 9999,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9018,
+                        "department": "Mathematics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c6fa2b9c-710f-4336-ecbc-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 256916,
+                        "courseTitle": "Calculus",
+                        "courseNumber": "021C",
+                        "prefix": "MAT",
+                        "prefixParentId": 9999,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9018,
+                        "department": "Mathematics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "PREPARATION COURSES FOR THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "9246abbc-d41a-4fe4-5f38-08dbfdccbd2c",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b8bd8b76-351e-445f-ecc2-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 340711,
+                        "courseTitle": "Linear Algebra ",
+                        "courseNumber": "022A",
+                        "prefix": "MAT",
+                        "prefixParentId": 9999,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9018,
+                        "department": "Mathematics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "STATISTICS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "NFromArea",
+          "amount": 1,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 1,
+          "areaType": "None",
+          "id": "805af780-5015-48fb-5f35-08dbfdccbd2c",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [
+          "Please refer to additional important General Information section above"
+        ],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "64160753-b0c2-4c5b-ecb5-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 219073,
+                        "courseTitle": "Gateway to Statistical Data Science ",
+                        "courseNumber": "032",
+                        "prefix": "STA",
+                        "prefixParentId": 3368,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 12558,
+                        "department": "Statistics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e89680af-263b-45de-ecb6-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 354134,
+                        "courseTitle": "Elementary Statistics",
+                        "courseNumber": "013",
+                        "prefix": "STA",
+                        "prefixParentId": 3368,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 12558,
+                        "department": "Statistics",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

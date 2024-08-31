@@ -1,0 +1,881 @@
+{
+  "major": "Economics, B.A.",
+  "from": {
+    "id": 35,
+    "code": "FRESNO  ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Fresno City College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 116,
+    "code": "SFSU    ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "San Francisco State University",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "9a2f5557-1f5c-4751-75e7-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "1afa90ba-524b-4738-91d8-d2fc5bab3bb2",
+              "sendingArticulationId": "b4be4ddf-07c3-4f5b-a9a7-48acb0f2db57",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "f79146ff-240b-43db-8516-56dfbe31230b",
+              "sendingArticulationId": "b4be4ddf-07c3-4f5b-a9a7-48acb0f2db57",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "8d9d5aa8-499d-401b-8f63-bdbed57e1234",
+              "sendingArticulationId": "b4be4ddf-07c3-4f5b-a9a7-48acb0f2db57",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            },
+            {
+              "id": "489b4baf-9e2c-45c3-a14c-782f4d6a73d4",
+              "sendingArticulationId": "b4be4ddf-07c3-4f5b-a9a7-48acb0f2db57",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 3,
+              "sendingCourseGroupEndPosition": 4
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 151262,
+                  "courseTitle": "Business Statistics",
+                  "courseNumber": "23",
+                  "prefix": "DS",
+                  "prefixParentId": 2867,
+                  "prefixDescription": "Decision Science",
+                  "departmentParentId": 3816,
+                  "department": "Decision Science",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "79db38c2-e9ac-4854-99b1-6e4d294d9bd4",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 353433,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "42",
+                      "prefix": "MATH",
+                      "prefixParentId": 9942,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8975,
+                      "department": "Mathematics",
+                      "begin": "F1995",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 353432,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "42",
+                  "prefix": "PSY",
+                  "prefixParentId": 4624,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11189,
+                  "department": "Psychology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "794f7c2d-8d2d-44d6-b722-c99b7607c835",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 353432,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "42",
+                      "prefix": "PSY",
+                      "prefixParentId": 4624,
+                      "prefixDescription": "Psychology",
+                      "departmentParentId": 11189,
+                      "department": "Psychology",
+                      "begin": "F1995",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 353433,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "42",
+                  "prefix": "MATH",
+                  "prefixParentId": 9942,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8975,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 162776,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "11",
+                  "prefix": "MATH",
+                  "prefixParentId": 9942,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8975,
+                  "department": "Mathematics",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 365722,
+                  "courseTitle": "Honors Elementary Statistics",
+                  "courseNumber": "11H",
+                  "prefix": "MATH",
+                  "prefixParentId": 9942,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8975,
+                  "department": "Mathematics",
+                  "begin": "F2018",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "e7bcb62a-25d8-4fac-75e8-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "8e0b08f8-9e6e-48b0-83f3-4bb4c0606632",
+              "sendingArticulationId": "557eb50f-a09c-43ff-9383-5b292c003d91",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "65905083-e73d-47eb-a378-77826572dd94",
+              "sendingArticulationId": "557eb50f-a09c-43ff-9383-5b292c003d91",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "8e4a91da-428d-4a3b-9959-776cbd02bf57",
+              "sendingArticulationId": "557eb50f-a09c-43ff-9383-5b292c003d91",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            },
+            {
+              "id": "e8c283d9-9223-4079-a9a6-8f1bd2ae86d8",
+              "sendingArticulationId": "557eb50f-a09c-43ff-9383-5b292c003d91",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 3,
+              "sendingCourseGroupEndPosition": 4
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 151262,
+                  "courseTitle": "Business Statistics",
+                  "courseNumber": "23",
+                  "prefix": "DS",
+                  "prefixParentId": 2867,
+                  "prefixDescription": "Decision Science",
+                  "departmentParentId": 3816,
+                  "department": "Decision Science",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "4e4de4dc-413a-477a-8022-391415ba2c56",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 353433,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "42",
+                      "prefix": "MATH",
+                      "prefixParentId": 9942,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8975,
+                      "department": "Mathematics",
+                      "begin": "F1995",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 353432,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "42",
+                  "prefix": "PSY",
+                  "prefixParentId": 4624,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11189,
+                  "department": "Psychology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "0c13512d-69a7-4dfa-a032-35df5943a137",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 353432,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "42",
+                      "prefix": "PSY",
+                      "prefixParentId": 4624,
+                      "prefixDescription": "Psychology",
+                      "departmentParentId": 11189,
+                      "department": "Psychology",
+                      "begin": "F1995",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 353433,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "42",
+                  "prefix": "MATH",
+                  "prefixParentId": 9942,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8975,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 162776,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "11",
+                  "prefix": "MATH",
+                  "prefixParentId": 9942,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8975,
+                  "department": "Mathematics",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 365722,
+                  "courseTitle": "Honors Elementary Statistics",
+                  "courseNumber": "11H",
+                  "prefix": "MATH",
+                  "prefixParentId": 9942,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8975,
+                  "department": "Mathematics",
+                  "begin": "F2018",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "6ab0e08c-79d5-4530-75e9-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "c6aed229-a4c6-4485-8bdf-b9bc37ff2dd2",
+              "sendingArticulationId": "7c046f9b-ef97-4454-a51c-e9b8f24c65b7",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 189679,
+                  "courseTitle": "Introduction to Microeconomics",
+                  "courseNumber": "40",
+                  "prefix": "ECON",
+                  "prefixParentId": 1213,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4245,
+                  "department": "Economics",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 235777,
+                  "courseTitle": "Honors Introduction to Microeconomics",
+                  "courseNumber": "40H",
+                  "prefix": "ECON",
+                  "prefixParentId": 1213,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4245,
+                  "department": "Economics",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "2896b9fd-9913-44fd-75ea-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "5d32a0da-94bc-4953-a1c0-cd64c0fc0c77",
+              "sendingArticulationId": "0d583dc2-d4e1-4593-812e-574e617787c3",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 267243,
+                  "courseTitle": "Honors Introduction to Macroeconomics",
+                  "courseNumber": "50H",
+                  "prefix": "ECON",
+                  "prefixParentId": 1213,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4245,
+                  "department": "Economics",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 189759,
+                  "courseTitle": "Introduction to Macroeconomics",
+                  "courseNumber": "50",
+                  "prefix": "ECON",
+                  "prefixParentId": 1213,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4245,
+                  "department": "Economics",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "4f929f7d-8f47-48f7-75eb-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 287355,
+                  "courseTitle": "Mathematical Analysis I",
+                  "courseNumber": "5A",
+                  "prefix": "MATH",
+                  "prefixParentId": 9942,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8975,
+                  "department": "Mathematics",
+                  "begin": "F2008",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "CORE COURSES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6ab0e08c-79d5-4530-75e9-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 171110,
+                        "courseTitle": "Introduction to Microeconomic Analysis",
+                        "courseNumber": "101",
+                        "prefix": "ECON",
+                        "prefixParentId": 1295,
+                        "prefixDescription": "Economics",
+                        "departmentParentId": 4315,
+                        "department": "Economics",
+                        "begin": "S2017",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2896b9fd-9913-44fd-75ea-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 157799,
+                        "courseTitle": "Introduction to Macroeconomic Analysis",
+                        "courseNumber": "102",
+                        "prefix": "ECON",
+                        "prefixParentId": 1295,
+                        "prefixDescription": "Economics",
+                        "departmentParentId": 4315,
+                        "department": "Economics",
+                        "begin": "S2017",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "4f929f7d-8f47-48f7-75eb-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 352022,
+                        "courseTitle": "Calculus I",
+                        "courseNumber": "226",
+                        "prefix": "MATH",
+                        "prefixParentId": 10028,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9043,
+                        "department": "Mathematics",
+                        "begin": "F1994",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9a2f5557-1f5c-4751-75e7-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 136393,
+                        "courseTitle": "Business Statistics I",
+                        "courseNumber": "212",
+                        "prefix": "DS",
+                        "prefixParentId": 4079,
+                        "prefixDescription": "Decision Sciences",
+                        "departmentParentId": 3818,
+                        "department": "Decision Sciences",
+                        "begin": "F2004",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e7bcb62a-25d8-4fac-75e8-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 330894,
+                        "courseTitle": "Elementary Statistics",
+                        "courseNumber": "124",
+                        "prefix": "MATH",
+                        "prefixParentId": 10028,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9043,
+                        "department": "Mathematics",
+                        "begin": "F1998",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

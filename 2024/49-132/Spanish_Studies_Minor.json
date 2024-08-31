@@ -1,0 +1,463 @@
+{
+  "major": "Spanish Studies Minor",
+  "from": {
+    "id": 49,
+    "code": "PASADENA",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Pasadena City College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 132,
+    "code": "UCSC    ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Santa Cruz",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "ca772962-997b-4043-a803-812a91059873",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Minimum grade required: B- or better"
+                    }
+                  ],
+                  "courseIdentifierParentId": 279421,
+                  "courseTitle": "Elementary Spanish - Level 1",
+                  "courseNumber": "001",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3138,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12243,
+                  "department": "Spanish",
+                  "begin": "Su2022",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Minimum grade required: B- or better"
+                    }
+                  ],
+                  "courseIdentifierParentId": 285267,
+                  "courseTitle": "Elementary Spanish - Level 2",
+                  "courseNumber": "002",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3138,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12243,
+                  "department": "Spanish",
+                  "begin": "Su2023",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "4d378ba2-0746-4300-82ce-f235bce03995",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "ca31dd59-d154-4282-d034-08dba8a13453",
+              "sendingArticulationId": "ec7932c9-6f42-4f29-a037-096d37c0ccfc",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "582e8d23-9f5f-41c1-90b0-63b74b983cd8",
+                      "publishedCourseIdentifierYearTermId": 267,
+                      "courseIdentifierParentId": 336272,
+                      "courseTitle": "Introduction to Linguistics",
+                      "courseNumber": "010",
+                      "prefix": "LING",
+                      "prefixParentId": 13498,
+                      "prefixDescription": "Linguistics",
+                      "departmentParentId": 8628,
+                      "department": "Linguistics",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 336271,
+                  "courseTitle": "Introduction to Linguistics",
+                  "courseNumber": "010",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2672,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4982,
+                  "department": "English",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 267,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "0fb75da6-f5cd-42f3-b88b-5d7e1bba0298",
+                      "publishedCourseIdentifierYearTermId": 267,
+                      "courseIdentifierParentId": 336271,
+                      "courseTitle": "Introduction to Linguistics",
+                      "courseNumber": "010",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2672,
+                      "prefixDescription": "English",
+                      "departmentParentId": 4982,
+                      "department": "English",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 336272,
+                  "courseTitle": "Introduction to Linguistics",
+                  "courseNumber": "010",
+                  "prefix": "LING",
+                  "prefixParentId": 13498,
+                  "prefixDescription": "Linguistics",
+                  "departmentParentId": 8628,
+                  "department": "Linguistics",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 267,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "05f73c56-e3af-45dc-bcdb-ba252fd456f5",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Minimum grade required: B- or better"
+                    }
+                  ],
+                  "courseIdentifierParentId": 279421,
+                  "courseTitle": "Elementary Spanish - Level 1",
+                  "courseNumber": "001",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3138,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12243,
+                  "department": "Spanish",
+                  "begin": "Su2022",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Minimum grade required: B- or better"
+                    }
+                  ],
+                  "courseIdentifierParentId": 285267,
+                  "courseTitle": "Elementary Spanish - Level 2",
+                  "courseNumber": "002",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3138,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12243,
+                  "department": "Spanish",
+                  "begin": "Su2023",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "PREPARATION FOR THE MINOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "411b34db-7863-4e55-10fc-08dba898cc31",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6c4012a7-7228-4b64-79fa-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 308908,
+                        "courseTitle": "Medical Spanish",
+                        "courseNumber": "5M",
+                        "prefix": "SPAN",
+                        "prefixParentId": 12537,
+                        "prefixDescription": "Spanish",
+                        "departmentParentId": 12301,
+                        "department": "Spanish",
+                        "begin": "F2003",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ca772962-997b-4043-a803-812a91059873",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 373337,
+                        "courseTitle": "First-Year Spanish",
+                        "courseNumber": "1",
+                        "prefix": "SPAN",
+                        "prefixParentId": 12537,
+                        "prefixDescription": "Spanish",
+                        "departmentParentId": 12301,
+                        "department": "Spanish",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "4d378ba2-0746-4300-82ce-f235bce03995",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 303759,
+                        "courseTitle": "Introduction to Linguistics",
+                        "courseNumber": "50",
+                        "prefix": "LING",
+                        "prefixParentId": 2584,
+                        "prefixDescription": "Linguistics",
+                        "departmentParentId": 8644,
+                        "department": "Linguistics",
+                        "begin": "F2011",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "05f73c56-e3af-45dc-bcdb-ba252fd456f5",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 373338,
+                        "courseTitle": "First-Year Spanish",
+                        "courseNumber": "2",
+                        "prefix": "SPAN",
+                        "prefixParentId": 12537,
+                        "prefixDescription": "Spanish",
+                        "departmentParentId": 12301,
+                        "department": "Spanish",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

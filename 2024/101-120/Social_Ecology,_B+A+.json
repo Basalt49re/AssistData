@@ -1,0 +1,795 @@
+{
+  "major": "Social Ecology, B.A.",
+  "from": {
+    "id": 101,
+    "code": "MESA    ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "San Diego Mesa College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2024
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 120,
+    "code": "UCI     ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Irvine",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "7d3758bd-a8a3-49be-9d14-08dba897c33b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 200061,
+                  "courseTitle": "General Psychology",
+                  "courseNumber": "101",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4701,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11247,
+                  "department": "Psychology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "2dff6826-b17e-4960-9d15-08dba897c33b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    },
+    {
+      "templateCellId": "e4fdbbc1-1dec-427c-9d16-08dba897c33b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "fae0a82d-77d8-4f94-83e8-bdb3244f9c90",
+              "sendingArticulationId": "b36c97c5-807a-49a6-9322-f4253685bb0f",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 200061,
+                  "courseTitle": "General Psychology",
+                  "courseNumber": "101",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4701,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11247,
+                  "department": "Psychology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 340169,
+                  "courseTitle": "Abnormal Psychology",
+                  "courseNumber": "245",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4701,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11247,
+                  "department": "Psychology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 200061,
+                  "courseTitle": "General Psychology",
+                  "courseNumber": "101",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4701,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11247,
+                  "department": "Psychology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 241729,
+                  "courseTitle": "Introduction to Social Psychology",
+                  "courseNumber": "166",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4701,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11247,
+                  "department": "Psychology",
+                  "begin": "F2005",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "8a5f8ac1-a082-4026-71a7-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "7008a40e-4f9d-4bb7-cc31-08dc90e24b3f",
+              "sendingArticulationId": "1ce11a4b-9466-4a96-a098-7fccdf61c128",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 381291,
+                  "courseTitle": "Introduction to Research Methods in Sociology",
+                  "courseNumber": "220",
+                  "prefix": "SOCO",
+                  "prefixParentId": 9083,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12173,
+                  "department": "Sociology",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 287,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 166904,
+                  "courseTitle": "Introduction to Psychological Research",
+                  "courseNumber": "255",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4701,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11247,
+                  "department": "Psychology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "fbc22c75-a54f-4a9d-71a8-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "04a4aece-32fc-4715-b739-b1917e10b6bd",
+              "sendingArticulationId": "bf37c012-0cf3-4ec9-a969-d5b4d97d699e",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "718ba739-95bb-4500-b435-3ee4b8312941",
+              "sendingArticulationId": "bf37c012-0cf3-4ec9-a969-d5b4d97d699e",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 169397,
+                  "courseTitle": "Biological Statistics",
+                  "courseNumber": "200",
+                  "prefix": "BIOL",
+                  "prefixParentId": 4915,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1734,
+                  "department": "Biology",
+                  "begin": "F2001",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 167412,
+                  "courseTitle": "Behavioral Science Statistics",
+                  "courseNumber": "258",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4701,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11247,
+                  "department": "Psychology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 210160,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "119",
+                  "prefix": "MATH",
+                  "prefixParentId": 10013,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9028,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "NFromConjunction",
+          "conjunction": "Or",
+          "amountQuantifier": "None",
+          "amount": 1,
+          "amountUnitType": "Course",
+          "id": "13d96197-b662-4a52-1bc3-08dba898cc31",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "fbd3cf4d-4796-46f3-9d11-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 370752,
+                        "courseTitle": "Introduction to Environmental Analysis and Design",
+                        "courseNumber": "8",
+                        "prefix": "UPPP",
+                        "prefixParentId": 16420,
+                        "prefixDescription": "Urban Planning and Public Policy",
+                        "departmentParentId": 11935,
+                        "department": "Social Ecology",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d75fe27e-c48b-4d9f-9d12-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 301502,
+                        "courseTitle": "Introduction to Urban Studies",
+                        "courseNumber": "4",
+                        "prefix": "UPPP",
+                        "prefixParentId": 16420,
+                        "prefixDescription": "Urban Planning and Public Policy",
+                        "departmentParentId": 11935,
+                        "department": "Social Ecology",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "77c38e84-3d2a-4fff-9d13-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 370054,
+                        "courseTitle": "Introduction to Urban Planning and Policy",
+                        "courseNumber": "5",
+                        "prefix": "UPPP",
+                        "prefixParentId": 16420,
+                        "prefixDescription": "Urban Planning and Public Policy",
+                        "departmentParentId": 11935,
+                        "department": "Social Ecology",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "NFromConjunction",
+          "conjunction": "Or",
+          "amountQuantifier": "None",
+          "amount": 1,
+          "amountUnitType": "Course",
+          "id": "d7afe760-e356-43e1-1bc4-08dba898cc31",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "7d3758bd-a8a3-49be-9d14-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 294655,
+                        "courseTitle": "Introduction to Psychology",
+                        "courseNumber": "9",
+                        "prefix": "PSCI",
+                        "prefixParentId": 4723,
+                        "prefixDescription": "Psychological Science",
+                        "departmentParentId": 13627,
+                        "department": "Psychological Science",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2dff6826-b17e-4960-9d15-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 262458,
+                        "courseTitle": "Psychology Fundamentals",
+                        "courseNumber": "11B",
+                        "prefix": "PSCI",
+                        "prefixParentId": 4723,
+                        "prefixDescription": "Psychological Science",
+                        "departmentParentId": 13627,
+                        "department": "Psychological Science",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e4fdbbc1-1dec-427c-9d16-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 262292,
+                        "courseTitle": "Psychology Fundamentals",
+                        "courseNumber": "11C",
+                        "prefix": "PSCI",
+                        "prefixParentId": 4723,
+                        "prefixDescription": "Psychological Science",
+                        "departmentParentId": 13627,
+                        "department": "Psychological Science",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "PREPARATION FOR THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "8a5f8ac1-a082-4026-71a7-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 295050,
+                        "courseTitle": "Research Design",
+                        "courseNumber": "10",
+                        "prefix": "SOCECOL",
+                        "prefixParentId": 757,
+                        "prefixDescription": "Social Ecology",
+                        "departmentParentId": 11935,
+                        "department": "Social Ecology",
+                        "begin": "F1998",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "fbc22c75-a54f-4a9d-71a8-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 355352,
+                        "courseTitle": "Statistical Analysis in Social Ecology",
+                        "courseNumber": "13",
+                        "prefix": "SOCECOL",
+                        "prefixParentId": 757,
+                        "prefixDescription": "Social Ecology",
+                        "departmentParentId": 11935,
+                        "department": "Social Ecology",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "dbf47ea1-8244-4f45-877a-72ee6092c7e2",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 288896,
+                        "courseTitle": "Introduction to Criminology, Law and Society",
+                        "courseNumber": "C7",
+                        "prefix": "CRM/LAW",
+                        "prefixParentId": 119,
+                        "prefixDescription": "Criminology, Law & Society",
+                        "departmentParentId": 3617,
+                        "department": "Criminology, Law & Society",
+                        "begin": "F2003",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,998 @@
+{
+  "major": "Physical Education B.A. Fitness Director Option",
+  "from": {
+    "id": 33,
+    "code": "SFCITY  ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "City College of San Francisco",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2019
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 2016
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 50,
+    "code": "CSUDH   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Dominguez Hills",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "805a797c-0f9d-49d2-4f2c-08dbf1469773",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 57985,
+                  "courseTitle": "Beginning Weight Training",
+                  "courseNumber": "214A",
+                  "prefix": "PE",
+                  "prefixParentId": 8400,
+                  "prefixDescription": "Physical Education",
+                  "departmentParentId": 10326,
+                  "department": "Physical Education",
+                  "begin": "S2014",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "956230a8-b3a8-4e4b-4f2d-08dbf1469773",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "92ecb2cd-676d-4036-b1e5-53a7960a70c1",
+              "sendingArticulationId": "a2d66d7d-4c27-4bfd-bdaf-85fb58613998",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "9b2ea11a-1cbe-40c4-885d-dc3c1a579388",
+              "sendingArticulationId": "a2d66d7d-4c27-4bfd-bdaf-85fb58613998",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "555b2540-43c3-4168-9f9d-289dda25948f",
+              "sendingArticulationId": "a2d66d7d-4c27-4bfd-bdaf-85fb58613998",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            },
+            {
+              "id": "929a55f6-40e9-4c83-8001-675e7138eff5",
+              "sendingArticulationId": "a2d66d7d-4c27-4bfd-bdaf-85fb58613998",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 3,
+              "sendingCourseGroupEndPosition": 4
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 65129,
+                  "courseTitle": "Advanced Swimming",
+                  "courseNumber": "255D",
+                  "prefix": "PE",
+                  "prefixParentId": 8400,
+                  "prefixDescription": "Physical Education",
+                  "departmentParentId": 10326,
+                  "department": "Physical Education",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 64882,
+                  "courseTitle": "Masters Swimming",
+                  "courseNumber": "255E",
+                  "prefix": "PE",
+                  "prefixParentId": 8400,
+                  "prefixDescription": "Physical Education",
+                  "departmentParentId": 10326,
+                  "department": "Physical Education",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 64588,
+                  "courseTitle": "Intermediate Swimming",
+                  "courseNumber": "255C",
+                  "prefix": "PE",
+                  "prefixParentId": 8400,
+                  "prefixDescription": "Physical Education",
+                  "departmentParentId": 10326,
+                  "department": "Physical Education",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 62984,
+                  "courseTitle": "Beginning Swimming",
+                  "courseNumber": "255A",
+                  "prefix": "PE",
+                  "prefixParentId": 8400,
+                  "prefixDescription": "Physical Education",
+                  "departmentParentId": 10326,
+                  "department": "Physical Education",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 62755,
+                  "courseTitle": "Advanced Beginning Swimming",
+                  "courseNumber": "255B",
+                  "prefix": "PE",
+                  "prefixParentId": 8400,
+                  "prefixDescription": "Physical Education",
+                  "departmentParentId": 10326,
+                  "department": "Physical Education",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "cfaa9044-d164-44e1-7c87-08dba897c33b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "3ee68b97-a026-4c1a-8aab-eb684b96fb1d",
+              "sendingArticulationId": "3a45e56e-0ce4-4ca6-9a92-bc37936fe034",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "daa3366c-9a79-4f46-9a82-a7f06652b714",
+              "sendingArticulationId": "3a45e56e-0ce4-4ca6-9a92-bc37936fe034",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "a0f16dbd-2ce1-4a6f-b007-c1db236c9c19",
+              "sendingArticulationId": "3a45e56e-0ce4-4ca6-9a92-bc37936fe034",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 61983,
+                  "courseTitle": "Beginning Judo",
+                  "courseNumber": "271A",
+                  "prefix": "PE",
+                  "prefixParentId": 8400,
+                  "prefixDescription": "Physical Education",
+                  "departmentParentId": 10326,
+                  "department": "Physical Education",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 60735,
+                  "courseTitle": "Advanced Judo",
+                  "courseNumber": "271C",
+                  "prefix": "PE",
+                  "prefixParentId": 8400,
+                  "prefixDescription": "Physical Education",
+                  "departmentParentId": 10326,
+                  "department": "Physical Education",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 58307,
+                  "courseTitle": "Beginning Jujitsu",
+                  "courseNumber": "274A",
+                  "prefix": "PE",
+                  "prefixParentId": 8400,
+                  "prefixDescription": "Physical Education",
+                  "departmentParentId": 10326,
+                  "department": "Physical Education",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 62526,
+                  "courseTitle": "Intermediate Judo",
+                  "courseNumber": "271B",
+                  "prefix": "PE",
+                  "prefixParentId": 8400,
+                  "prefixDescription": "Physical Education",
+                  "departmentParentId": 10326,
+                  "department": "Physical Education",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "3407d985-9f64-4b20-8345-08dba897c33b",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [
+          "Articulates as a sequence only"
+        ],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "91fa05da-7c37-4daf-bca3-9ce7ff2b4cfe",
+              "sendingArticulationId": "4c32a10d-68e0-4118-92b9-2722a0feb7f6",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "69559d89-d335-44a0-8e9e-66641bc07a2c",
+              "sendingArticulationId": "4c32a10d-68e0-4118-92b9-2722a0feb7f6",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 308127,
+                  "courseTitle": "Human Physiology",
+                  "courseNumber": "111",
+                  "prefix": "BIO",
+                  "prefixParentId": 4852,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1657,
+                  "department": "Biology",
+                  "begin": "F2018",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 271,
+                  "position": 1,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 281707,
+                  "courseTitle": "General Human Anatomy",
+                  "courseNumber": "108 ",
+                  "prefix": "BIO",
+                  "prefixParentId": 4852,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1657,
+                  "department": "Biology",
+                  "begin": "F2018",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 271,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 253978,
+                  "courseTitle": "Introduction to Human Anatomy and Physiology",
+                  "courseNumber": "106 ",
+                  "prefix": "BIO",
+                  "prefixParentId": 4852,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1657,
+                  "department": "Biology",
+                  "begin": "F2018",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 271,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 353442,
+                  "courseTitle": "Introduction to Human Physiology",
+                  "courseNumber": "112",
+                  "prefix": "BIO",
+                  "prefixParentId": 4852,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1657,
+                  "department": "Biology",
+                  "begin": "F2018",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 271,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 253978,
+                  "courseTitle": "Introduction to Human Anatomy and Physiology",
+                  "courseNumber": "106 ",
+                  "prefix": "BIO",
+                  "prefixParentId": 4852,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1657,
+                  "department": "Biology",
+                  "begin": "F2018",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 271,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 308127,
+                  "courseTitle": "Human Physiology",
+                  "courseNumber": "111",
+                  "prefix": "BIO",
+                  "prefixParentId": 4852,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1657,
+                  "department": "Biology",
+                  "begin": "F2018",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 271,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "a60ce32c-0516-4dbe-59e4-08dbf14722d9",
+          "selectionType": "Select"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "caaee350-1b3e-4340-4f2b-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 27969,
+                        "courseTitle": "Physical Conditioning",
+                        "courseNumber": "142",
+                        "prefix": "KIN",
+                        "prefixParentId": 8419,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8068,
+                        "department": "Kinesiology",
+                        "begin": "Su2009",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "805a797c-0f9d-49d2-4f2c-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 25979,
+                        "courseTitle": "Weight Training",
+                        "courseNumber": "170",
+                        "prefix": "KIN",
+                        "prefixParentId": 8419,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8068,
+                        "department": "Kinesiology",
+                        "begin": "Su2009",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "40b8f206-c00d-4a4a-59e5-08dbf14722d9",
+          "selectionType": "Select"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "956230a8-b3a8-4e4b-4f2d-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 25986,
+                        "courseTitle": "Swimming/All Levels",
+                        "courseNumber": "156",
+                        "prefix": "KIN",
+                        "prefixParentId": 8419,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8068,
+                        "department": "Kinesiology",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0ee1c316-ca31-48f4-4f2e-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 25620,
+                        "courseTitle": "Swimming/Conditioning",
+                        "courseNumber": "158",
+                        "prefix": "KIN",
+                        "prefixParentId": 8419,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8068,
+                        "department": "Kinesiology",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "LOWER DIVISION CORE REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "49f7f0fd-c2ca-4121-11d6-08dba898cc31",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "3407d985-9f64-4b20-8345-08dba897c33b",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "f8b02974-f34a-48c1-8fb5-866e7759d488",
+                        "position": 0,
+                        "courseIdentifierParentId": 160835,
+                        "courseTitle": "Elements of Human Anatomy and Physiology",
+                        "courseNumber": "250",
+                        "prefix": "BIO",
+                        "prefixParentId": 4868,
+                        "prefixDescription": "Biology",
+                        "departmentParentId": 1661,
+                        "department": "Biology",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      },
+                      {
+                        "id": "b4b71fc6-0ea4-4344-a522-ce73de1cc8c3",
+                        "position": 1,
+                        "courseIdentifierParentId": 310785,
+                        "courseTitle": "Elements of Human Anatomy and Physiology Laboratory",
+                        "courseNumber": "251",
+                        "prefix": "BIO",
+                        "prefixParentId": 4868,
+                        "prefixDescription": "Biology",
+                        "departmentParentId": 1661,
+                        "department": "Biology",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "cc9d63e9-bb8d-4f4f-4f2f-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 223136,
+                        "courseTitle": "Introduction to Physical Education",
+                        "courseNumber": "223",
+                        "prefix": "KIN",
+                        "prefixParentId": 8419,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8068,
+                        "department": "Kinesiology",
+                        "begin": "Su2009",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "LOWER DIVISION CONCENTRATION REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "930c150f-2189-41ab-59e6-08dbf14722d9",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "cfaa9044-d164-44e1-7c87-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 315053,
+                        "courseTitle": "Martial Arts",
+                        "courseNumber": "141",
+                        "prefix": "KIN",
+                        "prefixParentId": 8419,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8068,
+                        "department": "Kinesiology",
+                        "begin": "Su2009",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ada9f99b-6603-41d0-bd29-0074e5650cbc",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 47567,
+                        "courseTitle": "Aerobics",
+                        "courseNumber": "111",
+                        "prefix": "KIN",
+                        "prefixParentId": 8419,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8068,
+                        "department": "Kinesiology",
+                        "begin": "Su2009",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e322d68d-7b40-4cad-af98-51ba18fa186a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 155857,
+                        "courseTitle": "Lifetime Fitness",
+                        "courseNumber": "235",
+                        "prefix": "KIN",
+                        "prefixParentId": 8419,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8068,
+                        "department": "Kinesiology",
+                        "begin": "Su2009",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

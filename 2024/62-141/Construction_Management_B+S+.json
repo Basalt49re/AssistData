@@ -1,0 +1,978 @@
+{
+  "major": "Construction Management B.S.",
+  "from": {
+    "id": 62,
+    "code": "MTSAC   ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Mount San Antonio College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 141,
+    "code": "CSUC    ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Chico",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "80ec436f-4baf-47bc-c7a4-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 281093,
+                  "courseTitle": "Principles of Accounting - Managerial",
+                  "courseNumber": "8",
+                  "prefix": "BUSA",
+                  "prefixParentId": 7556,
+                  "prefixDescription": "Business: Accounting",
+                  "departmentParentId": 2178,
+                  "department": "Business: Accounting (BUSA)",
+                  "begin": "S2001",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "089a43e5-3e21-4bf4-c7a5-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 164299,
+                  "courseTitle": "Business Law",
+                  "courseNumber": "18",
+                  "prefix": "BUSL",
+                  "prefixParentId": 12199,
+                  "prefixDescription": "Business: Law",
+                  "departmentParentId": 2181,
+                  "department": "Business: Law (BUSL)",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "b7d59c88-2c40-44cf-c7a6-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "3c429542-00aa-4545-9b34-d46fdda60ca4",
+              "sendingArticulationId": "9af54426-8c01-42f8-9a6d-0dcb117791ed",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Course articulates with more than one university course"
+                    },
+                    {
+                      "position": 1,
+                      "content": "Maximum credit, one university course"
+                    }
+                  ],
+                  "courseIdentifierParentId": 295874,
+                  "courseTitle": "Introduction to General Chemistry",
+                  "courseNumber": "40",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3801,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2392,
+                  "department": "Chemistry (CHEM)",
+                  "begin": "Su2013",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 250,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 249147,
+                  "courseTitle": "Chemistry for Allied Health Majors",
+                  "courseNumber": "10",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3801,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2392,
+                  "department": "Chemistry (CHEM)",
+                  "begin": "Su2013",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 250,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "8a7af9c0-1a09-4c2e-c7a7-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    },
+    {
+      "templateCellId": "62fe5a15-44fc-4622-c7aa-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 198661,
+                  "courseTitle": "Architectural Materials and Specifications",
+                  "courseNumber": "142",
+                  "prefix": "ARCH",
+                  "prefixParentId": 11669,
+                  "prefixDescription": "Architectural Technology",
+                  "departmentParentId": 961,
+                  "department": "Architectural Technology (ARCH)",
+                  "begin": "Su2015",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "aa66ebd0-3e0c-4852-c7ab-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    },
+    {
+      "templateCellId": "0a38bb9a-2d75-4039-c7ac-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    },
+    {
+      "templateCellId": "096566c7-7c73-44d9-c7ad-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "0ffd6ad1-8be5-4df1-98d3-2e88f66460de",
+              "sendingArticulationId": "90e9b34b-8168-4583-b206-7843daac8a70",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 226260,
+                  "courseTitle": "Principles of Economics - Microeconomics - Honors",
+                  "courseNumber": "1BH",
+                  "prefix": "BUSC",
+                  "prefixParentId": 3944,
+                  "prefixDescription": "Business: Economics",
+                  "departmentParentId": 2179,
+                  "department": "Business: Economics (BUSC)",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 202599,
+                  "courseTitle": "Principles of Economics - Microeconomics",
+                  "courseNumber": "1B",
+                  "prefix": "BUSC",
+                  "prefixParentId": 3944,
+                  "prefixDescription": "Business: Economics",
+                  "departmentParentId": 2179,
+                  "department": "Business: Economics (BUSC)",
+                  "begin": "S2001",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "f5a638b7-260e-491b-c7ae-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 353627,
+                  "courseTitle": "Calculus and Analytic Geometry I",
+                  "courseNumber": "180",
+                  "prefix": "MATH",
+                  "prefixParentId": 9969,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9082,
+                  "department": "Mathematics (MATH)",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "989e425b-80f0-42f1-c7af-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Lab must be taken in person"
+                    }
+                  ],
+                  "courseIdentifierParentId": 291428,
+                  "courseTitle": "General Physics",
+                  "courseNumber": "2AG",
+                  "prefix": "PHYS",
+                  "prefixParentId": 241,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10866,
+                  "department": "Physics (PHYS)",
+                  "begin": "Su2000",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 198,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "b9d3fb53-396c-4594-b891-3d26936ffe11",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 302869,
+                  "courseTitle": "Principles of Accounting - Financial",
+                  "courseNumber": "7",
+                  "prefix": "BUSA",
+                  "prefixParentId": 7556,
+                  "prefixDescription": "Business: Accounting",
+                  "departmentParentId": 2178,
+                  "department": "Business: Accounting (BUSA)",
+                  "begin": "S2001",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "LOWER DIVISION MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "b8c364eb-3c1e-4255-df9d-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "80ec436f-4baf-47bc-c7a4-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 204286,
+                        "courseTitle": "Introduction to Managerial Accounting",
+                        "courseNumber": "202",
+                        "prefix": "ACCT",
+                        "prefixParentId": 13335,
+                        "prefixDescription": "Accounting",
+                        "departmentParentId": 1982,
+                        "department": "Business",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "089a43e5-3e21-4bf4-c7a5-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 365583,
+                        "courseTitle": "Introduction to Business Law",
+                        "courseNumber": "203",
+                        "prefix": "BLAW",
+                        "prefixParentId": 16234,
+                        "prefixDescription": "Business Law",
+                        "departmentParentId": 1982,
+                        "department": "Business",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b7d59c88-2c40-44cf-c7a6-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 269364,
+                        "courseTitle": "General Chemistry for Applied Sciences",
+                        "courseNumber": "107",
+                        "prefix": "CHEM",
+                        "prefixParentId": 3882,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2401,
+                        "department": "Chemistry and Biochemistry",
+                        "begin": "F2009",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "8a7af9c0-1a09-4c2e-c7a7-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 103294,
+                        "courseTitle": "Concepts of Construction",
+                        "courseNumber": "100",
+                        "prefix": "CMGT",
+                        "prefixParentId": 8025,
+                        "prefixDescription": "Construction Management",
+                        "departmentParentId": 3352,
+                        "department": "Construction Management",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "1997f289-c079-4ddb-c7a8-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 375109,
+                        "courseTitle": "Computer Applications in Construction Management",
+                        "courseNumber": "105",
+                        "prefix": "CMGT",
+                        "prefixParentId": 8025,
+                        "prefixDescription": "Construction Management",
+                        "departmentParentId": 3352,
+                        "department": "Construction Management",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "30315ee3-52c3-4f26-c7a9-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 160674,
+                        "courseTitle": "Construction Graphics",
+                        "courseNumber": "110",
+                        "prefix": "CMGT",
+                        "prefixParentId": 8025,
+                        "prefixDescription": "Construction Management",
+                        "departmentParentId": 3352,
+                        "department": "Construction Management",
+                        "begin": "F2005",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "62fe5a15-44fc-4622-c7aa-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 241044,
+                        "courseTitle": "Construction Materials and Systems",
+                        "courseNumber": "135",
+                        "prefix": "CMGT",
+                        "prefixParentId": 8025,
+                        "prefixDescription": "Construction Management",
+                        "departmentParentId": 3352,
+                        "department": "Construction Management",
+                        "begin": "F2005",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "aa66ebd0-3e0c-4852-c7ab-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 159571,
+                        "courseTitle": "Analysis of Construction Drawings and Specifications",
+                        "courseNumber": "210",
+                        "prefix": "CMGT",
+                        "prefixParentId": 8025,
+                        "prefixDescription": "Construction Management",
+                        "departmentParentId": 3352,
+                        "department": "Construction Management",
+                        "begin": "F2005",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0a38bb9a-2d75-4039-c7ac-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Minimum grade required: C or better"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 135133,
+                        "courseTitle": "Electrical and Mechanical Systems",
+                        "courseNumber": "235",
+                        "prefix": "CMGT",
+                        "prefixParentId": 8025,
+                        "prefixDescription": "Construction Management",
+                        "departmentParentId": 3352,
+                        "department": "Construction Management",
+                        "begin": "F2005",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "096566c7-7c73-44d9-c7ad-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 158072,
+                        "courseTitle": "Principles of Microeconomic Analysis",
+                        "courseNumber": "103",
+                        "prefix": "ECON",
+                        "prefixParentId": 1320,
+                        "prefixDescription": "Economics",
+                        "departmentParentId": 4338,
+                        "department": "Economics",
+                        "begin": "F2005",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f5a638b7-260e-491b-c7ae-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 273862,
+                        "courseTitle": "Analytic Geometry and Calculus",
+                        "courseNumber": "120",
+                        "prefix": "MATH",
+                        "prefixParentId": 10054,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9067,
+                        "department": "Mathematics",
+                        "begin": "F2005",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "989e425b-80f0-42f1-c7af-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 280166,
+                        "courseTitle": "General Physics I",
+                        "courseNumber": "202A",
+                        "prefix": "PHYS",
+                        "prefixParentId": 333,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10830,
+                        "department": "Physics",
+                        "begin": "F2017",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b9d3fb53-396c-4594-b891-3d26936ffe11",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 133783,
+                        "courseTitle": "Introduction to Financial Accounting",
+                        "courseNumber": "201",
+                        "prefix": "ACCT",
+                        "prefixParentId": 13335,
+                        "prefixDescription": "Accounting",
+                        "departmentParentId": 1982,
+                        "department": "Business",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
