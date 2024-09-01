@@ -1,0 +1,375 @@
+{
+  "major": "Italian A.B.",
+  "from": {
+    "id": 105,
+    "code": "COASTLIN",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Coastline Community College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 89,
+    "code": "UCD     ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Davis",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "b7da2c54-bfc8-4f4f-d536-08dbc501b57d",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [
+          {
+            "position": 0,
+            "content": "Articulates as a sequence only"
+          }
+        ],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [
+          "Articulates as a sequence only"
+        ],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 285929,
+                  "courseTitle": "Elementary Italian 1",
+                  "courseNumber": "C180",
+                  "prefix": "ITAL",
+                  "prefixParentId": 1745,
+                  "prefixDescription": "Italian",
+                  "departmentParentId": 7790,
+                  "department": "Italian",
+                  "begin": "S2008",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 229,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "fcfe9f86-ff0e-47b3-f482-08dbc4fd2609",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "7e7a9bd3-3c2c-4811-d533-08dbc501b57d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 207891,
+                        "courseTitle": "Intermediate Italian ",
+                        "courseNumber": "021",
+                        "prefix": "ITA",
+                        "prefixParentId": 1736,
+                        "prefixDescription": "Italian",
+                        "departmentParentId": 7814,
+                        "department": "Italian",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "dbda7b49-5fa3-4ee3-d534-08dbc501b57d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 299888,
+                        "courseTitle": "Intermediate Italian",
+                        "courseNumber": "023",
+                        "prefix": "ITA",
+                        "prefixParentId": 1736,
+                        "prefixDescription": "Italian",
+                        "departmentParentId": 7814,
+                        "department": "Italian",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "4f3acb49-c184-44aa-d535-08dbc501b57d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 297385,
+                        "courseTitle": "Intermediate Italian ",
+                        "courseNumber": "022",
+                        "prefix": "ITA",
+                        "prefixParentId": 1736,
+                        "prefixDescription": "Italian",
+                        "departmentParentId": 7814,
+                        "department": "Italian",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "PREPARATION COURSES FOR THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "6da17503-129d-433f-f481-08dbc4fd2609",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "80f5dedb-0b4c-4699-d531-08dbc501b57d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 308324,
+                        "courseTitle": "Elementary Italian ",
+                        "courseNumber": "003",
+                        "prefix": "ITA",
+                        "prefixParentId": 1736,
+                        "prefixDescription": "Italian",
+                        "departmentParentId": 7814,
+                        "department": "Italian",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b7da2c54-bfc8-4f4f-d536-08dbc501b57d",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "7479c347-73fb-4ea3-85f2-8d55b1e9c04e",
+                        "position": 0,
+                        "courseIdentifierParentId": 303220,
+                        "courseTitle": "Elementary Italian ",
+                        "courseNumber": "001",
+                        "prefix": "ITA",
+                        "prefixParentId": 1736,
+                        "prefixDescription": "Italian",
+                        "departmentParentId": 7814,
+                        "department": "Italian",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      },
+                      {
+                        "id": "995a1ba0-2f8d-44ee-bfb9-3877b94d630a",
+                        "position": 1,
+                        "courseIdentifierParentId": 308320,
+                        "courseTitle": "Elementary Italian ",
+                        "courseNumber": "002",
+                        "prefix": "ITA",
+                        "prefixParentId": 1736,
+                        "prefixDescription": "Italian",
+                        "departmentParentId": 7814,
+                        "department": "Italian",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "bf81442c-c906-40d0-d52e-08dbc501b57d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 365013,
+                        "courseTitle": "Beginning Italian for Spanish Speakers ",
+                        "courseNumber": "031",
+                        "prefix": "ITA",
+                        "prefixParentId": 1736,
+                        "prefixDescription": "Italian",
+                        "departmentParentId": 7814,
+                        "department": "Italian",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d2d4b290-07b4-4301-d52f-08dbc501b57d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 366225,
+                        "courseTitle": "Beginning Italian for Spanish Speakers ",
+                        "courseNumber": "032",
+                        "prefix": "ITA",
+                        "prefixParentId": 1736,
+                        "prefixDescription": "Italian",
+                        "departmentParentId": 7814,
+                        "department": "Italian",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

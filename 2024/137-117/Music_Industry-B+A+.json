@@ -1,0 +1,299 @@
+{
+  "major": "Music Industry/B.A.",
+  "from": {
+    "id": 137,
+    "code": "SMCC    ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Santa Monica College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2020
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 2016
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 117,
+    "code": "UCLA    ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Los Angeles",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "9bebc2d4-42ba-453a-5f3d-08dc66197b0d",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 153680,
+                  "courseTitle": "Elements of Public Speaking",
+                  "courseNumber": "11",
+                  "prefix": "COM ST",
+                  "prefixParentId": 15345,
+                  "prefixDescription": "Communication Studies",
+                  "departmentParentId": 2818,
+                  "department": "Communication Studies",
+                  "begin": "F2012",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "a9aa6eeb-0f74-4b0f-f6bb-08dc661065ab",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9bebc2d4-42ba-453a-5f3d-08dc66197b0d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 297063,
+                        "courseTitle": "Principles of Oral Communication",
+                        "courseNumber": "1",
+                        "prefix": "COMM ",
+                        "prefixParentId": 109,
+                        "prefixDescription": "Communication ",
+                        "departmentParentId": 2819,
+                        "department": "Communication ",
+                        "begin": "Su2017",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "RECOMMENDED COURSES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "00d04eed-4a55-4b0d-f6bc-08dc661065ab",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "cea05d59-389e-4c1c-5f39-08dc66197b0d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 388869,
+                        "courseTitle": "Finance and Accounting in Music Industry I",
+                        "courseNumber": "10A",
+                        "prefix": "MSC IND",
+                        "prefixParentId": 17342,
+                        "prefixDescription": "Music Industry",
+                        "departmentParentId": 14494,
+                        "department": "Music Industry",
+                        "begin": "F2023",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "29f19315-4484-4fa5-5f3a-08dc66197b0d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 388870,
+                        "courseTitle": "Finance and Accounting in Music Industry II",
+                        "courseNumber": "10B",
+                        "prefix": "MSC IND",
+                        "prefixParentId": 17342,
+                        "prefixDescription": "Music Industry",
+                        "departmentParentId": 14494,
+                        "department": "Music Industry",
+                        "begin": "F2023",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f7f37294-b0bc-413d-5f3b-08dc66197b0d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 388865,
+                        "courseTitle": "How Music Works I",
+                        "courseNumber": "20A",
+                        "prefix": "MSC IND",
+                        "prefixParentId": 17342,
+                        "prefixDescription": "Music Industry",
+                        "departmentParentId": 14494,
+                        "department": "Music Industry",
+                        "begin": "F2023",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "817ac7d2-58e3-41f2-5f3c-08dc66197b0d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 388866,
+                        "courseTitle": "How Music Works II",
+                        "courseNumber": "20B",
+                        "prefix": "MSC IND",
+                        "prefixParentId": 17342,
+                        "prefixDescription": "Music Industry",
+                        "departmentParentId": 14494,
+                        "department": "Music Industry",
+                        "begin": "F2023",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

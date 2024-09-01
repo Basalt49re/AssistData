@@ -1,0 +1,552 @@
+{
+  "major": "Behavioral Science B.A,",
+  "from": {
+    "id": 80,
+    "code": "WVC     ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "West Valley College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 50,
+    "code": "CSUDH   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Dominguez Hills",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "319a5e1b-efac-419d-9d64-472c0488f30b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "a5b258c6-6e08-411a-80b8-d7dbf5cda438",
+              "sendingArticulationId": "b49c46c1-046d-4e15-8932-de11e37b1087",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 177528,
+                  "courseTitle": "Honors Elementary Statistics",
+                  "courseNumber": "010H",
+                  "prefix": "MATH",
+                  "prefixParentId": 9988,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9011,
+                  "department": "Mathematics",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 192176,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "010",
+                  "prefix": "MATH",
+                  "prefixParentId": 9988,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9011,
+                  "department": "Mathematics",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "08ccefa1-f81a-4fd2-94f6-8dfcc26b219e",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [
+          {
+            "position": 0,
+            "content": "No GE Credit given"
+          }
+        ],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [
+          "No GE Credit given"
+        ],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "1c573ee7-f028-4ca3-865d-52e3e908f8c8",
+              "sendingArticulationId": "62c125be-17ed-41bf-a23b-cef0c13d98ca",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 192176,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "010",
+                  "prefix": "MATH",
+                  "prefixParentId": 9988,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9011,
+                  "department": "Mathematics",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 177528,
+                  "courseTitle": "Honors Elementary Statistics",
+                  "courseNumber": "010H",
+                  "prefix": "MATH",
+                  "prefixParentId": 9988,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9011,
+                  "department": "Mathematics",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "6b0ebc55-c275-4d17-8617-fadaa2a10151",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [
+          {
+            "position": 0,
+            "content": "No GE Credit given"
+          }
+        ],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [
+          "No GE Credit given"
+        ],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "852a7182-3c9e-41c5-8733-757df1815b31",
+              "sendingArticulationId": "d95950f8-8090-4f87-937f-078ad152e94d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 192176,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "010",
+                  "prefix": "MATH",
+                  "prefixParentId": 9988,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9011,
+                  "department": "Mathematics",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 177528,
+                  "courseTitle": "Honors Elementary Statistics",
+                  "courseNumber": "010H",
+                  "prefix": "MATH",
+                  "prefixParentId": 9988,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9011,
+                  "department": "Mathematics",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "4add6ee9-63a7-4004-ab50-b0ce1f186e3b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "f1103a2c-47d3-4967-b0cc-9c2601f83e24",
+              "sendingArticulationId": "581b2c4c-7402-4ae1-b60a-a04b94294ce1",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 177150,
+                  "courseTitle": "Honors American Government",
+                  "courseNumber": "001H",
+                  "prefix": "POLI",
+                  "prefixParentId": 1972,
+                  "prefixDescription": "Political Science",
+                  "departmentParentId": 11024,
+                  "department": "Political Science",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 339107,
+                  "courseTitle": "American Government",
+                  "courseNumber": "001",
+                  "prefix": "POLI",
+                  "prefixParentId": 1972,
+                  "prefixDescription": "Political Science",
+                  "departmentParentId": 11024,
+                  "department": "Political Science",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "REQUIRED PREREQUISITES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "061bc8a0-872d-465a-dbd3-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "4add6ee9-63a7-4004-ab50-b0ce1f186e3b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 155852,
+                        "courseTitle": "American Institutions",
+                        "courseNumber": "101",
+                        "prefix": "POL",
+                        "prefixParentId": 1941,
+                        "prefixDescription": "Political Science",
+                        "departmentParentId": 10961,
+                        "department": "Political Science",
+                        "begin": "F1989",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "319a5e1b-efac-419d-9d64-472c0488f30b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 160866,
+                        "courseTitle": "Elementary Statistics and Probability",
+                        "courseNumber": "131",
+                        "prefix": "MAT",
+                        "prefixParentId": 9957,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 8938,
+                        "department": "Mathematics",
+                        "begin": "F2004",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "08ccefa1-f81a-4fd2-94f6-8dfcc26b219e",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "No GE Credit given"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 282488,
+                        "courseTitle": "Analytical Statistics",
+                        "courseNumber": "220",
+                        "prefix": "SOC",
+                        "prefixParentId": 9024,
+                        "prefixDescription": "Sociology",
+                        "departmentParentId": 12067,
+                        "department": "Sociology",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6b0ebc55-c275-4d17-8617-fadaa2a10151",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "No GE Credit given"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 155854,
+                        "courseTitle": "Elementary Statistical Analysis in Psychology",
+                        "courseNumber": "230",
+                        "prefix": "PSY",
+                        "prefixParentId": 4639,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11194,
+                        "department": "Psychology",
+                        "begin": "F1989",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

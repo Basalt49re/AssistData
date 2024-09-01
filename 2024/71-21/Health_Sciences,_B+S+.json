@@ -1,0 +1,659 @@
+{
+  "major": "Health Sciences, B.S.",
+  "from": {
+    "id": 71,
+    "code": "CYPRESS ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Cypress College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 21,
+    "code": "CSUHAY",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "California State University, Hayward",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      },
+      {
+        "name": "California State University, East Bay",
+        "hasDepartments": true,
+        "fromYear": 2005,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2018
+      },
+      {
+        "termType": "Quarter",
+        "fromYear": 2005
+      },
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "22eb78be-68ac-4fab-4f70-08dbf1469773",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 248730,
+                  "courseTitle": "Medical Microbiology",
+                  "courseNumber": "220 C",
+                  "prefix": "BIOL",
+                  "prefixParentId": 4887,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1719,
+                  "department": "Biology",
+                  "begin": "F2002",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "75ffb06d-91a1-4e58-a836-ee6524ac9a94",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "96a65666-6fdd-44c4-8605-3a772f23c42a",
+              "sendingArticulationId": "97907829-e6af-492a-891f-2c7d266e4252",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "2fb13774-729c-4b40-8fb2-66d7c9e4d900",
+              "sendingArticulationId": "97907829-e6af-492a-891f-2c7d266e4252",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "4bb1ba13-bd36-4206-ab75-40935406a4f8",
+              "sendingArticulationId": "97907829-e6af-492a-891f-2c7d266e4252",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 278552,
+                  "courseTitle": "Introduction to Probability and Statistics",
+                  "courseNumber": "120 C",
+                  "prefix": "MATH",
+                  "prefixParentId": 9978,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9004,
+                  "department": "Mathematics",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "1a9b497e-e316-4910-a2fd-3324b4b29413",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 172832,
+                      "courseTitle": "Probability and Statistics - Social Sciences",
+                      "courseNumber": "161 C",
+                      "prefix": "SOC",
+                      "prefixParentId": 9045,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12079,
+                      "department": "Sociology",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 172831,
+                  "courseTitle": "Probability and Statistics - Social Sciences",
+                  "courseNumber": "161 C",
+                  "prefix": "PSY",
+                  "prefixParentId": 4660,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11197,
+                  "department": "Psychology",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 377374,
+                  "courseTitle": "Introduction to Probability and Statistics",
+                  "courseNumber": "120PC",
+                  "prefix": "MATH",
+                  "prefixParentId": 9978,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9004,
+                  "department": "Mathematics",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "7402aad4-2ba2-496e-84be-410c9f731b6f",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 302709,
+                      "courseTitle": "Honors Probability and Statistics - Social Sciences",
+                      "courseNumber": "161HC",
+                      "prefix": "SOC",
+                      "prefixParentId": 9045,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12079,
+                      "department": "Sociology",
+                      "begin": "F2012",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 302708,
+                  "courseTitle": "Honors Probability and Statistics - Social Sciences",
+                  "courseNumber": "161HC",
+                  "prefix": "PSY",
+                  "prefixParentId": 4660,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11197,
+                  "department": "Psychology",
+                  "begin": "F2012",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "7390b384-66b7-4ff8-4f76-08dbf1469773",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "2056d684-5237-4223-a1b1-3a3f1cb3a601",
+              "sendingArticulationId": "111de0d1-5d0a-469e-ada0-d79276cefe75",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 144220,
+                  "courseTitle": "United States Government",
+                  "courseNumber": "100 C",
+                  "prefix": "POSC",
+                  "prefixParentId": 1962,
+                  "prefixDescription": "Political Science",
+                  "departmentParentId": 11068,
+                  "department": "Political Science",
+                  "begin": "F2004",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 341912,
+                  "courseTitle": "Honors United States Government",
+                  "courseNumber": "100HC",
+                  "prefix": "POSC",
+                  "prefixParentId": 1962,
+                  "prefixDescription": "Political Science",
+                  "departmentParentId": 11068,
+                  "department": "Political Science",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "1bd59bc1-a161-451f-59fe-08dbf14722d9",
+          "selectionType": "Select"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "22eb78be-68ac-4fab-4f70-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 285310,
+                        "courseTitle": "Introduction to Clinical Microbiology",
+                        "courseNumber": "230",
+                        "prefix": "BIOL",
+                        "prefixParentId": 9246,
+                        "prefixDescription": "Biological Science",
+                        "departmentParentId": 1620,
+                        "department": "Biological Science",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "db287b23-b486-4855-4f71-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 388124,
+                        "courseTitle": "ENVIRONMENTAL HEALTH MICROBIOLOGY",
+                        "courseNumber": "232",
+                        "prefix": "BIOL",
+                        "prefixParentId": 9246,
+                        "prefixDescription": "Biological Science",
+                        "departmentParentId": 1620,
+                        "department": "Biological Science",
+                        "begin": "F2023",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "LOWER DIVISION CORE": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "e2e994e8-d05d-4dae-59ff-08dbf14722d9",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "75ffb06d-91a1-4e58-a836-ee6524ac9a94",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 308306,
+                        "courseTitle": "ELEMENTS OF PROBABILITY AND STATISTICS",
+                        "courseNumber": "100",
+                        "prefix": "STAT",
+                        "prefixParentId": 3351,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 12562,
+                        "department": "Statistics and Biostatistics",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f7b72759-41ce-4a30-4f72-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 256795,
+                        "courseTitle": "First Year Seminar in Health Sciences",
+                        "courseNumber": "100",
+                        "prefix": "PH",
+                        "prefixParentId": 17013,
+                        "prefixDescription": "Public Health",
+                        "departmentParentId": 14112,
+                        "department": "Public Health",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "4d251378-e5ec-4878-4f73-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 365271,
+                        "courseTitle": "Introduction to Health Systems & Social Determinants of Health ",
+                        "courseNumber": "110",
+                        "prefix": "PH",
+                        "prefixParentId": 17013,
+                        "prefixDescription": "Public Health",
+                        "departmentParentId": 14112,
+                        "department": "Public Health",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "088d010d-7617-4a98-4f74-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 365366,
+                        "courseTitle": "Health Humanities",
+                        "courseNumber": "130",
+                        "prefix": "PH",
+                        "prefixParentId": 17013,
+                        "prefixDescription": "Public Health",
+                        "departmentParentId": 14112,
+                        "department": "Public Health",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "bcd0e46f-ead3-48f1-4f75-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 365272,
+                        "courseTitle": "Health Disparities and Health Equity",
+                        "courseNumber": "250",
+                        "prefix": "PH",
+                        "prefixParentId": 17013,
+                        "prefixDescription": "Public Health",
+                        "departmentParentId": 14112,
+                        "department": "Public Health",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "7390b384-66b7-4ff8-4f76-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 256774,
+                        "courseTitle": "AMERICAN POLITICAL INSTITUTIONS",
+                        "courseNumber": "101",
+                        "prefix": "POSC",
+                        "prefixParentId": 1910,
+                        "prefixDescription": "Political Science",
+                        "departmentParentId": 11065,
+                        "department": "Political Science",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,855 @@
+{
+  "major": "Agricultural Education - Teacher Preparation Option (B.S.)",
+  "from": {
+    "id": 78,
+    "code": "RCC     ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Riverside City College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2016
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 29,
+    "code": "CSUFRES ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Fresno",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "f51a6f6d-71ec-43f6-8971-fe012afd6a73",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "191d9fd2-006e-4688-abb1-ea60c4d2ca8a",
+              "sendingArticulationId": "9c97e7c3-f7ea-4595-a9e4-2a897d345eb0",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 193715,
+                  "courseTitle": "American Politics",
+                  "courseNumber": "1",
+                  "prefix": "POL",
+                  "prefixParentId": 1970,
+                  "prefixDescription": "Political Science",
+                  "departmentParentId": 10962,
+                  "department": "Political Science",
+                  "begin": "F2005",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 219,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 241679,
+                  "courseTitle": "Honors American Politics",
+                  "courseNumber": "1H",
+                  "prefix": "POL",
+                  "prefixParentId": 1970,
+                  "prefixDescription": "Political Science",
+                  "departmentParentId": 10962,
+                  "department": "Political Science",
+                  "begin": "F2005",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 219,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "LOWER DIVISION MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "fd55e6ff-308f-460c-bd08-08db93657755",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "227ab974-3590-44ed-2015-08db93657f9b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 133971,
+                        "courseTitle": "Farm Accounting",
+                        "courseNumber": "31",
+                        "prefix": "AGBS",
+                        "prefixParentId": 10443,
+                        "prefixDescription": "Agricultural Business",
+                        "departmentParentId": 314,
+                        "department": "Agricultural Business",
+                        "begin": "F2011",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a1065848-1ff3-400d-96da-7c720b11bd5a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 329856,
+                        "courseTitle": "Introduction to Animal Science",
+                        "courseNumber": "1",
+                        "prefix": "ASCI",
+                        "prefixParentId": 2337,
+                        "prefixDescription": "Animal Sciences",
+                        "departmentParentId": 673,
+                        "department": "Animal Sciences and Agricultural Education",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a06d6312-8667-41da-9d4e-fb80d416a908",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 329820,
+                        "courseTitle": "Dairy Cattle Production",
+                        "courseNumber": "61",
+                        "prefix": "ASCI",
+                        "prefixParentId": 2337,
+                        "prefixDescription": "Animal Sciences",
+                        "departmentParentId": 673,
+                        "department": "Animal Sciences and Agricultural Education",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "82a55e82-8f5a-44cc-b39f-220dd4b8748c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 329838,
+                        "courseTitle": "Sheep Production",
+                        "courseNumber": "41",
+                        "prefix": "ASCI",
+                        "prefixParentId": 2337,
+                        "prefixDescription": "Animal Sciences",
+                        "departmentParentId": 673,
+                        "department": "Animal Sciences and Agricultural Education",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b71d23f8-e73d-40be-a247-ebd0f5aafcee",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 329843,
+                        "courseTitle": "Beef Cattle Production",
+                        "courseNumber": "21",
+                        "prefix": "ASCI",
+                        "prefixParentId": 2337,
+                        "prefixDescription": "Animal Sciences",
+                        "departmentParentId": 673,
+                        "department": "Animal Sciences and Agricultural Education",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "29e88276-05e5-432a-b393-64594620505d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 205898,
+                        "courseTitle": "Poultry Production",
+                        "courseNumber": "91",
+                        "prefix": "ASCI",
+                        "prefixParentId": 2337,
+                        "prefixDescription": "Animal Sciences",
+                        "departmentParentId": 673,
+                        "department": "Animal Sciences and Agricultural Education",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2a1d0df3-c907-40bd-94b5-4815d07b93ba",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 135035,
+                        "courseTitle": "Swine Production",
+                        "courseNumber": "31",
+                        "prefix": "ASCI",
+                        "prefixParentId": 2337,
+                        "prefixDescription": "Animal Sciences",
+                        "departmentParentId": 673,
+                        "department": "Animal Sciences and Agricultural Education",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "56529be0-ae0f-4207-9e9d-b0bf8673bde3",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 135030,
+                        "courseTitle": "Introduction to Crop Science",
+                        "courseNumber": "20",
+                        "prefix": "PLANT",
+                        "prefixParentId": 11959,
+                        "prefixDescription": "Plant Science",
+                        "departmentParentId": 10927,
+                        "department": "Plant Science",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5fb7c342-636c-4642-2016-08db93657f9b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 160547,
+                        "courseTitle": "Introduction to Ornamental Horticulture",
+                        "courseNumber": "40",
+                        "prefix": "PLANT",
+                        "prefixParentId": 11959,
+                        "prefixDescription": "Plant Science",
+                        "departmentParentId": 10927,
+                        "department": "Plant Science",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ff039153-c905-4365-a192-cbdbcf07d8f0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 153860,
+                        "courseTitle": "Introduction to Agricultural Mechanics",
+                        "courseNumber": "1",
+                        "prefix": "MEAG",
+                        "prefixParentId": 12156,
+                        "prefixDescription": "Mechanized Agriculture",
+                        "departmentParentId": 10927,
+                        "department": "Plant Science",
+                        "begin": "F2012",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "cf987cf1-6f8f-46ff-8c9e-da0cc41913fd",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 152774,
+                        "courseTitle": "Metallurgical Processes",
+                        "courseNumber": "50",
+                        "prefix": "MEAG",
+                        "prefixParentId": 12156,
+                        "prefixDescription": "Mechanized Agriculture",
+                        "departmentParentId": 10927,
+                        "department": "Plant Science",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ADDITIONAL MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "cf471fcb-dfa2-40b0-bd07-08db93657755",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a816fc69-8bb2-46a0-2014-08db93657f9b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 134008,
+                        "courseTitle": "Introductory General Chemistry",
+                        "courseNumber": "3A",
+                        "prefix": "CHEM",
+                        "prefixParentId": 3769,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2289,
+                        "department": "Chemistry",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "07dc3133-c2a7-49ee-ac18-884c33f65963",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 190174,
+                        "courseTitle": "Animals and Society",
+                        "courseNumber": "67",
+                        "prefix": "ASCI",
+                        "prefixParentId": 2337,
+                        "prefixDescription": "Animal Sciences",
+                        "departmentParentId": 673,
+                        "department": "Animal Sciences and Agricultural Education",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b98e3dd1-46c7-471b-a750-13e6132b776f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 329886,
+                        "courseTitle": "Introductory Agricultural Economics",
+                        "courseNumber": "1",
+                        "prefix": "AGBS",
+                        "prefixParentId": 10443,
+                        "prefixDescription": "Agricultural Business",
+                        "departmentParentId": 314,
+                        "department": "Agricultural Business",
+                        "begin": "F2011",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a6dc5d96-39e0-4cfa-9523-fae0275eb74a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 134600,
+                        "courseTitle": "Animal Biology",
+                        "courseNumber": "12",
+                        "prefix": "BIOL",
+                        "prefixParentId": 4849,
+                        "prefixDescription": "Biology",
+                        "departmentParentId": 1700,
+                        "department": "Biology",
+                        "begin": "F2008",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "19fb9abb-147d-4524-bdec-2a8112d9cbb6",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 329861,
+                        "courseTitle": "Life Science",
+                        "courseNumber": "10",
+                        "prefix": "BIOL",
+                        "prefixParentId": 4849,
+                        "prefixDescription": "Biology",
+                        "departmentParentId": 1700,
+                        "department": "Biology",
+                        "begin": "F1987",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f5e0a1ef-8fdb-43d9-80eb-90774d1f41fa",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 249471,
+                        "courseTitle": "Plant Biology",
+                        "courseNumber": "11",
+                        "prefix": "BIOL",
+                        "prefixParentId": 4849,
+                        "prefixDescription": "Biology",
+                        "departmentParentId": 1700,
+                        "department": "Biology",
+                        "begin": "F2008",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "647bd430-1fca-47e0-8b0a-71d5062e40d0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 347421,
+                        "courseTitle": "Orientation to Agricultural Education",
+                        "courseNumber": "50",
+                        "prefix": "AGED",
+                        "prefixParentId": 10462,
+                        "prefixDescription": "Agricultural Education",
+                        "departmentParentId": 673,
+                        "department": "Animal Sciences and Agricultural Education",
+                        "begin": "F2009",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "3df7fc27-9a98-4219-98b4-8750578c7555",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 96760,
+                        "courseTitle": "Introduction to Teaching",
+                        "courseNumber": "50",
+                        "prefix": "EHD",
+                        "prefixParentId": 3461,
+                        "prefixDescription": "Education and Human Development",
+                        "departmentParentId": 4353,
+                        "department": "Education",
+                        "begin": "F2006",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "OTHER DEGREE REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f51a6f6d-71ec-43f6-8971-fe012afd6a73",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 134991,
+                        "courseTitle": "American Government and Institutions",
+                        "courseNumber": "2",
+                        "prefix": "PLSI",
+                        "prefixParentId": 1918,
+                        "prefixDescription": "Political Science",
+                        "departmentParentId": 10952,
+                        "department": "Political Science",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

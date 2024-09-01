@@ -1,0 +1,1005 @@
+{
+  "major": "Language Science, B.A.",
+  "from": {
+    "id": 148,
+    "code": "NORCO   ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Norco College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2016
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 2009
+      }
+    ],
+    "beginId": 60,
+    "endId": null
+  },
+  "to": {
+    "id": 120,
+    "code": "UCI     ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Irvine",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "e243cc5d-9489-4d98-b051-156431231c47",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 252731,
+                  "courseTitle": "Language and Culture",
+                  "courseNumber": "8",
+                  "prefix": "ANT",
+                  "prefixParentId": 14880,
+                  "prefixDescription": "Anthropology",
+                  "departmentParentId": 690,
+                  "department": "Anthropology",
+                  "begin": "F2010",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "26745e02-3333-4717-a782-9d1f63e5ee70",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "3318350e-d357-4449-8d72-d02c510f01a4",
+              "sendingArticulationId": "a81a04c0-6d22-4435-a0a1-70d15d1714df",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "bee90112-1e17-49d1-8fef-d89f549de5af",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 347856,
+                      "courseTitle": "Introduction to Symbolic Logic",
+                      "courseNumber": "32",
+                      "prefix": "PHI",
+                      "prefixParentId": 14848,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10096,
+                      "department": "Philosophy",
+                      "begin": "F2010",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 347857,
+                  "courseTitle": "Introduction to Symbolic Logic",
+                  "courseNumber": "32",
+                  "prefix": "MAT",
+                  "prefixParentId": 14864,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8942,
+                  "department": "Mathematics",
+                  "begin": "F2010",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "2099b402-01bb-46ba-9c30-5011ccc8ecdd",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 347857,
+                      "courseTitle": "Introduction to Symbolic Logic",
+                      "courseNumber": "32",
+                      "prefix": "MAT",
+                      "prefixParentId": 14864,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8942,
+                      "department": "Mathematics",
+                      "begin": "F2010",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 347856,
+                  "courseTitle": "Introduction to Symbolic Logic",
+                  "courseNumber": "32",
+                  "prefix": "PHI",
+                  "prefixParentId": 14848,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10096,
+                  "department": "Philosophy",
+                  "begin": "F2010",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "f317e7e8-ee55-4152-b713-8d378e1a3be3",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 235752,
+                  "courseTitle": "Introduction to Linguistics",
+                  "courseNumber": "16",
+                  "prefix": "ENG",
+                  "prefixParentId": 14847,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4950,
+                  "department": "English",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "5d76f483-824d-44de-9371-08dba897c33b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    },
+    {
+      "templateCellId": "d43529ad-87a8-4e95-9136-6f9831a08f18",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 382125,
+                  "courseTitle": "Introduction to Python Programming",
+                  "courseNumber": "30A",
+                  "prefix": "CIS",
+                  "prefixParentId": 14882,
+                  "prefixDescription": "Computer Information Systems",
+                  "departmentParentId": 3132,
+                  "department": "Computer Information Systems",
+                  "begin": "Su2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "185320f6-c3ff-4a53-b1b3-3217e9045864",
+      "receivingAttributes": {
+        "type": "Requirement",
+        "requirementAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Requirement",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "af668d06-1fee-4027-85f3-390e21b8aeb0",
+              "sendingArticulationId": "7981d8fe-b8ef-4ff5-8414-01700d2ba5dd",
+              "groupConjunction": "And",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "generalAttributes": []
+            },
+            {
+              "instruction": "Or",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 382137,
+                  "courseTitle": "Honors Calculus I",
+                  "courseNumber": "1AH",
+                  "prefix": "MAT",
+                  "prefixParentId": 14864,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8942,
+                  "department": "Mathematics",
+                  "begin": "Su2022",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 286,
+                  "position": 1,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 301635,
+                  "courseTitle": "Calculus I",
+                  "courseNumber": "1A",
+                  "prefix": "MAT",
+                  "prefixParentId": 14864,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8942,
+                  "department": "Mathematics",
+                  "begin": "F2010",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 239,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 272820,
+                  "courseTitle": "Statistics",
+                  "courseNumber": "12",
+                  "prefix": "MAT",
+                  "prefixParentId": 14864,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8942,
+                  "department": "Mathematics",
+                  "begin": "Su2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 254,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 382136,
+                  "courseTitle": "Statistics for STEM",
+                  "courseNumber": "70B",
+                  "prefix": "MAT",
+                  "prefixParentId": 14864,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8942,
+                  "department": "Mathematics",
+                  "begin": "Su2022",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 286,
+                  "position": 2,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "a26f2548-b488-4ecc-516c-08dbfdcad010",
+                      "publishedCourseIdentifierYearTermId": 266,
+                      "courseIdentifierParentId": 275662,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "48",
+                      "prefix": "SOC",
+                      "prefixParentId": 14853,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12132,
+                      "department": "Sociology",
+                      "begin": "Su2017",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 275661,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "48",
+                  "prefix": "PSY",
+                  "prefixParentId": 14843,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11218,
+                  "department": "Psychology",
+                  "begin": "Su2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 266,
+                  "position": 3,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 261574,
+                  "courseTitle": "Honors Statistics",
+                  "courseNumber": "12H",
+                  "prefix": "MAT",
+                  "prefixParentId": 14864,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8942,
+                  "department": "Mathematics",
+                  "begin": "Su2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 254,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "e18cac34-bcb0-45fc-8e09-08dba897c33b",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "16c8aa35-7a1e-48c4-bb41-d70e504f9363",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 260184,
+                        "courseTitle": "Languages of the World",
+                        "courseNumber": "1",
+                        "prefix": "LSCI",
+                        "prefixParentId": 16567,
+                        "prefixDescription": "Language Science",
+                        "departmentParentId": 13718,
+                        "department": "Language Science",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5bf893e2-0b12-4752-b436-d678aa7c270f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 265731,
+                        "courseTitle": "Discovering Language",
+                        "courseNumber": "2",
+                        "prefix": "LSCI",
+                        "prefixParentId": 16567,
+                        "prefixDescription": "Language Science",
+                        "departmentParentId": 13718,
+                        "department": "Language Science",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e243cc5d-9489-4d98-b051-156431231c47",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 355345,
+                        "courseTitle": "Introduction to Language and Culture",
+                        "courseNumber": "68",
+                        "prefix": "LSCI",
+                        "prefixParentId": 16567,
+                        "prefixDescription": "Language Science",
+                        "departmentParentId": 13718,
+                        "department": "Language Science",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "LOWER DIVISION MAJOR PREPARATION COURSES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "06038603-8584-49d6-b4b0-a8bdadce515f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 295019,
+                        "courseTitle": "Introduction to Phonology",
+                        "courseNumber": "10",
+                        "prefix": "LSCI",
+                        "prefixParentId": 16567,
+                        "prefixDescription": "Language Science",
+                        "departmentParentId": 13718,
+                        "department": "Language Science",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "26745e02-3333-4717-a782-9d1f63e5ee70",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 367997,
+                        "courseTitle": "Introduction to Symbolic Logic",
+                        "courseNumber": "43",
+                        "prefix": "LSCI",
+                        "prefixParentId": 16567,
+                        "prefixDescription": "Language Science",
+                        "departmentParentId": 13718,
+                        "department": "Language Science",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f6cfe450-bd0e-4f5d-9f36-f89ddc0ad263",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 355364,
+                        "courseTitle": "Introduction to Syntax",
+                        "courseNumber": "20",
+                        "prefix": "LSCI",
+                        "prefixParentId": 16567,
+                        "prefixDescription": "Language Science",
+                        "departmentParentId": 13718,
+                        "department": "Language Science",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f317e7e8-ee55-4152-b713-8d378e1a3be3",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 355366,
+                        "courseTitle": "Introduction to Linguistics",
+                        "courseNumber": "3",
+                        "prefix": "LSCI",
+                        "prefixParentId": 16567,
+                        "prefixDescription": "Language Science",
+                        "departmentParentId": 13718,
+                        "department": "Language Science",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "59b26a5c-ca6a-4ec1-9314-4723c1a1add6",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 298012,
+                        "courseTitle": "Acquisition of Language",
+                        "courseNumber": "51",
+                        "prefix": "LSCI",
+                        "prefixParentId": 16567,
+                        "prefixDescription": "Language Science",
+                        "departmentParentId": 13718,
+                        "department": "Language Science",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "MATHEMATICS REQUIREMENT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "3756444f-4431-41b0-163a-08dba898cc31",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "185320f6-c3ff-4a53-b1b3-3217e9045864",
+                    "type": "Course",
+                    "generalAttributes": [],
+                    "courses": [
+                      null
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e18cac34-bcb0-45fc-8e09-08dba897c33b",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [
+                      "Course(s) must be taken at university"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "4789fff7-d07d-4c01-91bd-c9d247fd759b",
+                        "position": 0,
+                        "courseIdentifierParentId": 355381,
+                        "courseTitle": "Probability and Statistics in the Social Sciences I",
+                        "courseNumber": "10A",
+                        "prefix": "SOC SCI",
+                        "prefixParentId": 11930,
+                        "prefixDescription": "Social Science",
+                        "departmentParentId": 11957,
+                        "department": "Social Science",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      },
+                      {
+                        "id": "8e228701-2f1b-46d4-80de-1f8374481c25",
+                        "position": 1,
+                        "courseIdentifierParentId": 260148,
+                        "courseTitle": "Probability and Statistics in the Social Sciences II",
+                        "courseNumber": "10B",
+                        "prefix": "SOC SCI",
+                        "prefixParentId": 11930,
+                        "prefixDescription": "Social Science",
+                        "departmentParentId": 11957,
+                        "department": "Social Science",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      },
+                      {
+                        "id": "c8a8d32a-a76e-4eb3-9d22-1553d182a487",
+                        "position": 2,
+                        "courseIdentifierParentId": 295084,
+                        "courseTitle": "Probability and Statistics in the Social Sciences III",
+                        "courseNumber": "10C",
+                        "prefix": "SOC SCI",
+                        "prefixParentId": 11930,
+                        "prefixDescription": "Social Science",
+                        "departmentParentId": 11957,
+                        "department": "Social Science",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ADDITIONAL MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "eff85cbd-cb02-45cd-1882-08dba898cc31",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d43529ad-87a8-4e95-9136-6f9831a08f18",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "**REFER TO TOP OF AGREEMENT**"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 298978,
+                        "courseTitle": "Introduction to Programming",
+                        "courseNumber": "31",
+                        "prefix": "I&C SCI",
+                        "prefixParentId": 11551,
+                        "prefixDescription": "Information & Computer Science",
+                        "departmentParentId": 7498,
+                        "department": "Information & Computer Science",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5d76f483-824d-44de-9371-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Course(s) must be taken at university"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 260196,
+                        "courseTitle": "Computer-Based Research in the Social Sciences",
+                        "courseNumber": "3A",
+                        "prefix": "SOC SCI",
+                        "prefixParentId": 11930,
+                        "prefixDescription": "Social Science",
+                        "departmentParentId": 11957,
+                        "department": "Social Science",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

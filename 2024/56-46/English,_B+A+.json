@@ -1,0 +1,289 @@
+{
+  "major": "English, B.A.",
+  "from": {
+    "id": 56,
+    "code": "PALOMAR ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Palomar College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2018
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 46,
+    "code": "UCR     ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Riverside",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "31095ea7-2862-4e93-b7d7-0473d9e6df14",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 215317,
+                  "courseTitle": "Literature of the United States I",
+                  "courseNumber": "225",
+                  "prefix": "ENG",
+                  "prefixParentId": 2679,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4937,
+                  "department": "English",
+                  "begin": "F1996",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "f7c2bf35-6331-4b41-a23b-3734c526ec16",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "2b4d935c-c958-4822-b82e-3ac55b4cce75",
+              "sendingArticulationId": "1b661162-1e9b-47c6-871c-1072b20aa35a",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 337535,
+                  "courseTitle": "Survey of British Literature II",
+                  "courseNumber": "211",
+                  "prefix": "ENG",
+                  "prefixParentId": 2679,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4937,
+                  "department": "English",
+                  "begin": "F2003",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 201292,
+                  "courseTitle": "Survey of British Literature I",
+                  "courseNumber": "210",
+                  "prefix": "ENG",
+                  "prefixParentId": 2679,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4937,
+                  "department": "English",
+                  "begin": "F2003",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "STRONGLY RECOMMENDED COURSES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "532e5765-2be4-438d-aebe-3cec3b0ce985",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 359759,
+                        "courseTitle": "Intro to Alternative Critical Perspectives on Literature and Culture",
+                        "courseNumber": "20C",
+                        "prefix": "ENGL",
+                        "prefixParentId": 2669,
+                        "prefixDescription": "English",
+                        "departmentParentId": 4931,
+                        "department": "English",
+                        "begin": "F2006",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "31095ea7-2862-4e93-b7d7-0473d9e6df14",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 287077,
+                        "courseTitle": "Intro to American Literary Traditions",
+                        "courseNumber": "20B",
+                        "prefix": "ENGL",
+                        "prefixParentId": 2669,
+                        "prefixDescription": "English",
+                        "departmentParentId": 4931,
+                        "department": "English",
+                        "begin": "F2006",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f7c2bf35-6331-4b41-a23b-3734c526ec16",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 309056,
+                        "courseTitle": "Intro to British Literary Tradition",
+                        "courseNumber": "20A",
+                        "prefix": "ENGL",
+                        "prefixParentId": 2669,
+                        "prefixDescription": "English",
+                        "departmentParentId": 4931,
+                        "department": "English",
+                        "begin": "F2006",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

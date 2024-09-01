@@ -1,0 +1,776 @@
+{
+  "major": "Computer Science B.S.",
+  "from": {
+    "id": 136,
+    "code": "SJCC    ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "San Jose City College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2016
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 12,
+    "code": "CSUMB   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Monterey Bay",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "3eb61e18-902e-40eb-9ca5-d0e42ecaca2d",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 233573,
+                  "courseTitle": "Python Programming",
+                  "courseNumber": "024C",
+                  "prefix": "CIS",
+                  "prefixParentId": 2248,
+                  "prefixDescription": "Computer Information Systems",
+                  "departmentParentId": 3127,
+                  "department": "Computer Information Systems",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "68099cf4-b35f-4aa8-a8bc-04d2b0182037",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 307913,
+                  "courseTitle": "Calculus II with Analytic Geometry",
+                  "courseNumber": "072",
+                  "prefix": "MATH",
+                  "prefixParentId": 10048,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9062,
+                  "department": "Mathematics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "44a5d646-17a9-4478-8409-08dbea40a86a",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "97a6572a-6d8a-4caa-b047-b3fbcb7a7dc4",
+              "sendingArticulationId": "26db56f0-68d4-41c5-98c2-5da209d56773",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 303045,
+                  "courseTitle": "Calculus I with Analytic Geometry",
+                  "courseNumber": "071",
+                  "prefix": "MATH",
+                  "prefixParentId": 10048,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9062,
+                  "department": "Mathematics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 376789,
+                  "courseTitle": "Honors Calculus I with Analytic Geometry",
+                  "courseNumber": "071H",
+                  "prefix": "MATH",
+                  "prefixParentId": 10048,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9062,
+                  "department": "Mathematics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "8a814479-255d-42fd-8f47-2d67a024a139",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "6e1ea04f-6c38-436f-89a8-05cf264be3ce",
+              "sendingArticulationId": "563db700-2c0d-44a8-9260-29740c2c78f4",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 379455,
+                  "courseTitle": "Discrete Structures for Computer Science",
+                  "courseNumber": "080",
+                  "prefix": "MATH",
+                  "prefixParentId": 10048,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9062,
+                  "department": "Mathematics",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 192193,
+                  "courseTitle": "Discrete Mathematics",
+                  "courseNumber": "070",
+                  "prefix": "MATH",
+                  "prefixParentId": 10048,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9062,
+                  "department": "Mathematics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "e624da06-239e-454b-8c05-69ce5672c004",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "3f804bb5-92bc-4d41-8715-46910320d9fb",
+              "sendingArticulationId": "10b5539e-16a4-4526-bd48-ca209cb9b7f5",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 338422,
+                  "courseTitle": "C/C++ Programming",
+                  "courseNumber": "054",
+                  "prefix": "CIS",
+                  "prefixParentId": 2248,
+                  "prefixDescription": "Computer Information Systems",
+                  "departmentParentId": 3127,
+                  "department": "Computer Information Systems",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 342239,
+                  "courseTitle": "Java Programming",
+                  "courseNumber": "084",
+                  "prefix": "CIS",
+                  "prefixParentId": 2248,
+                  "prefixDescription": "Computer Information Systems",
+                  "departmentParentId": 3127,
+                  "department": "Computer Information Systems",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "b251944f-64b6-489e-bc84-b22b51e2533f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 204941,
+                  "courseTitle": "Data Structures: Programming",
+                  "courseNumber": "055",
+                  "prefix": "CIS",
+                  "prefixParentId": 2248,
+                  "prefixDescription": "Computer Information Systems",
+                  "departmentParentId": 3127,
+                  "department": "Computer Information Systems",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "9738933f-7406-4f4f-80d3-ea73d70e94dd",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 382401,
+                  "courseTitle": "Computer Systems, Architecture, and Organization",
+                  "courseNumber": "087",
+                  "prefix": "CIS",
+                  "prefixParentId": 2248,
+                  "prefixDescription": "Computer Information Systems",
+                  "departmentParentId": 3127,
+                  "department": "Computer Information Systems",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "PREPARATION COURSES FOR THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "23d327a8-3fde-4e7e-14e3-08dbeab4b1c7",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "44a5d646-17a9-4478-8409-08dbea40a86a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 302471,
+                        "courseTitle": "Calculus I",
+                        "courseNumber": "150",
+                        "prefix": "MATH",
+                        "prefixParentId": 9919,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 8957,
+                        "department": "Mathematics",
+                        "begin": "F2012",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "8a814479-255d-42fd-8f47-2d67a024a139",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 294882,
+                        "courseTitle": "Discrete Mathematics",
+                        "courseNumber": "170",
+                        "prefix": "MATH",
+                        "prefixParentId": 9919,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 8957,
+                        "department": "Mathematics",
+                        "begin": "F2003",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e624da06-239e-454b-8c05-69ce5672c004",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 111876,
+                        "courseTitle": "Problem Solving and Programming",
+                        "courseNumber": "231",
+                        "prefix": "CST",
+                        "prefixParentId": 3465,
+                        "prefixDescription": "Computer Science and Communication Design",
+                        "departmentParentId": 3275,
+                        "department": "Computer Science and Communication Design",
+                        "begin": "S2017",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b251944f-64b6-489e-bc84-b22b51e2533f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 130204,
+                        "courseTitle": "Introduction to Data Structure",
+                        "courseNumber": "238",
+                        "prefix": "CST",
+                        "prefixParentId": 3465,
+                        "prefixDescription": "Computer Science and Communication Design",
+                        "departmentParentId": 3275,
+                        "department": "Computer Science and Communication Design",
+                        "begin": "S2017",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9738933f-7406-4f4f-80d3-ea73d70e94dd",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 296693,
+                        "courseTitle": "Introduction to Computer Architecture",
+                        "courseNumber": "237",
+                        "prefix": "CST",
+                        "prefixParentId": 3465,
+                        "prefixDescription": "Computer Science and Communication Design",
+                        "departmentParentId": 3275,
+                        "department": "Computer Science and Communication Design",
+                        "begin": "S2017",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "68099cf4-b35f-4aa8-a8bc-04d2b0182037",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 302477,
+                        "courseTitle": "Calculus II",
+                        "courseNumber": "151",
+                        "prefix": "MATH",
+                        "prefixParentId": 9919,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 8957,
+                        "department": "Mathematics",
+                        "begin": "F2012",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2cbd766f-2f7f-4cbf-a78e-871077695a00",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 300314,
+                        "courseTitle": "Mathematics for Computing",
+                        "courseNumber": "270",
+                        "prefix": "MATH",
+                        "prefixParentId": 9919,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 8957,
+                        "department": "Mathematics",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ELECTIVE COURSES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "3eb61e18-902e-40eb-9ca5-d0e42ecaca2d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 299119,
+                        "courseTitle": "Multimedia Design and Programming",
+                        "courseNumber": "205",
+                        "prefix": "CST",
+                        "prefixParentId": 3465,
+                        "prefixDescription": "Computer Science and Communication Design",
+                        "departmentParentId": 3275,
+                        "department": "Computer Science and Communication Design",
+                        "begin": "S2017",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

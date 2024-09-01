@@ -1,0 +1,547 @@
+{
+  "major": "Broadcast and Electronic Communication Arts, B.A.",
+  "from": {
+    "id": 126,
+    "code": "SCC     ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Sacramento City College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 116,
+    "code": "SFSU    ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "San Francisco State University",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "9705ba18-a796-4c43-9291-f6268915ba94",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "7abe187e-0b56-4584-acbe-0a2c97b7832d",
+              "sendingArticulationId": "883586fc-aa9d-4b0c-bb15-455bad732c9b",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "441e283f-78b8-49a8-824e-fc9913c96046",
+              "sendingArticulationId": "883586fc-aa9d-4b0c-bb15-455bad732c9b",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "8df5f424-7407-4649-b31f-395126688fa2",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 380792,
+                      "courseTitle": "Mass Media and Society",
+                      "courseNumber": "310",
+                      "prefix": "JOUR",
+                      "prefixParentId": 1571,
+                      "prefixDescription": "Journalism",
+                      "departmentParentId": 7983,
+                      "department": "Journalism",
+                      "begin": "Su2003",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    },
+                    {
+                      "id": "fa393752-ddcb-49a3-a7f8-e86086c0c96a",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 380810,
+                      "courseTitle": "Mass Media and Society",
+                      "courseNumber": "351",
+                      "prefix": "COMM",
+                      "prefixParentId": 13054,
+                      "prefixDescription": "Communication",
+                      "departmentParentId": 2786,
+                      "department": "Communication",
+                      "begin": "Su2003",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 380808,
+                  "courseTitle": "Mass Media and Society",
+                  "courseNumber": "384",
+                  "prefix": "ENGWR",
+                  "prefixParentId": 13311,
+                  "prefixDescription": "English - Writing",
+                  "departmentParentId": 5034,
+                  "department": "English",
+                  "begin": "Su2003",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "526d2ed3-cf43-4472-91b2-86819ad836ce",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 380808,
+                      "courseTitle": "Mass Media and Society",
+                      "courseNumber": "384",
+                      "prefix": "ENGWR",
+                      "prefixParentId": 13311,
+                      "prefixDescription": "English - Writing",
+                      "departmentParentId": 5034,
+                      "department": "English",
+                      "begin": "Su2003",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    },
+                    {
+                      "id": "08e41ba4-fe7b-40e3-8690-85063cffa58e",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 380810,
+                      "courseTitle": "Mass Media and Society",
+                      "courseNumber": "351",
+                      "prefix": "COMM",
+                      "prefixParentId": 13054,
+                      "prefixDescription": "Communication",
+                      "departmentParentId": 2786,
+                      "department": "Communication",
+                      "begin": "Su2003",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 380792,
+                  "courseTitle": "Mass Media and Society",
+                  "courseNumber": "310",
+                  "prefix": "JOUR",
+                  "prefixParentId": 1571,
+                  "prefixDescription": "Journalism",
+                  "departmentParentId": 7983,
+                  "department": "Journalism",
+                  "begin": "Su2003",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "0d81c02e-66b6-4529-a67c-81a94801e486",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 380792,
+                      "courseTitle": "Mass Media and Society",
+                      "courseNumber": "310",
+                      "prefix": "JOUR",
+                      "prefixParentId": 1571,
+                      "prefixDescription": "Journalism",
+                      "departmentParentId": 7983,
+                      "department": "Journalism",
+                      "begin": "Su2003",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    },
+                    {
+                      "id": "c4545ad7-cc23-4904-a57c-bd55c3eee56b",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 380808,
+                      "courseTitle": "Mass Media and Society",
+                      "courseNumber": "384",
+                      "prefix": "ENGWR",
+                      "prefixParentId": 13311,
+                      "prefixDescription": "English - Writing",
+                      "departmentParentId": 5034,
+                      "department": "English",
+                      "begin": "Su2003",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 380810,
+                  "courseTitle": "Mass Media and Society",
+                  "courseNumber": "351",
+                  "prefix": "COMM",
+                  "prefixParentId": 13054,
+                  "prefixDescription": "Communication",
+                  "departmentParentId": 2786,
+                  "department": "Communication",
+                  "begin": "Su2003",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "d4bc0442-4cb3-45fb-badf-b409724f7961",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "3c37599a-6e0a-414d-91da-cf61308dca33",
+              "sendingArticulationId": "e843a386-5649-4389-9255-30693efc0c63",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "f075bc65-9f81-4c5d-9302-fdd5366a024c",
+              "sendingArticulationId": "e843a386-5649-4389-9255-30693efc0c63",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 203385,
+                  "courseTitle": "Recording Studio Techniques I",
+                  "courseNumber": "342",
+                  "prefix": "MUSM",
+                  "prefixParentId": 7912,
+                  "prefixDescription": "Music Specializations in Music",
+                  "departmentParentId": 9560,
+                  "department": "Music Specializations",
+                  "begin": "S2016",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 100709,
+                  "courseTitle": "Recording Studio Techniques III",
+                  "courseNumber": "350",
+                  "prefix": "MUSM",
+                  "prefixParentId": 7912,
+                  "prefixDescription": "Music Specializations in Music",
+                  "departmentParentId": 9560,
+                  "department": "Music Specializations",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 323338,
+                  "courseTitle": "Recording Studio Techniques II",
+                  "courseNumber": "344",
+                  "prefix": "MUSM",
+                  "prefixParentId": 7912,
+                  "prefixDescription": "Music Specializations in Music",
+                  "departmentParentId": 9560,
+                  "department": "Music Specializations",
+                  "begin": "S2016",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "CORE": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9705ba18-a796-4c43-9291-f6268915ba94",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 157906,
+                        "courseTitle": "Introduction to Electronic Communication",
+                        "courseNumber": "200",
+                        "prefix": "BECA",
+                        "prefixParentId": 8728,
+                        "prefixDescription": "Broadcast and Electronic Communication Arts",
+                        "departmentParentId": 1866,
+                        "department": "Broadcast and Electronic Communication Arts",
+                        "begin": "S2017",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "FOUNDATION COURSES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NToNFollowing",
+                "fromAmount": 1,
+                "toAmount": 2,
+                "unitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2c0f7d3e-a9f1-4175-9b2c-b55b5f83aaa5",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 371409,
+                        "courseTitle": "Electronic Field Production I",
+                        "courseNumber": "246",
+                        "prefix": "BECA",
+                        "prefixParentId": 8728,
+                        "prefixDescription": "Broadcast and Electronic Communication Arts",
+                        "departmentParentId": 1866,
+                        "department": "Broadcast and Electronic Communication Arts",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f801362b-e677-4b1d-9997-1a9d3cccbe75",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 310970,
+                        "courseTitle": "TV Studio Basics",
+                        "courseNumber": "241",
+                        "prefix": "BECA",
+                        "prefixParentId": 8728,
+                        "prefixDescription": "Broadcast and Electronic Communication Arts",
+                        "departmentParentId": 1866,
+                        "department": "Broadcast and Electronic Communication Arts",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d4bc0442-4cb3-45fb-badf-b409724f7961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 26878,
+                        "courseTitle": "Audio Production Basics",
+                        "courseNumber": "231",
+                        "prefix": "BECA",
+                        "prefixParentId": 8728,
+                        "prefixDescription": "Broadcast and Electronic Communication Arts",
+                        "departmentParentId": 1866,
+                        "department": "Broadcast and Electronic Communication Arts",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

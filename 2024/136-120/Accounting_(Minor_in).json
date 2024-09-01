@@ -1,0 +1,545 @@
+{
+  "major": "Accounting (Minor in)",
+  "from": {
+    "id": 136,
+    "code": "SJCC    ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "San Jose City College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2016
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 120,
+    "code": "UCI     ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Irvine",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "8313ffb6-706a-413a-7456-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 185647,
+                  "courseTitle": "Introduction to Business",
+                  "courseNumber": "082",
+                  "prefix": "BUS",
+                  "prefixParentId": 8296,
+                  "prefixDescription": "Business",
+                  "departmentParentId": 1978,
+                  "department": "Business",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "7c54e5c3-6d41-4c41-9968-65fccbc0af50",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 304378,
+                  "courseTitle": "Financial Accounting",
+                  "courseNumber": "020",
+                  "prefix": "ACCTG",
+                  "prefixParentId": 5777,
+                  "prefixDescription": "Accounting",
+                  "departmentParentId": 87,
+                  "department": "Accounting",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "d43a69f9-f96b-4990-a534-8c66edcb3904",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "239b2f43-7e5b-41b2-a262-283e36d299c2",
+              "sendingArticulationId": "4dcab5af-2de1-4bc9-9767-c4047d7f8a89",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 303045,
+                  "courseTitle": "Calculus I with Analytic Geometry",
+                  "courseNumber": "071",
+                  "prefix": "MATH",
+                  "prefixParentId": 10048,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9062,
+                  "department": "Mathematics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 376789,
+                  "courseTitle": "Honors Calculus I with Analytic Geometry",
+                  "courseNumber": "071H",
+                  "prefix": "MATH",
+                  "prefixParentId": 10048,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9062,
+                  "department": "Mathematics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "4626aeea-48da-433c-94fa-221cb7311f83",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 163690,
+                  "courseTitle": "Introduction to Microeconomics Theory",
+                  "courseNumber": "010B",
+                  "prefix": "ECON",
+                  "prefixParentId": 1314,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4333,
+                  "department": "Economics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "b3f625bb-4da1-4d00-b171-40ec18ac56cd",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 287086,
+                  "courseTitle": "Managerial Accounting",
+                  "courseNumber": "021",
+                  "prefix": "ACCTG",
+                  "prefixParentId": 5777,
+                  "prefixDescription": "Accounting",
+                  "departmentParentId": 87,
+                  "department": "Accounting",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "8313ffb6-706a-413a-7456-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 302203,
+                        "courseTitle": "Introduction to Business and Management",
+                        "courseNumber": "1",
+                        "prefix": "MGMT",
+                        "prefixParentId": 1363,
+                        "prefixDescription": "Management",
+                        "departmentParentId": 8744,
+                        "department": "Management",
+                        "begin": "Su2011",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "526d5dc8-b042-46b7-7457-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 300374,
+                        "courseTitle": "Basic Economics for Managers I",
+                        "courseNumber": "4A",
+                        "prefix": "MGMT",
+                        "prefixParentId": 1363,
+                        "prefixDescription": "Management",
+                        "departmentParentId": 8744,
+                        "department": "Management",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "fd33377b-df71-48a9-7458-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 305819,
+                        "courseTitle": "Basic Economics for Managers II",
+                        "courseNumber": "4B",
+                        "prefix": "MGMT",
+                        "prefixParentId": 1363,
+                        "prefixDescription": "Management",
+                        "departmentParentId": 8744,
+                        "department": "Management",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "7c54e5c3-6d41-4c41-9968-65fccbc0af50",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 298847,
+                        "courseTitle": "Principles of Accounting I",
+                        "courseNumber": "30A",
+                        "prefix": "MGMT",
+                        "prefixParentId": 1363,
+                        "prefixDescription": "Management",
+                        "departmentParentId": 8744,
+                        "department": "Management",
+                        "begin": "F2004",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d43a69f9-f96b-4990-a534-8c66edcb3904",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 355339,
+                        "courseTitle": "Single-Variable Calculus",
+                        "courseNumber": "2A",
+                        "prefix": "MATH",
+                        "prefixParentId": 10032,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9047,
+                        "department": "Mathematics",
+                        "begin": "F2000",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "4626aeea-48da-433c-94fa-221cb7311f83",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 289483,
+                        "courseTitle": "Basic Economics I",
+                        "courseNumber": "20A",
+                        "prefix": "ECON",
+                        "prefixParentId": 1299,
+                        "prefixDescription": "Economics",
+                        "departmentParentId": 4319,
+                        "department": "Economics",
+                        "begin": "F1998",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b3f625bb-4da1-4d00-b171-40ec18ac56cd",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 298848,
+                        "courseTitle": "Principles of Accounting II",
+                        "courseNumber": "30B",
+                        "prefix": "MGMT",
+                        "prefixParentId": 1363,
+                        "prefixDescription": "Management",
+                        "departmentParentId": 8744,
+                        "department": "Management",
+                        "begin": "F2004",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

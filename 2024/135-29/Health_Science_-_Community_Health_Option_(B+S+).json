@@ -1,0 +1,782 @@
+{
+  "major": "Health Science - Community Health Option (B.S.)",
+  "from": {
+    "id": 135,
+    "code": "LBCC    ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Long Beach City College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 29,
+    "code": "CSUFRES ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Fresno",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "dbffe6d1-96a0-4bf5-a111-1045066b1be8",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "e2029395-a82a-4562-ad6e-91546faed31e",
+              "sendingArticulationId": "9d419bf9-8f9c-4e56-9446-333cee7972b3",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "32948589-1df8-49f2-8a97-93bd81827751",
+              "sendingArticulationId": "9d419bf9-8f9c-4e56-9446-333cee7972b3",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 362364,
+                  "courseTitle": "Statistics Pathway B",
+                  "courseNumber": "21B",
+                  "prefix": "MATH",
+                  "prefixParentId": 10047,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9061,
+                  "department": "Mathematics",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 267,
+                  "position": 1,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 361070,
+                  "courseTitle": "Statistics Pathway A",
+                  "courseNumber": "21A",
+                  "prefix": "MATH",
+                  "prefixParentId": 10047,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9061,
+                  "department": "Mathematics",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 267,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 162283,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "1",
+                  "prefix": "STAT",
+                  "prefixParentId": 3375,
+                  "prefixDescription": "Statistics",
+                  "departmentParentId": 12553,
+                  "department": "Statistics",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 263,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 192191,
+                  "courseTitle": "Honors Elementary Statistics",
+                  "courseNumber": "1H",
+                  "prefix": "STAT",
+                  "prefixParentId": 3375,
+                  "prefixDescription": "Statistics",
+                  "departmentParentId": 12553,
+                  "department": "Statistics",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 263,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "00cd8f42-d1b6-41d5-a98f-5f41695b8d95",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "003fa242-ba0f-47c8-91a0-08dc25f6e76b",
+                      "publishedCourseIdentifierYearTermId": 203,
+                      "courseIdentifierParentId": 193710,
+                      "courseTitle": "Human Sexuality",
+                      "courseNumber": "10",
+                      "prefix": "PSYCH",
+                      "prefixParentId": 4741,
+                      "prefixDescription": "Psychology",
+                      "departmentParentId": 11316,
+                      "department": "Psychology",
+                      "begin": "F2001",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 169441,
+                  "courseTitle": "Human Sexuality",
+                  "courseNumber": "10",
+                  "prefix": "HLED",
+                  "prefixParentId": 9448,
+                  "prefixDescription": "Health Education",
+                  "departmentParentId": 6777,
+                  "department": "Health Education",
+                  "begin": "F2001",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 203,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "060453b9-95b5-4da8-89ef-c5f75fab05a3",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "0cd24725-effd-4d12-af30-8f9dc8d1abf0",
+              "sendingArticulationId": "89c23fc2-941c-4837-9daf-08c140ab87a2",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 192225,
+                  "courseTitle": "Honors Introduction to Government",
+                  "courseNumber": "1H",
+                  "prefix": "POLSC",
+                  "prefixParentId": 2047,
+                  "prefixDescription": "Political Science",
+                  "departmentParentId": 11051,
+                  "department": "Political Science",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 163472,
+                  "courseTitle": "Introduction to Government",
+                  "courseNumber": "1",
+                  "prefix": "POLSC",
+                  "prefixParentId": 2047,
+                  "prefixDescription": "Political Science",
+                  "departmentParentId": 11051,
+                  "department": "Political Science",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "a8692cfb-b01b-4e15-820d-b0cbc997ae39",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 359848,
+                  "courseTitle": "Intro to General, Organic, & Biochemistry",
+                  "courseNumber": "3",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3875,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2375,
+                  "department": "Chemistry",
+                  "begin": "F2009",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 235,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "e5feafe3-aa06-4083-8d58-2c84c2b1edf8",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 201287,
+                  "courseTitle": "First Aid and Safety",
+                  "courseNumber": "23",
+                  "prefix": "KINPP",
+                  "prefixParentId": 1877,
+                  "prefixDescription": "Kinesiology, Professional Prep",
+                  "departmentParentId": 8203,
+                  "department": "Kinesiology, Professional Prep",
+                  "begin": "F2012",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 247,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "LOWER DIVISION MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "dbffe6d1-96a0-4bf5-a111-1045066b1be8",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 158228,
+                        "courseTitle": "Public Health Statistics",
+                        "courseNumber": "92",
+                        "prefix": "PH",
+                        "prefixParentId": 7472,
+                        "prefixDescription": "Public Health",
+                        "departmentParentId": 11344,
+                        "department": "Public Health",
+                        "begin": "F2010",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "00cd8f42-d1b6-41d5-a98f-5f41695b8d95",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 134468,
+                        "courseTitle": "Human Sexuality",
+                        "courseNumber": "91",
+                        "prefix": "PH",
+                        "prefixParentId": 7472,
+                        "prefixDescription": "Public Health",
+                        "departmentParentId": 11344,
+                        "department": "Public Health",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "54aaa165-8090-4bb5-adb3-621319a7a038",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 135001,
+                        "courseTitle": "Contemporary Health Issues",
+                        "courseNumber": "90",
+                        "prefix": "PH",
+                        "prefixParentId": 7472,
+                        "prefixDescription": "Public Health",
+                        "departmentParentId": 11344,
+                        "department": "Public Health",
+                        "begin": "F2010",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 6,
+                "amountUnitType": "Unit",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e5feafe3-aa06-4083-8d58-2c84c2b1edf8",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 135156,
+                        "courseTitle": "First Responder and Emergency Care",
+                        "courseNumber": "48",
+                        "prefix": "PH",
+                        "prefixParentId": 7472,
+                        "prefixDescription": "Public Health",
+                        "departmentParentId": 11344,
+                        "department": "Public Health",
+                        "begin": "F2010",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "93cbee87-74ad-4402-b4b1-4c03e364cad4",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 134256,
+                        "courseTitle": "Nutrition and Health: Realities and Controversies",
+                        "courseNumber": "53",
+                        "prefix": "NUTR",
+                        "prefixParentId": 7949,
+                        "prefixDescription": "Nutrition",
+                        "departmentParentId": 5797,
+                        "department": "Food Science and Nutrition",
+                        "begin": "F2000",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ADDITIONAL MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f2fece00-f7e4-4dab-84fc-b56e71830ccb",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 285993,
+                        "courseTitle": "Introductory Human Anatomy and Physiology",
+                        "courseNumber": "33",
+                        "prefix": "BIOL",
+                        "prefixParentId": 4849,
+                        "prefixDescription": "Biology",
+                        "departmentParentId": 1700,
+                        "department": "Biology",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "51a3ea0d-a03a-4896-8bba-f4482f228b6a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 329861,
+                        "courseTitle": "Life Science",
+                        "courseNumber": "10",
+                        "prefix": "BIOL",
+                        "prefixParentId": 4849,
+                        "prefixDescription": "Biology",
+                        "departmentParentId": 1700,
+                        "department": "Biology",
+                        "begin": "F1987",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a8692cfb-b01b-4e15-820d-b0cbc997ae39",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 160837,
+                        "courseTitle": "Introductory Organic and Biochemistry",
+                        "courseNumber": "3B",
+                        "prefix": "CHEM",
+                        "prefixParentId": 3769,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2289,
+                        "department": "Chemistry",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c23efc0d-7c88-4fb4-8cfc-566a7639b355",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 134008,
+                        "courseTitle": "Introductory General Chemistry",
+                        "courseNumber": "3A",
+                        "prefix": "CHEM",
+                        "prefixParentId": 3769,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2289,
+                        "department": "Chemistry",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "OTHER DEGREE REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "060453b9-95b5-4da8-89ef-c5f75fab05a3",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 134991,
+                        "courseTitle": "American Government and Institutions",
+                        "courseNumber": "2",
+                        "prefix": "PLSI",
+                        "prefixParentId": 1918,
+                        "prefixDescription": "Political Science",
+                        "departmentParentId": 10952,
+                        "department": "Political Science",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

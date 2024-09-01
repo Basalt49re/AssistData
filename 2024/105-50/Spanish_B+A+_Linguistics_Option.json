@@ -1,0 +1,648 @@
+{
+  "major": "Spanish B.A. Linguistics Option",
+  "from": {
+    "id": 105,
+    "code": "COASTLIN",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Coastline Community College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 50,
+    "code": "CSUDH   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Dominguez Hills",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "74c0d57f-9348-40e2-dfc4-08dbf84e6f4b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [
+          {
+            "position": 0,
+            "content": "Course must be taken at receiving institution"
+          }
+        ],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [
+          "Course must be taken at receiving institution"
+        ],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    },
+    {
+      "templateCellId": "c1db299d-9f75-4e6b-dfc1-08dbf84e6f4b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "4ffe258f-b650-4bca-bd4f-efe0e82e3457",
+              "sendingArticulationId": "9fd04370-b0b6-436f-97e3-5e9a26cb9f1e",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 128937,
+                  "courseTitle": "Intermediate Spanish 1A",
+                  "courseNumber": "C280A",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3198,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12282,
+                  "department": "Spanish",
+                  "begin": "S2008",
+                  "end": "",
+                  "minUnits": 2,
+                  "maxUnits": 2,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 109454,
+                  "courseTitle": "Intermediate Spanish 1B",
+                  "courseNumber": "C280B",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3198,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12282,
+                  "department": "Spanish",
+                  "begin": "S2008",
+                  "end": "",
+                  "minUnits": 2,
+                  "maxUnits": 2,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 251793,
+                  "courseTitle": "Intermediate Spanish 1",
+                  "courseNumber": "C280",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3198,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12282,
+                  "department": "Spanish",
+                  "begin": "S2008",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "0e1b6fb6-5898-4566-dfc2-08dbf84e6f4b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 284158,
+                  "courseTitle": "Intermediate Spanish 2",
+                  "courseNumber": "C285",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3198,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12282,
+                  "department": "Spanish",
+                  "begin": "S2008",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "18b2337f-03b1-4003-861e-18ad73983064",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "97cad359-0fd2-4863-ae7b-ca0ab0a3ab68",
+              "sendingArticulationId": "f0ec42f5-2ddd-48bf-b3aa-dd171d602276",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "609a958d-d41e-45b1-8447-ba209aac0e47",
+              "sendingArticulationId": "f0ec42f5-2ddd-48bf-b3aa-dd171d602276",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 145626,
+                  "courseTitle": "Elementary Spanish 2B",
+                  "courseNumber": "C185B",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3198,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12282,
+                  "department": "Spanish",
+                  "begin": "S2008",
+                  "end": "",
+                  "minUnits": 2.5,
+                  "maxUnits": 2.5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 144642,
+                  "courseTitle": "Elementary Spanish 2A",
+                  "courseNumber": "C185A",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3198,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12282,
+                  "department": "Spanish",
+                  "begin": "S2008",
+                  "end": "",
+                  "minUnits": 2.5,
+                  "maxUnits": 2.5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 279859,
+                  "courseTitle": "Elementary Spanish 2",
+                  "courseNumber": "C185",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3198,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12282,
+                  "department": "Spanish",
+                  "begin": "S2008",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 308487,
+                  "courseTitle": "Spanish for Spanish Speakers 2",
+                  "courseNumber": "C165",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3198,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12282,
+                  "department": "Spanish",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "e87d6a7e-0ef4-4b92-9172-0fc00e78a407",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "e88583e1-3839-4c02-821a-f980ce7f5bf4",
+              "sendingArticulationId": "09ea71c7-5a1c-462d-ad97-10daeca3332e",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 304500,
+                  "courseTitle": "Elementary Spanish 1",
+                  "courseNumber": "C180",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3198,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12282,
+                  "department": "Spanish",
+                  "begin": "S2008",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 144630,
+                  "courseTitle": "Elementary Spanish 1B",
+                  "courseNumber": "C180B",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3198,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12282,
+                  "department": "Spanish",
+                  "begin": "S2008",
+                  "end": "",
+                  "minUnits": 2.5,
+                  "maxUnits": 2.5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 126382,
+                  "courseTitle": "Elementary Spanish 1A",
+                  "courseNumber": "C180A",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3198,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12282,
+                  "department": "Spanish",
+                  "begin": "S2008",
+                  "end": "",
+                  "minUnits": 2.5,
+                  "maxUnits": 2.5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "CORE REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "7a4cb4ab-7a6a-486d-64b8-08dbfdccbd2c",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c1db299d-9f75-4e6b-dfc1-08dbf84e6f4b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 135338,
+                        "courseTitle": "Intermediate Spanish I",
+                        "courseNumber": "220",
+                        "prefix": "SPA",
+                        "prefixParentId": 3139,
+                        "prefixDescription": "Spanish",
+                        "departmentParentId": 12204,
+                        "department": "Spanish",
+                        "begin": "F1989",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0e1b6fb6-5898-4566-dfc2-08dbf84e6f4b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 160847,
+                        "courseTitle": "Intermediate Spanish II",
+                        "courseNumber": "221",
+                        "prefix": "SPA",
+                        "prefixParentId": 3139,
+                        "prefixDescription": "Spanish",
+                        "departmentParentId": 12204,
+                        "department": "Spanish",
+                        "begin": "F1989",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "18b2337f-03b1-4003-861e-18ad73983064",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 135323,
+                        "courseTitle": "Beginning Spanish II",
+                        "courseNumber": "111",
+                        "prefix": "SPA",
+                        "prefixParentId": 3139,
+                        "prefixDescription": "Spanish",
+                        "departmentParentId": 12204,
+                        "department": "Spanish",
+                        "begin": "F1989",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e87d6a7e-0ef4-4b92-9172-0fc00e78a407",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 135321,
+                        "courseTitle": "Beginning Spanish I",
+                        "courseNumber": "110",
+                        "prefix": "SPA",
+                        "prefixParentId": 3139,
+                        "prefixDescription": "Spanish",
+                        "departmentParentId": 12204,
+                        "department": "Spanish",
+                        "begin": "F1989",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [
+              "**REFER TO TOP OF AGREEMENT**",
+              "Course must be taken at receiving institution"
+            ],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "74c0d57f-9348-40e2-dfc4-08dbf84e6f4b",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Proficiency determined by placement exam(s)",
+                      "Petition department after transfer"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 330963,
+                        "courseTitle": "Grammar for Spanish Composition",
+                        "courseNumber": "280",
+                        "prefix": "SPA",
+                        "prefixParentId": 3139,
+                        "prefixDescription": "Spanish",
+                        "departmentParentId": 12204,
+                        "department": "Spanish",
+                        "begin": "F2009",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

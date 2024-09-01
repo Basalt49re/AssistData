@@ -1,0 +1,305 @@
+{
+  "major": "Geography, B.S. - Environmental Studies Option",
+  "from": {
+    "id": 100,
+    "code": "MENDOCIN",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Mendocino College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      },
+      {
+        "name": "Mendocino College",
+        "hasDepartments": false,
+        "fromYear": 1980,
+        "hideInList": true
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2016
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 75,
+    "code": "CPP     ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "California Polytechnic University, Pomona",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2018
+      },
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "b3cf4c01-b972-4e40-97a6-08dba897c33b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 336000,
+                  "courseTitle": "Cultural Geography",
+                  "courseNumber": "201",
+                  "prefix": "GEO",
+                  "prefixParentId": 10588,
+                  "prefixDescription": "Geography",
+                  "departmentParentId": 6119,
+                  "department": "Geography",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "fc67ef8e-c599-4f32-22c6-08db93657f9b",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 297973,
+                  "courseTitle": "Physical Geography",
+                  "courseNumber": "206",
+                  "prefix": "GEO",
+                  "prefixParentId": 10588,
+                  "prefixDescription": "Geography",
+                  "departmentParentId": 6119,
+                  "department": "Geography",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "MAJOR REQUIRED": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "fc67ef8e-c599-4f32-22c6-08db93657f9b",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "963cfc35-476f-4e88-8274-1ed8aed71a0f",
+                        "position": 0,
+                        "courseIdentifierParentId": 275196,
+                        "courseTitle": "Physical Geography",
+                        "courseNumber": "1010",
+                        "prefix": "GEO",
+                        "prefixParentId": 10559,
+                        "prefixDescription": "Geography",
+                        "departmentParentId": 825,
+                        "department": "Anthropology and Geography",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      },
+                      {
+                        "id": "b5f2a9e0-cb33-455f-b063-aa711f4137d2",
+                        "position": 1,
+                        "courseIdentifierParentId": 364656,
+                        "courseTitle": "Physical Geography Laboratory",
+                        "courseNumber": "1010L",
+                        "prefix": "GEO",
+                        "prefixParentId": 10559,
+                        "prefixDescription": "Geography",
+                        "departmentParentId": 825,
+                        "department": "Anthropology and Geography",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b3cf4c01-b972-4e40-97a6-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 275183,
+                        "courseTitle": "Human Geography",
+                        "courseNumber": "1020",
+                        "prefix": "GEO",
+                        "prefixParentId": 10559,
+                        "prefixDescription": "Geography",
+                        "departmentParentId": 825,
+                        "department": "Anthropology and Geography",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0ead8e3f-8c44-4ac7-97a7-08dba897c33b",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "64cdc77f-7b55-4853-87d3-fc1d31df243c",
+                        "position": 0,
+                        "courseIdentifierParentId": 343024,
+                        "courseTitle": "Geographic Information Systems",
+                        "courseNumber": "2400",
+                        "prefix": "GEO",
+                        "prefixParentId": 10559,
+                        "prefixDescription": "Geography",
+                        "departmentParentId": 825,
+                        "department": "Anthropology and Geography",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 2,
+                        "maxUnits": 2,
+                        "pathways": null
+                      },
+                      {
+                        "id": "1840e68d-771c-4391-8f2f-69ab808fdaad",
+                        "position": 1,
+                        "courseIdentifierParentId": 48501,
+                        "courseTitle": "Geographic Information Systems Laboratory",
+                        "courseNumber": "2400L",
+                        "prefix": "GEO",
+                        "prefixParentId": 10559,
+                        "prefixDescription": "Geography",
+                        "departmentParentId": 825,
+                        "department": "Anthropology and Geography",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

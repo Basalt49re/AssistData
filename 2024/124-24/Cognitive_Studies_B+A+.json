@@ -1,0 +1,827 @@
+{
+  "major": "Cognitive Studies B.A.",
+  "from": {
+    "id": 124,
+    "code": "IRVINE  ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Irvine Valley College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2019
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 24,
+    "code": "CSUSTAN ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Stanislaus",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "5986b2df-898e-43dd-c891-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 336462,
+                  "courseTitle": "Research Methods in Psychology",
+                  "courseNumber": "2",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4729,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11254,
+                  "department": "Psychology",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "6e557988-905c-46b7-c892-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "bc3b523a-ccb8-4428-a8f5-ca5bd13fee05",
+              "sendingArticulationId": "65d06cf9-b3ff-44bb-95fc-9faf6980114c",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "ffdf8969-938a-4a64-8d88-7a5f4e2d3b2e",
+              "sendingArticulationId": "65d06cf9-b3ff-44bb-95fc-9faf6980114c",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "276e67aa-2383-44f7-a4ff-a10a23425ef1",
+              "sendingArticulationId": "65d06cf9-b3ff-44bb-95fc-9faf6980114c",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "f267cc65-762c-4c3d-894f-74cb905663a0",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 241339,
+                      "courseTitle": "Statistics for Business and Economics",
+                      "courseNumber": "10",
+                      "prefix": "MGT",
+                      "prefixParentId": 1365,
+                      "prefixDescription": "Management",
+                      "departmentParentId": 8764,
+                      "department": "Management",
+                      "begin": "F2005",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 241338,
+                  "courseTitle": "Statistics for Business and Economics",
+                  "courseNumber": "10",
+                  "prefix": "ECON",
+                  "prefixParentId": 1302,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4321,
+                  "department": "Economics",
+                  "begin": "F2005",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 261785,
+                  "courseTitle": "Statistical Methods in the Behavioral Sciences Honors",
+                  "courseNumber": "10H",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4729,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11254,
+                  "department": "Psychology",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 216479,
+                  "courseTitle": "Introduction to Statistics",
+                  "courseNumber": "10",
+                  "prefix": "MATH",
+                  "prefixParentId": 10036,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9050,
+                  "department": "Mathematics",
+                  "begin": "F2018",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 180343,
+                  "courseTitle": "Statistical Methods in the Behavioral Sciences",
+                  "courseNumber": "10",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4729,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11254,
+                  "department": "Psychology",
+                  "begin": "F2002",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "41be51fc-302c-4c0c-c895-08db99b6efb0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 339524,
+                  "courseTitle": "Modern Philosophy",
+                  "courseNumber": "11",
+                  "prefix": "PHIL",
+                  "prefixParentId": 5498,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10181,
+                  "department": "Philosophy",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "c1fc25f9-a4e4-44be-9f2d-c9cc4916ee04",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 203644,
+                  "courseTitle": "Introduction to Logic",
+                  "courseNumber": "3",
+                  "prefix": "PHIL",
+                  "prefixParentId": 5498,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10181,
+                  "department": "Philosophy",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "4b44b0f7-e78f-4cf8-a44e-d6d68d7f4781",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "ff94beea-1f78-471e-b76e-fd09c9eae805",
+              "sendingArticulationId": "43fd9436-17cf-4788-81c6-659c71674ed9",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 233950,
+                  "courseTitle": "Introduction to Psychology Honors",
+                  "courseNumber": "1H",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4729,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11254,
+                  "department": "Psychology",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 336330,
+                  "courseTitle": "Introduction to Psychology",
+                  "courseNumber": "1",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4729,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11254,
+                  "department": "Psychology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "PREREQUISITES FOR THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "89f96310-3975-4ade-dfd5-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b480d519-3bfd-4165-b25f-5a0fde50ff0f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 157868,
+                        "courseTitle": "Introduction to Cognitive Studies",
+                        "courseNumber": "2100",
+                        "prefix": "COGS",
+                        "prefixParentId": 9214,
+                        "prefixDescription": "Cognitive Studies",
+                        "departmentParentId": 2717,
+                        "department": "Cognitive Studies",
+                        "begin": "F1993",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c1fc25f9-a4e4-44be-9f2d-c9cc4916ee04",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 157851,
+                        "courseTitle": "Logic",
+                        "courseNumber": "2100",
+                        "prefix": "PHIL",
+                        "prefixParentId": 5397,
+                        "prefixDescription": "Philosophy",
+                        "departmentParentId": 10114,
+                        "department": "Philosophy",
+                        "begin": "F1993",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "4b44b0f7-e78f-4cf8-a44e-d6d68d7f4781",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 171197,
+                        "courseTitle": "Introduction to Psychology",
+                        "courseNumber": "2010",
+                        "prefix": "PSYC",
+                        "prefixParentId": 4612,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11230,
+                        "department": "Psychology",
+                        "begin": "F1997",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c57a049b-1b59-4e7c-9403-cdcded399263",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 330641,
+                        "courseTitle": "Principles of Biology",
+                        "courseNumber": "1010",
+                        "prefix": "BIOL",
+                        "prefixParentId": 4845,
+                        "prefixDescription": "Biology",
+                        "departmentParentId": 1697,
+                        "department": "Biology",
+                        "begin": "F1993",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ea173289-4abd-485a-c890-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 157868,
+                        "courseTitle": "Introduction to Cognitive Studies",
+                        "courseNumber": "2100",
+                        "prefix": "COGS",
+                        "prefixParentId": 9214,
+                        "prefixDescription": "Cognitive Studies",
+                        "departmentParentId": 2717,
+                        "department": "Cognitive Studies",
+                        "begin": "F1993",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5986b2df-898e-43dd-c891-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 171174,
+                        "courseTitle": "Introduction to Psychological Methods",
+                        "courseNumber": "2020",
+                        "prefix": "PSYC",
+                        "prefixParentId": 4612,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11230,
+                        "department": "Psychology",
+                        "begin": "F1993",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6e557988-905c-46b7-c892-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 245921,
+                        "courseTitle": "Statistics",
+                        "courseNumber": "1600",
+                        "prefix": "MATH",
+                        "prefixParentId": 9930,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 8965,
+                        "department": "Mathematics",
+                        "begin": "F1993",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "17742ee0-39fc-48fc-c893-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 383856,
+                        "courseTitle": "Statistics with Support II",
+                        "courseNumber": "1602",
+                        "prefix": "MATH",
+                        "prefixParentId": 9930,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 8965,
+                        "department": "Mathematics",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5bfe1752-751d-4565-c894-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 282493,
+                        "courseTitle": "Probability and Statistics",
+                        "courseNumber": "1620",
+                        "prefix": "MATH",
+                        "prefixParentId": 9930,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 8965,
+                        "department": "Mathematics",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "41be51fc-302c-4c0c-c895-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 171229,
+                        "courseTitle": "Modern Philosophy",
+                        "courseNumber": "2230",
+                        "prefix": "PHIL",
+                        "prefixParentId": 5397,
+                        "prefixDescription": "Philosophy",
+                        "departmentParentId": 10114,
+                        "department": "Philosophy",
+                        "begin": "F1993",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "df7ac015-55a7-4634-c896-08db99b6efb0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 375765,
+                        "courseTitle": "Philosophy of Science",
+                        "courseNumber": "2300",
+                        "prefix": "PHIL",
+                        "prefixParentId": 5397,
+                        "prefixDescription": "Philosophy",
+                        "departmentParentId": 10114,
+                        "department": "Philosophy",
+                        "begin": "F2009",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

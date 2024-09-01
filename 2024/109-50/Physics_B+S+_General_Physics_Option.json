@@ -1,0 +1,619 @@
+{
+  "major": "Physics B.S. General Physics Option",
+  "from": {
+    "id": 109,
+    "code": "SJDELTA ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "San Joaquin Delta College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2017
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 2016
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 50,
+    "code": "CSUDH   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Dominguez Hills",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "bdea3210-39c5-421c-066f-08dbfdcaf961",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    },
+    {
+      "templateCellId": "f8c55a68-3a3f-41d5-e852-08dbf84e6f4b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "489fcafd-8383-4073-9e9b-681ceaeed68a",
+              "sendingArticulationId": "971d3a1c-5b12-4384-bf79-10c737894296",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 184604,
+                  "courseTitle": "C++ Programming I",
+                  "courseNumber": "31A",
+                  "prefix": "CSP",
+                  "prefixParentId": 13873,
+                  "prefixDescription": "Computer Science Programming",
+                  "departmentParentId": 3297,
+                  "department": "Computer Science Programming",
+                  "begin": "Su2013",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 232108,
+                  "courseTitle": "JAVA Programming",
+                  "courseNumber": "26A",
+                  "prefix": "CSP",
+                  "prefixParentId": 13873,
+                  "prefixDescription": "Computer Science Programming",
+                  "departmentParentId": 3297,
+                  "department": "Computer Science Programming",
+                  "begin": "F2005",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "62d89889-3167-4a3a-eb4d-08dbfdcaf960",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [
+          "Articulates as a sequence only",
+          "Minimum grade required: C or better"
+        ],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 280501,
+                  "courseTitle": "General Chemistry",
+                  "courseNumber": "1A",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3850,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2355,
+                  "department": "Chemistry",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 358993,
+                  "courseTitle": "General Chemistry",
+                  "courseNumber": "1B",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3850,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2355,
+                  "department": "Chemistry",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "25c0fe5d-59e0-43a4-e82b-08dbf84e6f4b",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [
+          "Articulates as a sequence only"
+        ],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 255045,
+                  "courseTitle": "Principles of Physics: Electricity and Magnetism",
+                  "courseNumber": "4C",
+                  "prefix": "PHYSC",
+                  "prefixParentId": 296,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10837,
+                  "department": "Physics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 2,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 282742,
+                  "courseTitle": "Principles of Physics: Waves, Sound, and Thermodynamics",
+                  "courseNumber": "4B",
+                  "prefix": "PHYSC",
+                  "prefixParentId": 296,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10837,
+                  "department": "Physics",
+                  "begin": "F1996",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 183,
+                  "position": 1,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 281698,
+                  "courseTitle": "Principles of Physics: Mechanics",
+                  "courseNumber": "4A",
+                  "prefix": "PHYSC",
+                  "prefixParentId": 296,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10837,
+                  "department": "Physics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "fed7153a-70ca-4712-040c-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "25c0fe5d-59e0-43a4-e82b-08dbf84e6f4b",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "95d0673c-d684-432e-b6fc-1038515eb6df",
+                        "position": 0,
+                        "courseIdentifierParentId": 358294,
+                        "courseTitle": "General Physics I",
+                        "courseNumber": "130",
+                        "prefix": "PHY",
+                        "prefixParentId": 230,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10728,
+                        "department": "Physics",
+                        "begin": "F1989",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      },
+                      {
+                        "id": "5a3f3fde-4396-460c-8081-6403a3044efa",
+                        "position": 1,
+                        "courseIdentifierParentId": 276731,
+                        "courseTitle": "General Physics II",
+                        "courseNumber": "132",
+                        "prefix": "PHY",
+                        "prefixParentId": 230,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10728,
+                        "department": "Physics",
+                        "begin": "F1989",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "71e76903-562f-413e-e82c-08dbf84e6f4b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 245010,
+                        "courseTitle": "General Physics III",
+                        "courseNumber": "134",
+                        "prefix": "PHY",
+                        "prefixParentId": 230,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10728,
+                        "department": "Physics",
+                        "begin": "S1997",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "LOWER DIVISION REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "b3f0eb34-1094-474a-64b5-08dbfdccbd2c",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "bdea3210-39c5-421c-066f-08dbfdcaf961",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 276727,
+                        "courseTitle": "General Chemistry I",
+                        "courseNumber": "110",
+                        "prefix": "CHE",
+                        "prefixParentId": 3790,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2256,
+                        "department": "Chemistry",
+                        "begin": "F1989",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [
+              "**REFER TO TOP OF AGREEMENT**",
+              "Petition department after transfer"
+            ],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "62d89889-3167-4a3a-eb4d-08dbfdcaf960",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "e336b2ee-a58b-45fe-abee-be62fc035240",
+                        "position": 0,
+                        "courseIdentifierParentId": 276727,
+                        "courseTitle": "General Chemistry I",
+                        "courseNumber": "110",
+                        "prefix": "CHE",
+                        "prefixParentId": 3790,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2256,
+                        "department": "Chemistry",
+                        "begin": "F1989",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      },
+                      {
+                        "id": "85809a22-4b9e-44dc-8201-46efaa4dbf39",
+                        "position": 1,
+                        "courseIdentifierParentId": 276729,
+                        "courseTitle": "General Chemistry II",
+                        "courseNumber": "112",
+                        "prefix": "CHE",
+                        "prefixParentId": 3790,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2256,
+                        "department": "Chemistry",
+                        "begin": "F1989",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ADDITIONAL MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "d3d0c8a9-6513-4757-d215-08dbfa6164b6",
+          "selectionType": "Select"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "4b7bab2f-27b0-4485-8409-948e14eedc84",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 330009,
+                        "courseTitle": "Introduction to Computers and Basic Programming",
+                        "courseNumber": "111",
+                        "prefix": "CSC",
+                        "prefixParentId": 504,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3249,
+                        "department": "Computer Science",
+                        "begin": "F1989",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f8c55a68-3a3f-41d5-e852-08dbf84e6f4b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 170526,
+                        "courseTitle": "Introduction to Computer Science and Programming I",
+                        "courseNumber": "121",
+                        "prefix": "CSC",
+                        "prefixParentId": 504,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3249,
+                        "department": "Computer Science",
+                        "begin": "S2000",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

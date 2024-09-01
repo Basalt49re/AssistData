@@ -1,0 +1,1162 @@
+{
+  "major": "Nursing, B.S.",
+  "from": {
+    "id": 84,
+    "code": "BAKERFLD",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Bakersfield College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 129,
+    "code": "CSUFULL ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Fullerton",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "15f8d5d1-aea0-4fef-990f-3ca578c0d116",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 179202,
+                  "courseTitle": "American Government: National, State and Local",
+                  "courseNumber": "B1",
+                  "prefix": "POLS",
+                  "prefixParentId": 1977,
+                  "prefixDescription": "Political Science",
+                  "departmentParentId": 10974,
+                  "department": "Political Science",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "84eb69d0-d2c2-418a-b71e-cea99f94b6e4",
+      "receivingAttributes": {
+        "type": "Requirement",
+        "requirementAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Requirement",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "1fab2791-9609-4b44-b7af-ec5f99cf19f8",
+              "sendingArticulationId": "0d9f8590-ba17-45c5-87b3-f9a51e192fa3",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "093a83d6-cb22-449b-a6a7-1fe12f7d1d60",
+              "sendingArticulationId": "0d9f8590-ba17-45c5-87b3-f9a51e192fa3",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 308506,
+                  "courseTitle": "General Chemistry and Chemical Analysis",
+                  "courseNumber": "B1B",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3823,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2333,
+                  "department": "Chemistry",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 282654,
+                  "courseTitle": "General Chemistry I",
+                  "courseNumber": "B1A",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3823,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2333,
+                  "department": "Chemistry",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 277891,
+                  "courseTitle": "Introductory General Chemistry",
+                  "courseNumber": "B2A",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3823,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2333,
+                  "department": "Chemistry",
+                  "begin": "S2004",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "60c812df-8698-4c67-8f54-bd5bce1e53cc",
+      "receivingAttributes": {
+        "type": "Requirement",
+        "requirementAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Requirement",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 257051,
+                  "courseTitle": "General Microbiology",
+                  "courseNumber": "B16",
+                  "prefix": "BIOL",
+                  "prefixParentId": 4902,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1726,
+                  "department": "Biology",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "770f8bc8-5139-48b7-a3be-d571f3eac50c",
+      "receivingAttributes": {
+        "type": "Requirement",
+        "requirementAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Requirement",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "74a2ade0-445e-4023-3cd4-08dbc4eb4fa2",
+              "sendingArticulationId": "94876dfc-f599-44c2-bdf8-c6b273e391d8",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "f6b38438-da8c-405b-3cd5-08dbc4eb4fa2",
+              "sendingArticulationId": "94876dfc-f599-44c2-bdf8-c6b273e391d8",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "cc643e4f-497f-42ca-3cd6-08dbc4eb4fa2",
+              "sendingArticulationId": "94876dfc-f599-44c2-bdf8-c6b273e391d8",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            },
+            {
+              "id": "fab8612b-c84a-41f1-3cd7-08dbc4eb4fa2",
+              "sendingArticulationId": "94876dfc-f599-44c2-bdf8-c6b273e391d8",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 3,
+              "sendingCourseGroupEndPosition": 4
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 282654,
+                  "courseTitle": "General Chemistry I",
+                  "courseNumber": "B1A",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3823,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2333,
+                  "department": "Chemistry",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 267,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 308506,
+                  "courseTitle": "General Chemistry and Chemical Analysis",
+                  "courseNumber": "B1B",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3823,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2333,
+                  "department": "Chemistry",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 191,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 287836,
+                  "courseTitle": "Organic Chemistry for Science Majors, I",
+                  "courseNumber": "B30A",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3823,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2333,
+                  "department": "Chemistry",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 251,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 360021,
+                  "courseTitle": "Organic Chemistry for Science Majors, II",
+                  "courseNumber": "B30B",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3823,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2333,
+                  "department": "Chemistry",
+                  "begin": "S2014",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 253,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 303801,
+                  "courseTitle": "Introduction to General, Organic, and Biochemistry",
+                  "courseNumber": "B11",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3823,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2333,
+                  "department": "Chemistry",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 243,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "6eb5cc21-638d-452c-939d-ce992323acc6",
+      "receivingAttributes": null,
+      "articulation": {
+        "type": "Transferability",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": null,
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 376843,
+                  "courseTitle": "Expository Composition",
+                  "courseNumber": "B1A",
+                  "prefix": "EMLS",
+                  "prefixParentId": 16277,
+                  "prefixDescription": "English for Multilingual Students",
+                  "departmentParentId": 13473,
+                  "department": "English for Multilingual Students",
+                  "begin": "Su2020",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 385104,
+                  "courseTitle": "Expository Composition with Supplemental Instruction",
+                  "courseNumber": "B1AL",
+                  "prefix": "EMLS",
+                  "prefixParentId": 16277,
+                  "prefixDescription": "English for Multilingual Students",
+                  "departmentParentId": 13473,
+                  "department": "English for Multilingual Students",
+                  "begin": "Su2023",
+                  "end": "",
+                  "minUnits": 4.5,
+                  "maxUnits": 4.5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 232857,
+                  "courseTitle": "Expository Composition",
+                  "courseNumber": "B1A",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2706,
+                  "prefixDescription": "English",
+                  "departmentParentId": 5006,
+                  "department": "English",
+                  "begin": "Su2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 368536,
+                  "courseTitle": "Expository Composition with Supplemental Instruction",
+                  "courseNumber": "B1AL",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2706,
+                  "prefixDescription": "English",
+                  "departmentParentId": 5006,
+                  "department": "English",
+                  "begin": "Su2019",
+                  "end": "",
+                  "minUnits": 3.5,
+                  "maxUnits": 3.5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "e25c6c14-5463-4997-bc3c-0c0805beaa93",
+      "receivingAttributes": null,
+      "articulation": {
+        "type": "Transferability",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": null,
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 205418,
+                  "courseTitle": "Agriculture Sales and Communication",
+                  "courseNumber": "B6",
+                  "prefix": "AGBS",
+                  "prefixParentId": 9691,
+                  "prefixDescription": "Agricultural Business Management",
+                  "departmentParentId": 319,
+                  "department": "Agricultural Business Management",
+                  "begin": "Su2011",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 226783,
+                  "courseTitle": "Public Speaking",
+                  "courseNumber": "B1",
+                  "prefix": "COMM",
+                  "prefixParentId": 5231,
+                  "prefixDescription": "Communication",
+                  "departmentParentId": 2890,
+                  "department": "Communications",
+                  "begin": "F2004",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 344518,
+                  "courseTitle": "Persuasive Communication",
+                  "courseNumber": "B4",
+                  "prefix": "COMM",
+                  "prefixParentId": 5231,
+                  "prefixDescription": "Communication",
+                  "departmentParentId": 2890,
+                  "department": "Communications",
+                  "begin": "F2004",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 206597,
+                  "courseTitle": "Small Group Communication",
+                  "courseNumber": "B8",
+                  "prefix": "COMM",
+                  "prefixParentId": 5231,
+                  "prefixDescription": "Communication",
+                  "departmentParentId": 2890,
+                  "department": "Communications",
+                  "begin": "F2004",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 370800,
+                  "courseTitle": "Skills for Online Presentation",
+                  "courseNumber": "B11",
+                  "prefix": "COMM",
+                  "prefixParentId": 5231,
+                  "prefixDescription": "Communication",
+                  "departmentParentId": 2890,
+                  "department": "Communications",
+                  "begin": "Su2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "64efbe3f-abc7-47c4-b557-402a14d0b1b5",
+      "receivingAttributes": null,
+      "articulation": {
+        "type": "Transferability",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": null,
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 164146,
+                  "courseTitle": "Argumentation and Debate",
+                  "courseNumber": "B5",
+                  "prefix": "COMM",
+                  "prefixParentId": 5231,
+                  "prefixDescription": "Communication",
+                  "departmentParentId": 2890,
+                  "department": "Communications",
+                  "begin": "Su2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 371068,
+                  "courseTitle": "Argumentation and Rhetoric",
+                  "courseNumber": "B15",
+                  "prefix": "COMM",
+                  "prefixParentId": 5231,
+                  "prefixDescription": "Communication",
+                  "departmentParentId": 2890,
+                  "department": "Communications",
+                  "begin": "Su2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 139459,
+                  "courseTitle": "Introduction to Types of Literature",
+                  "courseNumber": "B1B",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2706,
+                  "prefixDescription": "English",
+                  "departmentParentId": 5006,
+                  "department": "English",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 303406,
+                  "courseTitle": "Advanced Composition and Critical Thinking",
+                  "courseNumber": "B2",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2706,
+                  "prefixDescription": "English",
+                  "departmentParentId": 5006,
+                  "department": "English",
+                  "begin": "Su2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 272785,
+                  "courseTitle": "Argumentative Writing and Critical Thinking Through Literature",
+                  "courseNumber": "B3",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2706,
+                  "prefixDescription": "English",
+                  "departmentParentId": 5006,
+                  "department": "English",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 369007,
+                  "courseTitle": "Historical Methods: Critical Thinking & Writing in History",
+                  "courseNumber": "B9",
+                  "prefix": "HIST",
+                  "prefixParentId": 2982,
+                  "prefixDescription": "History",
+                  "departmentParentId": 6985,
+                  "department": "History",
+                  "begin": "Su2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 217587,
+                  "courseTitle": "Introduction to Logic",
+                  "courseNumber": "B7",
+                  "prefix": "PHIL",
+                  "prefixParentId": 5455,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10154,
+                  "department": "Philosophy",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": null,
+                  "requisites": null,
+                  "attributes": null,
+                  "courseIdentifierParentId": 138942,
+                  "courseTitle": "Critical Thinking and Advanced Composition",
+                  "courseNumber": "B9",
+                  "prefix": "PHIL",
+                  "prefixParentId": 5455,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10154,
+                  "department": "Philosophy",
+                  "begin": "Su2015",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "PREREQUISITES FOR THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6eb5cc21-638d-452c-939d-ce992323acc6",
+                    "type": "Course",
+                    "generalAttributes": [],
+                    "courses": [
+                      null
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e25c6c14-5463-4997-bc3c-0c0805beaa93",
+                    "type": "Course",
+                    "generalAttributes": [],
+                    "courses": [
+                      null
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "64efbe3f-abc7-47c4-b557-402a14d0b1b5",
+                    "type": "Course",
+                    "generalAttributes": [],
+                    "courses": [
+                      null
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "68a4f89c-7739-467d-a49c-2b4623fbb1f1",
+                    "type": "Course",
+                    "generalAttributes": [],
+                    "courses": [
+                      null
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "35ead7b6-3fb3-4830-b543-74d509e4e1fa",
+                    "type": "Course",
+                    "generalAttributes": [],
+                    "courses": [
+                      null
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "60c812df-8698-4c67-8f54-bd5bce1e53cc",
+                    "type": "Course",
+                    "generalAttributes": [],
+                    "courses": [
+                      null
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "84eb69d0-d2c2-418a-b71e-cea99f94b6e4",
+                    "type": "Course",
+                    "generalAttributes": [],
+                    "courses": [
+                      null
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "770f8bc8-5139-48b7-a3be-d571f3eac50c",
+                    "type": "Course",
+                    "generalAttributes": [],
+                    "courses": [
+                      null
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "REQUIRED FOR GRADUATION": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "15f8d5d1-aea0-4fef-990f-3ca578c0d116",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 338397,
+                        "courseTitle": "American Government",
+                        "courseNumber": "100",
+                        "prefix": "POSC",
+                        "prefixParentId": 2042,
+                        "prefixDescription": "Political Science",
+                        "departmentParentId": 11050,
+                        "department": "Political Science",
+                        "begin": "F1995",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

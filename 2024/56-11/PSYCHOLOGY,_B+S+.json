@@ -1,0 +1,900 @@
+{
+  "major": "PSYCHOLOGY, B.S.",
+  "from": {
+    "id": 56,
+    "code": "PALOMAR ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Palomar College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2018
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 11,
+    "code": "CPSLO   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "California Polytechnic University, San Luis Obispo",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "f29d1502-0b28-42ab-a914-19223cc82966",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "575765c9-21ee-46b5-9911-7e053848de94",
+              "sendingArticulationId": "3d06c827-d89f-4b5b-8400-52030f852eac",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "5ffb795f-3055-44a0-94c2-c70bea755451",
+              "sendingArticulationId": "3d06c827-d89f-4b5b-8400-52030f852eac",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 202371,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "120",
+                  "prefix": "MATH",
+                  "prefixParentId": 9964,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8992,
+                  "department": "Mathematics",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "39574a6b-50cf-45f2-9f20-1914eeb8af68",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 154829,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "205",
+                      "prefix": "PSYC",
+                      "prefixParentId": 4646,
+                      "prefixDescription": "Psychology",
+                      "departmentParentId": 11239,
+                      "department": "Psychology",
+                      "begin": "F2014",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 137093,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "205",
+                  "prefix": "SOC",
+                  "prefixParentId": 9031,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12069,
+                  "department": "Sociology",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "6ca1a756-f398-45ec-b21f-af2bbb4a88a8",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 137093,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "205",
+                      "prefix": "SOC",
+                      "prefixParentId": 9031,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12069,
+                      "department": "Sociology",
+                      "begin": "F2014",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 154829,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "205",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4646,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11239,
+                  "department": "Psychology",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "07bb275e-de6f-4510-f3bb-08dbfdcaf960",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 246334,
+                  "courseTitle": "Foundations of Biology I",
+                  "courseNumber": "200",
+                  "prefix": "BIOL",
+                  "prefixParentId": 4874,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1712,
+                  "department": "Biology",
+                  "begin": "F1996",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "00f30021-fb6c-4bb3-ab98-bb688b0b9aac",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "17274753-66e6-4b67-bf00-dbf54606dc16",
+              "sendingArticulationId": "840788cd-6b2f-4ead-97c0-4b7be2392593",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 39571,
+                  "courseTitle": "Introductory Biology: General Biology (Laboratory)",
+                  "courseNumber": "101L",
+                  "prefix": "BIOL",
+                  "prefixParentId": 4874,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1712,
+                  "department": "Biology",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 1,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 338696,
+                  "courseTitle": "General Biology (Lecture)",
+                  "courseNumber": "101",
+                  "prefix": "BIOL",
+                  "prefixParentId": 4874,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1712,
+                  "department": "Biology",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 253861,
+                  "courseTitle": "Introductory Biology: General Biology",
+                  "courseNumber": "100",
+                  "prefix": "BIOL",
+                  "prefixParentId": 4874,
+                  "prefixDescription": "Biology",
+                  "departmentParentId": 1712,
+                  "department": "Biology",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "6bb1ff35-9d25-43d6-f3bc-08dbfdcaf960",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 202335,
+                  "courseTitle": "Introduction to Psychology",
+                  "courseNumber": "100",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4646,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11239,
+                  "department": "Psychology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "081ae205-b447-431d-944d-ef17ba5966d1",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "ac94d785-3208-4beb-a3ed-6d2a31c9a5e3",
+              "sendingArticulationId": "93db9089-7f6e-4bdd-9528-953f6a8e24b5",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 165021,
+                  "courseTitle": "Child Growth and Development",
+                  "courseNumber": "100",
+                  "prefix": "CHDV",
+                  "prefixParentId": 7221,
+                  "prefixDescription": "Child Development",
+                  "departmentParentId": 2502,
+                  "department": "Child Development",
+                  "begin": "F2008",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 166503,
+                  "courseTitle": "Developmental Psychology - Child through Adult",
+                  "courseNumber": "110",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4646,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11239,
+                  "department": "Psychology",
+                  "begin": "F1999",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "b3319570-db96-49be-b38f-3ee1fb87cb7c",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 338339,
+                  "courseTitle": "Social Psychology",
+                  "courseNumber": "120",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4646,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11239,
+                  "department": "Psychology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "MAJOR COURSES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "081ae205-b447-431d-944d-ef17ba5966d1",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 156161,
+                        "courseTitle": "Developmental Psychology",
+                        "courseNumber": "256",
+                        "prefix": "PSY",
+                        "prefixParentId": 4598,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11184,
+                        "department": "Psychology and Child Development",
+                        "begin": "F2000",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b3319570-db96-49be-b38f-3ee1fb87cb7c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 352003,
+                        "courseTitle": "Social Psychology",
+                        "courseNumber": "252",
+                        "prefix": "PSY",
+                        "prefixParentId": 4598,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11184,
+                        "department": "Psychology and Child Development",
+                        "begin": "F2000",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6bb1ff35-9d25-43d6-f3bc-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 169524,
+                        "courseTitle": "General Psychology",
+                        "courseNumber": "201",
+                        "prefix": "PSY",
+                        "prefixParentId": 4598,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11184,
+                        "department": "Psychology and Child Development",
+                        "begin": "F2001",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c041e9e4-9317-4a1a-f3bd-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 135723,
+                        "courseTitle": "General Psychology",
+                        "courseNumber": "202",
+                        "prefix": "PSY",
+                        "prefixParentId": 4598,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11184,
+                        "department": "Psychology and Child Development",
+                        "begin": "F2001",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "SUPPORT COURSES": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f29d1502-0b28-42ab-a914-19223cc82966",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 245922,
+                        "courseTitle": "Introduction to Statistical Concepts and Methods",
+                        "courseNumber": "217",
+                        "prefix": "STAT",
+                        "prefixParentId": 3349,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 12535,
+                        "department": "Statistics",
+                        "begin": "F2001",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a4da9b48-886f-4866-f3b9-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 298079,
+                        "courseTitle": "Principles of Animal Science",
+                        "courseNumber": "112",
+                        "prefix": "ASCI",
+                        "prefixParentId": 2334,
+                        "prefixDescription": "Animal Science",
+                        "departmentParentId": 671,
+                        "department": "Animal Science",
+                        "begin": "Su2005",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "501e9bbb-1c46-482d-f3ba-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 272488,
+                        "courseTitle": "Biology of Sex",
+                        "courseNumber": "123",
+                        "prefix": "BIO",
+                        "prefixParentId": 4835,
+                        "prefixDescription": "Biology",
+                        "departmentParentId": 13319,
+                        "department": "Biological Sciences",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "07bb275e-de6f-4510-f3bb-08dbfdcaf960",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 269266,
+                        "courseTitle": "Introduction to Cell and Molecular Biology",
+                        "courseNumber": "161",
+                        "prefix": "BIO",
+                        "prefixParentId": 4835,
+                        "prefixDescription": "Biology",
+                        "departmentParentId": 13319,
+                        "department": "Biological Sciences",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "00f30021-fb6c-4bb3-ab98-bb688b0b9aac",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 289955,
+                        "courseTitle": "General Biology",
+                        "courseNumber": "111",
+                        "prefix": "BIO",
+                        "prefixParentId": 4835,
+                        "prefixDescription": "Biology",
+                        "departmentParentId": 13319,
+                        "department": "Biological Sciences",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 4,
+                "amountUnitType": "Unit",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "495d6f49-cd8a-4bc6-83dd-985cfd3d4eae",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 272491,
+                        "courseTitle": "African American Psychology",
+                        "courseNumber": "260",
+                        "prefix": "PSY",
+                        "prefixParentId": 4598,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11184,
+                        "department": "Psychology and Child Development",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

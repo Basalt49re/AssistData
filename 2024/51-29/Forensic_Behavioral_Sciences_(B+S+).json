@@ -1,0 +1,1089 @@
+{
+  "major": "Forensic Behavioral Sciences (B.S.)",
+  "from": {
+    "id": 51,
+    "code": "FOOTHILL",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "Foothill College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 29,
+    "code": "CSUFRES ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Fresno",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "547023bd-82cf-4622-9de9-c8f74dce2919",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 302825,
+                  "courseTitle": "Political Science: Introduction to American Government & Politics",
+                  "courseNumber": "1",
+                  "prefix": "POLI",
+                  "prefixParentId": 1942,
+                  "prefixDescription": "Political Science",
+                  "departmentParentId": 11010,
+                  "department": "Political Science",
+                  "begin": "Su2011",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 242,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "fe952ef6-e329-4f26-a315-08dba897c33b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "0247fd4b-7a22-4ecc-a978-b5b53a86803d",
+              "sendingArticulationId": "95b6151d-6035-499a-9c7f-e1e0c0419525",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "0e7472a6-ef5d-427e-b191-f81c28930053",
+              "sendingArticulationId": "95b6151d-6035-499a-9c7f-e1e0c0419525",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 287881,
+                  "courseTitle": "Integrated Statistics II",
+                  "courseNumber": "17",
+                  "prefix": "MATH",
+                  "prefixParentId": 9959,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8987,
+                  "department": "Mathematics",
+                  "begin": "Su2016",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 262,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 359245,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "10",
+                  "prefix": "MATH",
+                  "prefixParentId": 9959,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8987,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "6b0bb489-2f06-4424-916d-08dc25f6e76b",
+                      "publishedCourseIdentifierYearTermId": 243,
+                      "courseIdentifierParentId": 305026,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "7",
+                      "prefix": "SOC",
+                      "prefixParentId": 9025,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12068,
+                      "department": "Sociology",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 5,
+                      "maxUnits": 5,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 305025,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "7",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4640,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11236,
+                  "department": "Psychology",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 243,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "9fcf4f55-fcbd-4b7f-a316-08dba897c33b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "1b4c3990-9a4d-47f7-93e7-680545aaf69e",
+              "sendingArticulationId": "c4c6d450-7e74-4b27-9370-bd8b7d90f2ad",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "90b008ee-9b23-403f-9fdf-2841b10d98bd",
+              "sendingArticulationId": "c4c6d450-7e74-4b27-9370-bd8b7d90f2ad",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 287881,
+                  "courseTitle": "Integrated Statistics II",
+                  "courseNumber": "17",
+                  "prefix": "MATH",
+                  "prefixParentId": 9959,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8987,
+                  "department": "Mathematics",
+                  "begin": "Su2016",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 262,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "604d61ca-9679-4a80-9179-08dc25f6e76b",
+                      "publishedCourseIdentifierYearTermId": 243,
+                      "courseIdentifierParentId": 305026,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "7",
+                      "prefix": "SOC",
+                      "prefixParentId": 9025,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12068,
+                      "department": "Sociology",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 5,
+                      "maxUnits": 5,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 305025,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "7",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4640,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11236,
+                  "department": "Psychology",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 243,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 359245,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "10",
+                  "prefix": "MATH",
+                  "prefixParentId": 9959,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8987,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "580e9d77-322f-4c91-a317-08dba897c33b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "0f0a9a72-b76d-40ff-94b7-34c851142ad4",
+              "sendingArticulationId": "62bbbf06-a7a8-4d41-ab18-59e2678af2f1",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "93d3368b-fe76-4618-b7df-6db2f41b8b56",
+              "sendingArticulationId": "62bbbf06-a7a8-4d41-ab18-59e2678af2f1",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "25a287a2-f6f3-48c2-9160-f0ab24a5409c",
+                      "publishedCourseIdentifierYearTermId": 243,
+                      "courseIdentifierParentId": 305026,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "7",
+                      "prefix": "SOC",
+                      "prefixParentId": 9025,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12068,
+                      "department": "Sociology",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 5,
+                      "maxUnits": 5,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 305025,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "7",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4640,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11236,
+                  "department": "Psychology",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 243,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 287881,
+                  "courseTitle": "Integrated Statistics II",
+                  "courseNumber": "17",
+                  "prefix": "MATH",
+                  "prefixParentId": 9959,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8987,
+                  "department": "Mathematics",
+                  "begin": "Su2016",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 262,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 359245,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "10",
+                  "prefix": "MATH",
+                  "prefixParentId": 9959,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8987,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "1b3db24d-5c74-4152-a318-08dba897c33b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "8a37fc33-2997-4b28-89e6-068acc87ffcd",
+              "sendingArticulationId": "dfffcdc6-5c7e-443c-9457-6ff6abe35aee",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "35aa8477-932c-4ada-abba-d9770072d2ed",
+              "sendingArticulationId": "dfffcdc6-5c7e-443c-9457-6ff6abe35aee",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 287881,
+                  "courseTitle": "Integrated Statistics II",
+                  "courseNumber": "17",
+                  "prefix": "MATH",
+                  "prefixParentId": 9959,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8987,
+                  "department": "Mathematics",
+                  "begin": "Su2016",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 262,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 359245,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "10",
+                  "prefix": "MATH",
+                  "prefixParentId": 9959,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8987,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "4a031d3e-94ce-4667-a50e-cc145bc26f6c",
+                      "publishedCourseIdentifierYearTermId": 243,
+                      "courseIdentifierParentId": 305026,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "7",
+                      "prefix": "SOC",
+                      "prefixParentId": 9025,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12068,
+                      "department": "Sociology",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 5,
+                      "maxUnits": 5,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 305025,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "7",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4640,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11236,
+                  "department": "Psychology",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 243,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "c0175cfc-28c3-4ebe-a319-08dba897c33b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "734afb81-e549-42fa-a464-61cf8d734b41",
+              "sendingArticulationId": "ed2bb500-a9db-4498-bf13-530c2d8f6a83",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "4a2ffce0-705f-4fe6-a02e-fe4fefd501d4",
+              "sendingArticulationId": "ed2bb500-a9db-4498-bf13-530c2d8f6a83",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 359245,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "10",
+                  "prefix": "MATH",
+                  "prefixParentId": 9959,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8987,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 287881,
+                  "courseTitle": "Integrated Statistics II",
+                  "courseNumber": "17",
+                  "prefix": "MATH",
+                  "prefixParentId": 9959,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8987,
+                  "department": "Mathematics",
+                  "begin": "Su2016",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 262,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "258ae25b-63af-4b70-9172-08dc25f6e76b",
+                      "publishedCourseIdentifierYearTermId": 243,
+                      "courseIdentifierParentId": 305026,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "7",
+                      "prefix": "SOC",
+                      "prefixParentId": 9025,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12068,
+                      "department": "Sociology",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 5,
+                      "maxUnits": 5,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 305025,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "7",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4640,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11236,
+                  "department": "Psychology",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 243,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "ca1b90a3-bfb2-4fa9-8cce-697b76ec5e7b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    },
+    {
+      "templateCellId": "caeb17d8-6adc-4ad5-8d14-456896331494",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    }
+  ],
+  "groups": {
+    "LOWER DIVISION MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ca1b90a3-bfb2-4fa9-8cce-697b76ec5e7b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 329836,
+                        "courseTitle": "Criminal Law",
+                        "courseNumber": "20",
+                        "prefix": "CRIM",
+                        "prefixParentId": 12002,
+                        "prefixDescription": "Criminology",
+                        "departmentParentId": 3610,
+                        "department": "Criminology",
+                        "begin": "F1987",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "caeb17d8-6adc-4ad5-8d14-456896331494",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 329854,
+                        "courseTitle": "Administration of Justice",
+                        "courseNumber": "2",
+                        "prefix": "CRIM",
+                        "prefixParentId": 12002,
+                        "prefixDescription": "Criminology",
+                        "departmentParentId": 3610,
+                        "department": "Criminology",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "fe952ef6-e329-4f26-a315-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 198027,
+                        "courseTitle": "Statistical and Computer Applications in Criminal Justice",
+                        "courseNumber": "50",
+                        "prefix": "CRIM",
+                        "prefixParentId": 12002,
+                        "prefixDescription": "Criminology",
+                        "departmentParentId": 3610,
+                        "department": "Criminology",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9fcf4f55-fcbd-4b7f-a316-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 244328,
+                        "courseTitle": "Introductory to Statistics and Data Analysis",
+                        "courseNumber": "42",
+                        "prefix": "PSYCH",
+                        "prefixParentId": 4617,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11272,
+                        "department": "Psychology",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "580e9d77-322f-4c91-a317-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 158228,
+                        "courseTitle": "Public Health Statistics",
+                        "courseNumber": "92",
+                        "prefix": "PH",
+                        "prefixParentId": 7472,
+                        "prefixDescription": "Public Health",
+                        "departmentParentId": 11344,
+                        "department": "Public Health",
+                        "begin": "F2010",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "1b3db24d-5c74-4152-a318-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 155272,
+                        "courseTitle": "Elementary Statistics",
+                        "courseNumber": "11",
+                        "prefix": "MATH",
+                        "prefixParentId": 9935,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 8970,
+                        "department": "Mathematics",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c0175cfc-28c3-4ebe-a319-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 155242,
+                        "courseTitle": "Statistical Analysis I",
+                        "courseNumber": "73",
+                        "prefix": "DS",
+                        "prefixParentId": 2866,
+                        "prefixDescription": "Decision Sciences",
+                        "departmentParentId": 2041,
+                        "department": "Business Administration",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "OTHER DEGREE REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "547023bd-82cf-4622-9de9-c8f74dce2919",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 134991,
+                        "courseTitle": "American Government and Institutions",
+                        "courseNumber": "2",
+                        "prefix": "PLSI",
+                        "prefixParentId": 1918,
+                        "prefixDescription": "Political Science",
+                        "departmentParentId": 10952,
+                        "department": "Political Science",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

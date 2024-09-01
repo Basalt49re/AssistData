@@ -1,0 +1,322 @@
+{
+  "major": "==> Critical Race Studies Graduation Requirement",
+  "from": {
+    "id": 133,
+    "code": "MONTEREY",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Monterey Peninsula College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 88,
+    "code": "SSU     ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Sonoma State University",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "844f3eb6-6f1a-465b-bd5f-9faa4d722402",
+      "receivingAttributes": {
+        "type": "Requirement",
+        "requirementAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Requirement",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "f00125d6-490c-437a-8be1-2ae232b464d9",
+              "sendingArticulationId": "5549bd26-1992-4373-bfd3-26513f020ff0",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "eb71a4e7-7f2a-4759-ae65-bd41788c3dd8",
+              "sendingArticulationId": "5549bd26-1992-4373-bfd3-26513f020ff0",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "cd30d656-caa6-4290-9228-bd682e1e1540",
+              "sendingArticulationId": "5549bd26-1992-4373-bfd3-26513f020ff0",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            },
+            {
+              "id": "6c85abf8-d239-44b1-8ee5-a82ad40b2c37",
+              "sendingArticulationId": "5549bd26-1992-4373-bfd3-26513f020ff0",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 3,
+              "sendingCourseGroupEndPosition": 4
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 216562,
+                  "courseTitle": "Introduction to Ethnic Studies",
+                  "courseNumber": "10",
+                  "prefix": "ETNC",
+                  "prefixParentId": 4017,
+                  "prefixDescription": "Ethnic Studies",
+                  "departmentParentId": 5424,
+                  "department": "Ethnic Studies",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "9cebd662-ea72-4e86-a7db-51fc2323c469",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 224477,
+                      "courseTitle": "African Americans in U.S. History to 1877",
+                      "courseNumber": "24",
+                      "prefix": "ETNC",
+                      "prefixParentId": 4017,
+                      "prefixDescription": "Ethnic Studies",
+                      "departmentParentId": 5424,
+                      "department": "Ethnic Studies",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 224476,
+                  "courseTitle": "African Americans in U.S. History to 1877",
+                  "courseNumber": "24",
+                  "prefix": "HIST",
+                  "prefixParentId": 3033,
+                  "prefixDescription": "History",
+                  "departmentParentId": 7024,
+                  "department": "History",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "2c85f687-f8d8-4e55-ae9d-e8dd7f706971",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 231481,
+                      "courseTitle": "Introduction to Race and Ethnicity",
+                      "courseNumber": "13",
+                      "prefix": "SOCI",
+                      "prefixParentId": 9117,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12149,
+                      "department": "Sociology",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 362998,
+                  "courseTitle": "Introduction to Race and Ethnicity",
+                  "courseNumber": "13",
+                  "prefix": "ETNC",
+                  "prefixParentId": 4017,
+                  "prefixDescription": "Ethnic Studies",
+                  "departmentParentId": 5424,
+                  "department": "Ethnic Studies",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 216556,
+                  "courseTitle": "African-American Arts and Music",
+                  "courseNumber": "5",
+                  "prefix": "ETNC",
+                  "prefixParentId": 4017,
+                  "prefixDescription": "Ethnic Studies",
+                  "departmentParentId": 5424,
+                  "department": "Ethnic Studies",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "8a441989-9cd9-41ca-b323-f6adcc5856a1",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 260911,
+                      "courseTitle": "African Americans in U.S. History 1865 to Present",
+                      "courseNumber": "25",
+                      "prefix": "ETNC",
+                      "prefixParentId": 4017,
+                      "prefixDescription": "Ethnic Studies",
+                      "departmentParentId": 5424,
+                      "department": "Ethnic Studies",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 260910,
+                  "courseTitle": "African Americans in U.S. History 1865 to Present",
+                  "courseNumber": "25",
+                  "prefix": "HIST",
+                  "prefixParentId": 3033,
+                  "prefixDescription": "History",
+                  "departmentParentId": 7024,
+                  "department": "History",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "844f3eb6-6f1a-465b-bd5f-9faa4d722402",
+                    "type": "Course",
+                    "generalAttributes": [],
+                    "courses": [
+                      null
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "major": "Geography, B.A.",
+  "from": {
+    "id": 137,
+    "code": "SMCC    ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Santa Monica College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2020
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 2016
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 116,
+    "code": "SFSU    ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "San Francisco State University",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "e8a1771d-79c2-4a6b-6bcb-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 337288,
+                  "courseTitle": "Introduction to Human Geography",
+                  "courseNumber": "2",
+                  "prefix": "GEOG",
+                  "prefixParentId": 10625,
+                  "prefixDescription": "Geography",
+                  "departmentParentId": 6234,
+                  "department": "Geography",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "5f6acf67-c9d0-4a64-6bcc-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "56468529-12a1-4499-8180-7488f7d838b7",
+              "sendingArticulationId": "aca408cf-3b29-4f6c-901b-3cd81794a1ec",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "eb5e7b5e-0e83-49bc-9d68-78841d89898f",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 244275,
+                      "courseTitle": "World Geography: Introduction to Global Studies",
+                      "courseNumber": "11",
+                      "prefix": "GEOG",
+                      "prefixParentId": 10625,
+                      "prefixDescription": "Geography",
+                      "departmentParentId": 6234,
+                      "department": "Geography",
+                      "begin": "W2011",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 244277,
+                  "courseTitle": "World Geography: Introduction to Global Studies",
+                  "courseNumber": "11",
+                  "prefix": "GLOBAL",
+                  "prefixParentId": 15056,
+                  "prefixDescription": "Global Studies",
+                  "departmentParentId": 6555,
+                  "department": "Global Studies",
+                  "begin": "W2011",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "5186cfd6-bc8c-44ee-b4b4-ff1b0a337477",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 244277,
+                      "courseTitle": "World Geography: Introduction to Global Studies",
+                      "courseNumber": "11",
+                      "prefix": "GLOBAL",
+                      "prefixParentId": 15056,
+                      "prefixDescription": "Global Studies",
+                      "departmentParentId": 6555,
+                      "department": "Global Studies",
+                      "begin": "W2011",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 244275,
+                  "courseTitle": "World Geography: Introduction to Global Studies",
+                  "courseNumber": "11",
+                  "prefix": "GEOG",
+                  "prefixParentId": 10625,
+                  "prefixDescription": "Geography",
+                  "departmentParentId": 6234,
+                  "department": "Geography",
+                  "begin": "W2011",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "9460b682-a8b8-4a84-b98e-1bab68d5b062",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 159765,
+                  "courseTitle": "Physical Geography",
+                  "courseNumber": "1",
+                  "prefix": "GEOG",
+                  "prefixParentId": 10625,
+                  "prefixDescription": "Geography",
+                  "departmentParentId": 6234,
+                  "department": "Geography",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "LOWER DIVISION REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9460b682-a8b8-4a84-b98e-1bab68d5b062",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 330962,
+                        "courseTitle": "Our Physical Environment",
+                        "courseNumber": "101",
+                        "prefix": "GEOG",
+                        "prefixParentId": 10604,
+                        "prefixDescription": "Geography and Environment",
+                        "departmentParentId": 6249,
+                        "department": "Geography and Environment",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "80e5b2cf-b749-4c1a-b4c2-1ea9dfedff05",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 251584,
+                        "courseTitle": "Geographic Techniques",
+                        "courseNumber": "205",
+                        "prefix": "GEOG",
+                        "prefixParentId": 10604,
+                        "prefixDescription": "Geography and Environment",
+                        "departmentParentId": 6249,
+                        "department": "Geography and Environment",
+                        "begin": "F2015",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e8a1771d-79c2-4a6b-6bcb-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 136910,
+                        "courseTitle": "The Human Environment",
+                        "courseNumber": "102",
+                        "prefix": "GEOG",
+                        "prefixParentId": 10604,
+                        "prefixDescription": "Geography and Environment",
+                        "departmentParentId": 6249,
+                        "department": "Geography and Environment",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5f6acf67-c9d0-4a64-6bcc-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 136369,
+                        "courseTitle": "World Regions and Interrelations",
+                        "courseNumber": "107",
+                        "prefix": "GEOG",
+                        "prefixParentId": 10604,
+                        "prefixDescription": "Geography and Environment",
+                        "departmentParentId": 6249,
+                        "department": "Geography and Environment",
+                        "begin": "F2013",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

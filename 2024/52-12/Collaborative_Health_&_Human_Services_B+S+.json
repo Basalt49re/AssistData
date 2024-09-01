@@ -1,0 +1,804 @@
+{
+  "major": "Collaborative Health & Human Services B.S.",
+  "from": {
+    "id": 52,
+    "code": "MODESTO ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Modesto Junior College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 12,
+    "code": "CSUMB   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Monterey Bay",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "028aa9d0-29b3-47a3-7a57-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "b2914455-ea57-4738-93dd-7bba8524ab46",
+              "sendingArticulationId": "f61ea81d-f68f-4294-97e2-a116bb6dad43",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "cd31e7d4-2a83-4113-be7d-92d3f3b3316b",
+              "sendingArticulationId": "f61ea81d-f68f-4294-97e2-a116bb6dad43",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "0e0fedc5-bc68-49d8-82a9-dbbb5770936b",
+              "sendingArticulationId": "f61ea81d-f68f-4294-97e2-a116bb6dad43",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "554e17cd-eca2-476e-a55d-2d9eccfd7065",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 381868,
+                      "courseTitle": "Business Statistics",
+                      "courseNumber": "228",
+                      "prefix": "BUSAD",
+                      "prefixParentId": 4059,
+                      "prefixDescription": "Business Administration",
+                      "departmentParentId": 2055,
+                      "department": "Business Administration",
+                      "begin": "Su2022",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 381876,
+                  "courseTitle": "Business Statistics",
+                  "courseNumber": "128",
+                  "prefix": "MATH",
+                  "prefixParentId": 9960,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8988,
+                  "department": "Mathematics",
+                  "begin": "Su2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "bd23267e-6173-45f8-902e-8f5c8cb28cf4",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 381876,
+                      "courseTitle": "Business Statistics",
+                      "courseNumber": "128",
+                      "prefix": "MATH",
+                      "prefixParentId": 9960,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8988,
+                      "department": "Mathematics",
+                      "begin": "Su2022",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 381868,
+                  "courseTitle": "Business Statistics",
+                  "courseNumber": "228",
+                  "prefix": "BUSAD",
+                  "prefixParentId": 4059,
+                  "prefixDescription": "Business Administration",
+                  "departmentParentId": 2055,
+                  "department": "Business Administration",
+                  "begin": "Su2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 236088,
+                  "courseTitle": "Introduction to Statistics for the Social & Behavioral Sciences",
+                  "courseNumber": "121",
+                  "prefix": "PSYCH",
+                  "prefixParentId": 4641,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11280,
+                  "department": "Psychology",
+                  "begin": "Su2020",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 273319,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "134",
+                  "prefix": "MATH",
+                  "prefixParentId": 9960,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8988,
+                  "department": "Mathematics",
+                  "begin": "Su2015",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "a54eee1b-8f71-4c62-7a58-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "eb301535-6336-42ee-9aa3-64c7b384035d",
+              "sendingArticulationId": "49be591f-2c12-4419-9a95-6fe1179dd29b",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "9f09e4bb-9d69-468e-ac58-b6256bfcf269",
+              "sendingArticulationId": "49be591f-2c12-4419-9a95-6fe1179dd29b",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "841c03b3-65ee-487f-924a-a0b7c62ac2c1",
+              "sendingArticulationId": "49be591f-2c12-4419-9a95-6fe1179dd29b",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 273319,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "134",
+                  "prefix": "MATH",
+                  "prefixParentId": 9960,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8988,
+                  "department": "Mathematics",
+                  "begin": "Su2015",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "920e78a5-5b6e-4b22-bb95-51a94d1e8da2",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 381876,
+                      "courseTitle": "Business Statistics",
+                      "courseNumber": "128",
+                      "prefix": "MATH",
+                      "prefixParentId": 9960,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8988,
+                      "department": "Mathematics",
+                      "begin": "Su2022",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 381868,
+                  "courseTitle": "Business Statistics",
+                  "courseNumber": "228",
+                  "prefix": "BUSAD",
+                  "prefixParentId": 4059,
+                  "prefixDescription": "Business Administration",
+                  "departmentParentId": 2055,
+                  "department": "Business Administration",
+                  "begin": "Su2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "6942e048-aa8b-4473-8870-18a19212ba1c",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 381868,
+                      "courseTitle": "Business Statistics",
+                      "courseNumber": "228",
+                      "prefix": "BUSAD",
+                      "prefixParentId": 4059,
+                      "prefixDescription": "Business Administration",
+                      "departmentParentId": 2055,
+                      "department": "Business Administration",
+                      "begin": "Su2022",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 381876,
+                  "courseTitle": "Business Statistics",
+                  "courseNumber": "128",
+                  "prefix": "MATH",
+                  "prefixParentId": 9960,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8988,
+                  "department": "Mathematics",
+                  "begin": "Su2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 236088,
+                  "courseTitle": "Introduction to Statistics for the Social & Behavioral Sciences",
+                  "courseNumber": "121",
+                  "prefix": "PSYCH",
+                  "prefixParentId": 4641,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11280,
+                  "department": "Psychology",
+                  "begin": "Su2020",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "00f53662-24e2-4a4e-a53c-5b2e33cd389b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 350697,
+                  "courseTitle": "Drugs, Health, and Society",
+                  "courseNumber": "115",
+                  "prefix": "HE",
+                  "prefixParentId": 9402,
+                  "prefixDescription": "Health Education",
+                  "departmentParentId": 6743,
+                  "department": "Health Education",
+                  "begin": "Su2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "1a226c57-8641-4973-a915-cf6d64afa57d",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 236934,
+                  "courseTitle": "Health and Social Justice",
+                  "courseNumber": "114",
+                  "prefix": "HE",
+                  "prefixParentId": 9402,
+                  "prefixDescription": "Health Education",
+                  "departmentParentId": 6743,
+                  "department": "Health Education",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "a1ac4c85-1d1d-4e52-be6b-a7e7cc4cf7c0",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 165019,
+                  "courseTitle": "Principles of Microeconomics",
+                  "courseNumber": "102",
+                  "prefix": "ECON",
+                  "prefixParentId": 1228,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4258,
+                  "department": "Economics",
+                  "begin": "Su2020",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "PREPARATION COURSES FOR THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "3a032633-b5da-4720-14e1-08dbeab4b1c7",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "028aa9d0-29b3-47a3-7a57-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 289060,
+                        "courseTitle": "Introduction to Statistics",
+                        "courseNumber": "100",
+                        "prefix": "STAT",
+                        "prefixParentId": 3350,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 12536,
+                        "department": "Statistics",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a54eee1b-8f71-4c62-7a58-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 302717,
+                        "courseTitle": "Statistics for Social Science",
+                        "courseNumber": "203",
+                        "prefix": "CHHS",
+                        "prefixParentId": 12711,
+                        "prefixDescription": "Collaborative Health and Human Services",
+                        "departmentParentId": 2718,
+                        "department": "Collaborative Health and Human Services",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "00f53662-24e2-4a4e-a53c-5b2e33cd389b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 299118,
+                        "courseTitle": "Drugs, Society and Policy",
+                        "courseNumber": "225",
+                        "prefix": "CHHS",
+                        "prefixParentId": 12711,
+                        "prefixDescription": "Collaborative Health and Human Services",
+                        "departmentParentId": 2718,
+                        "department": "Collaborative Health and Human Services",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5c0b063e-cd0f-4a54-946b-0989f5736c50",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 272041,
+                        "courseTitle": "Introduction Issues Health/Human Services",
+                        "courseNumber": "111",
+                        "prefix": "CHHS",
+                        "prefixParentId": 12711,
+                        "prefixDescription": "Collaborative Health and Human Services",
+                        "departmentParentId": 2718,
+                        "department": "Collaborative Health and Human Services",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "1a226c57-8641-4973-a915-cf6d64afa57d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 302718,
+                        "courseTitle": "Social Justice and Global Health",
+                        "courseNumber": "230",
+                        "prefix": "CHHS",
+                        "prefixParentId": 12711,
+                        "prefixDescription": "Collaborative Health and Human Services",
+                        "departmentParentId": 2718,
+                        "department": "Collaborative Health and Human Services",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a1ac4c85-1d1d-4e52-be6b-a7e7cc4cf7c0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 357475,
+                        "courseTitle": "Economics and Society",
+                        "courseNumber": "204",
+                        "prefix": "CHHS",
+                        "prefixParentId": 12711,
+                        "prefixDescription": "Collaborative Health and Human Services",
+                        "departmentParentId": 2718,
+                        "department": "Collaborative Health and Human Services",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b2121890-09cb-41e2-866f-001e5ebe6f80",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 299027,
+                        "courseTitle": "Introduction to Human Services",
+                        "courseNumber": "215",
+                        "prefix": "CHHS",
+                        "prefixParentId": 12711,
+                        "prefixDescription": "Collaborative Health and Human Services",
+                        "departmentParentId": 2718,
+                        "department": "Collaborative Health and Human Services",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,513 @@
+{
+  "major": "Film and Electronic Arts, Narrative Production",
+  "from": {
+    "id": 90,
+    "code": "YUBA    ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Yuba College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2016
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 81,
+    "code": "CSULB   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Long Beach",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "976b565f-b66d-4984-ae64-152fd4a4d008",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 216765,
+                  "courseTitle": "Introduction to Media Writing",
+                  "courseNumber": "8",
+                  "prefix": "MCOMM",
+                  "prefixParentId": 5134,
+                  "prefixDescription": "Mass Communications",
+                  "departmentParentId": 8908,
+                  "department": "Mass Communications",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 191,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "019cbda0-0fcf-48c2-840b-616ccd6308de",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "69eee17e-81f8-444e-a504-8b7d6c5759cb",
+              "sendingArticulationId": "a9061934-03f4-4e6e-9ed9-aa9185098d52",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "b71b028c-7663-4dd7-9468-977fa499433a",
+              "sendingArticulationId": "a9061934-03f4-4e6e-9ed9-aa9185098d52",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "80420110-2028-48fe-8f1e-6278e2cc534b",
+                      "publishedCourseIdentifierYearTermId": 191,
+                      "courseIdentifierParentId": 380967,
+                      "courseTitle": "Introduction to Film",
+                      "courseNumber": "34",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2712,
+                      "prefixDescription": "English",
+                      "departmentParentId": 5009,
+                      "department": "English",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    },
+                    {
+                      "id": "2184dc96-c3c3-4f7c-bcd7-b9517e5638e0",
+                      "publishedCourseIdentifierYearTermId": 191,
+                      "courseIdentifierParentId": 380969,
+                      "courseTitle": "Introduction to Film",
+                      "courseNumber": "34",
+                      "prefix": "HUMAN",
+                      "prefixParentId": 6434,
+                      "prefixDescription": "Humanities",
+                      "departmentParentId": 7394,
+                      "department": "Humanities",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 380972,
+                  "courseTitle": "Introduction to Film",
+                  "courseNumber": "34",
+                  "prefix": "THART",
+                  "prefixParentId": 2405,
+                  "prefixDescription": "Theater Arts",
+                  "departmentParentId": 12786,
+                  "department": "Theater Arts",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 191,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "9d11fb79-9c2a-489f-9555-2dca396e9597",
+                      "publishedCourseIdentifierYearTermId": 179,
+                      "courseIdentifierParentId": 380969,
+                      "courseTitle": "Introduction to Film",
+                      "courseNumber": "34",
+                      "prefix": "HUMAN",
+                      "prefixParentId": 6434,
+                      "prefixDescription": "Humanities",
+                      "departmentParentId": 7394,
+                      "department": "Humanities",
+                      "begin": "F1995",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    },
+                    {
+                      "id": "818d5cf0-00ab-43bf-b2e2-7e9afdddfe0b",
+                      "publishedCourseIdentifierYearTermId": 191,
+                      "courseIdentifierParentId": 380972,
+                      "courseTitle": "Introduction to Film",
+                      "courseNumber": "34",
+                      "prefix": "THART",
+                      "prefixParentId": 2405,
+                      "prefixDescription": "Theater Arts",
+                      "departmentParentId": 12786,
+                      "department": "Theater Arts",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 380967,
+                  "courseTitle": "Introduction to Film",
+                  "courseNumber": "34",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2712,
+                  "prefixDescription": "English",
+                  "departmentParentId": 5009,
+                  "department": "English",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 191,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "db2dd173-b215-4f14-9da5-d4a7ef12604c",
+                      "publishedCourseIdentifierYearTermId": 179,
+                      "courseIdentifierParentId": 380967,
+                      "courseTitle": "Introduction to Film",
+                      "courseNumber": "34",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2712,
+                      "prefixDescription": "English",
+                      "departmentParentId": 5009,
+                      "department": "English",
+                      "begin": "F1995",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    },
+                    {
+                      "id": "7baa94bb-7a7f-4a4b-b0d8-b63b5f0c12ff",
+                      "publishedCourseIdentifierYearTermId": 191,
+                      "courseIdentifierParentId": 380972,
+                      "courseTitle": "Introduction to Film",
+                      "courseNumber": "34",
+                      "prefix": "THART",
+                      "prefixParentId": 2405,
+                      "prefixDescription": "Theater Arts",
+                      "departmentParentId": 12786,
+                      "department": "Theater Arts",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 380969,
+                  "courseTitle": "Introduction to Film",
+                  "courseNumber": "34",
+                  "prefix": "HUMAN",
+                  "prefixParentId": 6434,
+                  "prefixDescription": "Humanities",
+                  "departmentParentId": 7394,
+                  "department": "Humanities",
+                  "begin": "F1998",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 191,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "LOWER DIVISION MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "53c096aa-6b9c-4ddb-79ae-08db8f7b48fa",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [
+                  {
+                    "position": 0,
+                    "content": "Minimum grade required: C or better"
+                  }
+                ],
+                "courses": [
+                  {
+                    "templateCellId": "976b565f-b66d-4984-ae64-152fd4a4d008",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 238477,
+                        "courseTitle": "Introduction to Screenwriting",
+                        "courseNumber": "207",
+                        "prefix": "FEA",
+                        "prefixParentId": 9500,
+                        "prefixDescription": "Film and Electronic Arts",
+                        "departmentParentId": 5617,
+                        "department": "Film and Electronic Arts",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [
+                  {
+                    "position": 0,
+                    "content": "Minimum grade required: C or better"
+                  }
+                ],
+                "courses": [
+                  {
+                    "templateCellId": "712a6652-de56-4709-b8c2-90110749d0eb",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 372415,
+                        "courseTitle": "Intro to Film Production",
+                        "courseNumber": "208",
+                        "prefix": "FEA",
+                        "prefixParentId": 9500,
+                        "prefixDescription": "Film and Electronic Arts",
+                        "departmentParentId": 5617,
+                        "department": "Film and Electronic Arts",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [
+                  {
+                    "position": 0,
+                    "content": "Minimum grade required: C or better"
+                  }
+                ],
+                "courses": [
+                  {
+                    "templateCellId": "019cbda0-0fcf-48c2-840b-616ccd6308de",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 253070,
+                        "courseTitle": "Media Aesthetics",
+                        "courseNumber": "299",
+                        "prefix": "FEA",
+                        "prefixParentId": 9500,
+                        "prefixDescription": "Film and Electronic Arts",
+                        "departmentParentId": 5617,
+                        "department": "Film and Electronic Arts",
+                        "begin": "F2007",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [
+                  {
+                    "position": 0,
+                    "content": "Minimum grade required: C or better"
+                  }
+                ],
+                "courses": [
+                  {
+                    "templateCellId": "35ff1ab9-cdcc-49d3-b084-a8f6c595fd89",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 220977,
+                        "courseTitle": "History of Broadcasting",
+                        "courseNumber": "206",
+                        "prefix": "FEA",
+                        "prefixParentId": 9500,
+                        "prefixDescription": "Film and Electronic Arts",
+                        "departmentParentId": 5617,
+                        "department": "Film and Electronic Arts",
+                        "begin": "F2009",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [
+                  {
+                    "position": 0,
+                    "content": "Minimum grade required: C or better"
+                  }
+                ],
+                "courses": [
+                  {
+                    "templateCellId": "391410cb-9d31-4eeb-bae0-78e6db854df5",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 347006,
+                        "courseTitle": "Film History",
+                        "courseNumber": "205",
+                        "prefix": "FEA",
+                        "prefixParentId": 9500,
+                        "prefixDescription": "Film and Electronic Arts",
+                        "departmentParentId": 5617,
+                        "department": "Film and Electronic Arts",
+                        "begin": "F2008",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1464 @@
+{
+  "major": "Physical Education B.A. Fitness Director Option",
+  "from": {
+    "id": 62,
+    "code": "MTSAC   ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Mount San Antonio College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 50,
+    "code": "CSUDH   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Dominguez Hills",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "caaee350-1b3e-4340-4f2b-08dbf1469773",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Course must be taken for at least 1 unit"
+                    }
+                  ],
+                  "courseIdentifierParentId": 10602,
+                  "courseTitle": "Cardiovascular Conditioning",
+                  "courseNumber": "4",
+                  "prefix": "KINF",
+                  "prefixParentId": 10416,
+                  "prefixDescription": "Kinesiology: Fitness",
+                  "departmentParentId": 8207,
+                  "department": "Kinesiology: Fitness (KINF)",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "805a797c-0f9d-49d2-4f2c-08dbf1469773",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "ea40a864-e4a1-47e1-a4c7-6d5dc5a0c319",
+              "sendingArticulationId": "50246c22-3bee-47ec-b9dc-5047f91ce672",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "abf1240c-9b63-4d5e-8c83-ccc6ab5c76f5",
+              "sendingArticulationId": "50246c22-3bee-47ec-b9dc-5047f91ce672",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Course must be taken for at least 1 unit"
+                    }
+                  ],
+                  "courseIdentifierParentId": 16645,
+                  "courseTitle": "Weight Training - Intermediate",
+                  "courseNumber": "10B",
+                  "prefix": "KINF",
+                  "prefixParentId": 10416,
+                  "prefixDescription": "Kinesiology: Fitness",
+                  "departmentParentId": 8207,
+                  "department": "Kinesiology: Fitness (KINF)",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 2,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 16643,
+                  "courseTitle": "Weight Training - Beginning",
+                  "courseNumber": "10A",
+                  "prefix": "KINF",
+                  "prefixParentId": 10416,
+                  "prefixDescription": "Kinesiology: Fitness",
+                  "departmentParentId": 8207,
+                  "department": "Kinesiology: Fitness (KINF)",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 2,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 16645,
+                  "courseTitle": "Weight Training - Intermediate",
+                  "courseNumber": "10B",
+                  "prefix": "KINF",
+                  "prefixParentId": 10416,
+                  "prefixDescription": "Kinesiology: Fitness",
+                  "departmentParentId": 8207,
+                  "department": "Kinesiology: Fitness (KINF)",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 2,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Course must be taken for at least 1 unit"
+                    }
+                  ],
+                  "courseIdentifierParentId": 16643,
+                  "courseTitle": "Weight Training - Beginning",
+                  "courseNumber": "10A",
+                  "prefix": "KINF",
+                  "prefixParentId": 10416,
+                  "prefixDescription": "Kinesiology: Fitness",
+                  "departmentParentId": 8207,
+                  "department": "Kinesiology: Fitness (KINF)",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 2,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "956230a8-b3a8-4e4b-4f2d-08dbf1469773",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "7e17bcbe-113d-4f05-8c01-b8a5d918e9ff",
+              "sendingArticulationId": "fc3f2fd0-49c2-4830-983e-e177fdbfe7cc",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "fa081923-fbf4-4184-b8cf-3e094a6f287f",
+              "sendingArticulationId": "fc3f2fd0-49c2-4830-983e-e177fdbfe7cc",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 11936,
+                  "courseTitle": "Swimming - Beginning",
+                  "courseNumber": "8A",
+                  "prefix": "KINA",
+                  "prefixParentId": 2845,
+                  "prefixDescription": "Kinesiology: Aquatics",
+                  "departmentParentId": 8205,
+                  "department": "Kinesiology: Aquatics (KINA)",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 12771,
+                  "courseTitle": "Swimming - Intermediate",
+                  "courseNumber": "8B",
+                  "prefix": "KINA",
+                  "prefixParentId": 2845,
+                  "prefixDescription": "Kinesiology: Aquatics",
+                  "departmentParentId": 8205,
+                  "department": "Kinesiology: Aquatics (KINA)",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Course must be taken for at least 1 unit"
+                    }
+                  ],
+                  "courseIdentifierParentId": 10692,
+                  "courseTitle": "Swimming - Advanced",
+                  "courseNumber": "8C",
+                  "prefix": "KINA",
+                  "prefixParentId": 2845,
+                  "prefixDescription": "Kinesiology: Aquatics",
+                  "departmentParentId": 8205,
+                  "department": "Kinesiology: Aquatics (KINA)",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "0ee1c316-ca31-48f4-4f2e-08dbf1469773",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Course must be taken for at least 1 unit"
+                    }
+                  ],
+                  "courseIdentifierParentId": 11932,
+                  "courseTitle": "Aquatic Fitness",
+                  "courseNumber": "20",
+                  "prefix": "KINA",
+                  "prefixParentId": 2845,
+                  "prefixDescription": "Kinesiology: Aquatics",
+                  "departmentParentId": 8205,
+                  "department": "Kinesiology: Aquatics (KINA)",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "cc9d63e9-bb8d-4f4f-4f2f-08dbf1469773",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 210970,
+                  "courseTitle": "Introduction to Kinesiology",
+                  "courseNumber": "17",
+                  "prefix": "KIN",
+                  "prefixParentId": 12027,
+                  "prefixDescription": "Kinesiology: Theory (KIN)",
+                  "departmentParentId": 8210,
+                  "department": "Kinesiology: Theory (KIN)",
+                  "begin": "Su2015",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "cfaa9044-d164-44e1-7c87-08dba897c33b",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "f74b0c19-b66a-499c-83d0-8ff1fd56bfce",
+              "sendingArticulationId": "cc848b87-f470-4a81-aad6-7ce46985d65d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "174fa160-c9de-4335-bc79-80c6ca8c4b8a",
+              "sendingArticulationId": "cc848b87-f470-4a81-aad6-7ce46985d65d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "096947ad-3486-4c3d-9735-188c05a62cbc",
+              "sendingArticulationId": "cc848b87-f470-4a81-aad6-7ce46985d65d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            },
+            {
+              "id": "ef871f01-7342-4467-8914-2a76da093df1",
+              "sendingArticulationId": "cc848b87-f470-4a81-aad6-7ce46985d65d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 3,
+              "sendingCourseGroupEndPosition": 4
+            },
+            {
+              "id": "d1ad60e5-3734-47e7-89cf-c7f6b1b23779",
+              "sendingArticulationId": "cc848b87-f470-4a81-aad6-7ce46985d65d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 4,
+              "sendingCourseGroupEndPosition": 5
+            },
+            {
+              "id": "b1596621-e948-47d6-84a0-07ead641244e",
+              "sendingArticulationId": "cc848b87-f470-4a81-aad6-7ce46985d65d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 5,
+              "sendingCourseGroupEndPosition": 6
+            },
+            {
+              "id": "e691e8a0-80c1-4795-a98a-89a33afa0131",
+              "sendingArticulationId": "cc848b87-f470-4a81-aad6-7ce46985d65d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 6,
+              "sendingCourseGroupEndPosition": 7
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Course must be taken for at least 1 unit"
+                    }
+                  ],
+                  "courseIdentifierParentId": 12066,
+                  "courseTitle": "Jiujitsu - Intermediate",
+                  "courseNumber": "31B",
+                  "prefix": "KINI",
+                  "prefixParentId": 12108,
+                  "prefixDescription": "Kinesiology: Individual",
+                  "departmentParentId": 8208,
+                  "department": "Kinesiology: Individual (KINI)",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 12731,
+                  "courseTitle": "Mixed Martial Arts",
+                  "courseNumber": "25",
+                  "prefix": "KINI",
+                  "prefixParentId": 12108,
+                  "prefixDescription": "Kinesiology: Individual",
+                  "departmentParentId": 8208,
+                  "department": "Kinesiology: Individual (KINI)",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 14342,
+                  "courseTitle": "Filipino Martial Arts - Intermediate",
+                  "courseNumber": "30B",
+                  "prefix": "KINI",
+                  "prefixParentId": 12108,
+                  "prefixDescription": "Kinesiology: Individual",
+                  "departmentParentId": 8208,
+                  "department": "Kinesiology: Individual (KINI)",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 10727,
+                  "courseTitle": "Jeet Kune Do - Beginning",
+                  "courseNumber": "27A",
+                  "prefix": "KINI",
+                  "prefixParentId": 12108,
+                  "prefixDescription": "Kinesiology: Individual",
+                  "departmentParentId": 8208,
+                  "department": "Kinesiology: Individual (KINI)",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 12735,
+                  "courseTitle": "Filipino Martial Arts - Beginning",
+                  "courseNumber": "30A",
+                  "prefix": "KINI",
+                  "prefixParentId": 12108,
+                  "prefixDescription": "Kinesiology: Individual",
+                  "departmentParentId": 8208,
+                  "department": "Kinesiology: Individual (KINI)",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 12062,
+                  "courseTitle": "Jeet Kune Do - Intermediate",
+                  "courseNumber": "27B",
+                  "prefix": "KINI",
+                  "prefixParentId": 12108,
+                  "prefixDescription": "Kinesiology: Individual",
+                  "departmentParentId": 8208,
+                  "department": "Kinesiology: Individual (KINI)",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 10677,
+                  "courseTitle": "Jiujitsu-Beginning",
+                  "courseNumber": "31A",
+                  "prefix": "KINI",
+                  "prefixParentId": 12108,
+                  "prefixDescription": "Kinesiology: Individual",
+                  "departmentParentId": 8208,
+                  "department": "Kinesiology: Individual (KINI)",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 14379,
+                  "courseTitle": "Self Defense and Martial Arts",
+                  "courseNumber": "29",
+                  "prefix": "KINI",
+                  "prefixParentId": 12108,
+                  "prefixDescription": "Kinesiology: Individual",
+                  "departmentParentId": 8208,
+                  "department": "Kinesiology: Individual (KINI)",
+                  "begin": "Su2018",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "ada9f99b-6603-41d0-bd29-0074e5650cbc",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "84d5b5b4-b72b-471e-b6bd-a49ea49545cd",
+              "sendingArticulationId": "fb48a90b-4a97-48bf-a387-ee13a7a6c845",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "e238b961-71ad-4ecc-9608-6b35e626fdc0",
+              "sendingArticulationId": "fb48a90b-4a97-48bf-a387-ee13a7a6c845",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Course must be taken for at least 1 unit"
+                    }
+                  ],
+                  "courseIdentifierParentId": 11037,
+                  "courseTitle": "Aerobics - Intermediate ",
+                  "courseNumber": "38B",
+                  "prefix": "KINF",
+                  "prefixParentId": 10416,
+                  "prefixDescription": "Kinesiology: Fitness",
+                  "departmentParentId": 8207,
+                  "department": "Kinesiology: Fitness (KINF)",
+                  "begin": "Su2019",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Course must be taken for at least 1 unit"
+                    }
+                  ],
+                  "courseIdentifierParentId": 16261,
+                  "courseTitle": "Aerobics - Beginning",
+                  "courseNumber": "38A",
+                  "prefix": "KINF",
+                  "prefixParentId": 10416,
+                  "prefixDescription": "Kinesiology: Fitness",
+                  "departmentParentId": 8207,
+                  "department": "Kinesiology: Fitness (KINF)",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 16261,
+                  "courseTitle": "Aerobics - Beginning",
+                  "courseNumber": "38A",
+                  "prefix": "KINF",
+                  "prefixParentId": 10416,
+                  "prefixDescription": "Kinesiology: Fitness",
+                  "departmentParentId": 8207,
+                  "department": "Kinesiology: Fitness (KINF)",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 11037,
+                  "courseTitle": "Aerobics - Intermediate ",
+                  "courseNumber": "38B",
+                  "prefix": "KINF",
+                  "prefixParentId": 10416,
+                  "prefixDescription": "Kinesiology: Fitness",
+                  "departmentParentId": 8207,
+                  "department": "Kinesiology: Fitness (KINF)",
+                  "begin": "Su2019",
+                  "end": "",
+                  "minUnits": 0.5,
+                  "maxUnits": 1,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "e322d68d-7b40-4cad-af98-51ba18fa186a",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 232600,
+                  "courseTitle": "Fitness for Living",
+                  "courseNumber": "34",
+                  "prefix": "KIN",
+                  "prefixParentId": 12027,
+                  "prefixDescription": "Kinesiology: Theory (KIN)",
+                  "departmentParentId": 8210,
+                  "department": "Kinesiology: Theory (KIN)",
+                  "begin": "F2012",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "3407d985-9f64-4b20-8345-08dba897c33b",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [
+            "Acceptable substitute",
+            "Articulates as a sequence only"
+          ],
+          "courseGroupConjunctions": [
+            {
+              "id": "138e7d8d-f515-471d-9063-f0b169bd9db1",
+              "sendingArticulationId": "a104aac9-955f-45d0-a2b6-6ecd2a3cccc0",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 307845,
+                  "courseTitle": "Human Physiology",
+                  "courseNumber": "36",
+                  "prefix": "ANAT",
+                  "prefixParentId": 12214,
+                  "prefixDescription": "Anatomy and Physiology",
+                  "departmentParentId": 643,
+                  "department": "Anatomy and Physiology (ANAT)",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 1,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 308041,
+                  "courseTitle": "Human Anatomy",
+                  "courseNumber": "35",
+                  "prefix": "ANAT",
+                  "prefixParentId": 12214,
+                  "prefixDescription": "Anatomy and Physiology",
+                  "departmentParentId": 643,
+                  "department": "Anatomy and Physiology (ANAT)",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 254988,
+                  "courseTitle": "Introductory Human Anatomy",
+                  "courseNumber": "10A",
+                  "prefix": "ANAT",
+                  "prefixParentId": 12214,
+                  "prefixDescription": "Anatomy and Physiology",
+                  "departmentParentId": 643,
+                  "department": "Anatomy and Physiology (ANAT)",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 254923,
+                  "courseTitle": "Introductory Human Physiology",
+                  "courseNumber": "10B",
+                  "prefix": "ANAT",
+                  "prefixParentId": 12214,
+                  "prefixDescription": "Anatomy and Physiology",
+                  "departmentParentId": 643,
+                  "department": "Anatomy and Physiology (ANAT)",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "a60ce32c-0516-4dbe-59e4-08dbf14722d9",
+          "selectionType": "Select"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "caaee350-1b3e-4340-4f2b-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 27969,
+                        "courseTitle": "Physical Conditioning",
+                        "courseNumber": "142",
+                        "prefix": "KIN",
+                        "prefixParentId": 8419,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8068,
+                        "department": "Kinesiology",
+                        "begin": "Su2009",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "805a797c-0f9d-49d2-4f2c-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 25979,
+                        "courseTitle": "Weight Training",
+                        "courseNumber": "170",
+                        "prefix": "KIN",
+                        "prefixParentId": 8419,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8068,
+                        "department": "Kinesiology",
+                        "begin": "Su2009",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "40b8f206-c00d-4a4a-59e5-08dbf14722d9",
+          "selectionType": "Select"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "956230a8-b3a8-4e4b-4f2d-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 25986,
+                        "courseTitle": "Swimming/All Levels",
+                        "courseNumber": "156",
+                        "prefix": "KIN",
+                        "prefixParentId": 8419,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8068,
+                        "department": "Kinesiology",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0ee1c316-ca31-48f4-4f2e-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 25620,
+                        "courseTitle": "Swimming/Conditioning",
+                        "courseNumber": "158",
+                        "prefix": "KIN",
+                        "prefixParentId": 8419,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8068,
+                        "department": "Kinesiology",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "LOWER DIVISION CORE REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "49f7f0fd-c2ca-4121-11d6-08dba898cc31",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "3407d985-9f64-4b20-8345-08dba897c33b",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "f8b02974-f34a-48c1-8fb5-866e7759d488",
+                        "position": 0,
+                        "courseIdentifierParentId": 160835,
+                        "courseTitle": "Elements of Human Anatomy and Physiology",
+                        "courseNumber": "250",
+                        "prefix": "BIO",
+                        "prefixParentId": 4868,
+                        "prefixDescription": "Biology",
+                        "departmentParentId": 1661,
+                        "department": "Biology",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      },
+                      {
+                        "id": "b4b71fc6-0ea4-4344-a522-ce73de1cc8c3",
+                        "position": 1,
+                        "courseIdentifierParentId": 310785,
+                        "courseTitle": "Elements of Human Anatomy and Physiology Laboratory",
+                        "courseNumber": "251",
+                        "prefix": "BIO",
+                        "prefixParentId": 4868,
+                        "prefixDescription": "Biology",
+                        "departmentParentId": 1661,
+                        "department": "Biology",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "cc9d63e9-bb8d-4f4f-4f2f-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 223136,
+                        "courseTitle": "Introduction to Physical Education",
+                        "courseNumber": "223",
+                        "prefix": "KIN",
+                        "prefixParentId": 8419,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8068,
+                        "department": "Kinesiology",
+                        "begin": "Su2009",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "LOWER DIVISION CONCENTRATION REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "930c150f-2189-41ab-59e6-08dbf14722d9",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "cfaa9044-d164-44e1-7c87-08dba897c33b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 315053,
+                        "courseTitle": "Martial Arts",
+                        "courseNumber": "141",
+                        "prefix": "KIN",
+                        "prefixParentId": 8419,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8068,
+                        "department": "Kinesiology",
+                        "begin": "Su2009",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ada9f99b-6603-41d0-bd29-0074e5650cbc",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 47567,
+                        "courseTitle": "Aerobics",
+                        "courseNumber": "111",
+                        "prefix": "KIN",
+                        "prefixParentId": 8419,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8068,
+                        "department": "Kinesiology",
+                        "begin": "Su2009",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e322d68d-7b40-4cad-af98-51ba18fa186a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 155857,
+                        "courseTitle": "Lifetime Fitness",
+                        "courseNumber": "235",
+                        "prefix": "KIN",
+                        "prefixParentId": 8419,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8068,
+                        "department": "Kinesiology",
+                        "begin": "Su2009",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

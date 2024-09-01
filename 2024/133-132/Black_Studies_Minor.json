@@ -1,0 +1,303 @@
+{
+  "major": "Black Studies Minor",
+  "from": {
+    "id": 133,
+    "code": "MONTEREY",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Monterey Peninsula College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 132,
+    "code": "UCSC    ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Santa Cruz",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "1c69ac53-a56a-4211-b8cf-2bfda2739171",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 216562,
+                  "courseTitle": "Introduction to Ethnic Studies",
+                  "courseNumber": "10",
+                  "prefix": "ETNC",
+                  "prefixParentId": 4017,
+                  "prefixDescription": "Ethnic Studies",
+                  "departmentParentId": 5424,
+                  "department": "Ethnic Studies",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 291,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "11f4a986-86f3-4e56-98e9-33f2f7b35351",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "836c76d5-de7a-45b0-ad22-08dc3bd5bba2",
+              "sendingArticulationId": "dcd65ac9-ec76-4cf7-2a1b-08dc3c691e7f",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "890099d7-6cb4-44d0-44aa-08dc3c67640a",
+                      "publishedCourseIdentifierYearTermId": 291,
+                      "courseIdentifierParentId": 224476,
+                      "courseTitle": "African Americans in U.S. History to 1877",
+                      "courseNumber": "24",
+                      "prefix": "HIST",
+                      "prefixParentId": 3033,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7024,
+                      "department": "History",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 224477,
+                  "courseTitle": "African Americans in U.S. History to 1877",
+                  "courseNumber": "24",
+                  "prefix": "ETNC",
+                  "prefixParentId": 4017,
+                  "prefixDescription": "Ethnic Studies",
+                  "departmentParentId": 5424,
+                  "department": "Ethnic Studies",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 291,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "f446704b-05db-4e27-44ab-08dc3c67640a",
+                      "publishedCourseIdentifierYearTermId": 291,
+                      "courseIdentifierParentId": 260910,
+                      "courseTitle": "African Americans in U.S. History 1865 to Present",
+                      "courseNumber": "25",
+                      "prefix": "HIST",
+                      "prefixParentId": 3033,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7024,
+                      "department": "History",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 260911,
+                  "courseTitle": "African Americans in U.S. History 1865 to Present",
+                  "courseNumber": "25",
+                  "prefix": "ETNC",
+                  "prefixParentId": 4017,
+                  "prefixDescription": "Ethnic Studies",
+                  "departmentParentId": 5424,
+                  "department": "Ethnic Studies",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 291,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "PREPARATION FOR THE MINOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "NFromArea",
+          "amount": 1,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 1,
+          "areaType": "None",
+          "id": "2d5edb07-2b70-4c5d-dfc5-08db99b6efac",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "1c69ac53-a56a-4211-b8cf-2bfda2739171",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 287924,
+                        "courseTitle": "Critical Race and Ethnic Studies: An Introduction",
+                        "courseNumber": "10",
+                        "prefix": "CRES",
+                        "prefixParentId": 15662,
+                        "prefixDescription": "Critical Race and Ethnic Studies",
+                        "departmentParentId": 3620,
+                        "department": "Critical Race and Ethnic Studies",
+                        "begin": "F2014",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "11f4a986-86f3-4e56-98e9-33f2f7b35351",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 377573,
+                        "courseTitle": "Approaches to Black Studies",
+                        "courseNumber": "68",
+                        "prefix": "CRES",
+                        "prefixParentId": 15662,
+                        "prefixDescription": "Critical Race and Ethnic Studies",
+                        "departmentParentId": 3620,
+                        "department": "Critical Race and Ethnic Studies",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

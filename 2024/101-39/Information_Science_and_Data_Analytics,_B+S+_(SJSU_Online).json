@@ -1,0 +1,620 @@
+{
+  "major": "Information Science and Data Analytics, B.S. (SJSU Online)",
+  "from": {
+    "id": 101,
+    "code": "MESA    ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "San Diego Mesa College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 39,
+    "code": "SJSU    ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "San Jose State University",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "c6bd9630-1f99-4589-0c2b-08dc3c638a97",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "b1ad9307-4f89-4662-9594-4200ab3c5987",
+              "sendingArticulationId": "e5f8aa31-3b84-46bb-81bd-525dbb711c6b",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 166477,
+                  "courseTitle": "Critical Thinking and Intermediate Composition",
+                  "courseNumber": "205",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2724,
+                  "prefixDescription": "English",
+                  "departmentParentId": 5016,
+                  "department": "English",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 209382,
+                  "courseTitle": "Critical Thinking and Writing in Philosophy",
+                  "courseNumber": "205",
+                  "prefix": "PHIL",
+                  "prefixParentId": 5474,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10165,
+                  "department": "Philosophy",
+                  "begin": "F1996",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "0d0ad52a-a0ea-4b36-8239-92e9dc6412c3",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "5b6af0bc-535a-4fbf-fe26-08dc25cffeac",
+              "sendingArticulationId": "3b8e2f63-ad94-4fd5-67af-08dbfdcdd2c1",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 116501,
+                  "courseTitle": "Javascript Fundamentals for Web Development",
+                  "courseNumber": "164",
+                  "prefix": "WEBD",
+                  "prefixParentId": 15008,
+                  "prefixDescription": "Web Development",
+                  "departmentParentId": 13051,
+                  "department": "Web Development",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 275,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Complete entire sequence at same institution prior to transfer"
+                    }
+                  ],
+                  "courseIdentifierParentId": 223828,
+                  "courseTitle": "Intermediate HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) for Web Design",
+                  "courseNumber": "168",
+                  "prefix": "WEBD",
+                  "prefixParentId": 15008,
+                  "prefixDescription": "Web Development",
+                  "departmentParentId": 13051,
+                  "department": "Web Development",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 263,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 130150,
+                  "courseTitle": "Beginning Web Development: HyperText Markup Language (HTML) and Cascading Style Sheets (CSS)",
+                  "courseNumber": "152",
+                  "prefix": "WEBD",
+                  "prefixParentId": 15008,
+                  "prefixDescription": "Web Development",
+                  "departmentParentId": 13051,
+                  "department": "Web Development",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 275,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [
+                    {
+                      "position": 0,
+                      "content": "Complete entire sequence at same institution prior to transfer"
+                    }
+                  ],
+                  "courseIdentifierParentId": 116501,
+                  "courseTitle": "Javascript Fundamentals for Web Development",
+                  "courseNumber": "164",
+                  "prefix": "WEBD",
+                  "prefixParentId": 15008,
+                  "prefixDescription": "Web Development",
+                  "departmentParentId": 13051,
+                  "department": "Web Development",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 275,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "6a14e16c-b05e-41c8-81f5-c7c51124834d",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "a12f2ec9-bc45-42f7-d6d0-08dbfdcad00e",
+              "sendingArticulationId": "219dca6a-e862-48b1-67ad-08dbfdcdd2c1",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 227826,
+                  "courseTitle": "Using Web Databases",
+                  "courseNumber": "167",
+                  "prefix": "WEBD",
+                  "prefixParentId": 15008,
+                  "prefixDescription": "Web Development",
+                  "departmentParentId": 13051,
+                  "department": "Web Development",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 275,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 266213,
+                  "courseTitle": "E-Commerce Website Creation",
+                  "courseNumber": "173",
+                  "prefix": "WEBD",
+                  "prefixParentId": 15008,
+                  "prefixDescription": "Web Development",
+                  "departmentParentId": 13051,
+                  "department": "Web Development",
+                  "begin": "F2012",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 247,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "2fb69731-66c0-4f6e-bd3a-d89e4a4dae2e",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 367914,
+                  "courseTitle": "Introduction to Python Programming",
+                  "courseNumber": "179",
+                  "prefix": "CISC",
+                  "prefixParentId": 11548,
+                  "prefixDescription": "Computer and Information Sciences",
+                  "departmentParentId": 2980,
+                  "department": "Computer and Information Sciences",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 291,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "SECOND COURSE IN ENGLISH COMPOSITION": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "NFromArea",
+          "amount": 1,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 1,
+          "areaType": "None",
+          "id": "449a151f-aec0-4b6c-0833-08dc2665bef6",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c4654e41-a093-43c1-7a1a-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 170403,
+                        "courseTitle": "Argument and Analysis",
+                        "courseNumber": "1B",
+                        "prefix": "ENGL",
+                        "prefixParentId": 2661,
+                        "prefixDescription": "English",
+                        "departmentParentId": 5081,
+                        "department": "English and Comparative Literature",
+                        "begin": "F2015",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c6bd9630-1f99-4589-0c2b-08dc3c638a97",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 233088,
+                        "courseTitle": "Critical Thinking and Writing",
+                        "courseNumber": "2",
+                        "prefix": "ENGL",
+                        "prefixParentId": 2661,
+                        "prefixDescription": "English",
+                        "departmentParentId": 5081,
+                        "department": "English and Comparative Literature",
+                        "begin": "F2015",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "PREPARATION FOR THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "d4d2821b-785b-4ed7-f6db-08dc661065ab",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [
+              "Minimum grade required: C- or better"
+            ],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "0d0ad52a-a0ea-4b36-8239-92e9dc6412c3",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 381582,
+                        "courseTitle": "Web Development",
+                        "courseNumber": "20C",
+                        "prefix": "ISDA",
+                        "prefixParentId": 17014,
+                        "prefixDescription": "Information Science and Data Analytics",
+                        "departmentParentId": 14119,
+                        "department": "Information Science and Data Analytics",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6a14e16c-b05e-41c8-81f5-c7c51124834d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 381580,
+                        "courseTitle": "Query Languages",
+                        "courseNumber": "20A",
+                        "prefix": "ISDA",
+                        "prefixParentId": 17014,
+                        "prefixDescription": "Information Science and Data Analytics",
+                        "departmentParentId": 14119,
+                        "department": "Information Science and Data Analytics",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ceeaad1b-0044-47f8-aff6-94acd8b244d6",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 381583,
+                        "courseTitle": "Computer Operating Systems",
+                        "courseNumber": "20D",
+                        "prefix": "ISDA",
+                        "prefixParentId": 17014,
+                        "prefixDescription": "Information Science and Data Analytics",
+                        "departmentParentId": 14119,
+                        "department": "Information Science and Data Analytics",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2fb69731-66c0-4f6e-bd3a-d89e4a4dae2e",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 381581,
+                        "courseTitle": "Python Programming",
+                        "courseNumber": "20B",
+                        "prefix": "ISDA",
+                        "prefixParentId": 17014,
+                        "prefixDescription": "Information Science and Data Analytics",
+                        "departmentParentId": 14119,
+                        "department": "Information Science and Data Analytics",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 2,
+                        "maxUnits": 2,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,848 @@
+{
+  "major": "Psychology, B.A.",
+  "from": {
+    "id": 124,
+    "code": "IRVINE  ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Irvine Valley College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2019
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 75,
+    "code": "CPP     ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "California Polytechnic University, Pomona",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2018
+      },
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "c6e8025f-25c2-4f15-966c-08db8f7b9dd1",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "d079cee9-0218-4902-927e-b367cb0e76ab",
+              "sendingArticulationId": "6abb5535-b9ab-4032-ba17-62f921a44976",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "2f829d2b-6561-4868-903c-f4e3fbbd9628",
+              "sendingArticulationId": "6abb5535-b9ab-4032-ba17-62f921a44976",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "18fec81c-0697-484b-aa02-235e54f56660",
+              "sendingArticulationId": "6abb5535-b9ab-4032-ba17-62f921a44976",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            },
+            {
+              "id": "5f5b6b62-5f67-475a-8a6b-3c588ffa11bf",
+              "sendingArticulationId": "6abb5535-b9ab-4032-ba17-62f921a44976",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 3,
+              "sendingCourseGroupEndPosition": 4
+            },
+            {
+              "id": "43828f51-9355-4700-9699-e026db9ba066",
+              "sendingArticulationId": "6abb5535-b9ab-4032-ba17-62f921a44976",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 4,
+              "sendingCourseGroupEndPosition": 5
+            },
+            {
+              "id": "23393f72-7598-4f09-bd58-0f1b4652e87b",
+              "sendingArticulationId": "6abb5535-b9ab-4032-ba17-62f921a44976",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 5,
+              "sendingCourseGroupEndPosition": 6
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 180343,
+                  "courseTitle": "Statistical Methods in the Behavioral Sciences",
+                  "courseNumber": "10",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4729,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11254,
+                  "department": "Psychology",
+                  "begin": "F2002",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "3a8df536-ff4d-465c-8e92-f895bffe03a2",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 241338,
+                      "courseTitle": "Statistics for Business and Economics",
+                      "courseNumber": "10",
+                      "prefix": "ECON",
+                      "prefixParentId": 1302,
+                      "prefixDescription": "Economics",
+                      "departmentParentId": 4321,
+                      "department": "Economics",
+                      "begin": "F2005",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 241339,
+                  "courseTitle": "Statistics for Business and Economics",
+                  "courseNumber": "10",
+                  "prefix": "MGT",
+                  "prefixParentId": 1365,
+                  "prefixDescription": "Management",
+                  "departmentParentId": 8764,
+                  "department": "Management",
+                  "begin": "F2005",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 216479,
+                  "courseTitle": "Introduction to Statistics",
+                  "courseNumber": "10",
+                  "prefix": "MATH",
+                  "prefixParentId": 10036,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9050,
+                  "department": "Mathematics",
+                  "begin": "F2018",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "19a2c783-de23-4cf5-ad34-f47a155fe723",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 241339,
+                      "courseTitle": "Statistics for Business and Economics",
+                      "courseNumber": "10",
+                      "prefix": "MGT",
+                      "prefixParentId": 1365,
+                      "prefixDescription": "Management",
+                      "departmentParentId": 8764,
+                      "department": "Management",
+                      "begin": "F2005",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 241338,
+                  "courseTitle": "Statistics for Business and Economics",
+                  "courseNumber": "10",
+                  "prefix": "ECON",
+                  "prefixParentId": 1302,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4321,
+                  "department": "Economics",
+                  "begin": "F2005",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 261785,
+                  "courseTitle": "Statistical Methods in the Behavioral Sciences Honors",
+                  "courseNumber": "10H",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4729,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11254,
+                  "department": "Psychology",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "0848810d-c74b-4534-88c1-e05e99e58879",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 264064,
+                      "courseTitle": "Statistics for Business and Economics Honors",
+                      "courseNumber": "10H",
+                      "prefix": "MGT",
+                      "prefixParentId": 1365,
+                      "prefixDescription": "Management",
+                      "departmentParentId": 8764,
+                      "department": "Management",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 264063,
+                  "courseTitle": "Statistics for Business and Economics Honors",
+                  "courseNumber": "10H",
+                  "prefix": "ECON",
+                  "prefixParentId": 1302,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4321,
+                  "department": "Economics",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "09178018-e1e1-4320-b243-c3d964ae2483",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 264063,
+                      "courseTitle": "Statistics for Business and Economics Honors",
+                      "courseNumber": "10H",
+                      "prefix": "ECON",
+                      "prefixParentId": 1302,
+                      "prefixDescription": "Economics",
+                      "departmentParentId": 4321,
+                      "department": "Economics",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 264064,
+                  "courseTitle": "Statistics for Business and Economics Honors",
+                  "courseNumber": "10H",
+                  "prefix": "MGT",
+                  "prefixParentId": 1365,
+                  "prefixDescription": "Management",
+                  "departmentParentId": 8764,
+                  "department": "Management",
+                  "begin": "F2015",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "75aaa5c6-e7a9-4d74-a92f-252e1736d77a",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "df2bbc26-e80c-4f47-b178-739ed39c3e11",
+              "sendingArticulationId": "d7e44508-307a-4952-851b-08f1c7123113",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 266151,
+                  "courseTitle": "Physiological Psychology Honors",
+                  "courseNumber": "3H",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4729,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11254,
+                  "department": "Psychology",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 340063,
+                  "courseTitle": "Physiological Psychology",
+                  "courseNumber": "3",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4729,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11254,
+                  "department": "Psychology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "3284d81c-f879-4f42-994b-e7f357211e4c",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "231266c7-cec9-49fe-940f-993f19188868",
+              "sendingArticulationId": "99d79c5e-a7a1-4908-b7b4-b9e3a9eb89e7",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "29e1eaa3-0abf-4dfa-85c0-6b1f942f8ff4",
+              "sendingArticulationId": "99d79c5e-a7a1-4908-b7b4-b9e3a9eb89e7",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 233950,
+                  "courseTitle": "Introduction to Psychology Honors",
+                  "courseNumber": "1H",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4729,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11254,
+                  "department": "Psychology",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 154080,
+                  "courseTitle": "Psychology of Adjustment",
+                  "courseNumber": "33",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4729,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11254,
+                  "department": "Psychology",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 336330,
+                  "courseTitle": "Introduction to Psychology",
+                  "courseNumber": "1",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4729,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11254,
+                  "department": "Psychology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "9f8c60d3-b25c-4179-8dae-5636e92ad0d5",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 336462,
+                  "courseTitle": "Research Methods in Psychology",
+                  "courseNumber": "2",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4729,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11254,
+                  "department": "Psychology",
+                  "begin": "F2017",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "326cda50-14ae-48ec-7a97-08db8f7b48fa",
+          "selectionType": "Select"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c6e8025f-25c2-4f15-966c-08db8f7b9dd1",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 283171,
+                        "courseTitle": "Statistics with Applications",
+                        "courseNumber": "1200",
+                        "prefix": "STA",
+                        "prefixParentId": 3364,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 9086,
+                        "department": "Mathematics and Statistics",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "01e8f8a0-d176-4469-966d-08db8f7b9dd1",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 367548,
+                        "courseTitle": "Statistics with Applications Stretch II",
+                        "courseNumber": "1202",
+                        "prefix": "STA",
+                        "prefixParentId": 3364,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 9086,
+                        "department": "Mathematics and Statistics",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "MAJOR REQUIRED": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "75aaa5c6-e7a9-4d74-a92f-252e1736d77a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 275189,
+                        "courseTitle": "Mind, Brain, and Behavior: An Integrated View",
+                        "courseNumber": "2210",
+                        "prefix": "PSY",
+                        "prefixParentId": 4665,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 13522,
+                        "department": "Psychology",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2361757b-0dd5-466a-a98d-21296cae68cb",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 363867,
+                        "courseTitle": "Careers in Psychology",
+                        "courseNumber": "2222",
+                        "prefix": "PSY",
+                        "prefixParentId": 4665,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 13522,
+                        "department": "Psychology",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "3284d81c-f879-4f42-994b-e7f357211e4c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 245380,
+                        "courseTitle": "Introduction to Psychology",
+                        "courseNumber": "2201",
+                        "prefix": "PSY",
+                        "prefixParentId": 4665,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 13522,
+                        "department": "Psychology",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "9f8c60d3-b25c-4179-8dae-5636e92ad0d5",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 245912,
+                        "courseTitle": "Research Methods in Psychology",
+                        "courseNumber": "2204",
+                        "prefix": "PSY",
+                        "prefixParentId": 4665,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 13522,
+                        "department": "Psychology",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

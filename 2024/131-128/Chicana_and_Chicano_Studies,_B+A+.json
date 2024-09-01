@@ -1,0 +1,534 @@
+{
+  "major": "Chicana and Chicano Studies, B.A.",
+  "from": {
+    "id": 131,
+    "code": "SBVC    ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "San Bernardino Valley College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2021
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "to": {
+    "id": 128,
+    "code": "UCSB    ",
+    "isCommunityCollege": false,
+    "category": "UC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "University of California, Santa Barbara",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "df3642e8-e4c1-44c2-cedf-08dbc501b57d",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "43f0c6b5-bcc3-4392-87d5-2a94a2bc1a8c",
+              "sendingArticulationId": "0cbd0639-0b8a-4f6c-b260-850928d86b5e",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 302905,
+                  "courseTitle": "College Spanish II",
+                  "courseNumber": "102",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3229,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12300,
+                  "department": "Spanish",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 305119,
+                  "courseTitle": "College Spanish II - Honors",
+                  "courseNumber": "102H",
+                  "prefix": "SPAN",
+                  "prefixParentId": 3229,
+                  "prefixDescription": "Spanish",
+                  "departmentParentId": 12300,
+                  "department": "Spanish",
+                  "begin": "F2013",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "c03e1ac2-8154-4399-b1a5-7c84d33f5fe2",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "14e5bfc6-96f5-46cc-afaf-9945e4b6ee2d",
+              "sendingArticulationId": "895fd6da-5d38-4542-92b8-7dbf5afcf6bc",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "ce406f41-8289-46e4-9bd8-0fc8af070892",
+              "sendingArticulationId": "895fd6da-5d38-4542-92b8-7dbf5afcf6bc",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "5a06adbe-c271-4869-8d93-c666dedbd9ae",
+              "sendingArticulationId": "895fd6da-5d38-4542-92b8-7dbf5afcf6bc",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "fe7f83da-ea6f-418c-ac02-6ccb97299aeb",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 179386,
+                      "courseTitle": "Chicano Experiences in U.S. History",
+                      "courseNumber": "140",
+                      "prefix": "HIST",
+                      "prefixParentId": 3031,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7023,
+                      "department": "History",
+                      "begin": "F2022",
+                      "end": "F2024",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 381386,
+                  "courseTitle": "Chicano Experiences in United States History ",
+                  "courseNumber": "140",
+                  "prefix": "ETHS",
+                  "prefixParentId": 16998,
+                  "prefixDescription": "Ethnic Studies",
+                  "departmentParentId": 14100,
+                  "department": "Ethnic Studies",
+                  "begin": "F2022",
+                  "end": "F2024",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "f45082df-8723-416b-b12a-9ad937fb7565",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 381386,
+                      "courseTitle": "Chicano Experiences in United States History ",
+                      "courseNumber": "140",
+                      "prefix": "ETHS",
+                      "prefixParentId": 16998,
+                      "prefixDescription": "Ethnic Studies",
+                      "departmentParentId": 14100,
+                      "department": "Ethnic Studies",
+                      "begin": "F2022",
+                      "end": "F2024",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 179386,
+                  "courseTitle": "Chicano Experiences in U.S. History",
+                  "courseNumber": "140",
+                  "prefix": "HIST",
+                  "prefixParentId": 3031,
+                  "prefixDescription": "History",
+                  "departmentParentId": 7023,
+                  "department": "History",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "68aeb4ac-097a-4032-a57b-bad0f3e1fc1f",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 381387,
+                      "courseTitle": "Chicano Experiences in United States History-Honors",
+                      "courseNumber": "140H",
+                      "prefix": "ETHS",
+                      "prefixParentId": 16998,
+                      "prefixDescription": "Ethnic Studies",
+                      "departmentParentId": 14100,
+                      "department": "Ethnic Studies",
+                      "begin": "F2022",
+                      "end": "F2024",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 376703,
+                  "courseTitle": "Chicano Experiences in U.S. History - Honors",
+                  "courseNumber": "140H",
+                  "prefix": "HIST",
+                  "prefixParentId": 3031,
+                  "prefixDescription": "History",
+                  "departmentParentId": 7023,
+                  "department": "History",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "a89f8aae-c6dd-4467-b578-f6ac879d4e61",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 376703,
+                      "courseTitle": "Chicano Experiences in U.S. History - Honors",
+                      "courseNumber": "140H",
+                      "prefix": "HIST",
+                      "prefixParentId": 3031,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7023,
+                      "department": "History",
+                      "begin": "F2022",
+                      "end": "F2024",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 381387,
+                  "courseTitle": "Chicano Experiences in United States History-Honors",
+                  "courseNumber": "140H",
+                  "prefix": "ETHS",
+                  "prefixParentId": 16998,
+                  "prefixDescription": "Ethnic Studies",
+                  "departmentParentId": 14100,
+                  "department": "Ethnic Studies",
+                  "begin": "F2022",
+                  "end": "F2024",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "DEFAULT": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "e9937d1a-f533-4775-f32d-08dbc4fd2609",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "df3642e8-e4c1-44c2-cedf-08dbc501b57d",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Or equivalent"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 287178,
+                        "courseTitle": "Elementary Spanish III",
+                        "courseNumber": "3",
+                        "prefix": "SPAN",
+                        "prefixParentId": 3222,
+                        "prefixDescription": "Spanish",
+                        "departmentParentId": 12299,
+                        "department": "Spanish and Portuguese",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "PREPARATION FOR THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "39f0a99a-86e9-4bca-f32e-08dbc4fd2609",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c03e1ac2-8154-4399-b1a5-7c84d33f5fe2",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 286652,
+                        "courseTitle": "Introduction to Chicano/a Studies",
+                        "courseNumber": "1A",
+                        "prefix": "CH ST",
+                        "prefixParentId": 4248,
+                        "prefixDescription": "Chicano Studies",
+                        "departmentParentId": 2403,
+                        "department": "Chicana and Chicano Studies",
+                        "begin": "F2014",
+                        "end": "F2024",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f88cef37-23c4-4ef6-9e9b-10c8109cc0c9",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 293550,
+                        "courseTitle": "Introduction to Chicano/a Studies",
+                        "courseNumber": "1B",
+                        "prefix": "CH ST",
+                        "prefixParentId": 4248,
+                        "prefixDescription": "Chicano Studies",
+                        "departmentParentId": 2403,
+                        "department": "Chicana and Chicano Studies",
+                        "begin": "F2014",
+                        "end": "F2024",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "96eca385-9a21-445f-9675-4f8679cf9da2",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 354420,
+                        "courseTitle": "Introduction to Chicano/a Studies",
+                        "courseNumber": "1C",
+                        "prefix": "CH ST",
+                        "prefixParentId": 4248,
+                        "prefixDescription": "Chicano Studies",
+                        "departmentParentId": 2403,
+                        "department": "Chicana and Chicano Studies",
+                        "begin": "F2014",
+                        "end": "F2024",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

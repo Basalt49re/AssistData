@@ -1,0 +1,356 @@
+{
+  "major": "Sociology, B.A.",
+  "from": {
+    "id": 153,
+    "code": "COMPTON",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Compton College",
+        "hasDepartments": true,
+        "fromYear": 2019,
+        "hideInList": false
+      },
+      {
+        "name": "Compton Community College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": true
+      },
+      {
+        "name": "El Camino College",
+        "hasDepartments": true,
+        "fromYear": 2006,
+        "hideInList": true
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2019
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1950
+      }
+    ],
+    "beginId": 1,
+    "endId": null
+  },
+  "to": {
+    "id": 21,
+    "code": "CSUHAY",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "California State University, Hayward",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      },
+      {
+        "name": "California State University, East Bay",
+        "hasDepartments": true,
+        "fromYear": 2005,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2018
+      },
+      {
+        "termType": "Quarter",
+        "fromYear": 2005
+      },
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "809480f5-6af8-4ec9-909d-2d221e63ff52",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "c5264c09-309e-4c21-9a08-170c9523ac3f",
+              "sendingArticulationId": "171257bf-e847-4041-91d4-071aa0017691",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 372234,
+                  "courseTitle": "Honors Introduction to Sociology",
+                  "courseNumber": "101H",
+                  "prefix": "SOCI",
+                  "prefixParentId": 16518,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 13692,
+                  "department": "Sociology",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 371826,
+                  "courseTitle": "Introduction to Sociology",
+                  "courseNumber": "101",
+                  "prefix": "SOCI",
+                  "prefixParentId": 16518,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 13692,
+                  "department": "Sociology",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "2b1bb695-3029-4f1e-b7ca-f4a5fac9ec7a",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "38259ddd-24fe-4e6e-afcb-3dfbd5c337ce",
+              "sendingArticulationId": "b575795e-7606-430d-8d1f-41b2b94c1aa0",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "bac4d769-7a1f-4956-9e75-2e6539c39690",
+              "sendingArticulationId": "b575795e-7606-430d-8d1f-41b2b94c1aa0",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 372221,
+                  "courseTitle": "Honors Elementary Statistics with Probability",
+                  "courseNumber": "150H",
+                  "prefix": "MATH",
+                  "prefixParentId": 16520,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 13677,
+                  "department": "Mathematics",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 372004,
+                  "courseTitle": "Elementary Statistics with Probability",
+                  "courseNumber": "150",
+                  "prefix": "MATH",
+                  "prefixParentId": 16520,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 13677,
+                  "department": "Mathematics",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 372039,
+                  "courseTitle": "Introduction to Statistics and Data Analysis for the Behavioral Sciences",
+                  "courseNumber": "120",
+                  "prefix": "SOCI",
+                  "prefixParentId": 16518,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 13692,
+                  "department": "Sociology",
+                  "begin": "S2023",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "LOWER DIVISION CORE": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "809480f5-6af8-4ec9-909d-2d221e63ff52",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 284357,
+                        "courseTitle": "INTRODUCTION TO SOCIOLOGY",
+                        "courseNumber": "100",
+                        "prefix": "SOC",
+                        "prefixParentId": 8995,
+                        "prefixDescription": "Sociology and Social Sciences",
+                        "departmentParentId": 12177,
+                        "department": "Sociology and Social Sciences",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2b1bb695-3029-4f1e-b7ca-f4a5fac9ec7a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 308306,
+                        "courseTitle": "ELEMENTS OF PROBABILITY AND STATISTICS",
+                        "courseNumber": "100",
+                        "prefix": "STAT",
+                        "prefixParentId": 3351,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 12562,
+                        "department": "Statistics and Biostatistics",
+                        "begin": "F2018",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "major": "Electrical Engineering, BS, with Energy and Power Engineering Emphasis",
+  "from": {
+    "id": 148,
+    "code": "NORCO   ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Norco College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2016
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 2009
+      }
+    ],
+    "beginId": 60,
+    "endId": null
+  },
+  "to": {
+    "id": 98,
+    "code": "CSUB    ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Bakersfield",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 31,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "6094f113-38fa-482f-4e9c-08dbf1469773",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 357649,
+                  "courseTitle": "Engineering Circuit Analysis",
+                  "courseNumber": "39",
+                  "prefix": "ENE",
+                  "prefixParentId": 14879,
+                  "prefixDescription": "Engineering",
+                  "departmentParentId": 4722,
+                  "department": "Engineering",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 255,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "3ffe8568-073e-4f66-4e9d-08dbf1469773",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "d7935e4e-856a-4eb8-b6a7-08db9367ff31",
+              "sendingArticulationId": "f0a50453-4cd9-4a4e-9e20-36f35fa10900",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 268042,
+                  "courseTitle": "Introduction to Programming Concepts and Methodologies for Engineers",
+                  "courseNumber": "38",
+                  "prefix": "ENE",
+                  "prefixParentId": 14879,
+                  "prefixDescription": "Engineering",
+                  "departmentParentId": 4722,
+                  "department": "Engineering",
+                  "begin": "F2014",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 255,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "8427cab5-be8e-40f3-88c5-41e7f5b9d663",
+                      "publishedCourseIdentifierYearTermId": 250,
+                      "courseIdentifierParentId": 299141,
+                      "courseTitle": "Programming Concepts and Methodology I: C++",
+                      "courseNumber": "5",
+                      "prefix": "CSC",
+                      "prefixParentId": 15040,
+                      "prefixDescription": "Computer Science",
+                      "departmentParentId": 3254,
+                      "department": "Computer Science",
+                      "begin": "Su2013",
+                      "end": "",
+                      "minUnits": 4,
+                      "maxUnits": 4,
+                      "pathways": []
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 299140,
+                  "courseTitle": "Programming Concepts and Methodology I: C++",
+                  "courseNumber": "5",
+                  "prefix": "CIS",
+                  "prefixParentId": 14882,
+                  "prefixDescription": "Computer Information Systems",
+                  "departmentParentId": 3132,
+                  "department": "Computer Information Systems",
+                  "begin": "Su2013",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": [],
+                  "publishedCourseIdentifierYearTermId": 250,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Following",
+          "id": "d3c5220c-3b30-431d-59cd-08dbf14722d9",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "d568ceef-f805-4728-4e9a-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 133008,
+                        "courseTitle": "Introduction to Engineering I",
+                        "courseNumber": "1618",
+                        "prefix": "ENGR",
+                        "prefixParentId": 12584,
+                        "prefixDescription": "Engineering",
+                        "departmentParentId": 14472,
+                        "department": "Engineering",
+                        "begin": "F2023",
+                        "end": "",
+                        "minUnits": 2,
+                        "maxUnits": 2,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "11fd6c5e-f960-4348-4e9b-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 117105,
+                        "courseTitle": "Introduction to Engineering II",
+                        "courseNumber": "1628",
+                        "prefix": "ENGR",
+                        "prefixParentId": 12584,
+                        "prefixDescription": "Engineering",
+                        "departmentParentId": 14472,
+                        "department": "Engineering",
+                        "begin": "F2023",
+                        "end": "",
+                        "minUnits": 2,
+                        "maxUnits": 2,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "6094f113-38fa-482f-4e9c-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 281656,
+                        "courseTitle": "Electric Circuits",
+                        "courseNumber": "2070",
+                        "prefix": "ENGR",
+                        "prefixParentId": 12584,
+                        "prefixDescription": "Engineering",
+                        "departmentParentId": 14472,
+                        "department": "Engineering",
+                        "begin": "F2023",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "3ffe8568-073e-4f66-4e9d-08dbf1469773",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 357862,
+                        "courseTitle": "Programming I: Programming Fundamentals",
+                        "courseNumber": "2010",
+                        "prefix": "CMPS",
+                        "prefixParentId": 536,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3238,
+                        "department": "Computer Science",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

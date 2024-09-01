@@ -1,0 +1,977 @@
+{
+  "major": "Cognitive Science (B.S.) ",
+  "from": {
+    "id": 51,
+    "code": "FOOTHILL",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Quarter",
+    "names": [
+      {
+        "name": "Foothill College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Quarter",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 29,
+    "code": "CSUFRES ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Fresno",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "974039be-385a-48b1-a2a9-1b95e7719925",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 281379,
+                  "courseTitle": "Introduction to Symbolic Logic",
+                  "courseNumber": "7",
+                  "prefix": "PHIL",
+                  "prefixParentId": 5425,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10129,
+                  "department": "Philosophy",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "230ca187-1bee-4903-b7a9-3774294850a1",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "20edee23-b765-4968-b7a4-cb86e65a5efd",
+              "sendingArticulationId": "fe18ad62-025a-41ae-8a20-44f2602ea908",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "14be18d1-be03-4834-a224-e81794486943",
+              "sendingArticulationId": "fe18ad62-025a-41ae-8a20-44f2602ea908",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 309477,
+                  "courseTitle": "Object-Oriented Programming Methodologies in PYTHON",
+                  "courseNumber": "3A",
+                  "prefix": "C S",
+                  "prefixParentId": 15335,
+                  "prefixDescription": "Computer Science",
+                  "departmentParentId": 3182,
+                  "department": "Computer Science",
+                  "begin": "Su2017",
+                  "end": "",
+                  "minUnits": 4.5,
+                  "maxUnits": 4.5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 266,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 287030,
+                  "courseTitle": "Object-Oriented Programming Methodologies in JAVA",
+                  "courseNumber": "1A",
+                  "prefix": "C S",
+                  "prefixParentId": 15335,
+                  "prefixDescription": "Computer Science",
+                  "departmentParentId": 3182,
+                  "department": "Computer Science",
+                  "begin": "Su2017",
+                  "end": "",
+                  "minUnits": 4.5,
+                  "maxUnits": 4.5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 266,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 308492,
+                  "courseTitle": "Object-Oriented Programming Methodologies in C++",
+                  "courseNumber": "2A",
+                  "prefix": "C S",
+                  "prefixParentId": 15335,
+                  "prefixDescription": "Computer Science",
+                  "departmentParentId": 3182,
+                  "department": "Computer Science",
+                  "begin": "Su2017",
+                  "end": "",
+                  "minUnits": 4.5,
+                  "maxUnits": 4.5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 266,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "166ba9be-3123-4618-85fc-86857d419665",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "436a53a3-698e-4366-bbbe-594ed25a6aee",
+                      "publishedCourseIdentifierYearTermId": 247,
+                      "courseIdentifierParentId": 307715,
+                      "courseTitle": "Discrete Mathematics",
+                      "courseNumber": "22",
+                      "prefix": "MATH",
+                      "prefixParentId": 9959,
+                      "prefixDescription": "Mathematics",
+                      "departmentParentId": 8987,
+                      "department": "Mathematics",
+                      "begin": "F2012",
+                      "end": "",
+                      "minUnits": 5,
+                      "maxUnits": 5,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 307714,
+                  "courseTitle": "Discrete Mathematics",
+                  "courseNumber": "18",
+                  "prefix": "C S",
+                  "prefixParentId": 15335,
+                  "prefixDescription": "Computer Science",
+                  "departmentParentId": 3182,
+                  "department": "Computer Science",
+                  "begin": "F2012",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 247,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "3d6ed8ec-1b2a-45d0-9351-14649b562434",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "1b4c3990-9a4d-47f7-93e7-680545aaf69e",
+              "sendingArticulationId": "c4c6d450-7e74-4b27-9370-bd8b7d90f2ad",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "90b008ee-9b23-403f-9fdf-2841b10d98bd",
+              "sendingArticulationId": "c4c6d450-7e74-4b27-9370-bd8b7d90f2ad",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 287881,
+                  "courseTitle": "Integrated Statistics II",
+                  "courseNumber": "17",
+                  "prefix": "MATH",
+                  "prefixParentId": 9959,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8987,
+                  "department": "Mathematics",
+                  "begin": "Su2016",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 262,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "604d61ca-9679-4a80-9179-08dc25f6e76b",
+                      "publishedCourseIdentifierYearTermId": 243,
+                      "courseIdentifierParentId": 305026,
+                      "courseTitle": "Statistics for the Behavioral Sciences",
+                      "courseNumber": "7",
+                      "prefix": "SOC",
+                      "prefixParentId": 9025,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12068,
+                      "department": "Sociology",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 5,
+                      "maxUnits": 5,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 305025,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "7",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4640,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11236,
+                  "department": "Psychology",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 243,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 359245,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "10",
+                  "prefix": "MATH",
+                  "prefixParentId": 9959,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 8987,
+                  "department": "Mathematics",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "bb063748-a750-4359-9719-46a97f494178",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "8c2c3f99-c06a-4459-b9d2-3eaa26e87fcb",
+              "sendingArticulationId": "46855b5d-f599-458f-b256-c8d7329930be",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "f22f8143-3377-49cb-ac67-6dedcbfafb59",
+              "sendingArticulationId": "46855b5d-f599-458f-b256-c8d7329930be",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 309584,
+                  "courseTitle": "Intermediate Software Design in Python",
+                  "courseNumber": "3B",
+                  "prefix": "C S",
+                  "prefixParentId": 15335,
+                  "prefixDescription": "Computer Science",
+                  "departmentParentId": 3182,
+                  "department": "Computer Science",
+                  "begin": "Su2018",
+                  "end": "",
+                  "minUnits": 4.5,
+                  "maxUnits": 4.5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 270,
+                  "position": 1,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 362722,
+                  "courseTitle": "Advanced Data Structures & Algorithms in Python",
+                  "courseNumber": "3C",
+                  "prefix": "C S",
+                  "prefixParentId": 15335,
+                  "prefixDescription": "Computer Science",
+                  "departmentParentId": 3182,
+                  "department": "Computer Science",
+                  "begin": "Su2018",
+                  "end": "",
+                  "minUnits": 4.5,
+                  "maxUnits": 4.5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 270,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 303399,
+                  "courseTitle": "Intermediate Software Design in JAVA",
+                  "courseNumber": "1B",
+                  "prefix": "C S",
+                  "prefixParentId": 15335,
+                  "prefixDescription": "Computer Science",
+                  "departmentParentId": 3182,
+                  "department": "Computer Science",
+                  "begin": "Su2017",
+                  "end": "",
+                  "minUnits": 4.5,
+                  "maxUnits": 4.5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 266,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 305042,
+                  "courseTitle": "Advanced Data Structures & Algorithims in JAVA",
+                  "courseNumber": "1C",
+                  "prefix": "C S",
+                  "prefixParentId": 15335,
+                  "prefixDescription": "Computer Science",
+                  "departmentParentId": 3182,
+                  "department": "Computer Science",
+                  "begin": "Su2017",
+                  "end": "",
+                  "minUnits": 4.5,
+                  "maxUnits": 4.5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 266,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 308494,
+                  "courseTitle": "Intermediate Software Design in C++",
+                  "courseNumber": "2B",
+                  "prefix": "C S",
+                  "prefixParentId": 15335,
+                  "prefixDescription": "Computer Science",
+                  "departmentParentId": 3182,
+                  "department": "Computer Science",
+                  "begin": "Su2017",
+                  "end": "",
+                  "minUnits": 4.5,
+                  "maxUnits": 4.5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 266,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 303404,
+                  "courseTitle": "Advanced Data Structures & Algorithims in C++",
+                  "courseNumber": "2C",
+                  "prefix": "C S",
+                  "prefixParentId": 15335,
+                  "prefixDescription": "Computer Science",
+                  "departmentParentId": 3182,
+                  "department": "Computer Science",
+                  "begin": "Su2017",
+                  "end": "",
+                  "minUnits": 4.5,
+                  "maxUnits": 4.5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 266,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "4c705fe3-be71-4748-9de2-c4bc89d5093c",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "fda6d94e-b704-4bc3-bce7-7adbe7502144",
+              "sendingArticulationId": "81b7da3c-ebe1-46d3-9289-9fc42b2f70c3",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 302887,
+                  "courseTitle": "General Psychology",
+                  "courseNumber": "1",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4640,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11236,
+                  "department": "Psychology",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 179,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 288789,
+                  "courseTitle": "Honors General Psychology",
+                  "courseNumber": "1H",
+                  "prefix": "PSYC",
+                  "prefixParentId": 4640,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11236,
+                  "department": "Psychology",
+                  "begin": "Su2017",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 266,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "2387496b-a895-45fb-a0cc-81e3b42a2295",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 302825,
+                  "courseTitle": "Political Science: Introduction to American Government & Politics",
+                  "courseNumber": "1",
+                  "prefix": "POLI",
+                  "prefixParentId": 1942,
+                  "prefixDescription": "Political Science",
+                  "departmentParentId": 11010,
+                  "department": "Political Science",
+                  "begin": "Su2011",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 242,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "LOWER DIVISION MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "974039be-385a-48b1-a2a9-1b95e7719925",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 173991,
+                        "courseTitle": "Introduction to Logic",
+                        "courseNumber": "45",
+                        "prefix": "PHIL",
+                        "prefixParentId": 5402,
+                        "prefixDescription": "Philosophy",
+                        "departmentParentId": 10117,
+                        "department": "Philosophy",
+                        "begin": "F1999",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "230ca187-1bee-4903-b7a9-3774294850a1",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 274533,
+                        "courseTitle": "Introduction to Programming and Problem Solving",
+                        "courseNumber": "40",
+                        "prefix": "CSCI",
+                        "prefixParentId": 489,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3186,
+                        "department": "Computer Science",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "166ba9be-3123-4618-85fc-86857d419665",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 170970,
+                        "courseTitle": "Foundations of Computer Science",
+                        "courseNumber": "60",
+                        "prefix": "CSCI",
+                        "prefixParentId": 489,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3186,
+                        "department": "Computer Science",
+                        "begin": "F2023",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "3d6ed8ec-1b2a-45d0-9351-14649b562434",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 244328,
+                        "courseTitle": "Introductory to Statistics and Data Analysis",
+                        "courseNumber": "42",
+                        "prefix": "PSYCH",
+                        "prefixParentId": 4617,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11272,
+                        "department": "Psychology",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "bb063748-a750-4359-9719-46a97f494178",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 351505,
+                        "courseTitle": "Introduction to Data Structures",
+                        "courseNumber": "41",
+                        "prefix": "CSCI",
+                        "prefixParentId": 489,
+                        "prefixDescription": "Computer Science",
+                        "departmentParentId": 3186,
+                        "department": "Computer Science",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ADDITIONAL MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "4c705fe3-be71-4748-9de2-c4bc89d5093c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 206381,
+                        "courseTitle": "Introduction to Psychology",
+                        "courseNumber": "10",
+                        "prefix": "PSYCH",
+                        "prefixParentId": 4617,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11272,
+                        "department": "Psychology",
+                        "begin": "F2004",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "OTHER DEGREE REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "2387496b-a895-45fb-a0cc-81e3b42a2295",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 134991,
+                        "courseTitle": "American Government and Institutions",
+                        "courseNumber": "2",
+                        "prefix": "PLSI",
+                        "prefixParentId": 1918,
+                        "prefixDescription": "Political Science",
+                        "departmentParentId": 10952,
+                        "department": "Political Science",
+                        "begin": "F2002",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "major": "Collaborative Health & Human Services B.S.",
+  "from": {
+    "id": 200,
+    "code": "MCC",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Madera Community College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2020
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 12,
+    "code": "CSUMB   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Monterey Bay",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "028aa9d0-29b3-47a3-7a57-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "3edce5c8-b9d1-433d-9f60-b99df099679e",
+              "sendingArticulationId": "70d744f2-5a16-4fc4-92d8-89fe12aa82be",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "d144d8bc-3ff5-41fd-aad3-ce4d4184ee1e",
+              "sendingArticulationId": "70d744f2-5a16-4fc4-92d8-89fe12aa82be",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "cbfe8feb-a615-411f-8ea9-5d497c8ae5e3",
+              "sendingArticulationId": "70d744f2-5a16-4fc4-92d8-89fe12aa82be",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 377298,
+                  "courseTitle": "Elementary Statistics with Support",
+                  "courseNumber": "11C",
+                  "prefix": "MATH ",
+                  "prefixParentId": 16780,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 13901,
+                  "department": "Mathematics",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 377287,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "11",
+                  "prefix": "MATH ",
+                  "prefixParentId": 16780,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 13901,
+                  "department": "Mathematics",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 377273,
+                  "courseTitle": "Biometrics",
+                  "courseNumber": "9",
+                  "prefix": "PLS ",
+                  "prefixParentId": 16785,
+                  "prefixDescription": "Plant Science",
+                  "departmentParentId": 13910,
+                  "department": "Plant Science",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 377192,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "7",
+                  "prefix": "STAT",
+                  "prefixParentId": 16754,
+                  "prefixDescription": "Statistics",
+                  "departmentParentId": 13917,
+                  "department": "Statistics",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "a54eee1b-8f71-4c62-7a58-08dbdbbe1f5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "2140ea9a-531f-4fcb-b976-8e55b376c69d",
+              "sendingArticulationId": "7934b972-8aeb-4f41-8e3d-4d8a051263d1",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "f539f8c9-d753-4a13-8bce-7535c28386bd",
+              "sendingArticulationId": "7934b972-8aeb-4f41-8e3d-4d8a051263d1",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "34fe19f1-9874-4d19-9d31-df5ab4f9593e",
+              "sendingArticulationId": "7934b972-8aeb-4f41-8e3d-4d8a051263d1",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            },
+            {
+              "id": "7c17d4c4-0f00-4070-bd50-c24a7cd9ed68",
+              "sendingArticulationId": "7934b972-8aeb-4f41-8e3d-4d8a051263d1",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 3,
+              "sendingCourseGroupEndPosition": 4
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 377192,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "7",
+                  "prefix": "STAT",
+                  "prefixParentId": 16754,
+                  "prefixDescription": "Statistics",
+                  "departmentParentId": 13917,
+                  "department": "Statistics",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 377273,
+                  "courseTitle": "Biometrics",
+                  "courseNumber": "9",
+                  "prefix": "PLS ",
+                  "prefixParentId": 16785,
+                  "prefixDescription": "Plant Science",
+                  "departmentParentId": 13910,
+                  "department": "Plant Science",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 377311,
+                  "courseTitle": "Statistics for the Behavioral Sciences",
+                  "courseNumber": "42",
+                  "prefix": "PSY ",
+                  "prefixParentId": 16761,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 13912,
+                  "department": "Psychology",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 377298,
+                  "courseTitle": "Elementary Statistics with Support",
+                  "courseNumber": "11C",
+                  "prefix": "MATH ",
+                  "prefixParentId": 16780,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 13901,
+                  "department": "Mathematics",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 377287,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "11",
+                  "prefix": "MATH ",
+                  "prefixParentId": 16780,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 13901,
+                  "department": "Mathematics",
+                  "begin": "F2020",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "PREPARATION COURSES FOR THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "3a032633-b5da-4720-14e1-08dbeab4b1c7",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "028aa9d0-29b3-47a3-7a57-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 289060,
+                        "courseTitle": "Introduction to Statistics",
+                        "courseNumber": "100",
+                        "prefix": "STAT",
+                        "prefixParentId": 3350,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 12536,
+                        "department": "Statistics",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a54eee1b-8f71-4c62-7a58-08dbdbbe1f5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 302717,
+                        "courseTitle": "Statistics for Social Science",
+                        "courseNumber": "203",
+                        "prefix": "CHHS",
+                        "prefixParentId": 12711,
+                        "prefixDescription": "Collaborative Health and Human Services",
+                        "departmentParentId": 2718,
+                        "department": "Collaborative Health and Human Services",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "00f53662-24e2-4a4e-a53c-5b2e33cd389b",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 299118,
+                        "courseTitle": "Drugs, Society and Policy",
+                        "courseNumber": "225",
+                        "prefix": "CHHS",
+                        "prefixParentId": 12711,
+                        "prefixDescription": "Collaborative Health and Human Services",
+                        "departmentParentId": 2718,
+                        "department": "Collaborative Health and Human Services",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5c0b063e-cd0f-4a54-946b-0989f5736c50",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 272041,
+                        "courseTitle": "Introduction Issues Health/Human Services",
+                        "courseNumber": "111",
+                        "prefix": "CHHS",
+                        "prefixParentId": 12711,
+                        "prefixDescription": "Collaborative Health and Human Services",
+                        "departmentParentId": 2718,
+                        "department": "Collaborative Health and Human Services",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "1a226c57-8641-4973-a915-cf6d64afa57d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 302718,
+                        "courseTitle": "Social Justice and Global Health",
+                        "courseNumber": "230",
+                        "prefix": "CHHS",
+                        "prefixParentId": 12711,
+                        "prefixDescription": "Collaborative Health and Human Services",
+                        "departmentParentId": 2718,
+                        "department": "Collaborative Health and Human Services",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a1ac4c85-1d1d-4e52-be6b-a7e7cc4cf7c0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 357475,
+                        "courseTitle": "Economics and Society",
+                        "courseNumber": "204",
+                        "prefix": "CHHS",
+                        "prefixParentId": 12711,
+                        "prefixDescription": "Collaborative Health and Human Services",
+                        "departmentParentId": 2718,
+                        "department": "Collaborative Health and Human Services",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b2121890-09cb-41e2-866f-001e5ebe6f80",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 299027,
+                        "courseTitle": "Introduction to Human Services",
+                        "courseNumber": "215",
+                        "prefix": "CHHS",
+                        "prefixParentId": 12711,
+                        "prefixDescription": "Collaborative Health and Human Services",
+                        "departmentParentId": 2718,
+                        "department": "Collaborative Health and Human Services",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

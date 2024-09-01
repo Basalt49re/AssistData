@@ -1,0 +1,793 @@
+{
+  "major": "Humanities & Communication, B.A. Communication Studies Concentration",
+  "from": {
+    "id": 95,
+    "code": "VENTURA ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Ventura College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 12,
+    "code": "CSUMB   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Monterey Bay",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "b4cf1093-1af1-4c08-a3e0-7b8686c4a08c",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 166561,
+                  "courseTitle": "Introduction to Sociology",
+                  "courseNumber": "V01",
+                  "prefix": "SOC",
+                  "prefixParentId": 9075,
+                  "prefixDescription": "Sociology",
+                  "departmentParentId": 12095,
+                  "department": "Sociology",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "004d9ebf-57fe-4cb0-a5ed-23e62716ec4d",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "f27f65d0-77e2-46f9-9092-6645cfa9d8ba",
+              "sendingArticulationId": "01a23399-9080-4a9a-be4e-8d0da4b52084",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "29c031de-09fe-421a-a77f-2209256b8c88",
+              "sendingArticulationId": "01a23399-9080-4a9a-be4e-8d0da4b52084",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 220146,
+                  "courseTitle": "Introduction to Speech Communication",
+                  "courseNumber": "V01",
+                  "prefix": "COMM",
+                  "prefixParentId": 15003,
+                  "prefixDescription": "Communication Studies",
+                  "departmentParentId": 2842,
+                  "department": "Communication Studies",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 170231,
+                  "courseTitle": "Interpersonal Communication",
+                  "courseNumber": "V15",
+                  "prefix": "COMM",
+                  "prefixParentId": 15003,
+                  "prefixDescription": "Communication Studies",
+                  "departmentParentId": 2842,
+                  "department": "Communication Studies",
+                  "begin": "F2010",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 229343,
+                  "courseTitle": "Group Communication",
+                  "courseNumber": "V03",
+                  "prefix": "COMM",
+                  "prefixParentId": 15003,
+                  "prefixDescription": "Communication Studies",
+                  "departmentParentId": 2842,
+                  "department": "Communication Studies",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "a8519864-44ac-485b-9e3d-4736f9364922",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "26ba6996-7bad-4203-adc5-a4c9a2af3fc1",
+              "sendingArticulationId": "a1858011-1efa-4e2b-9f98-ae2c0a5f6040",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "eda98aa1-6ff4-46b7-90e5-acff5b6c0733",
+              "sendingArticulationId": "a1858011-1efa-4e2b-9f98-ae2c0a5f6040",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "64abd9cb-42c6-4fcb-94f3-b447f1592542",
+              "sendingArticulationId": "a1858011-1efa-4e2b-9f98-ae2c0a5f6040",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            },
+            {
+              "id": "e7d8e428-a3f3-4de3-bc20-118cd597036b",
+              "sendingArticulationId": "a1858011-1efa-4e2b-9f98-ae2c0a5f6040",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 3,
+              "sendingCourseGroupEndPosition": 4
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 231037,
+                  "courseTitle": "Introduction to Logic",
+                  "courseNumber": "V04",
+                  "prefix": "PHIL",
+                  "prefixParentId": 5468,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10160,
+                  "department": "Philosophy",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 165671,
+                  "courseTitle": "Critical Thinking and Analytic Writing",
+                  "courseNumber": "V05",
+                  "prefix": "PHIL",
+                  "prefixParentId": 5468,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10160,
+                  "department": "Philosophy",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 183190,
+                  "courseTitle": "Critical Thinking and Composition Through Literature",
+                  "courseNumber": "V01B",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2718,
+                  "prefixDescription": "English",
+                  "departmentParentId": 5011,
+                  "department": "English",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 240865,
+                  "courseTitle": "Critical Thinking in Oral Communication: Argumentation and Debate",
+                  "courseNumber": "V10",
+                  "prefix": "COMM",
+                  "prefixParentId": 15003,
+                  "prefixDescription": "Communication Studies",
+                  "departmentParentId": 2842,
+                  "department": "Communication Studies",
+                  "begin": "F2010",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 265261,
+                  "courseTitle": "Critical Thinking and Writing",
+                  "courseNumber": "V01C",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2718,
+                  "prefixDescription": "English",
+                  "departmentParentId": 5011,
+                  "department": "English",
+                  "begin": "F2023",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "ca2a20bf-20d6-4ed8-933d-6ee6b6155a44",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 140034,
+                  "courseTitle": "Introduction to Mass Communications",
+                  "courseNumber": "V16",
+                  "prefix": "COMM",
+                  "prefixParentId": 15003,
+                  "prefixDescription": "Communication Studies",
+                  "departmentParentId": 2842,
+                  "department": "Communication Studies",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "70e18071-68cb-4cce-86ba-0a4c0eb605d2",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 183190,
+                  "courseTitle": "Critical Thinking and Composition Through Literature",
+                  "courseNumber": "V01B",
+                  "prefix": "ENGL",
+                  "prefixParentId": 2718,
+                  "prefixDescription": "English",
+                  "departmentParentId": 5011,
+                  "department": "English",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "b80cfa57-a12f-4aa1-b097-d572f0f47c1e",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 182195,
+                  "courseTitle": "Introduction to Psychology",
+                  "courseNumber": "V01",
+                  "prefix": "PSY",
+                  "prefixParentId": 4692,
+                  "prefixDescription": "Psychology",
+                  "departmentParentId": 11301,
+                  "department": "Psychology",
+                  "begin": "F2016",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "PREPARATION COURSES FOR THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "495bd358-2c9f-4710-14e9-08dbeab4b1c7",
+          "selectionType": "Select"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b4cf1093-1af1-4c08-a3e0-7b8686c4a08c",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 278012,
+                        "courseTitle": "Introduction to Sociology",
+                        "courseNumber": "100",
+                        "prefix": "SOC",
+                        "prefixParentId": 13997,
+                        "prefixDescription": "Sociology",
+                        "departmentParentId": 12039,
+                        "department": "Sociology",
+                        "begin": "F2012",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ae649789-c52a-4bd1-ae59-8b212d84ddbe",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 375069,
+                        "courseTitle": "Intro to Reporting ",
+                        "courseNumber": "280",
+                        "prefix": "HCOM",
+                        "prefixParentId": 10384,
+                        "prefixDescription": "Humanities and Communication",
+                        "departmentParentId": 7205,
+                        "department": "Humanities and Communication",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "004d9ebf-57fe-4cb0-a5ed-23e62716ec4d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 369584,
+                        "courseTitle": "Foundations Speaking & Llistening",
+                        "courseNumber": "110",
+                        "prefix": "HCOM",
+                        "prefixParentId": 10384,
+                        "prefixDescription": "Humanities and Communication",
+                        "departmentParentId": 7205,
+                        "department": "Humanities and Communication",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a8519864-44ac-485b-9e3d-4736f9364922",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 369586,
+                        "courseTitle": "Critical Thinking & Ethics",
+                        "courseNumber": "200",
+                        "prefix": "HCOM",
+                        "prefixParentId": 10384,
+                        "prefixDescription": "Humanities and Communication",
+                        "departmentParentId": 7205,
+                        "department": "Humanities and Communication",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "8fd3e60b-a084-48e0-9dd9-4ac0c141be98",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 375070,
+                        "courseTitle": "Tacos, Territories, & Transnationalism",
+                        "courseNumber": "290",
+                        "prefix": "HCOM",
+                        "prefixParentId": 10384,
+                        "prefixDescription": "Humanities and Communication",
+                        "departmentParentId": 7205,
+                        "department": "Humanities and Communication",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ca2a20bf-20d6-4ed8-933d-6ee6b6155a44",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 375072,
+                        "courseTitle": "Intro to Mass Communication",
+                        "courseNumber": "170",
+                        "prefix": "HCOM",
+                        "prefixParentId": 10384,
+                        "prefixDescription": "Humanities and Communication",
+                        "departmentParentId": 7205,
+                        "department": "Humanities and Communication",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "70e18071-68cb-4cce-86ba-0a4c0eb605d2",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 375068,
+                        "courseTitle": "Intro to Literary Analysis",
+                        "courseNumber": "222",
+                        "prefix": "HCOM",
+                        "prefixParentId": 10384,
+                        "prefixDescription": "Humanities and Communication",
+                        "departmentParentId": 7205,
+                        "department": "Humanities and Communication",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b80cfa57-a12f-4aa1-b097-d572f0f47c1e",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 265231,
+                        "courseTitle": "Introduction to Psychology",
+                        "courseNumber": "100",
+                        "prefix": "PSY",
+                        "prefixParentId": 13385,
+                        "prefixDescription": "Psychology",
+                        "departmentParentId": 11185,
+                        "department": "Psychology",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

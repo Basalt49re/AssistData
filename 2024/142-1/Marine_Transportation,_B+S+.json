@@ -1,0 +1,294 @@
+{
+  "major": "Marine Transportation, B.S.",
+  "from": {
+    "id": 142,
+    "code": "CRC     ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Cosumnes River College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 1,
+    "code": "CSUMA   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California Maritime Academy",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      },
+      {
+        "name": "California State University, Maritime Academy",
+        "hasDepartments": true,
+        "fromYear": 2015,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2015
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "4267f46c-af50-4d78-bd0b-c626dd14a309",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 303821,
+                  "courseTitle": "Trigonometry with College Algebra",
+                  "courseNumber": "335",
+                  "prefix": "MATH",
+                  "prefixParentId": 10055,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9068,
+                  "department": "Mathematics",
+                  "begin": "Su2003",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "72fc4286-9163-4109-a13d-a580001a5450",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "335df878-4eb7-48f7-b27a-647370af39b0",
+              "sendingArticulationId": "a545bd91-366a-4488-a5b5-3b60bd45fb18",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 304294,
+                  "courseTitle": "Introductory Physics - Mechanics and Thermodynamics",
+                  "courseNumber": "370",
+                  "prefix": "PHYS",
+                  "prefixParentId": 334,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10831,
+                  "department": "Physics",
+                  "begin": "Su2016",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 248837,
+                  "courseTitle": "General Physics",
+                  "courseNumber": "350",
+                  "prefix": "PHYS",
+                  "prefixParentId": 334,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10831,
+                  "department": "Physics",
+                  "begin": "Su2003",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "LOWER DIVISION MAJOR REQUIREMENTS": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": null,
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "4267f46c-af50-4d78-bd0b-c626dd14a309",
+                    "type": "Course",
+                    "courseAttributes": [
+                      "Highly recommended",
+                      "Prerequisite(s) for upper division course(s) in this major, concentration or track"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 301052,
+                        "courseTitle": "College Algebra and Trigonometry",
+                        "courseNumber": "100",
+                        "prefix": "MTH",
+                        "prefixParentId": 12513,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 9078,
+                        "department": "Mathematics",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "72fc4286-9163-4109-a13d-a580001a5450",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [
+                      "Prerequisite(s) for upper division course(s) in this major, concentration or track",
+                      "Highly recommended"
+                    ],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "1e42324b-6538-4bcc-8133-d003be7dceae",
+                        "position": 0,
+                        "courseIdentifierParentId": 219315,
+                        "courseTitle": "Physics I",
+                        "courseNumber": "100",
+                        "prefix": "PHY",
+                        "prefixParentId": 12529,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10724,
+                        "department": "Physics",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      },
+                      {
+                        "id": "1cc9d1c5-593e-4dd3-87ab-11a7b342843e",
+                        "position": 1,
+                        "courseIdentifierParentId": 316074,
+                        "courseTitle": "Physics I Lab",
+                        "courseNumber": "100L",
+                        "prefix": "PHY",
+                        "prefixParentId": 12529,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10724,
+                        "department": "Physics",
+                        "begin": "F2016",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

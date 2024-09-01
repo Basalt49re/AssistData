@@ -1,0 +1,1064 @@
+{
+  "major": "Business Administration B.S., Marketing Concentration",
+  "from": {
+    "id": 136,
+    "code": "SJCC    ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "San Jose City College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2016
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 12,
+    "code": "CSUMB   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Monterey Bay",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "e1685b09-fb2f-42fc-83f6-08dbea40a86a",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 160407,
+                  "courseTitle": "Finite Mathematics",
+                  "courseNumber": "061",
+                  "prefix": "MATH",
+                  "prefixParentId": 10048,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9062,
+                  "department": "Mathematics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "ff5437e7-7a8f-4e6e-83f7-08dbea40a86a",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "fe357227-5591-45c3-a736-75d10817a69f",
+              "sendingArticulationId": "b6203d73-f459-49eb-8d98-bf0765ff0cbf",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "fbc44b0c-cbc5-4b2c-826b-ce3254bffc9e",
+              "sendingArticulationId": "b6203d73-f459-49eb-8d98-bf0765ff0cbf",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 280434,
+                  "courseTitle": "Precalculus Algebra and Trigonometry",
+                  "courseNumber": "025",
+                  "prefix": "MATH",
+                  "prefixParentId": 10048,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9062,
+                  "department": "Mathematics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 6,
+                  "maxUnits": 6,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 155709,
+                  "courseTitle": "Precalculus Algebra",
+                  "courseNumber": "021",
+                  "prefix": "MATH",
+                  "prefixParentId": 10048,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9062,
+                  "department": "Mathematics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 336598,
+                  "courseTitle": "Trigonometry",
+                  "courseNumber": "022",
+                  "prefix": "MATH",
+                  "prefixParentId": 10048,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9062,
+                  "department": "Mathematics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 372241,
+                  "courseTitle": "College Algebra",
+                  "courseNumber": "020",
+                  "prefix": "MATH",
+                  "prefixParentId": 10048,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9062,
+                  "department": "Mathematics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                },
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 336598,
+                  "courseTitle": "Trigonometry",
+                  "courseNumber": "022",
+                  "prefix": "MATH",
+                  "prefixParentId": 10048,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9062,
+                  "department": "Mathematics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 1,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "00c2dc81-26c2-43fb-83f8-08dbea40a86a",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "97a6572a-6d8a-4caa-b047-b3fbcb7a7dc4",
+              "sendingArticulationId": "26db56f0-68d4-41c5-98c2-5da209d56773",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 303045,
+                  "courseTitle": "Calculus I with Analytic Geometry",
+                  "courseNumber": "071",
+                  "prefix": "MATH",
+                  "prefixParentId": 10048,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9062,
+                  "department": "Mathematics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 376789,
+                  "courseTitle": "Honors Calculus I with Analytic Geometry",
+                  "courseNumber": "071H",
+                  "prefix": "MATH",
+                  "prefixParentId": 10048,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9062,
+                  "department": "Mathematics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "3a4dabc1-2394-4061-ba99-bd13060c61b9",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 337710,
+                  "courseTitle": "Legal Environment of Business",
+                  "courseNumber": "071",
+                  "prefix": "BUS",
+                  "prefixParentId": 8296,
+                  "prefixDescription": "Business",
+                  "departmentParentId": 1978,
+                  "department": "Business",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "e916173a-e619-406a-acc3-956697f1e18a",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 185647,
+                  "courseTitle": "Introduction to Business",
+                  "courseNumber": "082",
+                  "prefix": "BUS",
+                  "prefixParentId": 8296,
+                  "prefixDescription": "Business",
+                  "departmentParentId": 1978,
+                  "department": "Business",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "ebca6316-a1f5-450b-847a-1adeda793a2a",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "7dcdfe5a-a0f9-4dff-b371-32e078f2c80e",
+              "sendingArticulationId": "ee66a311-de87-47ca-99df-696414c71129",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 160692,
+                  "courseTitle": "Fundamentals of Business Statistics",
+                  "courseNumber": "060",
+                  "prefix": "BUS",
+                  "prefixParentId": 8296,
+                  "prefixDescription": "Business",
+                  "departmentParentId": 1978,
+                  "department": "Business",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 193622,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "063",
+                  "prefix": "MATH",
+                  "prefixParentId": 10048,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9062,
+                  "department": "Mathematics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "7ad0764d-a331-4f12-b9f0-ea225b71da33",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 163690,
+                  "courseTitle": "Introduction to Microeconomics Theory",
+                  "courseNumber": "010B",
+                  "prefix": "ECON",
+                  "prefixParentId": 1314,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4333,
+                  "department": "Economics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "f78b8294-3308-4769-895a-3edbed53a213",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 338464,
+                  "courseTitle": "Principles of Macroeconomic Theory",
+                  "courseNumber": "010A",
+                  "prefix": "ECON",
+                  "prefixParentId": 1314,
+                  "prefixDescription": "Economics",
+                  "departmentParentId": 4333,
+                  "department": "Economics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "18b765e3-02ca-4466-8f87-da3a26a85e81",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 287086,
+                  "courseTitle": "Managerial Accounting",
+                  "courseNumber": "021",
+                  "prefix": "ACCTG",
+                  "prefixParentId": 5777,
+                  "prefixDescription": "Accounting",
+                  "departmentParentId": 87,
+                  "department": "Accounting",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "61a9e720-0652-4d8b-a347-2fd0be4c5e5f",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 304378,
+                  "courseTitle": "Financial Accounting",
+                  "courseNumber": "020",
+                  "prefix": "ACCTG",
+                  "prefixParentId": 5777,
+                  "prefixDescription": "Accounting",
+                  "departmentParentId": 87,
+                  "department": "Accounting",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "PREPARATION COURSES FOR THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "5aa767dc-cd77-466c-14dd-08dbeab4b1c7",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [
+              {
+                "type": "NFromUnits",
+                "amount": 1,
+                "amountQuantifier": "AtLeast",
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e1685b09-fb2f-42fc-83f6-08dbea40a86a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 297560,
+                        "courseTitle": "Finite Mathematics",
+                        "courseNumber": "115",
+                        "prefix": "MATH",
+                        "prefixParentId": 9919,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 8957,
+                        "department": "Mathematics",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ff5437e7-7a8f-4e6e-83f7-08dbea40a86a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 295761,
+                        "courseTitle": "Precalculus",
+                        "courseNumber": "130",
+                        "prefix": "MATH",
+                        "prefixParentId": 9919,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 8957,
+                        "department": "Mathematics",
+                        "begin": "F2012",
+                        "end": "",
+                        "minUnits": 5,
+                        "maxUnits": 5,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "00c2dc81-26c2-43fb-83f8-08dbea40a86a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 302471,
+                        "courseTitle": "Calculus I",
+                        "courseNumber": "150",
+                        "prefix": "MATH",
+                        "prefixParentId": 9919,
+                        "prefixDescription": "Mathematics",
+                        "departmentParentId": 8957,
+                        "department": "Mathematics",
+                        "begin": "F2012",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "3a4dabc1-2394-4061-ba99-bd13060c61b9",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 236747,
+                        "courseTitle": "Business Law",
+                        "courseNumber": "206",
+                        "prefix": "BUS",
+                        "prefixParentId": 11125,
+                        "prefixDescription": "Business Administration",
+                        "departmentParentId": 2039,
+                        "department": "Business Administration",
+                        "begin": "F2003",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "e916173a-e619-406a-acc3-956697f1e18a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 291108,
+                        "courseTitle": "Personal & Professional Responsibility",
+                        "courseNumber": "200",
+                        "prefix": "BUS",
+                        "prefixParentId": 11125,
+                        "prefixDescription": "Business Administration",
+                        "departmentParentId": 2039,
+                        "department": "Business Administration",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 2,
+                        "maxUnits": 2,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ebca6316-a1f5-450b-847a-1adeda793a2a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 265872,
+                        "courseTitle": "Business Statistics",
+                        "courseNumber": "204",
+                        "prefix": "BUS",
+                        "prefixParentId": 11125,
+                        "prefixDescription": "Business Administration",
+                        "departmentParentId": 2039,
+                        "department": "Business Administration",
+                        "begin": "F2012",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "7ad0764d-a331-4f12-b9f0-ea225b71da33",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 184046,
+                        "courseTitle": "Micro Economics",
+                        "courseNumber": "202",
+                        "prefix": "BUS",
+                        "prefixParentId": 11125,
+                        "prefixDescription": "Business Administration",
+                        "departmentParentId": 2039,
+                        "department": "Business Administration",
+                        "begin": "F2003",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "f78b8294-3308-4769-895a-3edbed53a213",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 185657,
+                        "courseTitle": "Macro Economics",
+                        "courseNumber": "201",
+                        "prefix": "BUS",
+                        "prefixParentId": 11125,
+                        "prefixDescription": "Business Administration",
+                        "departmentParentId": 2039,
+                        "department": "Business Administration",
+                        "begin": "F2003",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "18b765e3-02ca-4466-8f87-da3a26a85e81",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 227397,
+                        "courseTitle": "Managerial Accounting",
+                        "courseNumber": "205",
+                        "prefix": "BUS",
+                        "prefixParentId": 11125,
+                        "prefixDescription": "Business Administration",
+                        "departmentParentId": 2039,
+                        "department": "Business Administration",
+                        "begin": "F2012",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "323d99dc-6edc-4e3c-8dbd-c0fabd8197f0",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 113337,
+                        "courseTitle": "Business Analytics Fundamentals",
+                        "courseNumber": "299",
+                        "prefix": "BUS",
+                        "prefixParentId": 11125,
+                        "prefixDescription": "Business Administration",
+                        "departmentParentId": 2039,
+                        "department": "Business Administration",
+                        "begin": "F2015",
+                        "end": "",
+                        "minUnits": 2,
+                        "maxUnits": 2,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "61a9e720-0652-4d8b-a347-2fd0be4c5e5f",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 265626,
+                        "courseTitle": "Financial Accounting",
+                        "courseNumber": "203",
+                        "prefix": "BUS",
+                        "prefixParentId": 11125,
+                        "prefixDescription": "Business Administration",
+                        "departmentParentId": 2039,
+                        "department": "Business Administration",
+                        "begin": "F2012",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

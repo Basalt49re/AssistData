@@ -1,0 +1,791 @@
+{
+  "major": "Humanities & Communication, B.A., English Studies Concentration",
+  "from": {
+    "id": 78,
+    "code": "RCC     ",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "Riverside City College",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 2016
+      },
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 12,
+    "code": "CSUMB   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Monterey Bay",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "01bfec0e-1b99-4f4c-bb8f-ceb54766ceff",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "fc9e9044-d62a-46f2-b506-7ab3f4257d4f",
+              "sendingArticulationId": "b19f3874-bf05-4c06-9a65-a5f547259971",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "b02320e1-edb7-4804-a7c8-276417472a28",
+              "sendingArticulationId": "b19f3874-bf05-4c06-9a65-a5f547259971",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "b41d2142-f4d4-40f0-84d4-d61a791581e0",
+                      "publishedCourseIdentifierYearTermId": 282,
+                      "courseIdentifierParentId": 378062,
+                      "courseTitle": "Race, Ethnicity, and Politics in America",
+                      "courseNumber": "23",
+                      "prefix": "ETS",
+                      "prefixParentId": 16857,
+                      "prefixDescription": "Ethnic Studies",
+                      "departmentParentId": 13964,
+                      "department": "Ethnic Studies",
+                      "begin": "Su2021",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 378145,
+                  "courseTitle": "Race, Ethnicity, and Politics in America",
+                  "courseNumber": "23",
+                  "prefix": "POL",
+                  "prefixParentId": 1970,
+                  "prefixDescription": "Political Science",
+                  "departmentParentId": 10962,
+                  "department": "Political Science",
+                  "begin": "Su2021",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 282,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 378051,
+                  "courseTitle": "Introduction to Ethnic Studies",
+                  "courseNumber": "1",
+                  "prefix": "ETS",
+                  "prefixParentId": 16857,
+                  "prefixDescription": "Ethnic Studies",
+                  "departmentParentId": 13964,
+                  "department": "Ethnic Studies",
+                  "begin": "Su2021",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 282,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "4e8bfbbf-1858-4b87-862f-105a173ce659",
+                      "publishedCourseIdentifierYearTermId": 282,
+                      "courseIdentifierParentId": 378145,
+                      "courseTitle": "Race, Ethnicity, and Politics in America",
+                      "courseNumber": "23",
+                      "prefix": "POL",
+                      "prefixParentId": 1970,
+                      "prefixDescription": "Political Science",
+                      "departmentParentId": 10962,
+                      "department": "Political Science",
+                      "begin": "Su2021",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 378062,
+                  "courseTitle": "Race, Ethnicity, and Politics in America",
+                  "courseNumber": "23",
+                  "prefix": "ETS",
+                  "prefixParentId": 16857,
+                  "prefixDescription": "Ethnic Studies",
+                  "departmentParentId": 13964,
+                  "department": "Ethnic Studies",
+                  "begin": "Su2021",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": 282,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "74993147-a25c-4663-b967-b91cfb667603",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": []
+        }
+      }
+    },
+    {
+      "templateCellId": "b16021a0-a27e-40fe-aa3f-da500cd39917",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "6f6f8571-063b-4622-970c-4664da55f815",
+              "sendingArticulationId": "1333c6cf-9653-45ba-ad7d-9ca892028d9c",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 176941,
+                  "courseTitle": "Critical Thinking and Writing",
+                  "courseNumber": "1B",
+                  "prefix": "ENG",
+                  "prefixParentId": 2700,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4941,
+                  "department": "English",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 356741,
+                  "courseTitle": "Honors Critical Thinking and Writing",
+                  "courseNumber": "1BH",
+                  "prefix": "ENG",
+                  "prefixParentId": 2700,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4941,
+                  "department": "English",
+                  "begin": "F2006",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "8f80275b-c3bb-4764-9b22-05b03f51bec4",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "cb4cafa3-2ba0-4982-8836-fc4a28f48213",
+              "sendingArticulationId": "4620e31a-ed11-445e-8456-90213627511d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            },
+            {
+              "id": "a15e2d05-a173-4589-b88f-7c20b7935221",
+              "sendingArticulationId": "4620e31a-ed11-445e-8456-90213627511d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 1,
+              "sendingCourseGroupEndPosition": 2
+            },
+            {
+              "id": "1e678ad3-c851-4fb6-9453-da1dc5d7df9d",
+              "sendingArticulationId": "4620e31a-ed11-445e-8456-90213627511d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 2,
+              "sendingCourseGroupEndPosition": 3
+            },
+            {
+              "id": "46ff856c-e66d-417f-b7ce-ec89d893495b",
+              "sendingArticulationId": "4620e31a-ed11-445e-8456-90213627511d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 3,
+              "sendingCourseGroupEndPosition": 4
+            },
+            {
+              "id": "70d9d91f-f9cb-4423-ae82-cc1613e2d075",
+              "sendingArticulationId": "4620e31a-ed11-445e-8456-90213627511d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 4,
+              "sendingCourseGroupEndPosition": 5
+            },
+            {
+              "id": "15b408c3-aabd-4d15-b733-5ae7d11c6db6",
+              "sendingArticulationId": "4620e31a-ed11-445e-8456-90213627511d",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 5,
+              "sendingCourseGroupEndPosition": 6
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 176941,
+                  "courseTitle": "Critical Thinking and Writing",
+                  "courseNumber": "1B",
+                  "prefix": "ENG",
+                  "prefixParentId": 2700,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4941,
+                  "department": "English",
+                  "begin": "F1997",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 211561,
+                  "courseTitle": "Introduction to Symbolic Logic",
+                  "courseNumber": "32",
+                  "prefix": "PHI",
+                  "prefixParentId": 5449,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10095,
+                  "department": "Philosophy",
+                  "begin": "F1995",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 153374,
+                  "courseTitle": "Argumentation and Debate",
+                  "courseNumber": "3",
+                  "prefix": "COM",
+                  "prefixParentId": 5221,
+                  "prefixDescription": "Communication Studies",
+                  "departmentParentId": 2811,
+                  "department": "Communication Studies",
+                  "begin": "F2011",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 203279,
+                  "courseTitle": "Critical Thinking",
+                  "courseNumber": "11",
+                  "prefix": "PHI",
+                  "prefixParentId": 5449,
+                  "prefixDescription": "Philosophy",
+                  "departmentParentId": 10095,
+                  "department": "Philosophy",
+                  "begin": "F2003",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 338760,
+                  "courseTitle": "Introduction to Persuasion",
+                  "courseNumber": "2",
+                  "prefix": "COM",
+                  "prefixParentId": 5221,
+                  "prefixDescription": "Communication Studies",
+                  "departmentParentId": 2811,
+                  "department": "Communication Studies",
+                  "begin": "F2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 221036,
+                  "courseTitle": "Critical Reading as Critical Thinking",
+                  "courseNumber": "4",
+                  "prefix": "ALR",
+                  "prefixParentId": 16861,
+                  "prefixDescription": "Academic Literacy and Reading",
+                  "departmentParentId": 11456,
+                  "department": "Reading",
+                  "begin": "Su2021",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 356741,
+                  "courseTitle": "Honors Critical Thinking and Writing",
+                  "courseNumber": "1BH",
+                  "prefix": "ENG",
+                  "prefixParentId": 2700,
+                  "prefixDescription": "English",
+                  "departmentParentId": 4941,
+                  "department": "English",
+                  "begin": "F2006",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "PREPARATION COURSES FOR THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "31338ebe-5702-44c7-14eb-08dbeab4b1c7",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "b16021a0-a27e-40fe-aa3f-da500cd39917",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 375068,
+                        "courseTitle": "Intro to Literary Analysis",
+                        "courseNumber": "222",
+                        "prefix": "HCOM",
+                        "prefixParentId": 10384,
+                        "prefixDescription": "Humanities and Communication",
+                        "departmentParentId": 7205,
+                        "department": "Humanities and Communication",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "8f80275b-c3bb-4764-9b22-05b03f51bec4",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 369586,
+                        "courseTitle": "Critical Thinking & Ethics",
+                        "courseNumber": "200",
+                        "prefix": "HCOM",
+                        "prefixParentId": 10384,
+                        "prefixDescription": "Humanities and Communication",
+                        "departmentParentId": 7205,
+                        "department": "Humanities and Communication",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "01bfec0e-1b99-4f4c-bb8f-ceb54766ceff",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 378910,
+                        "courseTitle": "Introduction to Ethnic Studies",
+                        "courseNumber": "243",
+                        "prefix": "HCOM",
+                        "prefixParentId": 10384,
+                        "prefixDescription": "Humanities and Communication",
+                        "departmentParentId": 7205,
+                        "department": "Humanities and Communication",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "74993147-a25c-4663-b967-b91cfb667603",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 378908,
+                        "courseTitle": "American Indigenous Literatures & Cultures",
+                        "courseNumber": "224",
+                        "prefix": "HCOM",
+                        "prefixParentId": 10384,
+                        "prefixDescription": "Humanities and Communication",
+                        "departmentParentId": 7205,
+                        "department": "Humanities and Communication",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "ee7a2b93-f7fe-41df-835f-9aec16f39c95",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 378909,
+                        "courseTitle": "Multicultural Poetry",
+                        "courseNumber": "229",
+                        "prefix": "HCOM",
+                        "prefixParentId": 10384,
+                        "prefixDescription": "Humanities and Communication",
+                        "departmentParentId": 7205,
+                        "department": "Humanities and Communication",
+                        "begin": "F2021",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "27f0da49-fc39-4304-9ac0-91f5c0c7682a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 375070,
+                        "courseTitle": "Tacos, Territories, & Transnationalism",
+                        "courseNumber": "290",
+                        "prefix": "HCOM",
+                        "prefixParentId": 10384,
+                        "prefixDescription": "Humanities and Communication",
+                        "departmentParentId": 7205,
+                        "department": "Humanities and Communication",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "dfc8c7e1-b124-4a85-9e79-f95db9d4a322",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 355655,
+                        "courseTitle": "Literature, Film, and Culture",
+                        "courseNumber": "225",
+                        "prefix": "HCOM",
+                        "prefixParentId": 10384,
+                        "prefixDescription": "Humanities and Communication",
+                        "departmentParentId": 7205,
+                        "department": "Humanities and Communication",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

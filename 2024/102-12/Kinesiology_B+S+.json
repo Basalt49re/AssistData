@@ -1,0 +1,700 @@
+{
+  "major": "Kinesiology B.S.",
+  "from": {
+    "id": 102,
+    "code": "SISKIYOU",
+    "isCommunityCollege": true,
+    "category": "CCC",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "College of the Siskiyous",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "to": {
+    "id": 12,
+    "code": "CSUMB   ",
+    "isCommunityCollege": false,
+    "category": "CSU",
+    "termType": "Semester",
+    "names": [
+      {
+        "name": "California State University, Monterey Bay",
+        "hasDepartments": true,
+        "fromYear": 0,
+        "hideInList": false
+      }
+    ],
+    "termTypeAcademicYears": [
+      {
+        "termType": "Semester",
+        "fromYear": 1980
+      }
+    ],
+    "beginId": 0,
+    "endId": null
+  },
+  "agreements": [
+    {
+      "templateCellId": "5779791c-df61-41a9-87a0-c2d6ae049816",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 253156,
+                  "courseTitle": "Elementary Statistics",
+                  "courseNumber": "1050",
+                  "prefix": "MATH",
+                  "prefixParentId": 10014,
+                  "prefixDescription": "Mathematics",
+                  "departmentParentId": 9029,
+                  "department": "Mathematics",
+                  "begin": "S2016",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "c24c1ece-38d6-418d-aa94-b0b12be5dc5e",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 379427,
+                  "courseTitle": "CPR, First Aid, and Emergencies",
+                  "courseNumber": "1003",
+                  "prefix": "KINE",
+                  "prefixParentId": 16106,
+                  "prefixDescription": "Kinesiology",
+                  "departmentParentId": 10508,
+                  "department": "Physical Education - Major/Athletics",
+                  "begin": "F2021",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "af9225d6-4f9d-4d24-bc2f-89b49dee398a",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "7e132ce4-c3f3-4228-aa62-0c5a75409a7b",
+              "sendingArticulationId": "c2dcb33f-d850-4263-bbee-43504117482c",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 234273,
+                  "courseTitle": "Principles of Physical Fitness and Wellness",
+                  "courseNumber": "1030",
+                  "prefix": "KINE",
+                  "prefixParentId": 16106,
+                  "prefixDescription": "Kinesiology",
+                  "departmentParentId": 10508,
+                  "department": "Physical Education - Major/Athletics",
+                  "begin": "Su2019",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 187407,
+                  "courseTitle": "Health in Action",
+                  "courseNumber": "1010",
+                  "prefix": "HEA",
+                  "prefixParentId": 2108,
+                  "prefixDescription": "Health",
+                  "departmentParentId": 6672,
+                  "department": "Health",
+                  "begin": "Su2011",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "fa7d35c4-4a60-4c4b-843f-a12bbc21af0d",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "0f54c9e4-80f9-4e82-be17-32a43daf0eaf",
+              "sendingArticulationId": "1204997e-5342-429c-8cf5-2bc1c653f491",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "cd1641d2-8fa8-4d0b-acf7-b85cb28c58fa",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 361334,
+                      "courseTitle": "Nutrition",
+                      "courseNumber": "1011",
+                      "prefix": "KINE",
+                      "prefixParentId": 16106,
+                      "prefixDescription": "Kinesiology",
+                      "departmentParentId": 10508,
+                      "department": "Physical Education - Major/Athletics",
+                      "begin": "S2017",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 212918,
+                  "courseTitle": "Nutrition",
+                  "courseNumber": "1011",
+                  "prefix": "FCS",
+                  "prefixParentId": 6264,
+                  "prefixDescription": "Family and Consumer Science",
+                  "departmentParentId": 5463,
+                  "department": "Family and Consumer Science",
+                  "begin": "Su2011",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [
+                    {
+                      "id": "15aa436e-b936-4701-a046-1b52769ab0d7",
+                      "publishedCourseIdentifierYearTermId": null,
+                      "courseIdentifierParentId": 212918,
+                      "courseTitle": "Nutrition",
+                      "courseNumber": "1011",
+                      "prefix": "FCS",
+                      "prefixParentId": 6264,
+                      "prefixDescription": "Family and Consumer Science",
+                      "departmentParentId": 5463,
+                      "department": "Family and Consumer Science",
+                      "begin": "Su2011",
+                      "end": "",
+                      "minUnits": 3,
+                      "maxUnits": 3,
+                      "pathways": null
+                    }
+                  ],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 361334,
+                  "courseTitle": "Nutrition",
+                  "courseNumber": "1011",
+                  "prefix": "KINE",
+                  "prefixParentId": 16106,
+                  "prefixDescription": "Kinesiology",
+                  "departmentParentId": 10508,
+                  "department": "Physical Education - Major/Athletics",
+                  "begin": "S2017",
+                  "end": "",
+                  "minUnits": 3,
+                  "maxUnits": 3,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "a5286c8a-1031-4664-aa9d-f756e90e1507",
+      "receivingAttributes": {
+        "type": "Course",
+        "courseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Course",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [
+            {
+              "id": "688bb33d-7a66-4174-a1a6-dbe2d65ee4ef",
+              "sendingArticulationId": "59a2846b-ad27-4678-94bf-2a78b1533ace",
+              "groupConjunction": "Or",
+              "sendingCourseGroupBeginPosition": 0,
+              "sendingCourseGroupEndPosition": 1
+            }
+          ],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 253416,
+                  "courseTitle": "Calculus-Based Physics for Scientists and Engineers: A",
+                  "courseNumber": "2105",
+                  "prefix": "PHYS",
+                  "prefixParentId": 287,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10734,
+                  "department": "Physics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            },
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 248011,
+                  "courseTitle": "General Physics I",
+                  "courseNumber": "1105",
+                  "prefix": "PHYS",
+                  "prefixParentId": 287,
+                  "prefixDescription": "Physics",
+                  "departmentParentId": 10734,
+                  "department": "Physics",
+                  "begin": "F2022",
+                  "end": "",
+                  "minUnits": 4,
+                  "maxUnits": 4,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templateCellId": "7bd37a31-bbe0-4cbe-91b9-e74e0090e5cd",
+      "receivingAttributes": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "seriesCourseAttributes": [],
+        "attributes": []
+      },
+      "articulation": {
+        "type": "Series",
+        "seriesAttributes": [],
+        "courseAttributes": [],
+        "generalAttributes": [],
+        "receivingAttributes": [],
+        "sendingArticulation": {
+          "generalAttributes": [],
+          "courseGroupConjunctions": [],
+          "pickOneGroup": [
+            {
+              "instruction": "And",
+              "fromClasses": [
+                {
+                  "visibleCrossListedCourses": [],
+                  "requisites": [],
+                  "attributes": [],
+                  "courseIdentifierParentId": 302515,
+                  "courseTitle": "General Chemistry I",
+                  "courseNumber": "2000",
+                  "prefix": "CHEM",
+                  "prefixParentId": 3843,
+                  "prefixDescription": "Chemistry",
+                  "departmentParentId": 2348,
+                  "department": "Chemistry",
+                  "begin": "Su2011",
+                  "end": "",
+                  "minUnits": 5,
+                  "maxUnits": 5,
+                  "pathways": null,
+                  "publishedCourseIdentifierYearTermId": null,
+                  "position": 0,
+                  "type": "Course"
+                }
+              ],
+              "generalAttributes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "PREPARATION COURSES FOR THE MAJOR": [
+      {
+        "type": "RequirementGroup",
+        "groupInstruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "e146d70c-51f8-4553-14f2-08dbeab4b1c7",
+          "selectionType": "Complete"
+        },
+        "groupAttributes": [],
+        "groupAdvisements": [],
+        "sections": [
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "5779791c-df61-41a9-87a0-c2d6ae049816",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 289060,
+                        "courseTitle": "Introduction to Statistics",
+                        "courseNumber": "100",
+                        "prefix": "STAT",
+                        "prefixParentId": 3350,
+                        "prefixDescription": "Statistics",
+                        "departmentParentId": 12536,
+                        "department": "Statistics",
+                        "begin": "F2019",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "sectionAdvisements": [],
+            "sectionAttributes": [],
+            "agreements": [
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "c24c1ece-38d6-418d-aa94-b0b12be5dc5e",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 49910,
+                        "courseTitle": "CPR/First Aid",
+                        "courseNumber": "120",
+                        "prefix": "KIN",
+                        "prefixParentId": 23,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8055,
+                        "department": "Kinesiology",
+                        "begin": "S2008",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "7bd37a31-bbe0-4cbe-91b9-e74e0090e5cd",
+                    "type": "Series",
+                    "instruction": "And",
+                    "seriesAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "id": "e8765920-af5c-4188-acb1-c50ade0932a4",
+                        "position": 0,
+                        "courseIdentifierParentId": 250070,
+                        "courseTitle": "Chemistry I",
+                        "courseNumber": "110",
+                        "prefix": "CHEM",
+                        "prefixParentId": 13848,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2274,
+                        "department": "Chemistry",
+                        "begin": "F2015",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      },
+                      {
+                        "id": "381fe01d-5129-4529-8168-46acc46f3e62",
+                        "position": 1,
+                        "courseIdentifierParentId": 46505,
+                        "courseTitle": "Chemistry I Laboratory",
+                        "courseNumber": "110L",
+                        "prefix": "CHEM",
+                        "prefixParentId": 13848,
+                        "prefixDescription": "Chemistry",
+                        "departmentParentId": 2274,
+                        "department": "Chemistry",
+                        "begin": "F2015",
+                        "end": "",
+                        "minUnits": 1,
+                        "maxUnits": 1,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "af9225d6-4f9d-4d24-bc2f-89b49dee398a",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 343524,
+                        "courseTitle": "Health and Well Being",
+                        "courseNumber": "161",
+                        "prefix": "KIN",
+                        "prefixParentId": 23,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8055,
+                        "department": "Kinesiology",
+                        "begin": "F2012",
+                        "end": "",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "fa7d35c4-4a60-4c4b-843f-a12bbc21af0d",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 232782,
+                        "courseTitle": "Foundation of Wellness: Nutrition",
+                        "courseNumber": "162",
+                        "prefix": "KIN",
+                        "prefixParentId": 23,
+                        "prefixDescription": "Kinesiology",
+                        "departmentParentId": 8055,
+                        "department": "Kinesiology",
+                        "begin": "S2008",
+                        "end": "F2023",
+                        "minUnits": 3,
+                        "maxUnits": 3,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "agreementAttributes": [],
+                "courses": [
+                  {
+                    "templateCellId": "a5286c8a-1031-4664-aa9d-f756e90e1507",
+                    "type": "Course",
+                    "courseAttributes": [],
+                    "generalAttributes": [],
+                    "courses": [
+                      {
+                        "courseIdentifierParentId": 208354,
+                        "courseTitle": "Physics I",
+                        "courseNumber": "220",
+                        "prefix": "PHYS",
+                        "prefixParentId": 13851,
+                        "prefixDescription": "Physics",
+                        "departmentParentId": 10753,
+                        "department": "Physics",
+                        "begin": "F2010",
+                        "end": "",
+                        "minUnits": 4,
+                        "maxUnits": 4,
+                        "pathways": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
